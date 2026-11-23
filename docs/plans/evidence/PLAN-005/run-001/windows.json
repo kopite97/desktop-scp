@@ -1,0 +1,7 @@
+{
+  "native": false,
+  "hidden": true,
+  "restored": true,
+  "sharedRenderTexture": true,
+  "inputReception": "requires real click test; polygon property is not proof"
+}

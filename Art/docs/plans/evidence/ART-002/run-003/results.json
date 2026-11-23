@@ -1,0 +1,260 @@
+{
+  "faceOverlap": 0,
+  "frames": 50,
+  "framesInfo": [
+    {
+      "durationMs": 220,
+      "index": 0,
+      "sourceFrame": 1
+    },
+    {
+      "durationMs": 180,
+      "index": 1,
+      "sourceFrame": 2
+    },
+    {
+      "durationMs": 100,
+      "index": 2,
+      "sourceFrame": 3
+    },
+    {
+      "durationMs": 160,
+      "index": 3,
+      "sourceFrame": 4
+    },
+    {
+      "durationMs": 180,
+      "index": 4,
+      "sourceFrame": 5
+    },
+    {
+      "durationMs": 200,
+      "index": 5,
+      "sourceFrame": 6
+    },
+    {
+      "durationMs": 120,
+      "index": 6,
+      "sourceFrame": 7
+    },
+    {
+      "durationMs": 120,
+      "index": 7,
+      "sourceFrame": 8
+    },
+    {
+      "durationMs": 100,
+      "index": 8,
+      "sourceFrame": 9
+    },
+    {
+      "durationMs": 100,
+      "index": 9,
+      "sourceFrame": 10
+    },
+    {
+      "durationMs": 140,
+      "index": 10,
+      "sourceFrame": 11
+    },
+    {
+      "durationMs": 160,
+      "index": 11,
+      "sourceFrame": 12
+    },
+    {
+      "durationMs": 90,
+      "index": 12,
+      "sourceFrame": 13
+    },
+    {
+      "durationMs": 80,
+      "index": 13,
+      "sourceFrame": 14
+    },
+    {
+      "durationMs": 100,
+      "index": 14,
+      "sourceFrame": 15
+    },
+    {
+      "durationMs": 90,
+      "index": 15,
+      "sourceFrame": 16
+    },
+    {
+      "durationMs": 90,
+      "index": 16,
+      "sourceFrame": 17
+    },
+    {
+      "durationMs": 110,
+      "index": 17,
+      "sourceFrame": 18
+    },
+    {
+      "durationMs": 140,
+      "index": 18,
+      "sourceFrame": 19
+    },
+    {
+      "durationMs": 130,
+      "index": 19,
+      "sourceFrame": 20
+    },
+    {
+      "durationMs": 140,
+      "index": 20,
+      "sourceFrame": 21
+    },
+    {
+      "durationMs": 140,
+      "index": 21,
+      "sourceFrame": 22
+    },
+    {
+      "durationMs": 140,
+      "index": 22,
+      "sourceFrame": 23
+    },
+    {
+      "durationMs": 130,
+      "index": 23,
+      "sourceFrame": 24
+    },
+    {
+      "durationMs": 140,
+      "index": 24,
+      "sourceFrame": 25
+    },
+    {
+      "durationMs": 100,
+      "index": 25,
+      "sourceFrame": 26
+    },
+    {
+      "durationMs": 110,
+      "index": 26,
+      "sourceFrame": 27
+    },
+    {
+      "durationMs": 170,
+      "index": 27,
+      "sourceFrame": 28
+    },
+    {
+      "durationMs": 90,
+      "index": 28,
+      "sourceFrame": 29
+    },
+    {
+      "durationMs": 110,
+      "index": 29,
+      "sourceFrame": 30
+    },
+    {
+      "durationMs": 70,
+      "index": 30,
+      "sourceFrame": 31
+    },
+    {
+      "durationMs": 80,
+      "index": 31,
+      "sourceFrame": 32
+    },
+    {
+      "durationMs": 140,
+      "index": 32,
+      "sourceFrame": 33
+    },
+    {
+      "durationMs": 140,
+      "index": 33,
+      "sourceFrame": 34
+    },
+    {
+      "durationMs": 140,
+      "index": 34,
+      "sourceFrame": 35
+    },
+    {
+      "durationMs": 140,
+      "index": 35,
+      "sourceFrame": 36
+    },
+    {
+      "durationMs": 60,
+      "index": 36,
+      "sourceFrame": 37
+    },
+    {
+      "durationMs": 80,
+      "index": 37,
+      "sourceFrame": 38
+    },
+    {
+      "durationMs": 100,
+      "index": 38,
+      "sourceFrame": 39
+    },
+    {
+      "durationMs": 100,
+      "index": 39,
+      "sourceFrame": 40
+    },
+    {
+      "durationMs": 160,
+      "index": 40,
+      "sourceFrame": 41
+    },
+    {
+      "durationMs": 120,
+      "index": 41,
+      "sourceFrame": 42
+    },
+    {
+      "durationMs": 140,
+      "index": 42,
+      "sourceFrame": 43
+    },
+    {
+      "durationMs": 120,
+      "index": 43,
+      "sourceFrame": 44
+    },
+    {
+      "durationMs": 140,
+      "index": 44,
+      "sourceFrame": 45
+    },
+    {
+      "durationMs": 120,
+      "index": 45,
+      "sourceFrame": 46
+    },
+    {
+      "durationMs": 150,
+      "index": 46,
+      "sourceFrame": 47
+    },
+    {
+      "durationMs": 100,
+      "index": 47,
+      "sourceFrame": 48
+    },
+    {
+      "durationMs": 120,
+      "index": 48,
+      "sourceFrame": 49
+    },
+    {
+      "durationMs": 160,
+      "index": 49,
+      "sourceFrame": 50
+    }
+  ],
+  "outlinePixels": 7042,
+  "overlappingOutputPixels": 0,
+  "partialOutlineAlpha": 0,
+  "recompositionErrors": 0
+}

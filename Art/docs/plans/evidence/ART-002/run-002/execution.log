@@ -1,0 +1,7 @@
+2026-11-24 ART-002 outline sample
+Aseprite 1.3.18.6/API41 Live connected. Input: Scp999 r004 preserved source.
+export-outline.lua frames=[1,7,9,12], explicit project source/output paths.
+Result: 4 frames, 565 outline pixels, recompositionErrors=0, overlappingOutputPixels=0, partialOutlineAlpha=0, faceOverlap=0.
+Godot PLAN-005 run-011: outline gate passed, 96 conditions at scales1/2, outline/alpha/sync errors=0.
+Reaction r001: 16 frames x4 light/ambient contexts, color/alpha/end errors=0.
+Sample gate passed before full 50-frame export. User r005 visual approval pending.

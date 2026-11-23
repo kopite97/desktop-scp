@@ -1,0 +1,30 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+ERROR: Can't change "force_native" while a window is displayed. Consider hiding window before changing this value.
+   at: set_force_native (scene/main/window.cpp:1462)
+   C# backtrace (most recent call first):
+       [0] void Godot.NativeCalls.godot_icall_1_14(nint, nint, Godot.NativeInterop.godot_bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:140)
+       [1] void Godot.Window.SetForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:1463)
+       [2] void Godot.Window.set_ForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:692)
+       [3] void SiteDesktop.Diagnostics.Scp999LightingProbe.Build() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999LightingProbe.cs:102)
+       [4] void SiteDesktop.Diagnostics.Scp999LightingProbe+<_Ready>d__27.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999LightingProbe.cs:49)
+       [5] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [6] void SiteDesktop.Diagnostics.Scp999LightingProbe._Ready()
+       [7] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2660)
+       [8] bool SiteDesktop.Diagnostics.Scp999LightingProbe.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\SiteDesktop.Diagnostics.Scp999LightingProbe_ScriptMethods.generated.cs:100)
+       [9] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)
+ERROR: Can't change "force_native" while a window is displayed. Consider hiding window before changing this value.
+   at: set_force_native (scene/main/window.cpp:1462)
+   C# backtrace (most recent call first):
+       [0] void Godot.NativeCalls.godot_icall_1_14(nint, nint, Godot.NativeInterop.godot_bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:140)
+       [1] void Godot.Window.SetForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:1463)
+       [2] void Godot.Window.set_ForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:692)
+       [3] void SiteDesktop.Diagnostics.Scp999LightingProbe.Build() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999LightingProbe.cs:102)
+       [4] void SiteDesktop.Diagnostics.Scp999LightingProbe+<_Ready>d__27.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999LightingProbe.cs:49)
+       [5] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [6] void SiteDesktop.Diagnostics.Scp999LightingProbe._Ready()
+       [7] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2660)
+       [8] bool SiteDesktop.Diagnostics.Scp999LightingProbe.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\SiteDesktop.Diagnostics.Scp999LightingProbe_ScriptMethods.generated.cs:100)
+       [9] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)
+LIGHTING_CAPTURE_COMPLETE C:\Dev\scp_desktop\docs\plans\evidence\PLAN-005\run-001

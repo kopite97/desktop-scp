@@ -1,0 +1,226 @@
+{
+  "clippedPixels": 0,
+  "exportMismatches": 0,
+  "frames": 16,
+  "framesInfo": [
+    {
+      "alpha": 160,
+      "bounds": {
+        "h": 9,
+        "w": 9,
+        "x": 12,
+        "y": 12
+      },
+      "frame": 1,
+      "ms": 70,
+      "visiblePixels": 46
+    },
+    {
+      "alpha": 230,
+      "bounds": {
+        "h": 11,
+        "w": 13,
+        "x": 10,
+        "y": 11
+      },
+      "frame": 2,
+      "ms": 80,
+      "visiblePixels": 84
+    },
+    {
+      "alpha": 255,
+      "bounds": {
+        "h": 15,
+        "w": 17,
+        "x": 8,
+        "y": 9
+      },
+      "frame": 3,
+      "ms": 100,
+      "visiblePixels": 152
+    },
+    {
+      "alpha": 255,
+      "bounds": {
+        "h": 13,
+        "w": 15,
+        "x": 9,
+        "y": 10
+      },
+      "frame": 4,
+      "ms": 160,
+      "visiblePixels": 118
+    },
+    {
+      "alpha": 230,
+      "bounds": {
+        "h": 13,
+        "w": 15,
+        "x": 9,
+        "y": 10
+      },
+      "frame": 5,
+      "ms": 160,
+      "visiblePixels": 118
+    },
+    {
+      "alpha": 150,
+      "bounds": {
+        "h": 11,
+        "w": 13,
+        "x": 10,
+        "y": 11
+      },
+      "frame": 6,
+      "ms": 120,
+      "visiblePixels": 84
+    },
+    {
+      "alpha": 80,
+      "bounds": {
+        "h": 9,
+        "w": 11,
+        "x": 11,
+        "y": 12
+      },
+      "frame": 7,
+      "ms": 100,
+      "visiblePixels": 56
+    },
+    {
+      "alpha": 0,
+      "bounds": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "frame": 8,
+      "ms": 60,
+      "visiblePixels": 0
+    },
+    {
+      "alpha": 160,
+      "bounds": {
+        "h": 11,
+        "w": 9,
+        "x": 12,
+        "y": 11
+      },
+      "frame": 9,
+      "ms": 70,
+      "visiblePixels": 64
+    },
+    {
+      "alpha": 230,
+      "bounds": {
+        "h": 14,
+        "w": 11,
+        "x": 11,
+        "y": 9
+      },
+      "frame": 10,
+      "ms": 80,
+      "visiblePixels": 107
+    },
+    {
+      "alpha": 255,
+      "bounds": {
+        "h": 19,
+        "w": 15,
+        "x": 9,
+        "y": 7
+      },
+      "frame": 11,
+      "ms": 100,
+      "visiblePixels": 183
+    },
+    {
+      "alpha": 255,
+      "bounds": {
+        "h": 17,
+        "w": 13,
+        "x": 10,
+        "y": 8
+      },
+      "frame": 12,
+      "ms": 160,
+      "visiblePixels": 141
+    },
+    {
+      "alpha": 230,
+      "bounds": {
+        "h": 17,
+        "w": 13,
+        "x": 10,
+        "y": 8
+      },
+      "frame": 13,
+      "ms": 160,
+      "visiblePixels": 141
+    },
+    {
+      "alpha": 150,
+      "bounds": {
+        "h": 15,
+        "w": 11,
+        "x": 11,
+        "y": 9
+      },
+      "frame": 14,
+      "ms": 120,
+      "visiblePixels": 108
+    },
+    {
+      "alpha": 80,
+      "bounds": {
+        "h": 11,
+        "w": 9,
+        "x": 12,
+        "y": 11
+      },
+      "frame": 15,
+      "ms": 100,
+      "visiblePixels": 70
+    },
+    {
+      "alpha": 0,
+      "bounds": {
+        "h": 0,
+        "w": 0,
+        "x": 0,
+        "y": 0
+      },
+      "frame": 16,
+      "ms": 60,
+      "visiblePixels": 0
+    }
+  ],
+  "height": 32,
+  "invalidAlpha": 0,
+  "invalidColor": 0,
+  "outlineErrors": 0,
+  "productIntegration": false,
+  "savedMismatches": 0,
+  "sheet": {
+    "height": 64,
+    "width": 256
+  },
+  "tags": [
+    {
+      "from": 1,
+      "name": "heart",
+      "repeats": 1,
+      "to": 8
+    },
+    {
+      "from": 9,
+      "name": "note",
+      "repeats": 1,
+      "to": 16
+    }
+  ],
+  "transparentEnds": true,
+  "userApproval": "pending",
+  "width": 32
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "frames": 4,
+  "scales": [
+    1,
+    2
+  ],
+  "conditions": 96,
+  "outlineErrors": 0,
+  "alphaErrors": 0,
+  "syncErrors": 0,
+  "maxOutlineError": 0,
+  "bodyResponse": 203.45881578326225,
+  "inheritedParentNegativeControl": 0.1568627655506134,
+  "bodySelfModulateOutlineError": 0,
+  "reactionPassed": true,
+  "scope": "Actual Compatibility rendering; diagnostic path, not product behavior or final user approval"
+}

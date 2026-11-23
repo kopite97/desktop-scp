@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "frames": 16,
+  "contexts": 4,
+  "colorErrors": 0,
+  "alphaErrors": 0,
+  "endPixels": 0,
+  "maxColorError": 0.006127461791038513,
+  "colorTolerance": "one 8-bit premultiplied channel step / alpha; output alpha independently checked",
+  "policy": "Unshaded \u002B Mix, neutral parent, source fade only",
+  "productIntegration": false
+}

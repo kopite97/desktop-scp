@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-23",
+  "kind": "observed-command-results",
+  "tests": {
+    "command": "node --test scripts/validate-agent-docs.test.mjs",
+    "exitCode": 0,
+    "total": 16,
+    "passed": 16,
+    "failed": 0,
+    "skipped": 0
+  },
+  "documents": {
+    "command": "node scripts/validate-agent-docs.mjs",
+    "exitCode": 0,
+    "planCount": 8,
+    "activeCount": 0,
+    "decisionCount": 4
+  },
+  "aseprite": {
+    "batchStatus": "responded",
+    "liveConnected": false,
+    "extensionInstalled": false,
+    "artCreated": false
+  }
+}

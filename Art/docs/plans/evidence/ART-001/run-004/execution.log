@@ -1,0 +1,9 @@
+2026-11-24 ART-001 r004, Aseprite 1.3.18.6 Live/API 41.
+Prerequisite gates: PLAN-005 r002 four-frame test, r003 idle/move playback and paired animated performance PASS.
+Executed build-all-actions.lua with explicit C:/Dev/scp_desktop/Art paths, reading r001 source.
+Created Scp999-lighting.aseprite and r004 submitted source. All prior submissions preserved.
+Exported color/normal/specular 3200x64 sheets, reference strip and full contract with 50 frame anchors and 10 tags.
+Executed audit-all-actions.lua: all mismatch/error counters 0 across 50 frames.
+Executed audit-saved-files.lua: saved dimensions, 50 durations, 10 tag ranges/repeats matched original contract; sheets 3200x64.
+Source and submitted source SHA256: BC94BF55AAB22ED38F110D369774692C618E4C0DAC62AB4A84D3951D83D34C1F.
+Godot verification belongs to PLAN-005/run-010. User visual approval remains pending.

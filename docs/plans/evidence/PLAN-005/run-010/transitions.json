@@ -1,0 +1,407 @@
+{
+  "durationsMs": [
+    220,
+    180,
+    100,
+    160,
+    180,
+    200,
+    120,
+    120,
+    100,
+    100,
+    140,
+    160,
+    90,
+    80,
+    100,
+    90,
+    90,
+    110,
+    140,
+    130,
+    140,
+    140,
+    140,
+    130,
+    140,
+    100,
+    110,
+    170,
+    90,
+    110,
+    70,
+    80,
+    140,
+    140,
+    140,
+    140,
+    60,
+    80,
+    100,
+    100,
+    160,
+    120,
+    140,
+    120,
+    140,
+    120,
+    150,
+    100,
+    120,
+    160
+  ],
+  "transitions": [
+    {
+      "from": 0,
+      "to": 1,
+      "meanLuminanceDelta": 0.01925914087901066,
+      "maxLuminanceDelta": 0.46754197122454644,
+      "commonPixels": 4744
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "meanLuminanceDelta": 0.02765397703853876,
+      "maxLuminanceDelta": 0.48351138203740124,
+      "commonPixels": 4760
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "meanLuminanceDelta": 0.02765397703853876,
+      "maxLuminanceDelta": 0.48351138203740124,
+      "commonPixels": 4760
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "meanLuminanceDelta": 0.03537398761969178,
+      "maxLuminanceDelta": 0.481236872369051,
+      "commonPixels": 4672
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "meanLuminanceDelta": 0.009788910996158877,
+      "maxLuminanceDelta": 0.4711960886538029,
+      "commonPixels": 4820
+    },
+    {
+      "from": 5,
+      "to": 0,
+      "meanLuminanceDelta": 0.01574374300047778,
+      "maxLuminanceDelta": 0.47400079436898235,
+      "commonPixels": 4784
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "meanLuminanceDelta": 0.03699955767779137,
+      "maxLuminanceDelta": 0.7307662809848785,
+      "commonPixels": 4756
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "meanLuminanceDelta": 0.040953893783058186,
+      "maxLuminanceDelta": 0.7299325555443763,
+      "commonPixels": 4800
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "meanLuminanceDelta": 0.02332414822457468,
+      "maxLuminanceDelta": 0.4737176571309567,
+      "commonPixels": 4872
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "meanLuminanceDelta": 0.041068810623842655,
+      "maxLuminanceDelta": 0.7307662809848785,
+      "commonPixels": 4800
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "meanLuminanceDelta": 0.04695308916688444,
+      "maxLuminanceDelta": 0.7349709866166114,
+      "commonPixels": 4680
+    },
+    {
+      "from": 11,
+      "to": 6,
+      "meanLuminanceDelta": 0.030836135594576593,
+      "maxLuminanceDelta": 0.47400079436898235,
+      "commonPixels": 4744
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "meanLuminanceDelta": 0.0907403386033509,
+      "maxLuminanceDelta": 0.5768831502124667,
+      "commonPixels": 3620
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "meanLuminanceDelta": 0.09458388216187796,
+      "maxLuminanceDelta": 0.561140406052768,
+      "commonPixels": 4328
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "meanLuminanceDelta": 0.08849231438350923,
+      "maxLuminanceDelta": 0.5394690347954632,
+      "commonPixels": 4256
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "meanLuminanceDelta": 0.1027147085566949,
+      "maxLuminanceDelta": 0.5614855083197354,
+      "commonPixels": 3588
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "meanLuminanceDelta": 0.059667173193606135,
+      "maxLuminanceDelta": 0.5511403976142407,
+      "commonPixels": 4496
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "meanLuminanceDelta": 0.039286944881283654,
+      "maxLuminanceDelta": 0.7453356918811798,
+      "commonPixels": 4700
+    },
+    {
+      "from": 18,
+      "to": 19,
+      "meanLuminanceDelta": 0.06063900157710714,
+      "maxLuminanceDelta": 0.5271427610203624,
+      "commonPixels": 4480
+    },
+    {
+      "from": 19,
+      "to": 20,
+      "meanLuminanceDelta": 0.06509692008330664,
+      "maxLuminanceDelta": 0.5807890323325993,
+      "commonPixels": 4296
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "meanLuminanceDelta": 0.0485166407414012,
+      "maxLuminanceDelta": 0.5466478488624096,
+      "commonPixels": 4368
+    },
+    {
+      "from": 21,
+      "to": 22,
+      "meanLuminanceDelta": 0.046249769492973006,
+      "maxLuminanceDelta": 0.49940393914431325,
+      "commonPixels": 4388
+    },
+    {
+      "from": 22,
+      "to": 23,
+      "meanLuminanceDelta": 0.06411346223917674,
+      "maxLuminanceDelta": 0.5388415838524698,
+      "commonPixels": 4284
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "meanLuminanceDelta": 0.059137668902142566,
+      "maxLuminanceDelta": 0.5432980541750788,
+      "commonPixels": 4508
+    },
+    {
+      "from": 24,
+      "to": 19,
+      "meanLuminanceDelta": 0.053652443801838666,
+      "maxLuminanceDelta": 0.5487686420843004,
+      "commonPixels": 4496
+    },
+    {
+      "from": 25,
+      "to": 26,
+      "meanLuminanceDelta": 0.07018213313350734,
+      "maxLuminanceDelta": 0.6308337394803762,
+      "commonPixels": 4304
+    },
+    {
+      "from": 26,
+      "to": 27,
+      "meanLuminanceDelta": 0.04923325019812687,
+      "maxLuminanceDelta": 0.5395411916539073,
+      "commonPixels": 4560
+    },
+    {
+      "from": 27,
+      "to": 28,
+      "meanLuminanceDelta": 0,
+      "maxLuminanceDelta": 0,
+      "commonPixels": 4832
+    },
+    {
+      "from": 28,
+      "to": 29,
+      "meanLuminanceDelta": 0.08817597463894795,
+      "maxLuminanceDelta": 0.569926292130351,
+      "commonPixels": 4012
+    },
+    {
+      "from": 29,
+      "to": 30,
+      "meanLuminanceDelta": 0.07235198985001086,
+      "maxLuminanceDelta": 0.6624274620667101,
+      "commonPixels": 4204
+    },
+    {
+      "from": 30,
+      "to": 31,
+      "meanLuminanceDelta": 0.08612300551892847,
+      "maxLuminanceDelta": 0.5713153116554022,
+      "commonPixels": 3820
+    },
+    {
+      "from": 31,
+      "to": 32,
+      "meanLuminanceDelta": 0.061725738044018756,
+      "maxLuminanceDelta": 0.5299788392826914,
+      "commonPixels": 4628
+    },
+    {
+      "from": 32,
+      "to": 33,
+      "meanLuminanceDelta": 0.03686558155668441,
+      "maxLuminanceDelta": 0.7607388282179832,
+      "commonPixels": 4808
+    },
+    {
+      "from": 33,
+      "to": 34,
+      "meanLuminanceDelta": 0.03686558155668441,
+      "maxLuminanceDelta": 0.7607388282179832,
+      "commonPixels": 4808
+    },
+    {
+      "from": 34,
+      "to": 35,
+      "meanLuminanceDelta": 0.0366288814146246,
+      "maxLuminanceDelta": 0.6279827582374216,
+      "commonPixels": 4820
+    },
+    {
+      "from": 35,
+      "to": 32,
+      "meanLuminanceDelta": 0.0366288814146246,
+      "maxLuminanceDelta": 0.6279827582374216,
+      "commonPixels": 4820
+    },
+    {
+      "from": 36,
+      "to": 37,
+      "meanLuminanceDelta": 0.08692446761370445,
+      "maxLuminanceDelta": 0.5982925607010722,
+      "commonPixels": 3500
+    },
+    {
+      "from": 37,
+      "to": 38,
+      "meanLuminanceDelta": 0.05504675506852331,
+      "maxLuminanceDelta": 0.588170212611556,
+      "commonPixels": 4228
+    },
+    {
+      "from": 38,
+      "to": 39,
+      "meanLuminanceDelta": 0.08894965692897641,
+      "maxLuminanceDelta": 0.6181992304295301,
+      "commonPixels": 3968
+    },
+    {
+      "from": 39,
+      "to": 40,
+      "meanLuminanceDelta": 0.04492030420158645,
+      "maxLuminanceDelta": 0.7481403975963592,
+      "commonPixels": 4628
+    },
+    {
+      "from": 40,
+      "to": 41,
+      "meanLuminanceDelta": 0.06739295880571589,
+      "maxLuminanceDelta": 0.6394643261805177,
+      "commonPixels": 4472
+    },
+    {
+      "from": 41,
+      "to": 42,
+      "meanLuminanceDelta": 0.05639673865260997,
+      "maxLuminanceDelta": 0.6548674625173211,
+      "commonPixels": 4560
+    },
+    {
+      "from": 42,
+      "to": 43,
+      "meanLuminanceDelta": 0.0834767452312318,
+      "maxLuminanceDelta": 0.60386589795053,
+      "commonPixels": 4308
+    },
+    {
+      "from": 43,
+      "to": 44,
+      "meanLuminanceDelta": 0.08282786401793178,
+      "maxLuminanceDelta": 0.5569921704679727,
+      "commonPixels": 4316
+    },
+    {
+      "from": 44,
+      "to": 45,
+      "meanLuminanceDelta": 0.05225325727743746,
+      "maxLuminanceDelta": 0.746169417321682,
+      "commonPixels": 4572
+    },
+    {
+      "from": 45,
+      "to": 46,
+      "meanLuminanceDelta": 0.07003769970622603,
+      "maxLuminanceDelta": 0.7576509852647781,
+      "commonPixels": 4452
+    },
+    {
+      "from": 46,
+      "to": 41,
+      "meanLuminanceDelta": 0.06739295880571589,
+      "maxLuminanceDelta": 0.6394643261805177,
+      "commonPixels": 4472
+    },
+    {
+      "from": 47,
+      "to": 48,
+      "meanLuminanceDelta": 0.052765701566228375,
+      "maxLuminanceDelta": 0.7453356918811798,
+      "commonPixels": 4612
+    },
+    {
+      "from": 48,
+      "to": 49,
+      "meanLuminanceDelta": 0.023147792574655303,
+      "maxLuminanceDelta": 0.47400079436898235,
+      "commonPixels": 4760
+    },
+    {
+      "from": 49,
+      "to": 0,
+      "meanLuminanceDelta": 0,
+      "maxLuminanceDelta": 0,
+      "commonPixels": 4832
+    }
+  ],
+  "warning": "Geometry moves; common-pixel differences are diagnostic, not automatic flicker pass/fail."
+}

@@ -1,0 +1,223 @@
+{
+  "assetId": "Scp999",
+  "canvas": {
+    "height": 64,
+    "width": 64
+  },
+  "color": {
+    "bodyRGBA": [
+      247,
+      138,
+      33,
+      211
+    ],
+    "directionalShading": false,
+    "highlightsIncluded": false
+  },
+  "completeAnimation": false,
+  "engineValidation": "pending; PLAN-005 outline probe",
+  "frames": [
+    {
+      "durationMs": 220,
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 1,
+      "sampleIndex": 0,
+      "sourceAsepriteFrame": 1,
+      "sourceIndex": 0,
+      "sourceTag": "idle",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 120,
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 2,
+      "sampleIndex": 1,
+      "sourceAsepriteFrame": 7,
+      "sourceIndex": 6,
+      "sourceTag": "move",
+      "reactionAnchor": {
+        "x": 34,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 100,
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 3,
+      "sampleIndex": 2,
+      "sourceAsepriteFrame": 9,
+      "sourceIndex": 8,
+      "sourceTag": "move",
+      "reactionAnchor": {
+        "x": 36,
+        "y": 16
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 160,
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 4,
+      "sampleIndex": 3,
+      "sourceAsepriteFrame": 12,
+      "sourceIndex": 11,
+      "sourceTag": "move",
+      "reactionAnchor": {
+        "x": 33,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    }
+  ],
+  "kind": "outline-split-sample",
+  "normal": {
+    "alpha": "opaque; color map owns coverage",
+    "encoding": "RGB tangent vector in [0,255]; X right,Y up,Z toward viewer",
+    "method": "silhouette distance height field, smoothed gradient; preliminary",
+    "neutral": [
+      128,
+      128,
+      255
+    ]
+  },
+  "pivot": {
+    "x": 32,
+    "y": 56
+  },
+  "revision": 5,
+  "sourceRevision": 4,
+  "specular": {
+    "alpha": "opaque; ignored as coverage",
+    "encoding": "RGB equal grayscale; 180 body, 0 face/outline/background",
+    "interpretation": "CanvasTexture specular/shininess input candidate; actual engine parameter response unverified"
+  },
+  "tags": [
+    {
+      "name": "sample_1",
+      "from": 0,
+      "to": 0,
+      "loop": false
+    },
+    {
+      "name": "sample_7",
+      "from": 1,
+      "to": 1,
+      "loop": false
+    },
+    {
+      "name": "sample_9",
+      "from": 2,
+      "to": 2,
+      "loop": false
+    },
+    {
+      "name": "sample_12",
+      "from": 3,
+      "to": 3,
+      "loop": false
+    }
+  ],
+  "completeTags": [
+    "idle",
+    "move",
+    "typing_react",
+    "pet",
+    "pet_recover",
+    "takeoff",
+    "fall",
+    "land",
+    "balance",
+    "balance_recover"
+  ],
+  "sheet": {
+    "width": 3200,
+    "height": 64,
+    "columns": 50,
+    "rows": 1,
+    "padding": 0,
+    "spacing": 0,
+    "trim": false
+  },
+  "files": {
+    "color": "Scp999_color.png",
+    "normal": "Scp999_normal.png",
+    "specular": "Scp999_specular.png"
+  },
+  "engineContract": {
+    "plan": "PLAN-005 stage A",
+    "renderer": "gl_compatibility",
+    "normalFlip": "Sprite2D.FlipH only",
+    "specularShininess": 0.45,
+    "specularColor": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "dataImport": "lossless ImageTexture, nearest, no mipmaps",
+    "alpha": "straight source PNG; premultiplied Viewport display",
+    "gates": [
+      "run-004",
+      "run-007",
+      "run-009"
+    ]
+  },
+  "outline": {
+    "file": "Scp999_outline.png",
+    "lighting": "unshaded",
+    "composition": "disjoint coverage; body/face remain lit",
+    "alpha": "straight"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "revision": "r002",
+  "engine": "4.7.2-stable (official)",
+  "display": "Windows",
+  "renderer": "gl_compatibility",
+  "frames": 4,
+  "checks": {
+    "alphaErrors": 0,
+    "mirrorMeanRgbError": 0,
+    "positiveSpecularMean": 0.0013662012300859013,
+    "brightnessCentroids": [
+      {
+        "frame": 0,
+        "leftBrightX": 56.30002480793299,
+        "rightBrightX": 69.64050050898952
+      },
+      {
+        "frame": 1,
+        "leftBrightX": 57.92318139711951,
+        "rightBrightX": 71.33856649452558
+      },
+      {
+        "frame": 2,
+        "leftBrightX": 58.76961045227218,
+        "rightBrightX": 72.70206581935312
+      },
+      {
+        "frame": 3,
+        "leftBrightX": 57.01560375429053,
+        "rightBrightX": 70.29462775996448
+      }
+    ],
+    "interpretation": "Numeric diagnostics plus visual review required; centroid moves with shape and is not a quality score."
+  },
+  "settings": {
+    "lightHeight": 100,
+    "dayEnergy": 0.72,
+    "nightEnergy": 0.35,
+    "dayAmbient": 0.42,
+    "nightAmbient": 0.28,
+    "shininess": 0.45,
+    "specularColor": 0.35,
+    "nearest": true,
+    "size": 128,
+    "normalFlip": "Sprite2D.FlipH, no manual channel inversion"
+  },
+  "userApproval": "pending",
+  "productIntegration": false
+}

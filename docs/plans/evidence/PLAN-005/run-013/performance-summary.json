@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "method": "All six paired runs; no outlier removal",
+  "budgets": {
+    "cpuRenderAdditionalP95Ms": 1,
+    "gpuRenderAdditionalP95Ms": 1,
+    "cpuOneCoreAdditionalPercentagePoints": 5,
+    "workingSetAdditionalMiB": 32
+  },
+  "totalWorkingSetDriftMiB": 0.8203125,
+  "pairs": [
+    {
+      "windowCount": 1,
+      "repeat": 0,
+      "cpuRenderP95DeltaMs": -0.003999993205070496,
+      "gpuRenderP95DeltaMs": 0,
+      "cpuOneCoreDeltaPercentagePoints": -3.746262224664804,
+      "workingSetDeltaMiB": 0.11328125,
+      "frameP95DeltaMs": 0.0036000000000058208,
+      "pass": true
+    },
+    {
+      "windowCount": 1,
+      "repeat": 1,
+      "cpuRenderP95DeltaMs": 0.009999990463256836,
+      "gpuRenderP95DeltaMs": 0.0010000020265579224,
+      "cpuOneCoreDeltaPercentagePoints": 0.78031176725694,
+      "workingSetDeltaMiB": 0.0390625,
+      "frameP95DeltaMs": -0.010199999999713327,
+      "pass": true
+    },
+    {
+      "windowCount": 1,
+      "repeat": 2,
+      "cpuRenderP95DeltaMs": 0.01000000536441803,
+      "gpuRenderP95DeltaMs": 0,
+      "cpuOneCoreDeltaPercentagePoints": -0.31220147898820194,
+      "workingSetDeltaMiB": 0.0234375,
+      "frameP95DeltaMs": 0.024499999999648026,
+      "pass": true
+    },
+    {
+      "windowCount": 2,
+      "repeat": 0,
+      "cpuRenderP95DeltaMs": 0.003999993205070496,
+      "gpuRenderP95DeltaMs": 0.02199999988079071,
+      "cpuOneCoreDeltaPercentagePoints": 1.4044782676227925,
+      "workingSetDeltaMiB": 0.1015625,
+      "frameP95DeltaMs": 0.01650000000063301,
+      "pass": true
+    },
+    {
+      "windowCount": 2,
+      "repeat": 1,
+      "cpuRenderP95DeltaMs": 0.01900000125169754,
+      "gpuRenderP95DeltaMs": -0.0040000006556510925,
+      "cpuOneCoreDeltaPercentagePoints": 0.4674121670548885,
+      "workingSetDeltaMiB": 0.15625,
+      "frameP95DeltaMs": -0.06199999999995498,
+      "pass": true
+    },
+    {
+      "windowCount": 2,
+      "repeat": 2,
+      "cpuRenderP95DeltaMs": 0.022999994456768036,
+      "gpuRenderP95DeltaMs": 0.017000000923871994,
+      "cpuOneCoreDeltaPercentagePoints": 0.6230696683778039,
+      "workingSetDeltaMiB": 0.01171875,
+      "frameP95DeltaMs": 0.14449999999919783,
+      "pass": true
+    }
+  ],
+  "limitations": "Shared 128x128 render target, 1-2 display windows, one animated character state. Not a general product benchmark."
+}

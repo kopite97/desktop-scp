@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-24",
+  "revision": 4,
+  "pixelAudit": {
+    "clippedFrames": 0,
+    "colorCoverageMismatches": 0,
+    "engineValidation": "not executed",
+    "exportMismatches": 0,
+    "faceMismatches": 0,
+    "frames": 50,
+    "invalidNormalLength": 0,
+    "invalidSpecular": 0,
+    "nonUniformBody": 0,
+    "normalLengthMax": 1.0057198966774,
+    "normalLengthMin": 0.99347351216686,
+    "outlineMismatches": 0,
+    "sourceFrames": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "status": "PASS",
+    "userApproval": "pending"
+  },
+  "savedFileAudit": {
+    "frames": 50,
+    "layers": 6,
+    "status": "PASS",
+    "tags": [
+      {
+        "from": 0,
+        "name": "idle",
+        "repeats": 0,
+        "to": 5
+      },
+      {
+        "from": 6,
+        "name": "move",
+        "repeats": 0,
+        "to": 11
+      },
+      {
+        "from": 12,
+        "name": "typing_react",
+        "repeats": 1,
+        "to": 18
+      },
+      {
+        "from": 19,
+        "name": "pet",
+        "repeats": 0,
+        "to": 24
+      },
+      {
+        "from": 25,
+        "name": "pet_recover",
+        "repeats": 1,
+        "to": 27
+      },
+      {
+        "from": 28,
+        "name": "takeoff",
+        "repeats": 1,
+        "to": 31
+      },
+      {
+        "from": 32,
+        "name": "fall",
+        "repeats": 0,
+        "to": 35
+      },
+      {
+        "from": 36,
+        "name": "land",
+        "repeats": 1,
+        "to": 40
+      },
+      {
+        "from": 41,
+        "name": "balance",
+        "repeats": 0,
+        "to": 46
+      },
+      {
+        "from": 47,
+        "name": "balance_recover",
+        "repeats": 1,
+        "to": 49
+      }
+    ]
+  },
+  "sourcePairSHA256": "BC94BF55AAB22ED38F110D369774692C618E4C0DAC62AB4A84D3951D83D34C1F",
+  "originalDurationsAndTagsMatch": true,
+  "reactionAndTrailAnchors": "copied from r001 contract frame-by-frame",
+  "engineEvidence": "PLAN-005/run-010",
+  "userApproval": "pending"
+}

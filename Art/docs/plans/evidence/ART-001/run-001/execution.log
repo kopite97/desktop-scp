@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "frames": 50,
+  "tags": 10,
+  "sheet": {
+    "width": 512,
+    "height": 448,
+    "columns": 8,
+    "rows": 7
+  },
+  "sourceExportPixelMismatches": 0,
+  "outlineBoundaryErrors": 0,
+  "partialAlphaFrames": 50,
+  "clippedFrames": 0,
+  "groundedMoveFrames": 6,
+  "moveCycleMs": 740,
+  "sourceSHA256": "b9fd48a960ec211c883a1a0c10affbfe6938a988a1cd64aded2d60578efbd2da",
+  "userVisualApproval": "pending",
+  "godotIntegration": "not executed",
+  "reviewFiles": [
+    "background-comparison.png",
+    "balance.apng",
+    "balance_recover.apng",
+    "contact-sheet.png",
+    "direction-comparison.png",
+    "fall.apng",
+    "idle-2x.png",
+    "idle.apng",
+    "land.apng",
+    "move.apng",
+    "pet.apng",
+    "pet_recover.apng",
+    "playback.apng",
+    "takeoff.apng",
+    "typing_react.apng"
+  ]
+}

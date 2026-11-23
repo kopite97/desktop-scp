@@ -1,0 +1,36 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+OVERLAY_CHECK_PASS negative-origin conversion
+OVERLAY_CHECK_PASS monitor boundary clamp
+OVERLAY_CHECK_PASS work-area clamp
+OVERLAY_CHECK_PASS cross-monitor physical pixels, no DPI double scaling
+OVERLAY_CHECK_PASS hide cancels drag
+OVERLAY_CHECK_PASS hidden input ignored
+OVERLAY_CHECK_PASS restore preserves state
+OVERLAY_CHECK_PASS removed monitor recovery
+OVERLAY_CHECK_PASS release outside cancels capture
+OVERLAY_CHECK_PASS fast drag retains release position
+OVERLAY_STARTED {"screens":[{"Index":0,"x":0,"y":0,"width":3440,"height":1440,"dpi":96,"usable":[0,0,3440,1392]},{"Index":1,"x":-1920,"y":1061,"width":1920,"height":1080,"dpi":96,"usable":[-1920,1061,1920,1032]}],"tokens":[{"id":0,"x":240,"y":430,"godotX":2160,"godotY":430,"width":128,"height":128,"dpi":96},{"id":1,"x":480,"y":430,"godotX":2400,"godotY":430,"width":128,"height":128,"dpi":96}]}
+SITE_DESKTOP_READY
+OVERLAY_CHECK_PASS two native islands
+OVERLAY_CHECK_PASS native transparent window
+OVERLAY_CHECK_PASS Win32 and Godot physical coordinate agreement
+OVERLAY_CHECK_PASS input contour installed
+OVERLAY_CHECK_PASS native transparent window
+OVERLAY_CHECK_PASS Win32 and Godot physical coordinate agreement
+OVERLAY_CHECK_PASS input contour installed
+OVERLAY_HIDDEN
+OVERLAY_CHECK_PASS native window hidden
+OVERLAY_CHECK_PASS native window hidden
+OVERLAY_SHOWN
+OVERLAY_CHECK_PASS restore location
+OVERLAY_CHECK_PASS restore location
+OVERLAY_SHOWN
+OVERLAY_CHECK_PASS native monitor 0 placement at (64, 64)
+OVERLAY_SHOWN
+OVERLAY_CHECK_PASS native monitor 1 placement at (-1856, 1125)
+OVERLAY_SMOKE_PASS checks=23 display=Windows
+SITE_DESKTOP_EXIT_REQUESTED
+OVERLAY_STOPPED
+SITE_DESKTOP_STOPPED

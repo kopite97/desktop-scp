@@ -1,0 +1,62 @@
+[
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scripts\\App\\Main.cs",
+    "sha256": "7F63C39184530E38F1E80298CD77A157477EAE4A60148E31B16CD05C33BF4A1C"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scripts\\Desktop\\DesktopGeometry.cs",
+    "sha256": "45B64A668F717EA9B1BCB96D6D4DF0D5ACB75A80C0DB063449FEB6BA9FC4FF91"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scripts\\Desktop\\OverlayState.cs",
+    "sha256": "1844F9F554AF8C4F9D15A685369CA8A08965CFD2BF577C0A24F10FD9E9EFBCAC"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scripts\\Diagnostics\\EnvironmentSmoke.cs",
+    "sha256": "673F37D8891818203A3B1645B3A343FCEDD191EB7CB1811BDDB31C0D2B534D84"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scripts\\Diagnostics\\InputProbe.cs",
+    "sha256": "47DA48931A380CA03F82D49B06A03470374366417E4CEB4E20D273C13334CF21"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scripts\\Diagnostics\\OverlaySmoke.cs",
+    "sha256": "CBA49ADD1F72D643FE05BCA02C4952BA2F31C81E00DCBB5054359779FF5F2FBE"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scripts\\Overlay\\OverlayController.cs",
+    "sha256": "660EC426387084B45B37FE28B29F4E643D8CED74E319DAE5CCA8B17DC2C0CB14"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scripts\\Overlay\\OverlayIsland.cs",
+    "sha256": "2595390449413B38DDC9B068A497F1FA6077FD3209893C040EF2DE49B4A30DCA"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scripts\\Platform\\Windows\\WindowsDesktop.cs",
+    "sha256": "215B34993CC02E4CBEE662812BB6C5B9EB7A382B83AF5E02AD124D1DB695E16E"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scenes\\App\\Main.tscn",
+    "sha256": "D0D6E4D798F55D60FBF963E942122CACFC8F0F9ED27226D3BC6A227E30EB85FA"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scenes\\Diagnostics\\EnvironmentSmoke.tscn",
+    "sha256": "71FF1BC3F4DC26951998B179AB8CEF600D61EB218EC8940549903E7E5F78B612"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scenes\\Diagnostics\\InputProbe.tscn",
+    "sha256": "951CC7372F2F489C8CFA864EE80DCF305B0D3725E3F4B312FDD2B2B0E717FACD"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\Scenes\\Diagnostics\\OverlaySmoke.tscn",
+    "sha256": "27354AF8E804D2FF223EEB61FAF1A3A2659DF6220E47FBDC02380568BFF6C53A"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\GodotProject\\project.godot",
+    "sha256": "240034BD18EEB76302FBEC5A8149F1095BAF7642C0692795962159E5D05979A6"
+  },
+  {
+    "path": "C:\\Dev\\scp_desktop\\scripts\\godot.ps1",
+    "sha256": "755E8BAC92550B47444A28A0F7A3CC5CCDFEFB97F167D476F2BC0F78B47424F6"
+  }
+]

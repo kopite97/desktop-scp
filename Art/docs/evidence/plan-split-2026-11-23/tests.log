@@ -1,0 +1,29 @@
+✔ valid proposed-only project allows zero active plans (58.9595ms)
+✔ plan.md is a required length-limited guide, never a work PLAN (111.0165ms)
+✔ plan.md links are still validated despite exclusion from PLAN records (59.9747ms)
+✔ one active plan passes; two active plans fail (61.2496ms)
+✔ missing documents and line limit violations fail (42.2541ms)
+✔ invalid state, missing type, duplicate fields and impossible dates fail (41.9838ms)
+✔ PLAN IDs, filenames, sections and index summaries are checked (47.5238ms)
+✔ unknown, malformed and duplicate index entries fail (41.5412ms)
+✔ TECH duplicate IDs, states, dates and index consistency are checked (41.7087ms)
+✔ real local links are checked while fenced examples, anchors and web links are skipped (72.8022ms)
+✔ evidence markdown is link-checked but never treated as a PLAN (92.9058ms)
+✔ BOM and CRLF are accepted, malformed front matter is rejected (63.5058ms)
+✔ Art documents are required and MAP/guide limits are enforced (40.9601ms)
+✔ Art links resolve across roots and broken revision links are rejected (65.6326ms)
+✔ Art rejects PLAN IDs and misplaced ART records (62.9669ms)
+✔ development and ART may each be active, but neither scope allows two (94.5685ms)
+✔ ART revision validation and completion require consistent approval metadata (308.9331ms)
+✔ ART index validates every metadata column and record coverage (273.0544ms)
+✔ ART records enforce IDs, states, dates and required sections (58.8418ms)
+✔ Art plan guide is required and length limited; evidence links are checked without counting records (142.9581ms)
+✔ Godot art integration and development share the root PLAN active limit (65.6761ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1896.3465

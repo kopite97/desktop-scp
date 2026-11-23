@@ -1,0 +1,18 @@
+2026-11-23 / ART-001 / r002 / Windows / Aseprite 1.3.18.6 API 41 Live
+Scope: preserve r001, create four representative lighting samples and documentation.
+Live target: C:/Dev/scp_desktop/Art/assets/characters/Scp999/source/Scp999-lighting-sample.aseprite
+The bridge default workDir was C:/Dev/Unity/Art; all task input/output paths were explicitly set to C:/Dev/scp_desktop/Art.
+Executed build-lighting-sample.lua through Aseprite run_lua (live).
+Created RGB/sRGB 64x64 four-frame source and r002 source copy, three 256x64 PNG sheets, r001 reference sheet.
+Built contract JSON from the returned frame metadata; added sheet layout, file names, tags and data-handling contract in documentation output.
+Executed audit-sample.lua through Aseprite run_lua (live).
+Pixel audit PASS: outline/face/coverage/export mismatches, nonuniform body, invalid normal/specular, clipped frames all 0.
+Normal vector length range: 0.99446372132981 to 1.0053528400263 (tolerance 0.015).
+Generated and visually inspected map-comparison.png and base-backgrounds.png.
+Executed audit-saved-files.lua through Aseprite run_lua (live), reopening the submitted source from disk: PASS.
+Saved source: 4 frames, 6 layers; durations 220/120/100/160ms; expected tags and visibility; sheets all 256x64.
+PowerShell Get-FileHash SHA256: r001 before/after/work source match; r002 work/submission source match. Exact hashes in results.json.
+Left lighting-sample source active, frame 1, BodyColor selected, zoom 4; original full-animation source preserved.
+Updated ART-001/spec/handoff/PLAN-005 and proposed PLAN-009. No development PLAN activated.
+Godot rendering, input, performance and full-animation lighting validation NOT RUN. Final user approval pending.
+node scripts/validate-agent-docs.mjs: PASS; 9 development plans (0 active), 3 ART plans (1 active), 6 TECH records, metadata/indexes/local links valid.

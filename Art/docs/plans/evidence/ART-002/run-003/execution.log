@@ -1,0 +1,10 @@
+2026-11-24 ART-002 Scp999 r005 full export
+Input: Scp999 r004 preserved source, original 50 frames/10 tags.
+Used run-002/export-outline.lua after sample gate. Saved work source and r005 submission source separately.
+Output: color/outline/normal/specular/combined PNGs, 3200x64 each; contract copied from r004 with split composition contract.
+Build audit: 7042 outline pixels, recomposition/overlap/partial-alpha/face-overlap errors=0.
+Saved source/PNG audit: sourceMismatch=0 combinedMismatch=0 normalMismatch=0 specularMismatch=0 durationMismatch=0 tagMismatch=0.
+Work/submission SHA256 equal: CF6FA4CBE281134A27860A0869827BD25B2C23738D2A4438B1A7075CB59BB290.
+r004 source and reaction r001 source hashes unchanged.
+Engine lighting matrix: PLAN-005 run-012. Playback follow-ups: run-013/014. Incremental rendering cost: run-013.
+User r005 visual approval pending; ART-001 completed record unchanged.

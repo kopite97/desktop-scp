@@ -1,0 +1,16 @@
+LINES AGENTS.md: 28/100
+LINES docs/plans/plan.md: 115/150
+LINES docs/agents/architecture.md: 40/150
+LINES docs/agents/godot-tools.md: 81/150
+LINES docs/agents/harness.md: 50/150
+LINES docs/agents/plan-management.md: 9/150
+LINES docs/agents/project-structure.md: 45/150
+LINES docs/agents/verification.md: 48/150
+LINES docs/agents/windows-integration.md: 45/150
+LINES docs/agents/workflow.md: 49/150
+PLANS total=8, active=0
+DECISIONS total=2
+PLAN_INDEX entries=8
+TECH_INDEX entries=2
+LOCAL_LINKS checked=191 (inline file targets only; no anchors or web requests)
+PASS document structure, PLAN/TECH metadata and indexes, at most 1 active PLAN, local file links

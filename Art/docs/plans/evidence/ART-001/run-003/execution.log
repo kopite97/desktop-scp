@@ -1,0 +1,11 @@
+2026-11-24 ART-001 r003, Aseprite 1.3.18.6 Live/API 41.
+Checked open files: no unsaved changes in source candidates.
+Executed build-idle-move.lua with explicit current-project target paths.
+Read r001 submitted source; created Scp999-lighting-idle-move.aseprite and r003 submission copy.
+Exported color/normal/specular PNG 768x64, r001 reference strip, contract with original durations and complete idle/move tags.
+Executed audit-idle-move.lua: 12 frames; outline/face/coverage/export mismatch, nonuniform body, invalid normals/specular, clipped frames all 0.
+SHA256 work/submission r003: 41888B1A5B1AF7D8243F48DC6662874197B673F7C43C78F1996B3D7229794E09.
+r001: B9FD48A960EC211C883A1A0C10AFFBFE6938A988A1CD64ADED2D60578EFBD2DA unchanged.
+r002: EFE71DAA865BAFB7DE49B808D501CBC3FA7374D160DE1467CDE2FFA58B4CC541 unchanged.
+Left r003 source open in Aseprite. Godot rendering evidence belongs to PLAN-005.
+User visual approval pending. Other animation tags not expanded in this revision.

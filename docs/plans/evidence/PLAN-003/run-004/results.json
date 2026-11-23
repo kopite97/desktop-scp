@@ -1,0 +1,39 @@
+{
+  "plan": "PLAN-003",
+  "run": "run-004",
+  "date": "2026-11-23",
+  "status": "passed-with-documented-limitations",
+  "build": {
+    "exitCode": 0,
+    "warnings": 0,
+    "errors": 0
+  },
+  "headless": {
+    "exitCode": 0,
+    "checks": 10
+  },
+  "windows": {
+    "exitCode": 0,
+    "checks": 23,
+    "monitorPlacements": [
+      [
+        64,
+        64
+      ],
+      [
+        -1856,
+        1125
+      ]
+    ]
+  },
+  "interactiveEvidence": "../run-003/input-checks.json",
+  "regressionEvidence": "../run-003/environment-headless.log",
+  "unverified": [
+    "real mixed-DPI",
+    "physical hotplug",
+    "cross-monitor physical mouse drag",
+    "RDP",
+    "exported build",
+    "many-window performance"
+  ]
+}

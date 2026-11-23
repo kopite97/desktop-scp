@@ -1,0 +1,22 @@
+{
+  "metadata": "PASS",
+  "animations": {
+    "heart": {
+      "frames": 8,
+      "durationMs": 850,
+      "plays": 1
+    },
+    "note": {
+      "frames": 8,
+      "durationMs": 850,
+      "plays": 1
+    },
+    "composite": {
+      "frames": 97,
+      "durationMs": 2600,
+      "plays": 0
+    }
+  },
+  "sourceSha256": "cdc415ecef470b9b5314ea145b548950d96e06d843f1e8f2a8c414c7e9d2ca2b",
+  "referenceBodySha256": "bc94bf55aab22ed38f110d369774692c618e4c0dac62ab4a84d3951d83d34c1f"
+}

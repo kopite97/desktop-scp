@@ -1,0 +1,30 @@
+{
+  "faceOverlap": 0,
+  "frames": 4,
+  "framesInfo": [
+    {
+      "durationMs": 220,
+      "index": 0,
+      "sourceFrame": 1
+    },
+    {
+      "durationMs": 120,
+      "index": 1,
+      "sourceFrame": 7
+    },
+    {
+      "durationMs": 100,
+      "index": 2,
+      "sourceFrame": 9
+    },
+    {
+      "durationMs": 160,
+      "index": 3,
+      "sourceFrame": 12
+    }
+  ],
+  "outlinePixels": 565,
+  "overlappingOutputPixels": 0,
+  "partialOutlineAlpha": 0,
+  "recompositionErrors": 0
+}

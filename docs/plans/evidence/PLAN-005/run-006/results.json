@@ -1,0 +1,94 @@
+{
+  "revision": "r003",
+  "engine": "4.7.2-stable (official)",
+  "display": "Windows",
+  "renderer": "gl_compatibility",
+  "frames": 12,
+  "checks": {
+    "alphaErrors": 0,
+    "mirrorMeanRgbError": 0,
+    "positiveSpecularMean": 0.0013579244225048815,
+    "brightnessCentroids": [
+      {
+        "frame": 0,
+        "leftBrightX": 56.30002480793299,
+        "rightBrightX": 69.64050050898952
+      },
+      {
+        "frame": 1,
+        "leftBrightX": 56.477963073797795,
+        "rightBrightX": 69.80545339852239
+      },
+      {
+        "frame": 2,
+        "leftBrightX": 56.40595437346077,
+        "rightBrightX": 69.75879850303076
+      },
+      {
+        "frame": 3,
+        "leftBrightX": 56.477963073797795,
+        "rightBrightX": 69.80545339852239
+      },
+      {
+        "frame": 4,
+        "leftBrightX": 56.48364872358628,
+        "rightBrightX": 69.61748149083486
+      },
+      {
+        "frame": 5,
+        "leftBrightX": 56.40550149552362,
+        "rightBrightX": 69.68843571513334
+      },
+      {
+        "frame": 6,
+        "leftBrightX": 57.92318139711951,
+        "rightBrightX": 71.33856649452558
+      },
+      {
+        "frame": 7,
+        "leftBrightX": 58.26004437863242,
+        "rightBrightX": 71.97483933256541
+      },
+      {
+        "frame": 8,
+        "leftBrightX": 58.76961045227218,
+        "rightBrightX": 72.70206581935312
+      },
+      {
+        "frame": 9,
+        "leftBrightX": 58.8483206688374,
+        "rightBrightX": 72.5755274636652
+      },
+      {
+        "frame": 10,
+        "leftBrightX": 58.395388005563056,
+        "rightBrightX": 72.04866205949203
+      },
+      {
+        "frame": 11,
+        "leftBrightX": 57.01560375429053,
+        "rightBrightX": 70.29462775996448
+      }
+    ],
+    "interpretation": "Numeric diagnostics plus visual review required; centroid moves with shape and is not a quality score."
+  },
+  "settings": {
+    "lightHeight": 100,
+    "dayEnergy": 0.72,
+    "nightEnergy": 0.35,
+    "dayAmbient": 0.42,
+    "nightAmbient": [
+      0.4,
+      0.4,
+      0.48
+    ],
+    "shininess": 0.45,
+    "specularColor": 0.35,
+    "nearest": true,
+    "size": 128,
+    "normalFlip": "Sprite2D.FlipH, no manual channel inversion",
+    "viewportAlpha": "premultiplied display; straight RGBA evidence"
+  },
+  "userApproval": "pending",
+  "productIntegration": false
+}

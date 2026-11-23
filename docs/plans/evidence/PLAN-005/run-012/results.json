@@ -1,0 +1,284 @@
+{
+  "revision": "r005",
+  "engine": "4.7.2-stable (official)",
+  "display": "Windows",
+  "renderer": "gl_compatibility",
+  "frames": 50,
+  "checks": {
+    "alphaErrors": 0,
+    "mirrorMeanRgbError": 0,
+    "positiveSpecularMean": 0.0013116261489996145,
+    "brightnessCentroids": [
+      {
+        "frame": 0,
+        "leftBrightX": 56.30002480793299,
+        "rightBrightX": 69.64050050898952
+      },
+      {
+        "frame": 1,
+        "leftBrightX": 56.477963073797795,
+        "rightBrightX": 69.80545339852239
+      },
+      {
+        "frame": 2,
+        "leftBrightX": 56.40595437346077,
+        "rightBrightX": 69.75879850303076
+      },
+      {
+        "frame": 3,
+        "leftBrightX": 56.477963073797795,
+        "rightBrightX": 69.80545339852239
+      },
+      {
+        "frame": 4,
+        "leftBrightX": 56.48364872358628,
+        "rightBrightX": 69.61748149083486
+      },
+      {
+        "frame": 5,
+        "leftBrightX": 56.40550149552362,
+        "rightBrightX": 69.68843571513334
+      },
+      {
+        "frame": 6,
+        "leftBrightX": 57.92318139711951,
+        "rightBrightX": 71.33856649452558
+      },
+      {
+        "frame": 7,
+        "leftBrightX": 58.26004437863242,
+        "rightBrightX": 71.97483933256541
+      },
+      {
+        "frame": 8,
+        "leftBrightX": 58.76961045227218,
+        "rightBrightX": 72.70206581935312
+      },
+      {
+        "frame": 9,
+        "leftBrightX": 58.8483206688374,
+        "rightBrightX": 72.5755274636652
+      },
+      {
+        "frame": 10,
+        "leftBrightX": 58.395388005563056,
+        "rightBrightX": 72.04866205949203
+      },
+      {
+        "frame": 11,
+        "leftBrightX": 57.01560375429053,
+        "rightBrightX": 70.29462775996448
+      },
+      {
+        "frame": 12,
+        "leftBrightX": 56.421052444971004,
+        "rightBrightX": 69.85409986689727
+      },
+      {
+        "frame": 13,
+        "leftBrightX": 56.931902939785346,
+        "rightBrightX": 69.56897302406192
+      },
+      {
+        "frame": 14,
+        "leftBrightX": 57.58216329865094,
+        "rightBrightX": 70.58245673606918
+      },
+      {
+        "frame": 15,
+        "leftBrightX": 56.18709862239216,
+        "rightBrightX": 69.73777342962282
+      },
+      {
+        "frame": 16,
+        "leftBrightX": 56.210566888063404,
+        "rightBrightX": 69.94465752517904
+      },
+      {
+        "frame": 17,
+        "leftBrightX": 56.312323628016934,
+        "rightBrightX": 69.79614451983632
+      },
+      {
+        "frame": 18,
+        "leftBrightX": 56.30002480793299,
+        "rightBrightX": 69.64050050898952
+      },
+      {
+        "frame": 19,
+        "leftBrightX": 54.993441709279146,
+        "rightBrightX": 68.35562379620814
+      },
+      {
+        "frame": 20,
+        "leftBrightX": 53.75343429228893,
+        "rightBrightX": 67.3272764681711
+      },
+      {
+        "frame": 21,
+        "leftBrightX": 56.35947897212372,
+        "rightBrightX": 70.20685705906764
+      },
+      {
+        "frame": 22,
+        "leftBrightX": 58.94525689252628,
+        "rightBrightX": 72.84743227122537
+      },
+      {
+        "frame": 23,
+        "leftBrightX": 58.12770020737817,
+        "rightBrightX": 71.50512539081625
+      },
+      {
+        "frame": 24,
+        "leftBrightX": 56.66536369518777,
+        "rightBrightX": 69.80559377372327
+      },
+      {
+        "frame": 25,
+        "leftBrightX": 56.6773068071197,
+        "rightBrightX": 69.99677535524353
+      },
+      {
+        "frame": 26,
+        "leftBrightX": 56.76550064849501,
+        "rightBrightX": 69.64335021062585
+      },
+      {
+        "frame": 27,
+        "leftBrightX": 56.30002480793299,
+        "rightBrightX": 69.64050050898952
+      },
+      {
+        "frame": 28,
+        "leftBrightX": 56.30002480793299,
+        "rightBrightX": 69.64050050898952
+      },
+      {
+        "frame": 29,
+        "leftBrightX": 57.0608722996083,
+        "rightBrightX": 71.015054045648
+      },
+      {
+        "frame": 30,
+        "leftBrightX": 58.232340116774076,
+        "rightBrightX": 71.77907647500933
+      },
+      {
+        "frame": 31,
+        "leftBrightX": 58.93854759053873,
+        "rightBrightX": 71.20104650208657
+      },
+      {
+        "frame": 32,
+        "leftBrightX": 56.807776346193606,
+        "rightBrightX": 69.26814322058482
+      },
+      {
+        "frame": 33,
+        "leftBrightX": 55.69604783966282,
+        "rightBrightX": 68.44788501860491
+      },
+      {
+        "frame": 34,
+        "leftBrightX": 56.807776346193606,
+        "rightBrightX": 69.26814322058482
+      },
+      {
+        "frame": 35,
+        "leftBrightX": 57.65329383634343,
+        "rightBrightX": 70.45739738954431
+      },
+      {
+        "frame": 36,
+        "leftBrightX": 56.807776346193606,
+        "rightBrightX": 69.26814322058482
+      },
+      {
+        "frame": 37,
+        "leftBrightX": 56.08295454481901,
+        "rightBrightX": 70.18301418351786
+      },
+      {
+        "frame": 38,
+        "leftBrightX": 56.357401130653265,
+        "rightBrightX": 70.11575340486368
+      },
+      {
+        "frame": 39,
+        "leftBrightX": 56.711270023116334,
+        "rightBrightX": 69.6301299672709
+      },
+      {
+        "frame": 40,
+        "leftBrightX": 56.30002480793299,
+        "rightBrightX": 69.64050050898952
+      },
+      {
+        "frame": 41,
+        "leftBrightX": 52.68239524508071,
+        "rightBrightX": 65.97151851105328
+      },
+      {
+        "frame": 42,
+        "leftBrightX": 50.772823290131065,
+        "rightBrightX": 63.937103471871005
+      },
+      {
+        "frame": 43,
+        "leftBrightX": 56.27264739935694,
+        "rightBrightX": 69.7306762567578
+      },
+      {
+        "frame": 44,
+        "leftBrightX": 62.14422882341711,
+        "rightBrightX": 75.38801594356289
+      },
+      {
+        "frame": 45,
+        "leftBrightX": 60.27308890326091,
+        "rightBrightX": 73.62616822678432
+      },
+      {
+        "frame": 46,
+        "leftBrightX": 56.30002480793299,
+        "rightBrightX": 69.64050050898952
+      },
+      {
+        "frame": 47,
+        "leftBrightX": 56.27264739935694,
+        "rightBrightX": 69.7306762567578
+      },
+      {
+        "frame": 48,
+        "leftBrightX": 56.48364872358628,
+        "rightBrightX": 69.61748149083486
+      },
+      {
+        "frame": 49,
+        "leftBrightX": 56.30002480793299,
+        "rightBrightX": 69.64050050898952
+      }
+    ],
+    "interpretation": "Numeric diagnostics plus visual review required; centroid moves with shape and is not a quality score."
+  },
+  "settings": {
+    "lightHeight": 100,
+    "dayEnergy": 0.72,
+    "nightEnergy": 0.35,
+    "dayAmbient": 0.42,
+    "nightAmbient": [
+      0.4,
+      0.4,
+      0.48
+    ],
+    "shininess": 0.45,
+    "specularColor": 0.35,
+    "nearest": true,
+    "size": 128,
+    "normalFlip": "Sprite2D.FlipH, no manual channel inversion",
+    "viewportAlpha": "premultiplied display; straight RGBA evidence"
+  },
+  "userApproval": "pending",
+  "productIntegration": false
+}

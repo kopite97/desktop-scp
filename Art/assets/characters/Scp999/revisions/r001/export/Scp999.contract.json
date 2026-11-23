@@ -1,0 +1,982 @@
+{
+  "canvas": {
+    "height": 64,
+    "width": 64
+  },
+  "frames": [
+    {
+      "asepriteFrame": 1,
+      "durationMs": 220,
+      "index": 0,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "tag": "idle",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 2,
+      "durationMs": 180,
+      "index": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "tag": "idle",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 3,
+      "durationMs": 100,
+      "index": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "tag": "idle",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 4,
+      "durationMs": 160,
+      "index": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "tag": "idle",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 5,
+      "durationMs": 180,
+      "index": 4,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 13
+      },
+      "tag": "idle",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 6,
+      "durationMs": 200,
+      "index": 5,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 13
+      },
+      "tag": "idle",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 7,
+      "durationMs": 120,
+      "index": 6,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 34,
+        "y": 14
+      },
+      "tag": "move",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 8,
+      "durationMs": 120,
+      "index": 7,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 35,
+        "y": 15
+      },
+      "tag": "move",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 9,
+      "durationMs": 100,
+      "index": 8,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 36,
+        "y": 16
+      },
+      "tag": "move",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 10,
+      "durationMs": 100,
+      "index": 9,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 36,
+        "y": 15
+      },
+      "tag": "move",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 11,
+      "durationMs": 140,
+      "index": 10,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 35,
+        "y": 14
+      },
+      "tag": "move",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 12,
+      "durationMs": 160,
+      "index": 11,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 33,
+        "y": 14
+      },
+      "tag": "move",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 13,
+      "durationMs": 90,
+      "index": 12,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 18
+      },
+      "tag": "typing_react",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 14,
+      "durationMs": 80,
+      "index": 13,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 7
+      },
+      "tag": "typing_react",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 15,
+      "durationMs": 100,
+      "index": 14,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 33,
+        "y": 6
+      },
+      "tag": "typing_react",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 16,
+      "durationMs": 90,
+      "index": 15,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 10
+      },
+      "tag": "typing_react",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 17,
+      "durationMs": 90,
+      "index": 16,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 18
+      },
+      "tag": "typing_react",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 18,
+      "durationMs": 110,
+      "index": 17,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "tag": "typing_react",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 19,
+      "durationMs": 140,
+      "index": 18,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "tag": "typing_react",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 20,
+      "durationMs": 130,
+      "index": 19,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 30,
+        "y": 17
+      },
+      "tag": "pet",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 21,
+      "durationMs": 140,
+      "index": 20,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 29,
+        "y": 20
+      },
+      "tag": "pet",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 22,
+      "durationMs": 140,
+      "index": 21,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 21
+      },
+      "tag": "pet",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 23,
+      "durationMs": 140,
+      "index": 22,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 35,
+        "y": 20
+      },
+      "tag": "pet",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 24,
+      "durationMs": 130,
+      "index": 23,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 34,
+        "y": 17
+      },
+      "tag": "pet",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 25,
+      "durationMs": 140,
+      "index": 24,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "tag": "pet",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 26,
+      "durationMs": 100,
+      "index": 25,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 17
+      },
+      "tag": "pet_recover",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 27,
+      "durationMs": 110,
+      "index": 26,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 12
+      },
+      "tag": "pet_recover",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 28,
+      "durationMs": 170,
+      "index": 27,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "tag": "pet_recover",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 29,
+      "durationMs": 90,
+      "index": 28,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "tag": "takeoff",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 30,
+      "durationMs": 110,
+      "index": 29,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 33,
+        "y": 20
+      },
+      "tag": "takeoff",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 31,
+      "durationMs": 70,
+      "index": 30,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 34,
+        "y": 17
+      },
+      "tag": "takeoff",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 32,
+      "durationMs": 80,
+      "index": 31,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 34,
+        "y": 6
+      },
+      "tag": "takeoff",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 33,
+      "durationMs": 140,
+      "index": 32,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 7
+      },
+      "tag": "fall",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 34,
+      "durationMs": 140,
+      "index": 33,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 31,
+        "y": 8
+      },
+      "tag": "fall",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 35,
+      "durationMs": 140,
+      "index": 34,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 7
+      },
+      "tag": "fall",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 36,
+      "durationMs": 140,
+      "index": 35,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 33,
+        "y": 8
+      },
+      "tag": "fall",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 37,
+      "durationMs": 60,
+      "index": 36,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 7
+      },
+      "tag": "land",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 38,
+      "durationMs": 80,
+      "index": 37,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 22
+      },
+      "tag": "land",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 39,
+      "durationMs": 100,
+      "index": 38,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 20
+      },
+      "tag": "land",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 40,
+      "durationMs": 100,
+      "index": 39,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 12
+      },
+      "tag": "land",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 41,
+      "durationMs": 160,
+      "index": 40,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "tag": "land",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 42,
+      "durationMs": 120,
+      "index": 41,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 28,
+        "y": 14
+      },
+      "tag": "balance",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 43,
+      "durationMs": 140,
+      "index": 42,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 26,
+        "y": 13
+      },
+      "tag": "balance",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 44,
+      "durationMs": 120,
+      "index": 43,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "tag": "balance",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 45,
+      "durationMs": 140,
+      "index": 44,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 38,
+        "y": 13
+      },
+      "tag": "balance",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 46,
+      "durationMs": 120,
+      "index": 45,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 36,
+        "y": 14
+      },
+      "tag": "balance",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 47,
+      "durationMs": 150,
+      "index": 46,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "tag": "balance",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 48,
+      "durationMs": 100,
+      "index": 47,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "tag": "balance_recover",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 49,
+      "durationMs": 120,
+      "index": 48,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 13
+      },
+      "tag": "balance_recover",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "asepriteFrame": 50,
+      "durationMs": 160,
+      "index": 49,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "tag": "balance_recover",
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    }
+  ],
+  "palette": {},
+  "pivot": {
+    "x": 32,
+    "y": 56
+  },
+  "tags": [
+    {
+      "from": 0,
+      "loop": true,
+      "name": "idle",
+      "to": 5
+    },
+    {
+      "from": 6,
+      "loop": true,
+      "name": "move",
+      "to": 11
+    },
+    {
+      "from": 12,
+      "loop": false,
+      "name": "typing_react",
+      "to": 18
+    },
+    {
+      "from": 19,
+      "loop": true,
+      "name": "pet",
+      "to": 24
+    },
+    {
+      "from": 25,
+      "loop": false,
+      "name": "pet_recover",
+      "to": 27
+    },
+    {
+      "from": 28,
+      "loop": false,
+      "name": "takeoff",
+      "to": 31
+    },
+    {
+      "from": 32,
+      "loop": true,
+      "name": "fall",
+      "to": 35
+    },
+    {
+      "from": 36,
+      "loop": false,
+      "name": "land",
+      "to": 40
+    },
+    {
+      "from": 41,
+      "loop": true,
+      "name": "balance",
+      "to": 46
+    },
+    {
+      "from": 47,
+      "loop": false,
+      "name": "balance_recover",
+      "to": 49
+    }
+  ],
+  "assetId": "Scp999",
+  "revision": 1,
+  "approvedRevision": 0,
+  "sourcePixelScale": 1,
+  "displayScale": 2,
+  "direction": "right-facing; mirror all layers for left; local specular highlights mirror with material, no world light baked",
+  "movement": "grounded drag; zero y-offset; trailing body deformation; actual translation in Godot"
+}

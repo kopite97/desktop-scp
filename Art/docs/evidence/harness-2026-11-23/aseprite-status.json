@@ -1,0 +1,19 @@
+{
+  "executable": "C:/Program Files (x86)/Steam/steamapps/common/Aseprite/Aseprite.exe",
+  "batch": {
+    "apiVersion": 41,
+    "mode": "batch",
+    "os": "Windows NT 10.0.26300",
+    "runtime": "0.1.1",
+    "sprites": 0,
+    "ui": false,
+    "version": "1.3.18.6"
+  },
+  "live": {
+    "port": 41234,
+    "listening": true,
+    "connected": false
+  },
+  "extensionInstalled": false,
+  "workDir": "C:/Dev/Unity/Art"
+}

@@ -1,0 +1,62 @@
+{
+  "durationsMs": [
+    70,
+    80,
+    100,
+    160,
+    160,
+    120,
+    100,
+    60
+  ],
+  "lifeMs": 850,
+  "previewRepeatMs": 1200,
+  "transitions": [
+    {
+      "phase": 0,
+      "ms": 0,
+      "visible": true
+    },
+    {
+      "phase": 1,
+      "ms": 84.1708,
+      "visible": true
+    },
+    {
+      "phase": 2,
+      "ms": 150.8777,
+      "visible": true
+    },
+    {
+      "phase": 3,
+      "ms": 251.1127,
+      "visible": true
+    },
+    {
+      "phase": 4,
+      "ms": 417.5807,
+      "visible": true
+    },
+    {
+      "phase": 5,
+      "ms": 584.1525,
+      "visible": true
+    },
+    {
+      "phase": 6,
+      "ms": 700.848,
+      "visible": true
+    },
+    {
+      "phase": 7,
+      "ms": 801.0554,
+      "visible": true
+    },
+    {
+      "phase": 8,
+      "ms": 850.8135,
+      "visible": false
+    }
+  ],
+  "scope": "Diagnostic repeated example; not product spawn policy"
+}

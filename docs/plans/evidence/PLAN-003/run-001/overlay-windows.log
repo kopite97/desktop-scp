@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+OVERLAY_CHECK_PASS negative-origin conversion
+OVERLAY_CHECK_PASS monitor boundary clamp
+OVERLAY_CHECK_PASS work-area clamp
+OVERLAY_CHECK_PASS cross-monitor physical pixels, no DPI double scaling
+OVERLAY_CHECK_PASS hide cancels drag
+OVERLAY_CHECK_PASS hidden input ignored
+OVERLAY_CHECK_PASS restore preserves state
+OVERLAY_CHECK_PASS removed monitor recovery
+OVERLAY_CHECK_PASS release outside cancels capture
+OVERLAY_STARTED {"screens":[{"Index":0,"x":1920,"y":0,"width":3440,"height":1440,"dpi":96,"usable":[1920,0,3440,1392]},{"Index":1,"x":0,"y":1061,"width":1920,"height":1080,"dpi":96,"usable":[0,1061,1920,1032]}],"tokens":[{"id":0,"x":2160,"y":430,"width":128,"height":128,"dpi":96},{"id":1,"x":2400,"y":430,"width":128,"height":128,"dpi":96}]}
+SITE_DESKTOP_READY
+OVERLAY_CHECK_PASS two native islands
+OVERLAY_CHECK_PASS native transparent window
+ERROR: OVERLAY_SMOKE_FAILED System.InvalidOperationException: Win32 and Godot physical coordinate agreement
+   at SiteDesktop.Diagnostics.OverlaySmoke.Require(Boolean condition, String name) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\OverlaySmoke.cs:line 85
+   at SiteDesktop.Diagnostics.OverlaySmoke._Process(Double delta) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\OverlaySmoke.cs:line 62
+   at: void SiteDesktop.Diagnostics.OverlaySmoke.Fail(System.Exception) (res://Scripts/Diagnostics/OverlaySmoke.cs:93)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.OverlaySmoke.Fail(System.Exception) (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\OverlaySmoke.cs:93)
+       [2] void SiteDesktop.Diagnostics.OverlaySmoke._Process(double) (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\OverlaySmoke.cs:62)
+       [3] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2654)
+       [4] bool SiteDesktop.Diagnostics.OverlaySmoke.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\SiteDesktop.Diagnostics.OverlaySmoke_ScriptMethods.generated.cs:60)
+       [5] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)
+OVERLAY_STOPPED
+SITE_DESKTOP_STOPPED

@@ -1,0 +1,15 @@
+# Local tools, caches, and machine-specific paths.
+/.tools/
+/scripts/tool-paths.local.json
+/GodotProject/.godot/
+/GodotProject/.vs/
+/GodotProject/bin/
+/GodotProject/obj/
+*.user
+*.suo
+
+# Local environment configuration; keep shareable examples.
+.env
+.env.*
+!.env.example
+!.env.sample

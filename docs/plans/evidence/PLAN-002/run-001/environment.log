@@ -1,0 +1,44 @@
+4.7.2.stable.mono.official.ed1daf0bf
+.NET SDK:
+ Version:           8.0.318
+ Commit:            e7c684c866
+ Workload version:  8.0.300-manifests.c414f008
+ MSBuild version:   17.10.46+aa888d321
+
+런타임 환경:
+ OS Name:     Windows
+ OS Version:  10.0.26300
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\DotNetSdk\sdk\8.0.318\
+
+설치된 .NET 워크로드:
+표시할 설치된 워크로드가 없습니다.
+
+Host:
+  Version:      8.0.21
+  Architecture: x64
+  Commit:       362ab6669d
+
+.NET SDKs installed:
+  8.0.318 [C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\DotNetSdk\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 8.0.21 [C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\DotNetSdk\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 8.0.21 [C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\DotNetSdk\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 8.0.21 [C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\DotNetSdk\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  None
+
+Environment variables:
+  DOTNET_ROOT       [C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\DotNetSdk]
+
+global.json file:
+  C:\Dev\scp_desktop\GodotProject\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download

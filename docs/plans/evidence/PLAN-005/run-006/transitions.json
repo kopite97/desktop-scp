@@ -1,0 +1,103 @@
+{
+  "durationsMs": [
+    220,
+    180,
+    100,
+    160,
+    180,
+    200,
+    120,
+    120,
+    100,
+    100,
+    140,
+    160
+  ],
+  "transitions": [
+    {
+      "from": 0,
+      "to": 1,
+      "meanLuminanceDelta": 0.01925914087901066,
+      "maxLuminanceDelta": 0.46754197122454644,
+      "commonPixels": 4744
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "meanLuminanceDelta": 0.02765397703853876,
+      "maxLuminanceDelta": 0.48351138203740124,
+      "commonPixels": 4760
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "meanLuminanceDelta": 0.02765397703853876,
+      "maxLuminanceDelta": 0.48351138203740124,
+      "commonPixels": 4760
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "meanLuminanceDelta": 0.03537398761969178,
+      "maxLuminanceDelta": 0.481236872369051,
+      "commonPixels": 4672
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "meanLuminanceDelta": 0.009788910996158877,
+      "maxLuminanceDelta": 0.4711960886538029,
+      "commonPixels": 4820
+    },
+    {
+      "from": 5,
+      "to": 0,
+      "meanLuminanceDelta": 0.01574374300047778,
+      "maxLuminanceDelta": 0.47400079436898235,
+      "commonPixels": 4784
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "meanLuminanceDelta": 0.03699955767779137,
+      "maxLuminanceDelta": 0.7307662809848785,
+      "commonPixels": 4756
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "meanLuminanceDelta": 0.040953893783058186,
+      "maxLuminanceDelta": 0.7299325555443763,
+      "commonPixels": 4800
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "meanLuminanceDelta": 0.02332414822457468,
+      "maxLuminanceDelta": 0.4737176571309567,
+      "commonPixels": 4872
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "meanLuminanceDelta": 0.041068810623842655,
+      "maxLuminanceDelta": 0.7307662809848785,
+      "commonPixels": 4800
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "meanLuminanceDelta": 0.04695308916688444,
+      "maxLuminanceDelta": 0.7349709866166114,
+      "commonPixels": 4680
+    },
+    {
+      "from": 11,
+      "to": 6,
+      "meanLuminanceDelta": 0.030836135594576593,
+      "maxLuminanceDelta": 0.47400079436898235,
+      "commonPixels": 4744
+    }
+  ],
+  "warning": "Geometry moves; common-pixel differences are diagnostic, not automatic flicker pass/fail."
+}

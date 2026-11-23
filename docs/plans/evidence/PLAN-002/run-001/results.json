@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-23",
+  "timezone": "Asia/Seoul",
+  "godot": "4.7.2.stable.mono.official.ed1daf0bf",
+  "sdk": "8.0.318",
+  "runtime": "8.0.21",
+  "targetFramework": "net8.0",
+  "build": "passed; 0 warnings, 0 errors",
+  "import": "passed",
+  "headlessLifecycle": "passed",
+  "windowsUi": "observed C# runtime ready; clicked Exit; window closed; process exited 0",
+  "restart": "passed",
+  "missingSmokeLogRejected": true,
+  "existingLogProtected": true,
+  "processEnvironmentRestored": true,
+  "godotSignature": "Valid",
+  "godotSigner": "CN=Prehensile Tales B.V., O=Prehensile Tales B.V., L=Uitgeest, S=Noord Holland, C=NL",
+  "godotArchiveSha256": "A2A48473A7414C5F19FAB690518CAEBB738C09EF9601F6BD2388676A7F53B3C0",
+  "designSha256": "7D7ADC3BFE0AB12373D7CFAF3A9BFA6E4A4354381F02515EAAE5FD12ADFB0E44",
+  "unverified": [
+    "transparent overlay",
+    "click-through",
+    "multi-monitor",
+    "SCP AI",
+    "export",
+    "performance"
+  ]
+}

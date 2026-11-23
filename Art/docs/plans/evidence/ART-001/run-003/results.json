@@ -1,0 +1,33 @@
+{
+  "clippedFrames": 0,
+  "colorCoverageMismatches": 0,
+  "engineValidation": "PLAN-005 run-005/006/007; see development evidence",
+  "exportMismatches": 0,
+  "faceMismatches": 0,
+  "frames": 12,
+  "invalidNormalLength": 0,
+  "invalidSpecular": 0,
+  "nonUniformBody": 0,
+  "normalLengthMax": 1.0056587298725,
+  "normalLengthMin": 0.99403062619476,
+  "outlineMismatches": 0,
+  "sourceFrames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "status": "PASS",
+  "userApproval": "pending",
+  "date": "2026-11-24",
+  "revision": 3,
+  "sourcePairSHA256": "41888B1A5B1AF7D8243F48DC6662874197B673F7C43C78F1996B3D7229794E09"
+}

@@ -1,0 +1,1449 @@
+{
+  "assetId": "Scp999",
+  "canvas": {
+    "height": 64,
+    "width": 64
+  },
+  "color": {
+    "bodyRGBA": [
+      247,
+      138,
+      33,
+      211
+    ],
+    "directionalShading": false,
+    "highlightsIncluded": false
+  },
+  "completeAnimation": true,
+  "engineValidation": "PLAN-005 stage A: r002 tested; r004 playback pending",
+  "frames": [
+    {
+      "durationMs": 220,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 1,
+      "sampleIndex": 0,
+      "sourceAsepriteFrame": 1,
+      "sourceIndex": 0,
+      "sourceTag": "idle",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 180,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 64,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 2,
+      "sampleIndex": 1,
+      "sourceAsepriteFrame": 2,
+      "sourceIndex": 1,
+      "sourceTag": "idle",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 128,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 3,
+      "sampleIndex": 2,
+      "sourceAsepriteFrame": 3,
+      "sourceIndex": 2,
+      "sourceTag": "idle",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 160,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 192,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 4,
+      "sampleIndex": 3,
+      "sourceAsepriteFrame": 4,
+      "sourceIndex": 3,
+      "sourceTag": "idle",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 180,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 256,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 5,
+      "sampleIndex": 4,
+      "sourceAsepriteFrame": 5,
+      "sourceIndex": 4,
+      "sourceTag": "idle",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 13
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 200,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 320,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 6,
+      "sampleIndex": 5,
+      "sourceAsepriteFrame": 6,
+      "sourceIndex": 5,
+      "sourceTag": "idle",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 13
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 384,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 7,
+      "sampleIndex": 6,
+      "sourceAsepriteFrame": 7,
+      "sourceIndex": 6,
+      "sourceTag": "move",
+      "reactionAnchor": {
+        "x": 34,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 448,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 8,
+      "sampleIndex": 7,
+      "sourceAsepriteFrame": 8,
+      "sourceIndex": 7,
+      "sourceTag": "move",
+      "reactionAnchor": {
+        "x": 35,
+        "y": 15
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 512,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 9,
+      "sampleIndex": 8,
+      "sourceAsepriteFrame": 9,
+      "sourceIndex": 8,
+      "sourceTag": "move",
+      "reactionAnchor": {
+        "x": 36,
+        "y": 16
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 576,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 10,
+      "sampleIndex": 9,
+      "sourceAsepriteFrame": 10,
+      "sourceIndex": 9,
+      "sourceTag": "move",
+      "reactionAnchor": {
+        "x": 36,
+        "y": 15
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 640,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 11,
+      "sampleIndex": 10,
+      "sourceAsepriteFrame": 11,
+      "sourceIndex": 10,
+      "sourceTag": "move",
+      "reactionAnchor": {
+        "x": 35,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 160,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 704,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 12,
+      "sampleIndex": 11,
+      "sourceAsepriteFrame": 12,
+      "sourceIndex": 11,
+      "sourceTag": "move",
+      "reactionAnchor": {
+        "x": 33,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 90,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 768,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 13,
+      "sampleIndex": 12,
+      "sourceAsepriteFrame": 13,
+      "sourceIndex": 12,
+      "sourceTag": "typing_react",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 18
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 80,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 832,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 14,
+      "sampleIndex": 13,
+      "sourceAsepriteFrame": 14,
+      "sourceIndex": 13,
+      "sourceTag": "typing_react",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 7
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 896,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 15,
+      "sampleIndex": 14,
+      "sourceAsepriteFrame": 15,
+      "sourceIndex": 14,
+      "sourceTag": "typing_react",
+      "reactionAnchor": {
+        "x": 33,
+        "y": 6
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 90,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 960,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 16,
+      "sampleIndex": 15,
+      "sourceAsepriteFrame": 16,
+      "sourceIndex": 15,
+      "sourceTag": "typing_react",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 10
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 90,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1024,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 17,
+      "sampleIndex": 16,
+      "sourceAsepriteFrame": 17,
+      "sourceIndex": 16,
+      "sourceTag": "typing_react",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 18
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 110,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1088,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 18,
+      "sampleIndex": 17,
+      "sourceAsepriteFrame": 18,
+      "sourceIndex": 17,
+      "sourceTag": "typing_react",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1152,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 19,
+      "sampleIndex": 18,
+      "sourceAsepriteFrame": 19,
+      "sourceIndex": 18,
+      "sourceTag": "typing_react",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 130,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1216,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 20,
+      "sampleIndex": 19,
+      "sourceAsepriteFrame": 20,
+      "sourceIndex": 19,
+      "sourceTag": "pet",
+      "reactionAnchor": {
+        "x": 30,
+        "y": 17
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1280,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 21,
+      "sampleIndex": 20,
+      "sourceAsepriteFrame": 21,
+      "sourceIndex": 20,
+      "sourceTag": "pet",
+      "reactionAnchor": {
+        "x": 29,
+        "y": 20
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1344,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 22,
+      "sampleIndex": 21,
+      "sourceAsepriteFrame": 22,
+      "sourceIndex": 21,
+      "sourceTag": "pet",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 21
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1408,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 23,
+      "sampleIndex": 22,
+      "sourceAsepriteFrame": 23,
+      "sourceIndex": 22,
+      "sourceTag": "pet",
+      "reactionAnchor": {
+        "x": 35,
+        "y": 20
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 130,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1472,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 24,
+      "sampleIndex": 23,
+      "sourceAsepriteFrame": 24,
+      "sourceIndex": 23,
+      "sourceTag": "pet",
+      "reactionAnchor": {
+        "x": 34,
+        "y": 17
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1536,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 25,
+      "sampleIndex": 24,
+      "sourceAsepriteFrame": 25,
+      "sourceIndex": 24,
+      "sourceTag": "pet",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1600,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 26,
+      "sampleIndex": 25,
+      "sourceAsepriteFrame": 26,
+      "sourceIndex": 25,
+      "sourceTag": "pet_recover",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 17
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 110,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1664,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 27,
+      "sampleIndex": 26,
+      "sourceAsepriteFrame": 27,
+      "sourceIndex": 26,
+      "sourceTag": "pet_recover",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 12
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 170,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1728,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 28,
+      "sampleIndex": 27,
+      "sourceAsepriteFrame": 28,
+      "sourceIndex": 27,
+      "sourceTag": "pet_recover",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 90,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1792,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 29,
+      "sampleIndex": 28,
+      "sourceAsepriteFrame": 29,
+      "sourceIndex": 28,
+      "sourceTag": "takeoff",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 110,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1856,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 30,
+      "sampleIndex": 29,
+      "sourceAsepriteFrame": 30,
+      "sourceIndex": 29,
+      "sourceTag": "takeoff",
+      "reactionAnchor": {
+        "x": 33,
+        "y": 20
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 70,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1920,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 31,
+      "sampleIndex": 30,
+      "sourceAsepriteFrame": 31,
+      "sourceIndex": 30,
+      "sourceTag": "takeoff",
+      "reactionAnchor": {
+        "x": 34,
+        "y": 17
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 80,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 1984,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 32,
+      "sampleIndex": 31,
+      "sourceAsepriteFrame": 32,
+      "sourceIndex": 31,
+      "sourceTag": "takeoff",
+      "reactionAnchor": {
+        "x": 34,
+        "y": 6
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2048,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 33,
+      "sampleIndex": 32,
+      "sourceAsepriteFrame": 33,
+      "sourceIndex": 32,
+      "sourceTag": "fall",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 7
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2112,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 34,
+      "sampleIndex": 33,
+      "sourceAsepriteFrame": 34,
+      "sourceIndex": 33,
+      "sourceTag": "fall",
+      "reactionAnchor": {
+        "x": 31,
+        "y": 8
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2176,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 35,
+      "sampleIndex": 34,
+      "sourceAsepriteFrame": 35,
+      "sourceIndex": 34,
+      "sourceTag": "fall",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 7
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2240,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 36,
+      "sampleIndex": 35,
+      "sourceAsepriteFrame": 36,
+      "sourceIndex": 35,
+      "sourceTag": "fall",
+      "reactionAnchor": {
+        "x": 33,
+        "y": 8
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 60,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2304,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 37,
+      "sampleIndex": 36,
+      "sourceAsepriteFrame": 37,
+      "sourceIndex": 36,
+      "sourceTag": "land",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 7
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 80,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2368,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 38,
+      "sampleIndex": 37,
+      "sourceAsepriteFrame": 38,
+      "sourceIndex": 37,
+      "sourceTag": "land",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 22
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2432,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 39,
+      "sampleIndex": 38,
+      "sourceAsepriteFrame": 39,
+      "sourceIndex": 38,
+      "sourceTag": "land",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 20
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2496,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 40,
+      "sampleIndex": 39,
+      "sourceAsepriteFrame": 40,
+      "sourceIndex": 39,
+      "sourceTag": "land",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 12
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 160,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2560,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 41,
+      "sampleIndex": 40,
+      "sourceAsepriteFrame": 41,
+      "sourceIndex": 40,
+      "sourceTag": "land",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2624,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 42,
+      "sampleIndex": 41,
+      "sourceAsepriteFrame": 42,
+      "sourceIndex": 41,
+      "sourceTag": "balance",
+      "reactionAnchor": {
+        "x": 28,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2688,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 43,
+      "sampleIndex": 42,
+      "sourceAsepriteFrame": 43,
+      "sourceIndex": 42,
+      "sourceTag": "balance",
+      "reactionAnchor": {
+        "x": 26,
+        "y": 13
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2752,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 44,
+      "sampleIndex": 43,
+      "sourceAsepriteFrame": 44,
+      "sourceIndex": 43,
+      "sourceTag": "balance",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2816,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 45,
+      "sampleIndex": 44,
+      "sourceAsepriteFrame": 45,
+      "sourceIndex": 44,
+      "sourceTag": "balance",
+      "reactionAnchor": {
+        "x": 38,
+        "y": 13
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2880,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 46,
+      "sampleIndex": 45,
+      "sourceAsepriteFrame": 46,
+      "sourceIndex": 45,
+      "sourceTag": "balance",
+      "reactionAnchor": {
+        "x": 36,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 150,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 2944,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 47,
+      "sampleIndex": 46,
+      "sourceAsepriteFrame": 47,
+      "sourceIndex": 46,
+      "sourceTag": "balance",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 3008,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 48,
+      "sampleIndex": 47,
+      "sourceAsepriteFrame": 48,
+      "sourceIndex": 47,
+      "sourceTag": "balance_recover",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 15
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 3072,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 49,
+      "sampleIndex": 48,
+      "sourceAsepriteFrame": 49,
+      "sourceIndex": 48,
+      "sourceTag": "balance_recover",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 13
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    },
+    {
+      "durationMs": 160,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 3136,
+        "y": 0
+      },
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "sampleAsepriteFrame": 50,
+      "sampleIndex": 49,
+      "sourceAsepriteFrame": 50,
+      "sourceIndex": 49,
+      "sourceTag": "balance_recover",
+      "reactionAnchor": {
+        "x": 32,
+        "y": 14
+      },
+      "trailAnchor": {
+        "x": 32,
+        "y": 56
+      }
+    }
+  ],
+  "kind": "full-animation-lighting",
+  "normal": {
+    "alpha": "opaque; color map owns coverage",
+    "encoding": "RGB tangent vector in [0,255]; X right,Y up,Z toward viewer",
+    "method": "silhouette distance height field, smoothed gradient; preliminary",
+    "neutral": [
+      128,
+      128,
+      255
+    ]
+  },
+  "pivot": {
+    "x": 32,
+    "y": 56
+  },
+  "revision": 4,
+  "sourceRevision": 1,
+  "specular": {
+    "alpha": "opaque; ignored as coverage",
+    "encoding": "RGB equal grayscale; 180 body, 0 face/outline/background",
+    "interpretation": "CanvasTexture specular/shininess input candidate; actual engine parameter response unverified"
+  },
+  "tags": [
+    {
+      "from": 0,
+      "loop": true,
+      "name": "idle",
+      "to": 5
+    },
+    {
+      "from": 6,
+      "loop": true,
+      "name": "move",
+      "to": 11
+    },
+    {
+      "from": 12,
+      "loop": false,
+      "name": "typing_react",
+      "to": 18
+    },
+    {
+      "from": 19,
+      "loop": true,
+      "name": "pet",
+      "to": 24
+    },
+    {
+      "from": 25,
+      "loop": false,
+      "name": "pet_recover",
+      "to": 27
+    },
+    {
+      "from": 28,
+      "loop": false,
+      "name": "takeoff",
+      "to": 31
+    },
+    {
+      "from": 32,
+      "loop": true,
+      "name": "fall",
+      "to": 35
+    },
+    {
+      "from": 36,
+      "loop": false,
+      "name": "land",
+      "to": 40
+    },
+    {
+      "from": 41,
+      "loop": true,
+      "name": "balance",
+      "to": 46
+    },
+    {
+      "from": 47,
+      "loop": false,
+      "name": "balance_recover",
+      "to": 49
+    }
+  ],
+  "completeTags": [
+    "idle",
+    "move",
+    "typing_react",
+    "pet",
+    "pet_recover",
+    "takeoff",
+    "fall",
+    "land",
+    "balance",
+    "balance_recover"
+  ],
+  "sheet": {
+    "width": 3200,
+    "height": 64,
+    "columns": 50,
+    "rows": 1,
+    "padding": 0,
+    "spacing": 0,
+    "trim": false
+  },
+  "files": {
+    "color": "Scp999_color.png",
+    "normal": "Scp999_normal.png",
+    "specular": "Scp999_specular.png"
+  },
+  "engineContract": {
+    "plan": "PLAN-005 stage A",
+    "renderer": "gl_compatibility",
+    "normalFlip": "Sprite2D.FlipH only",
+    "specularShininess": 0.45,
+    "specularColor": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "dataImport": "lossless ImageTexture, nearest, no mipmaps",
+    "alpha": "straight source PNG; premultiplied Viewport display",
+    "gates": [
+      "run-004",
+      "run-007",
+      "run-009"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-23",
+  "kind": "observed-ui-checks",
+  "receiverLog": "../run-002/input-probe.log",
+  "productLog": "overlay-interactive.log",
+  "checks": [
+    {
+      "action": "gap click (run-002)",
+      "receiverDown": 1,
+      "receiverUp": 1,
+      "pass": true
+    },
+    {
+      "action": "transparent corner click (run-002)",
+      "receiverDown": 2,
+      "receiverUp": 2,
+      "pass": true
+    },
+    {
+      "action": "first body click (run-002)",
+      "receiverDown": 2,
+      "receiverUp": 2,
+      "tokenCount": 1,
+      "pass": true
+    },
+    {
+      "action": "fast drag (run-003)",
+      "receiverDown": 2,
+      "receiverUp": 2,
+      "position": [
+        286,
+        476
+      ],
+      "tokenCount": 1,
+      "pass": true
+    },
+    {
+      "action": "old body click",
+      "receiverDown": 3,
+      "receiverUp": 3,
+      "pass": true
+    },
+    {
+      "action": "moved body click",
+      "receiverDown": 3,
+      "receiverUp": 3,
+      "tokenCount": 2,
+      "pass": true
+    },
+    {
+      "action": "hidden body click",
+      "receiverDown": 4,
+      "receiverUp": 4,
+      "pass": true
+    },
+    {
+      "action": "restore",
+      "position": [
+        286,
+        476
+      ],
+      "tokenCount": 2,
+      "pass": true
+    },
+    {
+      "action": "second body click after restore",
+      "receiverDown": 4,
+      "receiverUp": 4,
+      "tokenCount": 1,
+      "pass": true
+    },
+    {
+      "action": "body position after exit",
+      "receiverDown": 5,
+      "receiverUp": 5,
+      "pass": true
+    },
+    {
+      "action": "close receiver",
+      "productExitCode": 0,
+      "receiverExitCode": 0,
+      "remainingTestWindows": 0,
+      "pass": true
+    }
+  ]
+}

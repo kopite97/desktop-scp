@@ -1,0 +1,30 @@
+LINES AGENTS.md: 30/100
+LINES Art/AGENTS.md: 31/100
+LINES docs/plans/plan.md: 120/150
+LINES Art/docs/plans/plan.md: 79/150
+LINES docs/agents/architecture.md: 40/150
+LINES docs/agents/godot-tools.md: 97/150
+LINES docs/agents/harness.md: 51/150
+LINES docs/agents/plan-management.md: 10/150
+LINES docs/agents/project-structure.md: 47/150
+LINES docs/agents/verification.md: 48/150
+LINES docs/agents/windows-integration.md: 49/150
+LINES docs/agents/workflow.md: 50/150
+LINES Art/docs/agents/README.md: 17/150
+LINES Art/docs/agents/animation.md: 26/150
+LINES Art/docs/agents/aseprite.md: 47/150
+LINES Art/docs/agents/design.md: 48/150
+LINES Art/docs/agents/handoff.md: 39/150
+LINES Art/docs/agents/project-structure.md: 42/150
+LINES Art/docs/agents/revisions.md: 33/150
+LINES Art/docs/agents/verification.md: 33/150
+LINES Art/docs/agents/workflow.md: 35/150
+PLANS total=8, active=0
+ART_PLANS total=3, active=1
+ACTIVE_ART Art/docs/plans/ART-001-scp-999-character.md
+DECISIONS total=5
+PLAN_INDEX entries=8
+ART_INDEX entries=3
+TECH_INDEX entries=5
+LOCAL_LINKS checked=462 (inline file targets only; no anchors or web requests)
+PASS document structure, PLAN/ART/TECH metadata and indexes, at most 1 active per PLAN/ART scope, local file links

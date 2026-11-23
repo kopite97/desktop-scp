@@ -1,0 +1,723 @@
+{
+  "backgrounds": [
+    "light",
+    "dark",
+    "pattern"
+  ],
+  "bodyReference": "Scp999 r004; PLAN-005 run-010 real Godot captures",
+  "dayNight": true,
+  "durationMs": 2600,
+  "events": [
+    {
+      "kind": "heart",
+      "ms": 0
+    },
+    {
+      "kind": "note",
+      "ms": 200
+    },
+    {
+      "kind": "heart",
+      "ms": 650
+    },
+    {
+      "kind": "note",
+      "ms": 950
+    },
+    {
+      "kind": "heart",
+      "ms": 1300
+    },
+    {
+      "kind": "note",
+      "ms": 1600
+    }
+  ],
+  "faceOverlapPixelsAtSpawn": 0,
+  "scales": [
+    1,
+    2
+  ],
+  "scope": "Aseprite compositing review, not Godot VFX integration. Rise and spawn timings are illustrative.",
+  "timeline": [
+    {
+      "bodyFrame": 13,
+      "durationMs": 50,
+      "file": "composite-frames/frame-000.png",
+      "instances": 1,
+      "timeMs": 0
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 20,
+      "file": "composite-frames/frame-001.png",
+      "instances": 1,
+      "timeMs": 50
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 20,
+      "file": "composite-frames/frame-002.png",
+      "instances": 1,
+      "timeMs": 70
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 10,
+      "file": "composite-frames/frame-003.png",
+      "instances": 1,
+      "timeMs": 90
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 50,
+      "file": "composite-frames/frame-004.png",
+      "instances": 1,
+      "timeMs": 100
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 20,
+      "file": "composite-frames/frame-005.png",
+      "instances": 1,
+      "timeMs": 150
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 30,
+      "file": "composite-frames/frame-006.png",
+      "instances": 1,
+      "timeMs": 170
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 50,
+      "file": "composite-frames/frame-007.png",
+      "instances": 2,
+      "timeMs": 200
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 20,
+      "file": "composite-frames/frame-008.png",
+      "instances": 2,
+      "timeMs": 250
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 30,
+      "file": "composite-frames/frame-009.png",
+      "instances": 2,
+      "timeMs": 270
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 50,
+      "file": "composite-frames/frame-010.png",
+      "instances": 2,
+      "timeMs": 300
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 10,
+      "file": "composite-frames/frame-011.png",
+      "instances": 2,
+      "timeMs": 350
+    },
+    {
+      "bodyFrame": 17,
+      "durationMs": 40,
+      "file": "composite-frames/frame-012.png",
+      "instances": 2,
+      "timeMs": 360
+    },
+    {
+      "bodyFrame": 17,
+      "durationMs": 10,
+      "file": "composite-frames/frame-013.png",
+      "instances": 2,
+      "timeMs": 400
+    },
+    {
+      "bodyFrame": 17,
+      "durationMs": 40,
+      "file": "composite-frames/frame-014.png",
+      "instances": 2,
+      "timeMs": 410
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 50,
+      "file": "composite-frames/frame-015.png",
+      "instances": 2,
+      "timeMs": 450
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 50,
+      "file": "composite-frames/frame-016.png",
+      "instances": 2,
+      "timeMs": 500
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 10,
+      "file": "composite-frames/frame-017.png",
+      "instances": 2,
+      "timeMs": 550
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 10,
+      "file": "composite-frames/frame-018.png",
+      "instances": 2,
+      "timeMs": 560
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 30,
+      "file": "composite-frames/frame-019.png",
+      "instances": 2,
+      "timeMs": 570
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 10,
+      "file": "composite-frames/frame-020.png",
+      "instances": 2,
+      "timeMs": 600
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 40,
+      "file": "composite-frames/frame-021.png",
+      "instances": 2,
+      "timeMs": 610
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 40,
+      "file": "composite-frames/frame-022.png",
+      "instances": 3,
+      "timeMs": 650
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 10,
+      "file": "composite-frames/frame-023.png",
+      "instances": 3,
+      "timeMs": 690
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 20,
+      "file": "composite-frames/frame-024.png",
+      "instances": 3,
+      "timeMs": 700
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 30,
+      "file": "composite-frames/frame-025.png",
+      "instances": 3,
+      "timeMs": 720
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 20,
+      "file": "composite-frames/frame-026.png",
+      "instances": 3,
+      "timeMs": 750
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 20,
+      "file": "composite-frames/frame-027.png",
+      "instances": 3,
+      "timeMs": 770
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 10,
+      "file": "composite-frames/frame-028.png",
+      "instances": 3,
+      "timeMs": 790
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 50,
+      "file": "composite-frames/frame-029.png",
+      "instances": 3,
+      "timeMs": 800
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 20,
+      "file": "composite-frames/frame-030.png",
+      "instances": 2,
+      "timeMs": 850
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 20,
+      "file": "composite-frames/frame-031.png",
+      "instances": 2,
+      "timeMs": 870
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 10,
+      "file": "composite-frames/frame-032.png",
+      "instances": 2,
+      "timeMs": 890
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 50,
+      "file": "composite-frames/frame-033.png",
+      "instances": 2,
+      "timeMs": 900
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 20,
+      "file": "composite-frames/frame-034.png",
+      "instances": 3,
+      "timeMs": 950
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 20,
+      "file": "composite-frames/frame-035.png",
+      "instances": 3,
+      "timeMs": 970
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 10,
+      "file": "composite-frames/frame-036.png",
+      "instances": 3,
+      "timeMs": 990
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 20,
+      "file": "composite-frames/frame-037.png",
+      "instances": 3,
+      "timeMs": 1000
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 30,
+      "file": "composite-frames/frame-038.png",
+      "instances": 3,
+      "timeMs": 1020
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 10,
+      "file": "composite-frames/frame-039.png",
+      "instances": 2,
+      "timeMs": 1050
+    },
+    {
+      "bodyFrame": 17,
+      "durationMs": 40,
+      "file": "composite-frames/frame-040.png",
+      "instances": 2,
+      "timeMs": 1060
+    },
+    {
+      "bodyFrame": 17,
+      "durationMs": 50,
+      "file": "composite-frames/frame-041.png",
+      "instances": 2,
+      "timeMs": 1100
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 50,
+      "file": "composite-frames/frame-042.png",
+      "instances": 2,
+      "timeMs": 1150
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 20,
+      "file": "composite-frames/frame-043.png",
+      "instances": 2,
+      "timeMs": 1200
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 30,
+      "file": "composite-frames/frame-044.png",
+      "instances": 2,
+      "timeMs": 1220
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 10,
+      "file": "composite-frames/frame-045.png",
+      "instances": 2,
+      "timeMs": 1250
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 40,
+      "file": "composite-frames/frame-046.png",
+      "instances": 2,
+      "timeMs": 1260
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 40,
+      "file": "composite-frames/frame-047.png",
+      "instances": 3,
+      "timeMs": 1300
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 10,
+      "file": "composite-frames/frame-048.png",
+      "instances": 3,
+      "timeMs": 1340
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 10,
+      "file": "composite-frames/frame-049.png",
+      "instances": 3,
+      "timeMs": 1350
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 10,
+      "file": "composite-frames/frame-050.png",
+      "instances": 3,
+      "timeMs": 1360
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 30,
+      "file": "composite-frames/frame-051.png",
+      "instances": 3,
+      "timeMs": 1370
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 40,
+      "file": "composite-frames/frame-052.png",
+      "instances": 3,
+      "timeMs": 1400
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 10,
+      "file": "composite-frames/frame-053.png",
+      "instances": 3,
+      "timeMs": 1440
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 40,
+      "file": "composite-frames/frame-054.png",
+      "instances": 3,
+      "timeMs": 1450
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 10,
+      "file": "composite-frames/frame-055.png",
+      "instances": 3,
+      "timeMs": 1490
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 20,
+      "file": "composite-frames/frame-056.png",
+      "instances": 2,
+      "timeMs": 1500
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 30,
+      "file": "composite-frames/frame-057.png",
+      "instances": 2,
+      "timeMs": 1520
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 20,
+      "file": "composite-frames/frame-058.png",
+      "instances": 2,
+      "timeMs": 1550
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 30,
+      "file": "composite-frames/frame-059.png",
+      "instances": 2,
+      "timeMs": 1570
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 40,
+      "file": "composite-frames/frame-060.png",
+      "instances": 3,
+      "timeMs": 1600
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 10,
+      "file": "composite-frames/frame-061.png",
+      "instances": 3,
+      "timeMs": 1640
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 20,
+      "file": "composite-frames/frame-062.png",
+      "instances": 3,
+      "timeMs": 1650
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 30,
+      "file": "composite-frames/frame-063.png",
+      "instances": 3,
+      "timeMs": 1670
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 10,
+      "file": "composite-frames/frame-064.png",
+      "instances": 3,
+      "timeMs": 1700
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 30,
+      "file": "composite-frames/frame-065.png",
+      "instances": 3,
+      "timeMs": 1710
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 10,
+      "file": "composite-frames/frame-066.png",
+      "instances": 3,
+      "timeMs": 1740
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 10,
+      "file": "composite-frames/frame-067.png",
+      "instances": 3,
+      "timeMs": 1750
+    },
+    {
+      "bodyFrame": 17,
+      "durationMs": 40,
+      "file": "composite-frames/frame-068.png",
+      "instances": 3,
+      "timeMs": 1760
+    },
+    {
+      "bodyFrame": 17,
+      "durationMs": 50,
+      "file": "composite-frames/frame-069.png",
+      "instances": 2,
+      "timeMs": 1800
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 20,
+      "file": "composite-frames/frame-070.png",
+      "instances": 2,
+      "timeMs": 1850
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 30,
+      "file": "composite-frames/frame-071.png",
+      "instances": 2,
+      "timeMs": 1870
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 50,
+      "file": "composite-frames/frame-072.png",
+      "instances": 2,
+      "timeMs": 1900
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 10,
+      "file": "composite-frames/frame-073.png",
+      "instances": 2,
+      "timeMs": 1950
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 30,
+      "file": "composite-frames/frame-074.png",
+      "instances": 2,
+      "timeMs": 1960
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 10,
+      "file": "composite-frames/frame-075.png",
+      "instances": 2,
+      "timeMs": 1990
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 10,
+      "file": "composite-frames/frame-076.png",
+      "instances": 2,
+      "timeMs": 2000
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 40,
+      "file": "composite-frames/frame-077.png",
+      "instances": 2,
+      "timeMs": 2010
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 40,
+      "file": "composite-frames/frame-078.png",
+      "instances": 2,
+      "timeMs": 2050
+    },
+    {
+      "bodyFrame": 19,
+      "durationMs": 10,
+      "file": "composite-frames/frame-079.png",
+      "instances": 2,
+      "timeMs": 2090
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 50,
+      "file": "composite-frames/frame-080.png",
+      "instances": 2,
+      "timeMs": 2100
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 20,
+      "file": "composite-frames/frame-081.png",
+      "instances": 1,
+      "timeMs": 2150
+    },
+    {
+      "bodyFrame": 13,
+      "durationMs": 20,
+      "file": "composite-frames/frame-082.png",
+      "instances": 1,
+      "timeMs": 2170
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 10,
+      "file": "composite-frames/frame-083.png",
+      "instances": 1,
+      "timeMs": 2190
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 50,
+      "file": "composite-frames/frame-084.png",
+      "instances": 1,
+      "timeMs": 2200
+    },
+    {
+      "bodyFrame": 14,
+      "durationMs": 20,
+      "file": "composite-frames/frame-085.png",
+      "instances": 1,
+      "timeMs": 2250
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 20,
+      "file": "composite-frames/frame-086.png",
+      "instances": 1,
+      "timeMs": 2270
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 10,
+      "file": "composite-frames/frame-087.png",
+      "instances": 1,
+      "timeMs": 2290
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 50,
+      "file": "composite-frames/frame-088.png",
+      "instances": 1,
+      "timeMs": 2300
+    },
+    {
+      "bodyFrame": 15,
+      "durationMs": 20,
+      "file": "composite-frames/frame-089.png",
+      "instances": 1,
+      "timeMs": 2350
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 20,
+      "file": "composite-frames/frame-090.png",
+      "instances": 1,
+      "timeMs": 2370
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 10,
+      "file": "composite-frames/frame-091.png",
+      "instances": 1,
+      "timeMs": 2390
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 50,
+      "file": "composite-frames/frame-092.png",
+      "instances": 1,
+      "timeMs": 2400
+    },
+    {
+      "bodyFrame": 16,
+      "durationMs": 10,
+      "file": "composite-frames/frame-093.png",
+      "instances": 0,
+      "timeMs": 2450
+    },
+    {
+      "bodyFrame": 17,
+      "durationMs": 40,
+      "file": "composite-frames/frame-094.png",
+      "instances": 0,
+      "timeMs": 2460
+    },
+    {
+      "bodyFrame": 17,
+      "durationMs": 50,
+      "file": "composite-frames/frame-095.png",
+      "instances": 0,
+      "timeMs": 2500
+    },
+    {
+      "bodyFrame": 18,
+      "durationMs": 50,
+      "file": "composite-frames/frame-096.png",
+      "instances": 0,
+      "timeMs": 2550
+    }
+  ]
+}

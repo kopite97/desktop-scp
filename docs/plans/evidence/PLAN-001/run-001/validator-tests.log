@@ -1,0 +1,18 @@
+✔ valid proposed-only project allows zero active plans (27.0548ms)
+✔ one active plan passes; two active plans fail (38.3281ms)
+✔ missing documents and line limit violations fail (21.3002ms)
+✔ invalid state, missing type, duplicate fields and impossible dates fail (22.9012ms)
+✔ PLAN IDs, filenames, sections and index summaries are checked (24.3251ms)
+✔ unknown, malformed and duplicate index entries fail (24.0033ms)
+✔ TECH duplicate IDs, states, dates and index consistency are checked (22.3376ms)
+✔ real local links are checked while fenced examples, anchors and web links are skipped (37.2811ms)
+✔ evidence markdown is link-checked but never treated as a PLAN (48.7045ms)
+✔ BOM and CRLF are accepted, malformed front matter is rejected (36.7517ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 351.3125
