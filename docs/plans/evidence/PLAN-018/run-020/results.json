@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "method": "User final EXE confirmation and process/log observation",
+  "user_confirmation": "생성 위치·드래그·포털 모두 정상이고 Exit했어요",
+  "process": 44488,
+  "process_remaining": false,
+  "exit_requested": true,
+  "stopped": true,
+  "settings": "isolated preview-settings.json; only SCP-049 enabled; user preferences untouched"
+}

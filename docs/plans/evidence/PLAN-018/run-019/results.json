@@ -1,0 +1,5958 @@
+{
+  "pid": 2096,
+  "visibleActorSamples": 196,
+  "unexpectedVisibleControls": 0,
+  "durationMs": 3755,
+  "passed": true,
+  "observations": [
+    {
+      "windows": [],
+      "milliseconds": 4
+    },
+    {
+      "windows": [],
+      "milliseconds": 32
+    },
+    {
+      "windows": [],
+      "milliseconds": 47
+    },
+    {
+      "windows": [],
+      "milliseconds": 63
+    },
+    {
+      "windows": [],
+      "milliseconds": 79
+    },
+    {
+      "windows": [],
+      "milliseconds": 94
+    },
+    {
+      "windows": [],
+      "milliseconds": 109
+    },
+    {
+      "windows": [],
+      "milliseconds": 125
+    },
+    {
+      "windows": [],
+      "milliseconds": 141
+    },
+    {
+      "windows": [],
+      "milliseconds": 156
+    },
+    {
+      "windows": [],
+      "milliseconds": 172
+    },
+    {
+      "windows": [],
+      "milliseconds": 204
+    },
+    {
+      "windows": [],
+      "milliseconds": 236
+    },
+    {
+      "windows": [],
+      "milliseconds": 252
+    },
+    {
+      "windows": [],
+      "milliseconds": 283
+    },
+    {
+      "windows": [],
+      "milliseconds": 299
+    },
+    {
+      "windows": [],
+      "milliseconds": 314
+    },
+    {
+      "windows": [],
+      "milliseconds": 330
+    },
+    {
+      "windows": [],
+      "milliseconds": 346
+    },
+    {
+      "windows": [],
+      "milliseconds": 376
+    },
+    {
+      "windows": [],
+      "milliseconds": 393
+    },
+    {
+      "windows": [],
+      "milliseconds": 408
+    },
+    {
+      "windows": [],
+      "milliseconds": 424
+    },
+    {
+      "windows": [],
+      "milliseconds": 440
+    },
+    {
+      "windows": [],
+      "milliseconds": 455
+    },
+    {
+      "windows": [],
+      "milliseconds": 471
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 1,
+          "Height": 1,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 487
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 503
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 520
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 534
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 550
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 565
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 582
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 597
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 613
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 629
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 644
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 660
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 675
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 691
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 706
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 722
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 737
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 753
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 769
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 785
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 800
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 815
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 831
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 847
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 862
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 879
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 894
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 910
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 925
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 941
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 956
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 971
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 987
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1002
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1018
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1034
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1049
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1065
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1081
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1096
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1112
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1128
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1143
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1159
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1175
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1190
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1206
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1221
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1237
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1253
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1269
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1284
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1300
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1316
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1332
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1347
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1362
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1379
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1394
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1410
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1425
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1441
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1456
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1472
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1487
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1503
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1518
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1534
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1549
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1565
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1581
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1596
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1612
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1628
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1643
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1658
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1688
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1704
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1719
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1734
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1750
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1766
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1781
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1796
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1812
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1827
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1843
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1858
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1873
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1890
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1905
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1921
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1937
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1953
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1968
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1983
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 1999
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2015
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2029
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2045
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2060
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2076
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2092
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2108
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2123
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2139
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2154
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2169
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2185
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2201
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2217
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2233
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2248
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2264
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2280
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2295
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2311
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2327
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2343
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2358
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2374
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2389
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2405
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2420
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2435
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2450
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2466
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2482
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2497
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2513
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2529
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2544
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2560
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2575
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2590
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2606
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2621
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2636
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2651
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2667
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2682
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2697
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2713
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2728
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2744
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2759
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2774
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2789
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2804
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2820
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2836
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2851
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2866
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2882
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2897
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2912
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2928
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2943
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2959
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2975
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 2991
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3007
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3023
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3038
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3054
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3069
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3085
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3101
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3116
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3132
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3147
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3162
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3178
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3193
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3209
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3224
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3240
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3256
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3272
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3287
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3302
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3318
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3334
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3350
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3365
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3381
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3398
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3413
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3428
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3444
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3460
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3475
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3491
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3506
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3522
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3538
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3554
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3570
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3585
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3601
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3616
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3632
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3649
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP-049",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1564,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134742072,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3664
+    },
+    {
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ],
+      "milliseconds": 3680
+    },
+    {
+      "windows": [],
+      "milliseconds": 3695
+    }
+  ],
+  "exitCode": 0,
+  "visibleControlSamples": 2,
+  "controlSamples": 205,
+  "samples": 232
+}

@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+BEHAVIOR_CHECK clamped floor reports no actual walk
+BEHAVIOR_CHECK unchanged geometry retains revision
+BEHAVIOR_CHECK shared movement arrives on floor
+BEHAVIOR_CHECK unreachable high ledge rejected
+BEHAVIOR_CHECK shared route jumps to reachable ledge
+BEHAVIOR_CHECK platform carry reported separately
+BEHAVIOR_PASS checks=6

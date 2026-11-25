@@ -20,11 +20,16 @@ public sealed class PlaguePresentation : IDisposable
     public const string EffectPath="res://Assets/Sprites/vfx/Scp049Mutation/";
     public static SpriteAnimationSet EffectSet { get; }=new(EffectPath+"Scp049Mutation.contract.json");
     private readonly DesktopObjectState _state;
-    public PlagueState? Doctor { get; set; }
+    public Func<TreatmentPresentationState?>? Treatment { get; set; }
     private readonly Dictionary<int,PlagueDisappearance> _disappearing=new();
     public IReadOnlyDictionary<int,PlagueDisappearance> Disappearing=>_disappearing;
-    public PlaguePresentation(PlagueState state):this(state.World){Doctor=state;}
-    public PlaguePresentation(DesktopObjectState state){_state=state;state.Removed+=Removed;}
+    public PlaguePresentation(DesktopObjectState state){_state=state;state.Removed+=Removed;state.PresentationChanged+=SyncAnimations;SyncAnimations();}
+    private void SyncAnimations()
+    {
+        foreach(var item in _state.Objects.Values)
+            if(item.Kind==DummyKind.Zombie&&_state.IsActive(item))
+            {item.ZombieAnimation??=new(item,_state.ZombieClock);item.ZombieAnimation.Update(item,_state.ZombieClock);}
+    }
     private void Removed(DummyRemoval removal)
     {
         if(removal.Kind==DummyKind.Zombie&&removal.Reason is DummyRemovalReason.Collected or DummyRemovalReason.Expired)
@@ -43,8 +48,8 @@ public sealed class PlaguePresentation : IDisposable
             if(!_state.ZombiesActive)continue;
             // The legacy normal-data foot is its body bottom. The art pivot includes 8px for feet.
             if(item.MutationAge is double age&&age<EffectSet.Duration("transform"))yield return new(item.Id,item.Foot,"transform",age,_state.DraggedObject==item.Id);
-            else if(Doctor?.Phase==DoctorPhase.Treating&&Doctor.Visible&&Doctor.TargetId==item.Id&&Doctor.TreatmentStartedAt is double start)
-                yield return new(item.Id,item.Foot+new Vector2(0,8),"treat",Math.Max(0,Doctor.Clock-start),false);
+            else if(Treatment?.Invoke() is {Visible:true} treatment&&treatment.TargetId==item.Id)
+                yield return new(item.Id,item.Foot+new Vector2(0,8),"treat",treatment.Age,false);
         }
     }
     public void ReplaceScreens()
@@ -52,5 +57,5 @@ public sealed class PlaguePresentation : IDisposable
         // Removed objects cannot be reattached by physics; discard their old-monitor snapshots.
         _disappearing.Clear();
     }
-    public void Dispose(){_state.Removed-=Removed;_disappearing.Clear();}
+    public void Dispose(){_state.Removed-=Removed;_state.PresentationChanged-=SyncAnimations;_disappearing.Clear();}
 }

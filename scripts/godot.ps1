@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [ValidateSet('Info', 'Build', 'Import', 'Run', 'Editor', 'Smoke', 'OverlaySmoke', 'InputProbe', 'LightingProbe', 'Scp999Smoke', 'PlatformSmoke', 'PlatformPreview', 'Scp999Color', 'Scp049Smoke','OverlayStackSmoke','DesktopIconSmoke','StatueSmoke','SystemSmoke','DoctorArtSmoke','ZombieArtSmoke','ScpActivationSmoke')]
+    [ValidateSet('Info', 'Build', 'Import', 'Run', 'Editor', 'Smoke', 'OverlaySmoke', 'InputProbe', 'LightingProbe', 'Scp999Smoke', 'PlatformSmoke', 'PlatformPreview', 'Scp999Color', 'Scp049Smoke','OverlayStackSmoke','DesktopIconSmoke','StatueSmoke','SystemSmoke','DoctorArtSmoke','ZombieArtSmoke','ScpActivationSmoke','BehaviorSmoke','MonitorPortalSmoke')]
     [string]$Action = 'Info',
     [switch]$Headless,
     [string]$LogFile,
@@ -9,6 +9,7 @@ param(
     [string]$EvidenceDirectory,
     [switch]$Preview,
     [switch]$Measure,
+    [switch]$Baseline,
     [switch]$MeasureOnly,
     [switch]$PlaybackOnly,
     [switch]$NativeInput,
@@ -17,10 +18,10 @@ param(
 
 $ErrorActionPreference = 'Stop'
 if ($Action -eq 'OverlayStackSmoke' -and $Headless) { throw 'OverlayStackSmoke requires a Windows display.' }
-if ($NativeInput -and ($Action -notin @('Scp999Smoke','Scp049Smoke','OverlayStackSmoke','DesktopIconSmoke','StatueSmoke','SystemSmoke','DoctorArtSmoke','ZombieArtSmoke','ScpActivationSmoke') -or $Headless)) { throw 'NativeInput requires Scp999Smoke, Scp049Smoke or OverlayStackSmoke on a Windows display.' }
+if ($NativeInput -and ($Action -notin @('Scp999Smoke','Scp049Smoke','OverlayStackSmoke','DesktopIconSmoke','StatueSmoke','SystemSmoke','DoctorArtSmoke','ZombieArtSmoke','ScpActivationSmoke','MonitorPortalSmoke') -or $Headless)) { throw 'NativeInput requires Scp999Smoke, Scp049Smoke or OverlayStackSmoke on a Windows display.' }
 if ($Action -eq 'LightingProbe' -and ($Headless -or -not $EvidenceDirectory -or -not $LogFile)) { throw 'LightingProbe requires a Windows display, -EvidenceDirectory and -LogFile.' }
 if ($Action -in @('Smoke', 'OverlaySmoke') -and -not $LogFile) { throw 'Smoke requires -LogFile to verify lifecycle markers.' }
-if ($Action -in @('Scp999Smoke','Scp049Smoke','OverlayStackSmoke','DesktopIconSmoke','StatueSmoke','SystemSmoke','DoctorArtSmoke','ZombieArtSmoke','ScpActivationSmoke') -and (-not $EvidenceDirectory -or -not $LogFile)) { throw 'Companion diagnostics require -EvidenceDirectory and -LogFile.' }
+if ($Action -in @('Scp999Smoke','Scp049Smoke','OverlayStackSmoke','DesktopIconSmoke','StatueSmoke','SystemSmoke','DoctorArtSmoke','ZombieArtSmoke','ScpActivationSmoke','MonitorPortalSmoke') -and (-not $EvidenceDirectory -or -not $LogFile)) { throw 'Companion diagnostics require -EvidenceDirectory and -LogFile.' }
 if ($Action -eq 'PlatformSmoke' -and (-not $EvidenceDirectory -or -not $LogFile)) { throw 'PlatformSmoke requires -EvidenceDirectory and -LogFile.' }
 if ($Action -eq 'Scp999Color' -and ($Headless -or -not $EvidenceDirectory -or -not $LogFile)) { throw 'Scp999Color requires display, evidence directory and log.' }
 $taskRoot = Split-Path -Parent $PSScriptRoot
@@ -77,6 +78,8 @@ try {
             'OverlaySmoke' { $godotArgs += @('--scene', 'res://Scenes/Diagnostics/OverlaySmoke.tscn', '--max-fps', '60') }
             'InputProbe' { $godotArgs += @('--scene', 'res://Scenes/Diagnostics/InputProbe.tscn', '--max-fps', '60') }
             'LightingProbe' { $godotArgs += @('--scene', 'res://Scenes/Diagnostics/Scp999LightingProbe.tscn', '--max-fps', '60') }
+            'MonitorPortalSmoke' { $godotArgs += @('--scene', 'res://Scenes/Diagnostics/MonitorPortalSmoke.tscn', '--max-fps', '60') }
+            'BehaviorSmoke' { $godotArgs += @('--scene', 'res://Scenes/Diagnostics/BehaviorSmoke.tscn', '--max-fps', '60') }
             'ScpActivationSmoke' { $godotArgs += @('--scene', 'res://Scenes/Diagnostics/ScpActivationSmoke.tscn', '--max-fps', '60') }
             'ZombieArtSmoke' { $godotArgs += @('--scene', 'res://Scenes/Diagnostics/ZombieArtSmoke.tscn', '--max-fps', '60') }
             'DoctorArtSmoke' { $godotArgs += @('--scene', 'res://Scenes/Diagnostics/DoctorArtSmoke.tscn', '--max-fps', '60') }
@@ -109,6 +112,13 @@ try {
             if ($NativeInput) { $godotArgs += '--native-input' }
         }
         if ($Action -in @('PlatformSmoke','Scp999Color')) { $godotArgs += @('--', '--output', [IO.Path]::GetFullPath($EvidenceDirectory, $taskRoot)) }
+        if ($Action -in @('BehaviorSmoke','MonitorPortalSmoke')) {
+            if (-not $EvidenceDirectory -or -not $LogFile) { throw 'BehaviorSmoke requires evidence and log.' }
+            $godotArgs += @('--', '--output', [IO.Path]::GetFullPath($EvidenceDirectory, $taskRoot))
+            if ($Baseline) { $godotArgs += '--baseline' }
+            if ($NativeInput -and $Action -eq 'MonitorPortalSmoke') { $godotArgs += '--native-input' }
+            if ($Measure) { $godotArgs += '--measure' }
+        }
         if ($MonitorId) {
             if ($godotArgs -notcontains '--') { $godotArgs += '--' }
             $godotArgs += @('--monitor-id', $MonitorId)
@@ -150,6 +160,10 @@ try {
                 $scpMarker = if ($Action -eq 'Scp049Smoke') { 'SCP049' } else { 'SCP999' }
                 foreach ($marker in @('SITE_DESKTOP_READY',"${scpMarker}_SMOKE_PASS","${scpMarker}_STOPPED",'SITE_DESKTOP_STOPPED')) { if (-not $log.Contains($marker)) { throw "Missing lifecycle marker: $marker" } }
                 if ($log -match '(?m)^(ERROR:|SCRIPT ERROR:)') { throw "$Action smoke log contains errors." }
+            }
+            if ($Action -in @('BehaviorSmoke','MonitorPortalSmoke')) {
+                $log = Get-Content -LiteralPath $resolvedLog -Raw
+                if (-not $log.Contains($(if ($Action -eq 'MonitorPortalSmoke') {'PORTAL_PASS'} else {'BEHAVIOR_PASS'})) -or $log -match '(?m)^(ERROR:|SCRIPT ERROR:)') { throw 'Behavior diagnostic failed.' }
             }
             if ($Action -eq 'ZombieArtSmoke') {
                 $log = Get-Content -LiteralPath $resolvedLog -Raw

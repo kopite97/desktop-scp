@@ -1,0 +1,3 @@
+{"Sequence":2,"From":null,"To":"Idle","Reason":"cancelled"}
+{"Sequence":3,"From":"Idle","To":"Moving","Reason":"target reserved"}
+{"Sequence":4,"From":"Moving","To":"Transferring","Reason":"departure reached"}

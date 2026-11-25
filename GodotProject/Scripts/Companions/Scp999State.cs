@@ -1,4 +1,5 @@
 using Godot;
+using SiteDesktop.Behavior.Scp999;
 using SiteDesktop.Desktop;
 using SiteDesktop.Simulation;
 using SiteDesktop.Platforms;
@@ -30,17 +31,19 @@ public sealed class Scp999State
 {
     public static readonly Vector2I Size=new(128,128);
     public PlatformWorld Physics { get; }
+    public CompanionBehavior Behavior { get; }
     public Vector2 Position => Foot-new Vector2(64,112);
     public Vector2 Foot => Physics.Body.Foot;
     public bool Visible { get; private set; }=true;
     public bool Stopped { get; private set; }
-    public bool Flipped { get; private set; }
+    public bool Flipped=>Animation.Flipped;
     public bool Overheated { get; set; }
-    public string Tag { get; private set; }="idle";
-    public double TagAge { get; private set; }
+    public CompanionAnimation Animation { get; }
+    public string Tag=>Animation.Tag;
+    public double TagAge=>Animation.TagAge;
     public int Frame => Body.FrameAt(Tag,TagAge);
     public CompanionGesture Gesture { get; private set; }
-    public CompanionMotion Motion { get; private set; }
+    public CompanionMotion Motion=>Animation.Motion;
     public Scp999Settings Settings { get; }
     public StressState Stress { get; }
     public SpriteAnimationSet Body { get; }
@@ -60,19 +63,19 @@ public sealed class Scp999State
     {
         if(screens.Count==0)throw new ArgumentException("A desktop work area is required.");
         Body=body;Reactions=reactions;Trails=trails;Stress=stress;Settings=settings??new();
-        Physics=new(screens,new PlatformSettings{Speed=Settings.Speed,HalfWidth=64,Height=112});ResetPosition();
+        Physics=new(screens,new PlatformSettings{Speed=Settings.Speed,HalfWidth=64,Height=112});Animation=new(Physics,Body);Behavior=new(Physics,Settings);ResetPosition();
     }
-    private void SetTag(string tag) { if(Tag==tag)return;Tag=tag;TagAge=0; }
+    private void SetTag(string tag)=>Animation.Play(tag);
     public void ResetPosition()
     {
-        if(Stopped)return;Gesture=CompanionGesture.None;Motion=CompanionMotion.Grounded;_effects.Clear();
+        if(Stopped)return;Behavior.Reset();Gesture=CompanionGesture.None;Animation.Reset();_effects.Clear();
         Physics.Walk(0);Physics.Place(new Vector2(Screens[0].Usable.Position.X+304,Screens[0].Usable.End.Y-8));
         for(int i=0;i<3;i++)Physics.Tick(.1);
-        Tag="idle";TagAge=0;_trailDistance=0;_trailWait=0;_reactionWait=0;
+        Animation.Reset();_trailDistance=0;_trailWait=0;_reactionWait=0;
     }
     public void ReplaceScreens(IReadOnlyList<DesktopScreen> screens)
     {
-        if(Stopped||screens.Count==0)return;Physics.ReplaceScreens(screens);Gesture=CompanionGesture.None;
+        if(Stopped||screens.Count==0)return;Behavior.Reset();Physics.ReplaceScreens(screens);Gesture=CompanionGesture.None;
         _effects.Clear();_trailDistance=0;SyncMotion(true);
     }
     public void ObserveWindows(IReadOnlyList<WindowObservation> windows)
@@ -89,13 +92,13 @@ public sealed class Scp999State
     public bool BeginPet(Vector2 pointer)
     {
         if(Stopped||!Visible||Gesture!=CompanionGesture.None||Motion!=CompanionMotion.Grounded||Physics.Body.SupportId==null)return false;
-        Physics.Walk(0);Gesture=CompanionGesture.Pet;_lastPointer=pointer;PetPresses++;SetTag("pet");
+        Physics.Walk(0);Behavior.Reset();Gesture=CompanionGesture.Pet;_lastPointer=pointer;PetPresses++;SetTag("pet");
         Stress.Relieve(Foot,Settings.PetRadius,Settings.ClickRelief);return true;
     }
     public bool BeginDrag(Vector2 pointer)
     {
         if(Stopped||!Visible||Gesture==CompanionGesture.Drag)return false;
-        Physics.Walk(0);Physics.BeginDrag(pointer);Gesture=CompanionGesture.Drag;SetTag("idle");return true;
+        Behavior.Reset();Physics.Walk(0);Physics.BeginDrag(pointer);Gesture=CompanionGesture.Drag;SetTag("idle");return true;
     }
     public void EndGesture()
     {
@@ -105,19 +108,14 @@ public sealed class Scp999State
     }
     private void SyncMotion(bool force=false)
     {
-        if(Gesture==CompanionGesture.Drag)return;
-        var motion=Physics.Body.Motion switch {PlatformMotion.Takeoff=>CompanionMotion.Takeoff,PlatformMotion.Falling=>CompanionMotion.Falling,PlatformMotion.Landing=>CompanionMotion.Landing,PlatformMotion.Balancing=>CompanionMotion.Balancing,_=>CompanionMotion.Grounded};
-        if(motion==CompanionMotion.Grounded&&Tag=="land"&&TagAge<Body.Duration("land"))return;
-        if(!force&&motion==Motion)return;
-        var previous=Motion;Motion=motion;
-        if(motion!=CompanionMotion.Grounded)Gesture=CompanionGesture.None;
-        SetTag(motion switch {CompanionMotion.Takeoff=>"takeoff",CompanionMotion.Falling=>"fall",CompanionMotion.Landing=>"land",CompanionMotion.Balancing=>"balance",_=>previous==CompanionMotion.Balancing?"balance_recover":"idle"});
-        _trailDistance=0;
+        var previous=Motion;Animation.SyncMotion(force,Gesture==CompanionGesture.Drag);
+        if(Gesture!=CompanionGesture.Drag&&Motion!=CompanionMotion.Grounded)Gesture=CompanionGesture.None;
+        if(previous!=Motion)_trailDistance=0;
     }
     public void TypingActivity()
     {
         if(Stopped||!Visible||Gesture!=CompanionGesture.None||Motion!=CompanionMotion.Grounded||Physics.Body.SupportId==null||_reactionWait>0)return;
-        if(Tag=="pet_recover"||Tag=="land"||Tag=="balance_recover")return;
+        if(!Animation.AcceptsReaction)return;
         _reactionWait=Settings.ReactionCooldown;TypingReactions++;
         // Do not restart an in-flight reaction animation on keyboard auto-repeat.
         SetTag("typing_react");
@@ -136,7 +134,7 @@ public sealed class Scp999State
         if(!double.IsFinite(delta)||delta<0)throw new ArgumentOutOfRangeException(nameof(delta));
         if(Stopped||!Visible)return;
         // Bound pause/resume stalls. Tests and live rendering share this elapsed-time policy.
-        delta=Math.Min(delta,.1);TagAge+=delta;_reactionWait=Math.Max(0,_reactionWait-delta);_trailWait+=delta;
+        delta=Math.Min(delta,.1);Animation.Advance(delta);_reactionWait=Math.Max(0,_reactionWait-delta);_trailWait+=delta;
         foreach(var effect in _effects)effect.Age+=delta;
         _effects.RemoveAll(e=>e.Age>=e.Lifetime);
         Physics.Walk(0);
@@ -151,13 +149,12 @@ public sealed class Scp999State
             else if(overBody&&pointer.DistanceSquaredTo(_lastPointer)>=4)Stress.Relieve(Foot,Settings.PetRadius,Settings.RubReliefPerSecond*(float)delta);
             _lastPointer=pointer;Physics.Tick(delta);SyncMotion();return;
         }
-        bool ready=Body.Clips[Tag].Loop||TagAge>=Body.Duration(Tag);
-        float dx=pointer.X-Foot.X;
-        if(Motion==CompanionMotion.Grounded&&ready&&Screens.Any(s=>s.Bounds.HasPoint((Vector2I)pointer))&&pointer.DistanceTo(Foot)<=Settings.FollowRadius&&Math.Abs(dx)>Settings.StopDistance)
-        {Flipped=dx<0;Physics.Walk(Math.Sign(dx));}
-        var old=Foot;Physics.Tick(delta);SyncMotion();
-        if(Motion!=CompanionMotion.Grounded||(!Body.Clips[Tag].Loop&&TagAge<Body.Duration(Tag)))return;
-        float travelled=Foot.DistanceTo(old);SetTag(Physics.Body.WalkDirection!=0&&travelled>0?"move":"idle");_trailDistance+=travelled;
+        bool ready=Animation.CanMove;
+        if(Motion==CompanionMotion.Grounded&&ready)Behavior.Tick(delta,pointer);
+        if(Physics.Body.WalkDirection!=0)Animation.Face(Physics.Body.WalkDirection<0);
+        Physics.Tick(delta);SyncMotion();
+        if(Motion!=CompanionMotion.Grounded||!Animation.CanMove)return;
+        float travelled=Physics.WalkDistance;SetTag(Physics.Body.WalkDirection!=0&&travelled>0?"move":"idle");_trailDistance+=travelled;
         if(Physics.Body.WalkDirection!=0&&travelled>0&&Physics.Body.SupportId!=null&&_trailWait>=Settings.TrailInterval&&_trailDistance>=Settings.TrailSpacing)
         {
             string tag=_nextEffect%2==0?"puddle_a":"puddle_b";
@@ -166,11 +163,11 @@ public sealed class Scp999State
         }
     }
     public int EffectFrame(CompanionEffect effect) => effect.Kind==CompanionEffectKind.Reaction?Reactions.FrameAt(effect.Tag,effect.Age):Trails.FrameAt(effect.Tag,effect.Age,Settings.TrailHoldSeconds);
-    public void SetVisible(bool visible)
+    public void SetVisible(bool visible,bool cancelBehavior=false)
     {
         if(Stopped)return;
         if(!visible&&Gesture==CompanionGesture.Drag)EndGesture();
-        Physics.SetVisible(visible);Visible=visible;Gesture=CompanionGesture.None;_effects.Clear();_reactionWait=0;_trailDistance=0;_trailWait=0;Tag="idle";TagAge=0;if(visible)SyncMotion(true);
+        if(cancelBehavior)Behavior.Reset();Physics.SetVisible(visible);Visible=visible;Gesture=CompanionGesture.None;_effects.Clear();_reactionWait=0;_trailDistance=0;_trailWait=0;Animation.Reset();if(visible)SyncMotion(true);
     }
     public void Shutdown(){if(Stopped)return;SetVisible(false);Physics.Stop();Stopped=true;}
 }

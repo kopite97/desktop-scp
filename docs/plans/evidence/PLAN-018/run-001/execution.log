@@ -1,0 +1,5 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PORTAL_CHECK baseline: automatic spawn distributes across both monitors
+PORTAL_CHECK baseline: other monitor floor is unreachable
+PORTAL_PASS

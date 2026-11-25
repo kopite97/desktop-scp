@@ -54,7 +54,7 @@ public partial class ZombieArtSmoke : Node
         Check(Math.Abs(PlaguePresentation.EffectSet.Duration("transform")-.8)<1e-8,"Transform includes its transparent tail in800ms");
         foreach(float rate in new[]{1f,1.5f})
         {
-            var s=State();using var p=new PlaguePresentation(s);s.TreatmentRate=rate;
+            var s=State();using var p=new PlaguePresentation(s.World){Treatment=()=>s.TreatmentView};s.TreatmentRate=rate;
             int id=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(35,0))!.Value;
             while(s.Phase!=DoctorPhase.Treating)s.Tick(.02);
             double start=s.Clock;Step(s,p,24);var aura=p.Auras().Single();
@@ -63,8 +63,8 @@ public partial class ZombieArtSmoke : Node
             Check(Math.Abs((s.Clock-start)-3/rate)<.05,$"Game success stays approximately{3/rate}s");
             var item=s.Objects[id];Check(item.ZombieAnimation!.Tag=="spawn"&&item.ZombieAnimation.Age==0&&p.Auras().Single().Age==0,"Success starts spawn and transform at the same zero");
             var before=item.Foot;Step(s,p,10);Check(item.Foot!=before&&item.ZombieAnimation.Tag=="spawn","Spawn does not freeze game movement");
-            s.BeginObjectDrag(id,item.Foot);Check(item.ZombieAnimation.Tag=="fall"&&!p.Auras().Any(a=>a.Tag=="treat"),"Dragging interrupts spawn without restarting treatment");
-            s.Drag(item.Foot-new Vector2(0,100));s.EndDrag();bool landed=false;for(int i=0;i<100;i++){Step(s,p,1);landed|=item.ZombieAnimation.Tag=="land";}
+            s.World.BeginObjectDrag(id,item.Foot);Check(item.ZombieAnimation.Tag=="fall"&&!p.Auras().Any(a=>a.Tag=="treat"),"Dragging interrupts spawn without restarting treatment");
+            s.World.Drag(item.Foot-new Vector2(0,100));s.World.EndDrag();bool landed=false;for(int i=0;i<100;i++){Step(s,p,1);landed|=item.ZombieAnimation.Tag=="land";}
             Check(landed,"Real drop selects authored landing");
             double age=item.ZombieAnimation.Age;bool flip=item.ZombieAnimation.Flipped;
             item.Physics.Body.Velocity=new(flip?40:-40,0);item.ZombieAnimation.Update(item,s.Clock);
@@ -77,14 +77,14 @@ public partial class ZombieArtSmoke : Node
             Step(s,p,1);Check(p.Disappearing.Count==0,"Collect cleans up at360ms");s.Shutdown();
         }
         {
-            var s=State();using var p=new PlaguePresentation(s);int id=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(35,0))!.Value;Step(s,p,20);
+            var s=State();using var p=new PlaguePresentation(s.World){Treatment=()=>s.TreatmentView};int id=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(35,0))!.Value;Step(s,p,20);
             Check(p.Auras().Single().Tag=="treat","Actual Treating produces aura");s.BeginDoctorDrag(s.Doctor.Body.Foot);
             Check(!p.Auras().Any()&&s.Objects[id].ZombieAnimation==null,"Cancellation cannot produce transform/feet");s.EndDrag();
             for(int i=0;i<50&&s.Phase!=DoctorPhase.Treating;i++)Step(s,p,1);
             Check(p.Auras().Single().Age==0,"Treatment restart begins at frame zero");s.Collect(id);Check(p.Disappearing.Count==0&&!p.Auras().Any(),"Normal data collection has no zombie disappearance");s.Shutdown();
         }
         {
-            var s=State();using var p=new PlaguePresentation(s);int id=Transform(s,p);s.Objects[id].Age=s.Settings.ZombieLifetime-.01;Step(s,p,1);
+            var s=State();using var p=new PlaguePresentation(s.World){Treatment=()=>s.TreatmentView};int id=Transform(s,p);s.Objects[id].Age=s.World.Settings.Zombies.Lifetime-.01;Step(s,p,1);
             Check(!s.Objects.ContainsKey(id)&&s.Expired==1&&p.Disappearing[id].Tag=="expire","Expiry starts only the authored expire snapshot");
             Step(s,p,32);Check(p.Disappearing.Count==1&&ZombieAnimation.Set.Frames[p.Disappearing[id].Frame(s.Clock)].BodyAlpha==0,"Expire retains transparent tail through640ms");Step(s,p,1);Check(p.Disappearing.Count==0,"Expire cleans up at660ms");
             id=Transform(s,p);s.Collect(id);p.ReplaceScreens();Check(p.Disappearing.Count==0,"Monitor change discards detached snapshots");s.Shutdown();p.Sync();Check(!p.Disappearing.Any()&&!p.Auras().Any(),"Shutdown clears all presentation identity");
@@ -144,8 +144,9 @@ public partial class ZombieArtSmoke : Node
         _stack=new();AddChild(_stack);_catalog=Enumerable.Range(0,9).Select(Fixture).ToArray();
         _icons=new(){ReadImagesAsync=_=>Task.FromResult(_catalog)};AddChild(_icons);await Frames(4);
         Check(_icons.CatalogCount==9,"Owned fixtures populate the real texture cache");
-        _objects=new(){Icons=_icons,Stack=_stack,Automatic=false};AddChild(_objects);
-        _controller=new(){Objects=_objects,Stack=_stack,Stress=new()};AddChild(_controller);var c=_controller;var s=c.State;s.AutoSpawn=false;
+        var environment=new WindowsDesktopEnvironmentSource();
+        _objects=new(){Environment=environment,Icons=_icons,Stack=_stack,Automatic=false};AddChild(_objects);
+        _controller=new(){Environment=environment,Objects=_objects,Stack=_stack,Stress=new()};AddChild(_controller);var runtime=new SiteDesktop.App.ScpRuntime{Environment=environment};runtime.Register(_objects.RuntimeTick);runtime.Register(_controller.RuntimeTick);AddChild(runtime);var c=_controller;var s=c.State;s.AutoSpawn=false;
         foreach(int id in s.Objects.Keys.ToArray())s.Collect(id);
         using var left=Image.LoadFromFile(ProjectSettings.GlobalizePath(ZombieAnimation.AssetPath+"Scp0492_left-foot.png"));
         using var right=Image.LoadFromFile(ProjectSettings.GlobalizePath(ZombieAnimation.AssetPath+"Scp0492_right-foot.png"));
@@ -240,7 +241,7 @@ public partial class ZombieArtSmoke : Node
         // Keep the same automatic input path as the product; test does not synthesize state drag calls.
         c.Automatic=true;receiver.Press(true);await Frames(5);receiver.Move(top+opaque+new Vector2(100,-70));await Frames(5);Check(s.DraggedObject==id&&item.Foot.DistanceTo(start+new Vector2(100,-70))<3,"Real right drag follows alpha body and reaches expected position");
         receiver.Release();await Frames(3);c.Automatic=false;Check(s.DraggedObject==null&&_stack.AppliedBatches-batches<=6,"Release ends drag with bounded common stack changes");
-        top=WindowsDesktop.GetBounds(w).Position;receiver.Move(top+opaque);c.Publish();await Frames(4);int count=s.Collected;receiver.Click();await Frames(4);Check(!s.Objects.ContainsKey(id)&&s.Collected==count+1&&c.FadingWindows.ContainsKey(id),"Real left click collects once and creates decorative fade");
+        top=WindowsDesktop.GetBounds(w).Position;receiver.Move(top+opaque);c.Publish();await Frames(4);int count=s.Collected;GD.Print($"ZOMBIE_CLICK target={NativeInputFixture.WindowAt(top+opaque)} expected={DisplayServer.WindowGetNativeHandle(DisplayServer.HandleType.WindowHandle,w.GetWindowId())} hit={w.Hit(opaque)} visible={w.Visible} foot={item.Foot}");receiver.Click();await Frames(4);GD.Print($"ZOMBIE_COLLECT exists={s.Objects.ContainsKey(id)} collected={s.Collected} previous={count} fades={c.FadingWindows.Count} snapshots={c.Presentation.Disappearing.Count}");Check(!s.Objects.ContainsKey(id)&&s.Collected==count+1&&c.FadingWindows.ContainsKey(id),"Real left click collects once and creates decorative fade");
         b=receiver.Counts();receiver.Click();await Frames(4);e=receiver.Counts();Check(e.Down==b.Down+1&&e.Up==b.Up+1&&s.Collected==count+1,"Click through visible fade reaches external receiver without double reward");
     }
 }

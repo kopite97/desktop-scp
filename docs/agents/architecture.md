@@ -19,6 +19,10 @@
 - 게임 상태마다 소유자를 정한다. 화면과 하네스가 별도 상태 원본을 유지하지 않는다.
 - 사용자 조작과 검증 명령은 같은 규칙 검사·상태 변경 경로를 사용한다.
 - SCP 활성화는 등록 관리자, 전체 봉쇄는 SystemOptions, 공용 복제 대상은 DesktopObjectState가 소유한다. [TECH-016](../decisions/TECH-016-scp-activation-and-shared-world.md)의 공통 명령·모듈 전환을 사용한다.
+- 행동은 [TECH-017](../decisions/TECH-017-shared-behavior-and-runtime.md)의 개체별 StateMachine과 공통 Idle/Moving을 조합한다. 현재 상태·타이머·목표는 공유하지 않으며 행동·물리·상호작용·표현을 별도 책임으로 유지한다.
+- ScpRuntime이 공통 환경 스냅샷을 등록된 월드/개체에 전달한다. 갱신 소유자는 하나이며 컨트롤러가 다른 소유자의 Tick/Publish를 암묵적으로 실행하지 않는다. 진단 조정은 같은 제품 명령을 호출한다.
+- [TECH-018](../decisions/TECH-018-monitor-portals-and-spawn-policy.md)의 SpawnAnchor는 중립 위치 입력이다. 모니터 전이는 별도 상태가 위치를 한 번 확정하고 표현은 PortalFrame만 읽는다. 초기 생성은 위치 공급자 연결 후 수행한다.
+- 이동 도착/실패는 MovementController, 실제 보행·발판 운반은 PlatformWorld 결과를 사용한다. 관찰 호출 횟수와 의미 있는 환경 변경 버전을 혼동하지 않는다.
 - 표현 객체의 표시·삭제만으로 논리 개체의 존재와 상태를 판정하지 않는다.
 - 논리 삭제 후 소멸 애니메이션을 남길 때는 게임 대상·입력·예약·생존 수/보상 처리를 먼저 종료하고 비상호작용 표시 수명을 따로 소유한다. 표시가 필요한 텍스처 참조는 재생 종료/앱 종료까지 유지하며 중복 삭제를 막는다. 구체 사건·시간·봉쇄 계약은 제작 [애니메이션 지침](../../Art/docs/agents/animation.md)과 개발 PLAN에 연결한다.
 - 입력·환경 관찰, 게임 판정, 외부 효과 요청을 구분한다.

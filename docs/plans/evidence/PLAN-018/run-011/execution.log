@@ -1,0 +1,133 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+PORTAL_CHECK automatic generation stays on anchor monitor and respects global cap
+PORTAL_CHECK drag suspends spawning and leaves old icons untouched
+PORTAL_CHECK new monitor receives clones without multiplying cap
+PORTAL_CHECK anchor resolves negative origin
+PORTAL_CHECK equal overlap retains previous screen
+PORTAL_CHECK missing anchor and unknown region cannot create clones
+DESKTOP_OBJECTS_STARTED
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED body=ART-004-r001
+SCP173_STARTED art=temporary-code
+SITE_CONTROLS_SHOWN
+SITE_DESKTOP_READY
+PORTAL_CHECK initial spawn occurs after actor registration
+SCP_SETTING scp-049=False
+PORTAL_CHECK 173-only consumer keeps spawning
+SCP_SETTING scp-173=False
+PORTAL_CHECK no consumer means no clones
+PORTAL_CHECK cross-monitor route transfers once then treats target
+PORTAL_CHECK arrival releases reservation after treatment
+PORTAL_CHECK right to left portal treats target
+PORTAL_CHECK cross-monitor drag starts grace after landing
+PORTAL_CHECK local target beats remote target during grace
+PORTAL_CHECK portal starts at departure gate
+PORTAL_CHECK transfer refuses new body drag
+PORTAL_CHECK lockdown freezes transfer stage 0.2
+PORTAL_CHECK target removal cancels without a late commit 0.2
+PORTAL_CHECK cancel retains committed side 0.2
+PORTAL_CHECK portal starts at departure gate
+PORTAL_CHECK transfer refuses new body drag
+PORTAL_CHECK lockdown freezes transfer stage 0.5
+PORTAL_CHECK target removal cancels without a late commit 0.5
+PORTAL_CHECK cancel retains committed side 0.5
+PORTAL_CHECK portal starts at departure gate
+PORTAL_CHECK transfer refuses new body drag
+PORTAL_CHECK lockdown freezes transfer stage 0.8
+PORTAL_CHECK target removal cancels without a late commit 0.8
+PORTAL_CHECK cancel retains committed side 0.8
+PORTAL_CHECK individual OFF cancels portal and claim
+PORTAL_CHECK removed destination recovers on remaining screen
+PORTAL_CHECK portal does not bypass unreachable destination ledge
+PORTAL_CHECK long local walk survives original twelve-second timeout
+PORTAL_CHECK separated vertically stacked screens transfer in physical coordinates
+PORTAL_CHECK generic actor can cancel transfer without stale completion
+SCP173_STOPPED
+SCP049_STOPPED
+SCP999_STOPPED
+DESKTOP_OBJECTS_STOPPED
+SITE_DESKTOP_STOPPED
+DESKTOP_OBJECTS_STARTED
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED body=ART-004-r001
+SCP173_STARTED art=temporary-code
+SITE_CONTROLS_HIDDEN
+SITE_DESKTOP_READY
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-173=False
+PORTAL_CHECK native environment exposes at least two monitors
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK departure portal and fading body displayed
+PORTAL_CHECK departure effect stays in source work area
+PORTAL_CHECK portal draws nonempty RGBA on monitor 0 pixels=8559
+PORTAL_CHECK body hidden while committed between monitors
+SITE_CONTROLS_HIDDEN
+SITE_LOCKED
+PORTAL_CHECK native lockdown freezes portal and hides windows
+SITE_RESUMED
+PORTAL_CHECK native resume restores arrival body and portal
+PORTAL_CHECK completed transfer releases effect windows
+PORTAL_CHECK native actor is on destination monitor
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK departure portal and fading body displayed
+PORTAL_CHECK departure effect stays in source work area
+PORTAL_CHECK portal draws nonempty RGBA on monitor 1 pixels=8559
+PORTAL_CHECK body hidden while committed between monitors
+SITE_CONTROLS_HIDDEN
+SITE_LOCKED
+PORTAL_CHECK native lockdown freezes portal and hides windows
+SITE_RESUMED
+PORTAL_CHECK native resume restores arrival body and portal
+PORTAL_CHECK completed transfer releases effect windows
+PORTAL_CHECK native actor is on destination monitor
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 0
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 1
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 2
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 3
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 4
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 5
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 6
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 7
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 8
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 9
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 10
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 11
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 12
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 13
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 14
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 15
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 16
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 17
+PORTAL_CHECK native transfer starts 0 to 1
+PORTAL_CHECK effect lifetime returns to zero cycle 18
+PORTAL_CHECK native transfer starts 1 to 0
+PORTAL_CHECK effect lifetime returns to zero cycle 19
+PORTAL_PASS
+SITE_DESKTOP_EXIT_REQUESTED
+SYSTEM_OPTIONS_STOPPED
+SCP173_STOPPED
+SCP049_STOPPED
+SCP999_STOPPED
+DESKTOP_OBJECTS_STOPPED
+SITE_DESKTOP_STOPPED

@@ -15,6 +15,7 @@
 | 원본 개발 단계 | 원본 6절 |
 | 하네스 선행 작업과 실행 단위 | [개발 로드맵](roadmap.md) |
 | SCP별 ON/OFF·설정 저장·공용 대상 활동 | [SCP 활성화](scp-activation.md) |
+| SCP 행동·배회·이동 실패 복구 | [행동 계약](scp-behavior.md) |
 | 실제 작업 상태 | [PLAN 목록](../plans/README.md) |
 
 ## 기획 유지

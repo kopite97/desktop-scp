@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": 3,
+  "tests": [
+    "baseline: clamped doctor still reports walking",
+    "baseline: distant cursor leaves companion stationary for 30 seconds",
+    "baseline: unreachable target repeatedly reserved"
+  ]
+}

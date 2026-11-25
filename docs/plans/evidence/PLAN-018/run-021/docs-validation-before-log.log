@@ -1,0 +1,30 @@
+ERROR Broken local file link in docs/plans/evidence/PLAN-018/run-021/README.md: diff-check.log
+LINES AGENTS.md: 31/100
+LINES Art/AGENTS.md: 33/100
+LINES docs/plans/plan.md: 120/150
+LINES Art/docs/plans/plan.md: 83/150
+LINES docs/agents/architecture.md: 47/150
+LINES docs/agents/godot-tools.md: 150/150
+LINES docs/agents/harness.md: 72/150
+LINES docs/agents/plan-management.md: 10/150
+LINES docs/agents/project-structure.md: 55/150
+LINES docs/agents/verification.md: 50/150
+LINES docs/agents/windows-integration.md: 52/150
+LINES docs/agents/workflow.md: 50/150
+LINES Art/docs/agents/README.md: 18/150
+LINES Art/docs/agents/animation.md: 38/150
+LINES Art/docs/agents/aseprite.md: 47/150
+LINES Art/docs/agents/design.md: 50/150
+LINES Art/docs/agents/handoff.md: 42/150
+LINES Art/docs/agents/lighting.md: 116/150
+LINES Art/docs/agents/project-structure.md: 55/150
+LINES Art/docs/agents/revisions.md: 33/150
+LINES Art/docs/agents/verification.md: 35/150
+LINES Art/docs/agents/workflow.md: 36/150
+PLANS total=18, active=0
+ART_PLANS total=7, active=0
+DECISIONS total=18
+PLAN_INDEX entries=18
+ART_INDEX entries=7
+TECH_INDEX entries=18
+LOCAL_LINKS checked=2398 (inline file targets only; no anchors or web requests)

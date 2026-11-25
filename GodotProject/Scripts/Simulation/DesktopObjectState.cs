@@ -1,4 +1,5 @@
 using Godot;
+using SiteDesktop.Behavior.Zombies;
 using SiteDesktop.Desktop;
 using SiteDesktop.Platforms;
 using System;
@@ -8,7 +9,6 @@ using System.Linq;
 namespace SiteDesktop.Simulation;
 
 public enum DummyKind { Temporary, Trash, Zombie }
-public enum DoctorPhase { Idle, Seeking, Treating, Dragging }
 public enum DummyRemovalReason { Collected, Expired, Broken }
 public sealed record DummyRemoval(int Id,DummyKind Kind,string? AppearanceId,Vector2 Foot,bool Flipped,int Frame,DummyRemovalReason Reason,double Clock);
 public sealed class DummyObject
@@ -24,14 +24,14 @@ public sealed class DummyObject
     public string? AppearanceId { get; internal set; }
     public double? BrokenAge { get; internal set; }
     public ZombieAnimation? ZombieAnimation { get; internal set; }
-    internal int Direction=1;
+    internal ZombieBehavior? Behavior;
     internal DummyObject(int id,DummyKind kind,PlatformWorld physics){Id=id;Kind=kind;Physics=physics;}
 }
 
 // Owns shared desktop objects independently of any SCP controller.
 public sealed class DesktopObjectState
 {
-    public PlagueSettings Settings { get; }
+    public DesktopObjectSettings Settings { get; }
     public IReadOnlyList<DesktopScreen> Screens { get; private set; }
     public bool Visible { get; private set; }=true;
     public bool Stopped { get; private set; }
@@ -48,25 +48,30 @@ public sealed class DesktopObjectState
     public int Transformations { get; private set; }
     public IReadOnlyDictionary<int,DummyObject> Objects=>_objects;
     public event Action<DummyRemoval>? Removed;
+    public event Action? PresentationChanged;
     public event Action<int>? TargetInvalidated;
     private readonly Dictionary<int,DummyObject> _objects=new();
     public IReadOnlyList<WindowObservation> Observations=>_observations;
     private IReadOnlyList<WindowObservation> _observations=Array.Empty<WindowObservation>();
+    public Func<SpawnAnchor?>? SpawnAnchorProvider { get; set; }
+    private readonly ObjectSpawnPolicy _spawnPolicy=new();
     private int _nextId;
     private double _spawnAge;
-    public DesktopObjectState(IReadOnlyList<DesktopScreen> screens,PlagueSettings? settings=null)
+    public DesktopObjectState(IReadOnlyList<DesktopScreen> screens,DesktopObjectSettings? settings=null)
     {
         Screens=screens;Settings=settings??new();
-        if(Settings.SpawnInterval<=0||Settings.TreatmentSeconds<=0||Settings.DataLifetime<=0||Settings.ZombieLifetime<=0||Settings.MaxData<0||Settings.MaxZombies<0)throw new ArgumentOutOfRangeException(nameof(settings));
+        if(Settings.SpawnInterval<=0||Settings.DataLifetime<=0||Settings.Zombies.Lifetime<=0||Settings.MaxData<0||Settings.Zombies.Maximum<0)throw new ArgumentOutOfRangeException(nameof(settings));
     }
     private DesktopScreen Nearest(Vector2 foot)=>Screens.OrderBy(s=>((Vector2)s.Usable.GetCenter()).DistanceSquaredTo(foot)).First();
     public bool IsActive(DummyObject item)=>Visible&&!Stopped&&(item.Kind!=DummyKind.Zombie||ZombiesActive);
     public int? Spawn()
     {
         if(Stopped||!Visible)return null;
-        var screen=Screens[_nextId%Screens.Count];var area=screen.Usable;
-        float span=Math.Max(1,area.Size.X-280);
-        return SpawnAt(new(area.Position.X+140+((510+_nextId*157)%span),area.End.Y-8),_nextId%2==0?DummyKind.Temporary:DummyKind.Trash);
+        var selected=SpawnAnchorProvider==null?Screens[0]:_spawnPolicy.Select(Screens,SpawnAnchorProvider());
+        if(selected is not {} screen)return null;var area=screen.Usable;
+        if(area.Size.X<80||area.Size.Y<64)return null;
+        float margin=Math.Min(140,area.Size.X/2f);float span=Math.Max(1,area.Size.X-margin*2);
+        return SpawnAt(new(area.Position.X+margin+((510+_nextId*157)%span),area.End.Y-8),_nextId%2==0?DummyKind.Temporary:DummyKind.Trash);
     }
     public int? SpawnAt(Vector2 foot,DummyKind kind=DummyKind.Temporary)
     {
@@ -74,7 +79,7 @@ public sealed class DesktopObjectState
         if(_objects.Values.Count(o=>o.Kind!=DummyKind.Zombie)>=Settings.MaxData)return null;
         string? appearance=ChooseAppearance?.Invoke();
         if(ChooseAppearance!=null&&appearance==null)return null;
-        var world=new PlatformWorld(Screens,new PlatformSettings{Speed=Settings.ZombieSpeed,HalfWidth=28,Height=56});
+        var world=new PlatformWorld(Screens,new PlatformSettings{Speed=Settings.Zombies.Speed,HalfWidth=28,Height=56});
         world.Observe(_observations);world.Place(foot);world.Body.AutoJump=false;
         var item=new DummyObject(++_nextId,kind,world){AppearanceId=appearance};_objects.Add(item.Id,item);return item.Id;
     }
@@ -110,34 +115,19 @@ public sealed class DesktopObjectState
             item.Physics.Stop();Removed?.Invoke(removal);
         }
     }
-    private void WalkZombie(DummyObject item)
-    {
-        if(item.Physics.Body.Motion==PlatformMotion.Dragging)return;
-        var area=Nearest(item.Foot).Usable;
-        float left=area.End.X-Math.Min(250,area.Size.X/2),right=area.End.X-42;
-        int direction=item.Direction;
-        if(item.Foot.X<left)direction=1;
-        else if(item.Foot.X>right)direction=-1;
-        if(item.Physics.Body.SupportId is string support&&!support.StartsWith("floor:"))
-        {
-            var surface=item.Physics.Surfaces.FirstOrDefault(s=>s.Id==support);
-            if(surface!=null)direction=item.Foot.X<(surface.Left+surface.Right)/2?-1:1;
-        }
-        item.Direction=direction;item.Physics.Walk(direction);
-    }
     public bool Transform(int id,string owner)
     {
-        if(!Visible||Stopped||!ZombiesActive||OwnerActive?.Invoke(owner)==false||!_objects.TryGetValue(id,out var item)||item.Kind==DummyKind.Zombie||item.BrokenAge!=null||item.ClaimedBy!=owner||_objects.Values.Count(o=>o.Kind==DummyKind.Zombie)>=Settings.MaxZombies)return false;
+        if(!Visible||Stopped||!ZombiesActive||OwnerActive?.Invoke(owner)==false||!_objects.TryGetValue(id,out var item)||item.Kind==DummyKind.Zombie||item.BrokenAge!=null||item.ClaimedBy!=owner||_objects.Values.Count(o=>o.Kind==DummyKind.Zombie)>=Settings.Zombies.Maximum)return false;
         item.Kind=DummyKind.Zombie;item.OwnerId=owner;item.Age=0;item.MutationAge=0;item.ClaimedBy=null;
-        item.ZombieAnimation=new(item,ZombieClock);Transformations++;return true;
+        item.Behavior=new(item.Physics);Transformations++;PresentationChanged?.Invoke();return true;
     }
     public bool BeginObjectDrag(int id,Vector2 pointer)
     {
         if(!_objects.TryGetValue(id,out var item)||!IsActive(item))return false;
-        EndDrag();TargetInvalidated?.Invoke(id);item.ClaimedBy=null;DraggedObject=id;item.Physics.Walk(0);item.Physics.BeginDrag(pointer);item.ZombieAnimation?.Update(item,ZombieClock);return true;
+        EndDrag();TargetInvalidated?.Invoke(id);item.ClaimedBy=null;DraggedObject=id;item.Physics.Walk(0);item.Physics.BeginDrag(pointer);PresentationChanged?.Invoke();return true;
     }
     public void Drag(Vector2 pointer){if(DraggedObject is int id&&_objects.TryGetValue(id,out var item)&&IsActive(item))item.Physics.Drag(pointer);}
-    public void EndDrag(){if(DraggedObject is int id&&_objects.TryGetValue(id,out var item))item.Physics.EndDrag();DraggedObject=null;}
+    public void EndDrag(){if(DraggedObject is int id&&_objects.TryGetValue(id,out var item))item.Physics.EndDrag();DraggedObject=null;PresentationChanged?.Invoke();}
     public void ReleaseOwner(string owner){foreach(var item in _objects.Values)if(item.ClaimedBy==owner)item.ClaimedBy=null;}
     public void Observe(IReadOnlyList<WindowObservation> windows)
     {
@@ -154,11 +144,12 @@ public sealed class DesktopObjectState
             if(!IsActive(item))continue;
             item.Age+=dt;
             if(item.BrokenAge is double broken){item.BrokenAge=broken+dt;if(item.BrokenAge>=.8){Remove(item.Id,DummyRemovalReason.Broken);continue;}}
-            if(item.MutationAge is double age)item.MutationAge=age+dt<Settings.MutationSeconds?age+dt:null;
-            if(item.Age>=(item.Kind==DummyKind.Zombie?Settings.ZombieLifetime:Settings.DataLifetime)){Expired++;Remove(item.Id,DummyRemovalReason.Expired);continue;}
-            if(item.Kind==DummyKind.Zombie)WalkZombie(item);else item.Physics.Walk(0);
-            item.Physics.Tick(dt);item.ZombieAnimation?.Update(item,ZombieClock);
+            if(item.MutationAge is double age)item.MutationAge=age+dt<Settings.Zombies.MutationSeconds?age+dt:null;
+            if(item.Age>=(item.Kind==DummyKind.Zombie?Settings.Zombies.Lifetime:Settings.DataLifetime)){Expired++;Remove(item.Id,DummyRemovalReason.Expired);continue;}
+            if(item.Kind==DummyKind.Zombie)item.Behavior?.Tick(dt);else item.Physics.Walk(0);
+            item.Physics.Tick(dt);
         }
+        PresentationChanged?.Invoke();
     }
     public void ReplaceScreens(IReadOnlyList<DesktopScreen> screens)
     {

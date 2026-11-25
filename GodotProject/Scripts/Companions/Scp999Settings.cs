@@ -5,6 +5,11 @@ public sealed record Scp999Settings
 {
     public float Speed { get; init; } = 160;
     public float FollowRadius { get; init; } = 420;
+    public float FollowExitRadius { get; init; } = 520;
+    public double IdleMinSeconds { get; init; } = 1;
+    public double IdleMaxSeconds { get; init; } = 3;
+    public float WanderMinDistance { get; init; } = 80;
+    public float WanderMaxDistance { get; init; } = 220;
     public float StopDistance { get; init; } = 36;
     public float PetRadius { get; init; } = 240;
     public float ClickRelief { get; init; } = 3;

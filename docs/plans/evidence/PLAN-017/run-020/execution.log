@@ -1,0 +1,42 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+SCP049_CHECK_PASS spawn creates only in-memory dummy object
+SCP049_CHECK_PASS nearest eligible target reserved by doctor
+SCP049_CHECK_PASS duplicate owner cannot claim or transform target
+SCP049_CHECK_PASS walking reaches target and begins timed treatment
+SCP049_CHECK_PASS completion command rejects early treatment
+SCP049_CHECK_PASS treatment atomically changes one target into zombie
+SCP049_CHECK_PASS repeated completion cannot duplicate zombie
+SCP049_CHECK_PASS zombie walks toward lower corner
+SCP049_CHECK_PASS zombie patrol stays within corner interval
+SCP049_CHECK_PASS click collection is idempotent and removes object
+SCP049_CHECK_PASS object IDs never reuse removed identity
+SCP049_CHECK_PASS foreign reservation excluded from search
+SCP049_CHECK_PASS released reservation becomes selectable
+SCP049_CHECK_PASS disappearing target cancels treatment immediately
+SCP049_CHECK_PASS removed target never transforms later
+SCP049_CHECK_PASS data count cap rejects extra spawn
+SCP049_CHECK_PASS zombie cap keeps remaining data intact
+SCP049_CHECK_PASS collecting zombie frees treatment capacity
+SCP049_CHECK_PASS data expiry releases any reservation
+SCP049_CHECK_PASS zombie expiry uses reset lifetime after transformation
+SCP049_CHECK_PASS hide freezes movement, treatment and lifetime clocks
+SCP049_CHECK_PASS hidden state rejects spawn collection and drag
+SCP049_CHECK_PASS restore resumes one treatment without hidden-time catch-up
+SCP049_CHECK_PASS long frame is bounded and cannot spawn a backlog
+SCP049_CHECK_PASS periodic spawner uses visible simulation time
+SCP049_CHECK_PASS hide cancels object drag without moving its position
+ERROR: SCP049_SMOKE_FAILED System.InvalidOperationException: restored dragged object resumes gravity
+   at SiteDesktop.Diagnostics.Scp049Smoke.Require(Boolean ok, String name) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp049Smoke.cs:line 22
+   at SiteDesktop.Diagnostics.Scp049Smoke.Logic() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp049Smoke.cs:line 57
+   at SiteDesktop.Diagnostics.Scp049Smoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp049Smoke.cs:line 86
+   at: void SiteDesktop.Diagnostics.Scp049Smoke+<_Ready>d__12.MoveNext() (res://Scripts/Diagnostics/Scp049Smoke.cs:86)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.Scp049Smoke+<_Ready>d__12.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp049Smoke.cs:86)
+       [2] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [3] void SiteDesktop.Diagnostics.Scp049Smoke._Ready()
+       [4] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2660)
+       [5] bool SiteDesktop.Diagnostics.Scp049Smoke.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\SiteDesktop.Diagnostics.Scp049Smoke_ScriptMethods.generated.cs:100)
+       [6] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)

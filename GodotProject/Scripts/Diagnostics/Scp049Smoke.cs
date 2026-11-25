@@ -21,7 +21,7 @@ public partial class Scp049Smoke : Node
     private readonly List<Window> _owned=new();
     private void Require(bool ok,string name){if(!ok)throw new InvalidOperationException(name);_checks.Add(name);GD.Print("SCP049_CHECK_PASS "+name);}
     private static DesktopScreen Screen=>new(0,new(-1920,1061,1920,1080),new(-1920,1061,1920,1032),96);
-    private static PlagueState Create(PlagueSettings? settings=null)=>new(new[]{Screen},new StressState(),settings){AutoSpawn=false};
+    private static PlagueState Create(PlagueSettings? settings=null,DesktopObjectSettings? objects=null)=>new(new[]{Screen},new StressState(),settings,objectSettings:objects){AutoSpawn=false};
     private static void Step(PlagueState s,double seconds){for(int i=0;i<(int)Math.Ceiling(seconds/.02);i++)s.Tick(Math.Min(.02,seconds-i*.02));}
     private void Logic()
     {
@@ -41,19 +41,19 @@ public partial class Scp049Smoke : Node
         Require(s.TargetId==null,"foreign reservation excluded from search");s.Release(id,"other");Step(s,.2);
         Require(s.Phase==DoctorPhase.Treating,"released reservation becomes selectable");s.Collect(id);
         Require(s.TargetId==null&&s.TreatmentAge==0&&s.Phase==DoctorPhase.Idle,"disappearing target cancels treatment immediately");Step(s,4);Require(s.Transformations==0,"removed target never transforms later");
-        s=Create(new PlagueSettings{MaxData=2,MaxZombies=1,TreatmentSeconds=.2});int a=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(30,0))!.Value;int b=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(36,0))!.Value;
+        s=Create(new PlagueSettings{TreatmentSeconds=.2},new DesktopObjectSettings{MaxData=2,Zombies=new(){Maximum=1}});int a=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(30,0))!.Value;int b=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(36,0))!.Value;
         Require(s.Spawn()==null,"data count cap rejects extra spawn");Step(s,1);
         Require(s.Transformations==1&&s.Objects.Values.Count(o=>o.Kind==DummyKind.Zombie)==1&&s.Objects.Values.Count(o=>o.Kind!=DummyKind.Zombie)==1,"zombie cap keeps remaining data intact");
         int zombie=s.Objects.Values.Single(o=>o.Kind==DummyKind.Zombie).Id;s.Collect(zombie);Step(s,1);Require(s.Transformations==2,"collecting zombie frees treatment capacity");
-        s=Create(new PlagueSettings{DataLifetime=.2});s.SpawnAt(s.Doctor.Body.Foot);Step(s,.3);Require(s.Expired==1&&s.Objects.Count==0&&s.TargetId==null,"data expiry releases any reservation");
-        s=Create(new PlagueSettings{TreatmentSeconds=.1,ZombieLifetime=.5});s.SpawnAt(s.Doctor.Body.Foot);Step(s,1.1);Require(s.Transformations==1&&s.Objects.Count==0&&s.Expired==1,"zombie expiry uses reset lifetime after transformation");
+        s=Create(objects:new(){DataLifetime=.2});s.SpawnAt(s.Doctor.Body.Foot);Step(s,.3);Require(s.Expired==1&&s.Objects.Count==0&&s.TargetId==null,"data expiry releases any reservation");
+        s=Create(new PlagueSettings{TreatmentSeconds=.1},new DesktopObjectSettings{Zombies=new(){Lifetime=.5}});s.SpawnAt(s.Doctor.Body.Foot);Step(s,1.1);Require(s.Transformations==1&&s.Objects.Count==0&&s.Expired==1,"zombie expiry uses reset lifetime after transformation");
         s=Create();id=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(30,0))!.Value;Step(s,.6);
         var position=s.Doctor.Body.Foot;double clock=s.Clock,age=s.Objects[id].Age,treatment=s.TreatmentAge;s.SetVisible(false);Step(s,20);
         Require(s.Clock==clock&&s.Objects[id].Age==age&&s.TreatmentAge==treatment&&s.Doctor.Body.Foot==position,"hide freezes movement, treatment and lifetime clocks");
         Require(s.Spawn()==null&&!s.Collect(id)&&!s.BeginDoctorDrag(position),"hidden state rejects spawn collection and drag");s.SetVisible(true);s.Observe(Array.Empty<WindowObservation>());Step(s,3);
         Require(s.Transformations==1,"restore resumes one treatment without hidden-time catch-up");
         s=Create();s.AutoSpawn=true;s.Tick(100);Require(s.Clock==.1&&s.Objects.Count==0,"long frame is bounded and cannot spawn a backlog");Step(s,6);Require(s.Objects.Count==1,"periodic spawner uses visible simulation time");
-        id=s.Objects.Keys.Single();s.BeginObjectDrag(id,s.Objects[id].Foot);s.Drag(s.Objects[id].Foot-new Vector2(0,200));float y=s.Objects[id].Foot.Y;s.SetVisible(false);s.SetVisible(true);
+        id=s.Objects.Keys.Single();s.World.BeginObjectDrag(id,s.Objects[id].Foot);s.World.Drag(s.Objects[id].Foot-new Vector2(0,200));float y=s.Objects[id].Foot.Y;s.SetVisible(false);s.SetVisible(true);
         Require(s.DraggedObject==null&&s.Objects[id].Foot.Y==y,"hide cancels object drag without moving its position");s.Tick(.1);Require(s.Objects[id].Foot.Y>y,"restored dragged object resumes gravity");
         s.BeginDoctorDrag(s.Doctor.Body.Foot);s.Drag(s.Doctor.Body.Foot-new Vector2(0,150));s.EndDrag();s.Tick(.1);Require(s.Doctor.Body.Motion==PlatformMotion.Falling,"doctor right release uses shared gravity");
         s.ReplaceScreens(new[]{new DesktopScreen(1,new(0,0,1280,720),new(0,0,1280,680),144)});Step(s,1);

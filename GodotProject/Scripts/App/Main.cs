@@ -13,17 +13,20 @@ public partial class Main : Control
     private Button? _exitButton;
     private Button? _visibilityButton;
     private Button? _resetButton;
-    public Scp999Controller Companion { get; internal set; } = null!;
+    public Scp999Controller Companion=>_creation.Find<Scp999Controller>("scp-999")!;
     public bool EnablePlague { get; set; }=true;
     public bool UseDesktopIcons { get; set; }=true;
     public bool EnableStatue { get; set; }=true;
     public bool EnableSystemOptions { get; set; }=true;
     public SystemController? Systems { get; private set; }
     private CheckButton? _strongButton;
-    public StatueController? Statue { get; internal set; }
+    public StatueController? Statue=>_creation.Find<StatueController>("scp-173");
     public DesktopIconAppearance? Icons { get; private set; }
-    public PlagueController? Plague { get; internal set; }
+    public PlagueController? Plague=>_creation.Find<PlagueController>("scp-049");
     public DesktopObjectController? Objects { get; private set; }
+    public WindowsDesktopEnvironmentSource Environment { get; private set; }=null!;
+    private ScpCreationContext _creation=null!;
+    public ScpRuntime Runtime { get; private set; }=null!;
     public ScpActivationManager Scps { get; private set; }=null!;
     public ScpSettingsStore SettingsStore { get; private set; }=null!;
     public ScpOptionsPanel OptionsPanel { get; private set; }=null!;
@@ -57,7 +60,9 @@ public partial class Main : Control
         AddChild(Stack);
         var args=OS.GetCmdlineUserArgs();
         for(int i=0;i+1<args.Length;i++)if(args[i]=="--scp-settings-file")SettingsPath=args[++i];
-        var catalog=ScpCatalog.Create(this);
+        Environment=new();Runtime=new(){Environment=Environment};
+        _creation=new(node=>AddChild(node),Runtime,Environment,Stress,Stack);
+        var catalog=ScpCatalog.Create(_creation,EnablePlague,EnableStatue);
         SettingsStore=new(PersistScpSettings?SettingsPath??ProjectSettings.GlobalizePath("user://scp-settings.json"):null);
         var settings=SettingsStore.Load();
         bool Enabled(ScpDefinition d)=>settings.TryGetValue(d.Id,out bool value)?value:d.DefaultEnabled;
@@ -65,10 +70,18 @@ public partial class Main : Control
         {
             bool active=catalog.Any(d=>d.UsesObjects&&Enabled(d));
             if(UseDesktopIcons){Icons=new();AddChild(Icons);Icons.SetPaused(!active);}
-            Objects=new(){Stack=Stack,Icons=Icons,InitialActive=active,InitialZombiesActive=catalog.Any(d=>d.OwnsZombies&&Enabled(d))};AddChild(Objects);
+            Objects=new(){Environment=Environment,Stack=Stack,Icons=Icons,InitialActive=active,InitialZombiesActive=catalog.Any(d=>d.OwnsZombies&&Enabled(d))};AddChild(Objects);
         }
+        _creation.Objects=Objects;
+        if(Objects!=null)Runtime.Register(Objects.RuntimeTick);
         Scps=new(catalog,settings,()=>Systems?.State.Locked??_diagnosticLocked);
-        if(Objects!=null)Objects.State.OwnerActive=Scps.IsOwnerActive;
+        if(Objects!=null)
+        {
+            Objects.State.OwnerActive=Scps.IsOwnerActive;
+            Objects.State.SpawnAnchorProvider=SpawnAnchor;
+            Objects.SpawnData();
+        }
+        AddChild(Runtime);
         Scps.Changed+=ActivationChanged;
         OptionsPanel=new(){Manager=Scps,Store=SettingsStore};GetNode<VBoxContainer>("Scroll/Content").AddChild(OptionsPanel);
         GetNode<VBoxContainer>("Scroll/Content").MoveChild(OptionsPanel,2);
@@ -87,6 +100,15 @@ public partial class Main : Control
             if (CanHideControls) HideControls(); else ShowControls();
         }
         GD.Print("SITE_DESKTOP_READY");
+    }
+
+    private SpawnAnchor? SpawnAnchor()
+    {
+        if(Scps.IsActive("scp-049")&&Plague is {} doctor)
+            return new(SiteDesktop.Desktop.ScreenLocator.Footprint(doctor.State.Doctor.Body.Foot,40,112),doctor.State.Phase==DoctorPhase.Dragging||doctor.State.Behavior.Portal.Active);
+        if(Scps.IsActive("scp-173")&&Statue is {} statue)
+            return new(SiteDesktop.Desktop.ScreenLocator.Footprint(statue.State.Physics.Body.Foot,28,96),statue.State.Dragging);
+        return null;
     }
 
     private void ToggleOverlays()
@@ -161,7 +183,7 @@ public partial class Main : Control
         _exiting = true;
         GD.Print("SITE_DESKTOP_EXIT_REQUESTED");
         Systems?.Shutdown();
-        Scps.Shutdown();Objects?.Shutdown();Icons?.Shutdown();
+        Runtime.Shutdown();Scps.Shutdown();Objects?.Shutdown();Icons?.Shutdown();
         GetTree().Quit();
     }
 
@@ -174,7 +196,7 @@ public partial class Main : Control
         if(_spawnButton!=null)_spawnButton.Pressed-=SpawnData;
         if(_strongButton!=null)_strongButton.Toggled-=StrongChanged;
         Systems?.Shutdown();
-        if(Scps!=null){Scps.Changed-=ActivationChanged;Scps.Shutdown();}
+        if(Scps!=null){Scps.Changed-=ActivationChanged;Runtime.Shutdown();Scps.Shutdown();}
         Objects?.Shutdown();
         Icons?.Shutdown();
         GetWindow().CloseRequested -= HideControls;

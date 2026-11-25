@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  C:\Dev\scp_desktop\tools\DesktopIconWorker\DesktopIconWorker.csproj을(를) 74밀리초 동안 복원했습니다.
+  C:\Dev\scp_desktop\GodotProject\SiteDesktop.csproj을(를) 163밀리초 동안 복원했습니다.
+  DesktopIconWorker -> C:\Dev\scp_desktop\tools\DesktopIconWorker\bin\Debug\net8.0\DesktopIconWorker.dll
+  SiteDesktop -> C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\bin\Debug\SiteDesktop.dll
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:00.84

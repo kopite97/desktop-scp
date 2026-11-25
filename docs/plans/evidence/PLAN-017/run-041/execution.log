@@ -1,0 +1,41 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+BEHAVIOR_CHECK clamped floor reports no actual walk
+BEHAVIOR_CHECK unchanged geometry retains revision
+BEHAVIOR_CHECK shared movement arrives on floor
+BEHAVIOR_CHECK unreachable high ledge rejected
+BEHAVIOR_CHECK shared route jumps to reachable ledge
+BEHAVIOR_CHECK platform carry reported separately
+BEHAVIOR_CHECK machines have independent state and time; same-state request is idempotent
+BEHAVIOR_CHECK cancel exits once and invalidates generation
+BEHAVIOR_CHECK distant cursor permits autonomous wandering
+BEHAVIOR_CHECK wander remains within actor footprint bounds
+BEHAVIOR_CHECK lockdown freezes companion behavior time and movement
+BEHAVIOR_CHECK cursor dead zone does not churn FSM transitions
+BEHAVIOR_CHECK unreachable target has bounded attempts and releases reservation
+BEHAVIOR_CHECK reachable alternative is treated despite unreachable closer target
+BEHAVIOR_CHECK environment change allows failed target to become reachable
+BEHAVIOR_CHECK lockdown preserves treatment and reservation without advancing time
+BEHAVIOR_CHECK individual OFF during lockdown cancels preserved treatment
+DESKTOP_OBJECTS_STARTED
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED body=ART-004-r001
+SCP173_STARTED art=temporary-code
+SITE_CONTROLS_HIDDEN
+SITE_DESKTOP_READY
+BEHAVIOR_CHECK shared OS observation bounded to 20Hz run 0
+BEHAVIOR_MEASURE 0
+BEHAVIOR_CHECK shared OS observation bounded to 20Hz run 1
+BEHAVIOR_MEASURE 1
+BEHAVIOR_CHECK shared OS observation bounded to 20Hz run 2
+BEHAVIOR_MEASURE 2
+BEHAVIOR_CHECK multiple consumers share same-frame observation
+SITE_DESKTOP_EXIT_REQUESTED
+SYSTEM_OPTIONS_STOPPED
+SCP173_STOPPED
+SCP049_STOPPED
+SCP999_STOPPED
+DESKTOP_OBJECTS_STOPPED
+BEHAVIOR_PASS checks=21
+SITE_DESKTOP_STOPPED

@@ -1,0 +1,73 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+DOCTOR_ART_CHECK Approved r001 hash matches Scp049.png
+DOCTOR_ART_CHECK Approved r001 hash matches Scp049.contract.json
+DOCTOR_ART_CHECK Contract has ten tags and 42 fixed 64px cells
+DOCTOR_ART_CHECK idle selects frame 0 for its authored duration
+DOCTOR_ART_CHECK idle selects frame 1 for its authored duration
+DOCTOR_ART_CHECK idle selects frame 2 for its authored duration
+DOCTOR_ART_CHECK idle selects frame 3 for its authored duration
+DOCTOR_ART_CHECK idle loop/hold matches contract
+DOCTOR_ART_CHECK move selects frame 4 for its authored duration
+DOCTOR_ART_CHECK move selects frame 5 for its authored duration
+DOCTOR_ART_CHECK move selects frame 6 for its authored duration
+DOCTOR_ART_CHECK move selects frame 7 for its authored duration
+DOCTOR_ART_CHECK move selects frame 8 for its authored duration
+DOCTOR_ART_CHECK move selects frame 9 for its authored duration
+DOCTOR_ART_CHECK move selects frame 10 for its authored duration
+DOCTOR_ART_CHECK move selects frame 11 for its authored duration
+DOCTOR_ART_CHECK move loop/hold matches contract
+DOCTOR_ART_CHECK treat_start selects frame 12 for its authored duration
+DOCTOR_ART_CHECK treat_start selects frame 13 for its authored duration
+DOCTOR_ART_CHECK treat_start selects frame 14 for its authored duration
+DOCTOR_ART_CHECK treat_start selects frame 15 for its authored duration
+DOCTOR_ART_CHECK treat_start loop/hold matches contract
+DOCTOR_ART_CHECK treat_loop selects frame 16 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 17 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 18 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 19 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 20 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 21 for its authored duration
+DOCTOR_ART_CHECK treat_loop loop/hold matches contract
+DOCTOR_ART_CHECK treat_end selects frame 22 for its authored duration
+DOCTOR_ART_CHECK treat_end selects frame 23 for its authored duration
+DOCTOR_ART_CHECK treat_end selects frame 24 for its authored duration
+DOCTOR_ART_CHECK treat_end selects frame 25 for its authored duration
+DOCTOR_ART_CHECK treat_end loop/hold matches contract
+DOCTOR_ART_CHECK takeoff selects frame 26 for its authored duration
+DOCTOR_ART_CHECK takeoff selects frame 27 for its authored duration
+DOCTOR_ART_CHECK takeoff selects frame 28 for its authored duration
+DOCTOR_ART_CHECK takeoff loop/hold matches contract
+DOCTOR_ART_CHECK fall selects frame 29 for its authored duration
+DOCTOR_ART_CHECK fall selects frame 30 for its authored duration
+DOCTOR_ART_CHECK fall selects frame 31 for its authored duration
+DOCTOR_ART_CHECK fall loop/hold matches contract
+DOCTOR_ART_CHECK land selects frame 32 for its authored duration
+DOCTOR_ART_CHECK land selects frame 33 for its authored duration
+DOCTOR_ART_CHECK land selects frame 34 for its authored duration
+DOCTOR_ART_CHECK land loop/hold matches contract
+DOCTOR_ART_CHECK balance selects frame 35 for its authored duration
+DOCTOR_ART_CHECK balance selects frame 36 for its authored duration
+DOCTOR_ART_CHECK balance selects frame 37 for its authored duration
+DOCTOR_ART_CHECK balance selects frame 38 for its authored duration
+DOCTOR_ART_CHECK balance loop/hold matches contract
+DOCTOR_ART_CHECK balance_recover selects frame 39 for its authored duration
+DOCTOR_ART_CHECK balance_recover selects frame 40 for its authored duration
+DOCTOR_ART_CHECK balance_recover selects frame 41 for its authored duration
+DOCTOR_ART_CHECK balance_recover loop/hold matches contract
+DOCTOR_ART_CHECK Actual seek/treatment produces start-loop-end without changing three-second game rule
+DOCTOR_ART_CHECK Hidden animation time freezes
+DOCTOR_ART_CHECK Surgery faces left-side target even when velocity is zero
+ERROR: DOCTOR_ART_FAILED System.InvalidOperationException: Collection cancels surgery animation immediately
+   at SiteDesktop.Diagnostics.DoctorArtSmoke.Check(Boolean condition, String name) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DoctorArtSmoke.cs:line 25
+   at SiteDesktop.Diagnostics.DoctorArtSmoke.Logic() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DoctorArtSmoke.cs:line 49
+   at SiteDesktop.Diagnostics.DoctorArtSmoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DoctorArtSmoke.cs:line 68
+   at: void SiteDesktop.Diagnostics.DoctorArtSmoke+<_Ready>d__11.MoveNext() (res://Scripts/Diagnostics/DoctorArtSmoke.cs:68)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.DoctorArtSmoke+<_Ready>d__11.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DoctorArtSmoke.cs:68)
+       [2] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [3] void SiteDesktop.Diagnostics.DoctorArtSmoke._Ready()
+       [4] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2660)
+       [5] bool SiteDesktop.Diagnostics.DoctorArtSmoke.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\SiteDesktop.Diagnostics.DoctorArtSmoke_ScriptMethods.generated.cs:60)
+       [6] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)

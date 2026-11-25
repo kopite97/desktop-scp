@@ -94,8 +94,8 @@ public partial class SystemController : Node
         if(Cue!=null)
         {
             if(_shutter>=0)
-            {_shutter+=delta;if(_shutter<SystemCueWindow.LockdownCueSeconds)Cue.Publish(App.Companion.State.Screens[0].Usable,true,(float)_shutter,false);else{Cue.Hide();_shutter=-1;}}
-            else if(!State.Locked&&App.Scps.Entries.Any(e=>e.Active)&&(State.Hot||State.Noisy))Cue.Publish(App.Companion.State.Screens[0].Usable,false,(float)_cueTime,State.Noisy);
+            {_shutter+=delta;if(_shutter<SystemCueWindow.LockdownCueSeconds)Cue.Publish(App.Environment.Current.Screens[0].Usable,true,(float)_shutter,false);else{Cue.Hide();_shutter=-1;}}
+            else if(!State.Locked&&App.Scps.Entries.Any(e=>e.Active)&&(State.Hot||State.Noisy))Cue.Publish(App.Environment.Current.Screens[0].Usable,false,(float)_cueTime,State.Noisy);
             else Cue.Hide();
             App.Stack.Update("system-cues",Cue.Visible?new[]{new OverlayStackCoordinator.Entry(Cue,50,0,false)}:Array.Empty<OverlayStackCoordinator.Entry>());
         }

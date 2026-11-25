@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": 6,
+  "tests": [
+    "clamped floor reports no actual walk",
+    "unchanged geometry retains revision",
+    "shared movement arrives on floor",
+    "unreachable high ledge rejected",
+    "shared route jumps to reachable ledge",
+    "platform carry reported separately"
+  ]
+}

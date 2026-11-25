@@ -17,6 +17,8 @@ public sealed class PlatformWorld
     public bool Visible { get; private set; } = true;
     public bool Stopped { get; private set; }
     public long Revision { get; private set; }
+    public float WalkDistance { get; private set; }
+    public Vector2 CarryDelta { get; private set; }
 
     public PlatformWorld(IReadOnlyList<DesktopScreen> screens, PlatformSettings? settings = null)
     {
@@ -64,7 +66,8 @@ public sealed class PlatformWorld
         foreach (var screen in Screens)
             surfaces.Add(new($"floor:{screen.Index}", screen.Usable.Position.X, screen.Usable.End.X,
                 screen.Usable.End.Y - 8, screen.Usable.Position, true));
-        Surfaces = surfaces; Revision++;
+        if(!Surfaces.SequenceEqual(surfaces))Revision++;
+        Surfaces = surfaces;CarryDelta=Vector2.Zero;
         ReconcileSupport();
     }
 
@@ -76,7 +79,7 @@ public sealed class PlatformWorld
         if (next == null) { Fall(); return; }
         Vector2 delta = next.WindowOrigin - Body.SupportOrigin;
         if (delta.Length() > Settings.MaxCarryDelta) { Fall(); return; }
-        Body.Foot += delta; Body.SupportOrigin = next.WindowOrigin;
+        CarryDelta+=delta;Body.Foot += delta; Body.SupportOrigin = next.WindowOrigin;
         if (delta.LengthSquared() > 0)
         {
             Body.Slip = Math.Clamp(Body.Slip - delta.X * 3, -320, 320);
@@ -118,28 +121,33 @@ public sealed class PlatformWorld
             .Select(s => (Surface: s, X: Math.Clamp(Body.Foot.X, s.Left + Settings.HalfWidth + 2, s.Right - Settings.HalfWidth - 2)))
             .Where(t => Math.Abs(t.X - Body.Foot.X) <= Settings.MaxJumpGap && (direction == 0 || Math.Sign(t.X - Body.Foot.X) == direction))
             .OrderBy(t => Math.Abs(t.X - Body.Foot.X) + Math.Abs(t.Surface.Y - Body.Foot.Y)).ToArray();
-        foreach (var target in targets)
-        {
-            float dy = target.Surface.Y - Body.Foot.Y;
-            float disc = Settings.JumpSpeed * Settings.JumpSpeed + 2 * Settings.Gravity * dy;
-            if (disc <= 0) continue;
-            float time = (Settings.JumpSpeed + MathF.Sqrt(disc)) / Settings.Gravity;
-            float vx = (target.X - Body.Foot.X) / time;
-            if (Math.Abs(vx) > 400) continue;
-            // A nearer one-way ledge may intercept the descending arc before this target.
-            var firstLanding = Surfaces.Select(s =>
-            {
-                float d = Settings.JumpSpeed * Settings.JumpSpeed + 2 * Settings.Gravity * (s.Y - Body.Foot.Y);
-                float t = d < 0 ? float.PositiveInfinity : (Settings.JumpSpeed + MathF.Sqrt(d)) / Settings.Gravity;
-                return (Surface: s, Time: t);
-            }).Where(t => float.IsFinite(t.Time) && t.Surface.Contains(Body.Foot.X + vx * t.Time, Settings.HalfWidth))
-              .OrderBy(t => t.Time).FirstOrDefault();
-            if (firstLanding.Surface?.Id != target.Surface.Id) continue;
-            Body.Velocity = new(vx, -Settings.JumpSpeed); Body.SupportId = null;
-            Body.Motion = PlatformMotion.Takeoff; Body.JumpCooldown = .6; Body.Slip = 0; Body.Jumps++;
-            return true;
-        }
+        foreach (var target in targets)if(TryJumpTo(target.Surface))return true;
         return false;
+    }
+    public bool JumpSolution(Vector2 from,PlatformSurface target,out float vx,out float x)
+    {
+        vx=0;x=from.X;
+        if(target.Floor||target.Right-target.Left<Settings.HalfWidth*2+4||from.Y-target.Y>Settings.MaxJumpRise||target.Y-from.Y>180)return false;
+        x=Math.Clamp(from.X,target.Left+Settings.HalfWidth+2,target.Right-Settings.HalfWidth-2);
+        if(Math.Abs(x-from.X)>Settings.MaxJumpGap)return false;
+        float disc=Settings.JumpSpeed*Settings.JumpSpeed+2*Settings.Gravity*(target.Y-from.Y);
+        if(disc<=0)return false;
+        float time=(Settings.JumpSpeed+MathF.Sqrt(disc))/Settings.Gravity;
+        vx=(x-from.X)/time;if(Math.Abs(vx)>400)return false;
+        float horizontal=vx;
+        var first=Surfaces.Select(surface=>
+        {
+            float d=Settings.JumpSpeed*Settings.JumpSpeed+2*Settings.Gravity*(surface.Y-from.Y);
+            float t=d<0?float.PositiveInfinity:(Settings.JumpSpeed+MathF.Sqrt(d))/Settings.Gravity;
+            return (Surface:surface,Time:t);
+        }).Where(t=>float.IsFinite(t.Time)&&t.Surface.Contains(from.X+horizontal*t.Time,Settings.HalfWidth)).OrderBy(t=>t.Time).FirstOrDefault();
+        return first.Surface==target;
+    }
+    public bool TryJumpTo(PlatformSurface target)
+    {
+        if(Stopped||!Visible||Body.SupportId==null||Body.JumpCooldown>0||!JumpSolution(Body.Foot,target,out float vx,out _))return false;
+        Body.Velocity=new(vx,-Settings.JumpSpeed);Body.SupportId=null;Body.Motion=PlatformMotion.Takeoff;
+        Body.JumpCooldown=.6;Body.Slip=0;Body.Jumps++;return true;
     }
 
     public void BeginDrag(Vector2 pointer)
@@ -165,6 +173,7 @@ public sealed class PlatformWorld
     public void Tick(double seconds)
     {
         if (!double.IsFinite(seconds) || seconds < 0) throw new ArgumentOutOfRangeException(nameof(seconds));
+        WalkDistance=0;
         if (!Visible || Stopped || Body.Motion == PlatformMotion.Dragging) return;
         double remaining = Math.Min(seconds, .1);
         while (remaining > .0000001)
@@ -181,8 +190,10 @@ public sealed class PlatformWorld
                     !support.Contains(Body.Foot.X + Body.WalkDirection * 36, Settings.HalfWidth) && JumpToAdjacent(Body.WalkDirection)) continue;
                 float x = Body.Foot.X + vx * dt;
                 if (support.Floor) x = Math.Clamp(x, support.Left + Settings.HalfWidth, support.Right - Settings.HalfWidth);
+                float actual=x-Body.Foot.X;
+                if(Body.WalkDirection!=0&&Body.Motion==PlatformMotion.Grounded)WalkDistance+=Math.Abs(actual);
                 Body.Foot = new(x, support.Y);
-                Body.Velocity = new(vx, 0);
+                Body.Velocity = new(actual/dt, 0);
                 if (!support.Contains(x, Settings.HalfWidth)) Fall();
                 else if (Body.PoseTime <= 0) Body.Motion = PlatformMotion.Grounded;
             }

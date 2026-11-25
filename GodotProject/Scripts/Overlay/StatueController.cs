@@ -16,31 +16,30 @@ public partial class StatueController : Node
     public bool Automatic { get; set; }=true;
     public bool Noisy { get; set; }
     private StatueGlyph? _glyph;
-    private readonly WindowsWindowObserver _observer=new();
-    private double _age;
+
+    public WindowsDesktopEnvironmentSource Environment { get; init; }=null!;
+    private long _environmentVersion=-1;
+    private ActorWindowLifetime _lifetime=null!;
     private bool _stopped;
     public override void _Ready()
     {
+        _lifetime=new(Stack,"173");
         State=new(Objects.State.Screens,SharedStress);State.SetVisible(InitialActive);
         if(DisplayServer.GetName()=="headless")return;
         Actor=new Window{Title="SCP-173",Visible=false,ForceNative=true,Transient=false,Borderless=true,Unresizable=true,AlwaysOnTop=true,Unfocusable=true,Transparent=true,TransparentBg=true,Size=new(64,96),InitialPosition=Window.WindowInitialPosition.Absolute};
         Actor.MousePassthroughPolygon=new Vector2[]{new(16,4),new(48,4),new(54,34),new(58,66),new(48,90),new(14,90),new(6,66),new(10,34)};
-        _glyph=new StatueGlyph{Material=new CanvasItemMaterial{LightMode=CanvasItemMaterial.LightModeEnum.Unshaded}};Actor.AddChild(_glyph);Actor.WindowInput+=Input;AddChild(Actor);Publish();
+        _glyph=new StatueGlyph{Material=new CanvasItemMaterial{LightMode=CanvasItemMaterial.LightModeEnum.Unshaded}};Actor.AddChild(_glyph);Actor.WindowInput+=Input;_lifetime!.Attach(this,Actor);Publish();
         GD.Print("SCP173_STARTED art=temporary-code");
     }
     private void Input(InputEvent e)
     {if(e is InputEventMouseButton{Pressed:true,ButtonIndex:MouseButton.Right} b)State.BeginDrag(WindowsDesktop.GetBounds(Actor!).Position+b.Position);}
-    public override void _Process(double delta)
+    public void RuntimeTick(double delta,DesktopEnvironmentSnapshot snapshot)
     {
         if(_stopped||!Automatic||Actor==null||!State.Visible)return;
-        if((_age+=delta)>=.05)
-        {
-            _age=0;State.Physics.Observe(_observer.Read());
-            if(!State.Physics.Screens.SequenceEqual(Objects.State.Screens)){State.EndDrag();State.Physics.ReplaceScreens(Objects.State.Screens);}
-        }
-        Vector2? pointer=WindowsDesktop.TryGetPointer(out var p,out _)?p:null;
-        if(State.Dragging){if(pointer!=null)State.Drag(pointer.Value);if(!WindowsDesktop.RightPressed)State.EndDrag();}
-        State.Tick(delta,pointer,OverlayController.ReadScreens(),Objects.State);Publish();
+        if(!State.Physics.Screens.SequenceEqual(snapshot.Screens)){State.EndDrag();State.Physics.ReplaceScreens(snapshot.Screens);}
+        if(_environmentVersion!=snapshot.Version){State.Physics.Observe(snapshot.Windows);_environmentVersion=snapshot.Version;}
+        if(State.Dragging){if(snapshot.Pointer is {} p)State.Drag(p);if(!snapshot.Right)State.EndDrag();}
+        State.Tick(delta,snapshot.Pointer,snapshot.AllScreens,Objects.State);Publish();
     }
     public void Publish()
     {
@@ -49,8 +48,8 @@ public partial class StatueController : Node
         Actor.Position=WindowsDesktop.ToGodotPosition((Vector2I)State.Position.Round());_glyph!.Observed=State.Observed;_glyph.Noisy=Noisy;_glyph.QueueRedraw();Actor.Show();
         Stack.Update("173",new[]{new OverlayStackCoordinator.Entry(Actor,30,173,State.Dragging)});
     }
-    public void SetVisible(bool visible){if(_stopped)return;if(visible){State.Physics.ReplaceScreens(Objects.State.Screens);State.Physics.Observe(_observer.Read());}State.SetVisible(visible);Publish();}
-    public void Shutdown(){if(_stopped)return;_stopped=true;State?.Shutdown();Stack.Remove("173");if(Actor!=null){Actor.WindowInput-=Input;Actor.Hide();Actor.QueueFree();Actor=null;}GD.Print("SCP173_STOPPED");}
+    public void SetVisible(bool visible){if(_stopped)return;if(visible){State.Physics.ReplaceScreens(Objects.State.Screens);State.Physics.Observe(Environment.Capture(0,true).Windows);}State.SetVisible(visible);Publish();}
+    public void Shutdown(){if(_stopped)return;_stopped=true;State?.Shutdown();_lifetime?.Dispose();if(Actor!=null){Actor.WindowInput-=Input;_lifetime!.Release(Actor);Actor=null;}GD.Print("SCP173_STOPPED");}
     public override void _ExitTree()=>Shutdown();
 }
 public partial class StatueGlyph : Node2D

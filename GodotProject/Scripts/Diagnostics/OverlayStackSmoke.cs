@@ -75,9 +75,9 @@ public partial class OverlayStackSmoke : Node
         }
         p.State.BeginDoctorDrag(p.State.Doctor.Body.Foot);p.Publish();await Frames(3);Require(!Front999(),"doctor drag priority");p.State.EndDrag();p.Publish();
         int id=p.State.SpawnAt(_center)!.Value;p.Publish();await Frames(3);
-        p.State.BeginObjectDrag(id,_center);p.Publish();await Frames(3);
+        p.Objects.State.BeginObjectDrag(id,_center);p.Publish();await Frames(3);
         Require(WindowsDesktop.StackMatches(new[]{(nint)Handle(p.ObjectWindows[id]),(nint)Handle(p.DoctorWindow!),(nint)Handle(c.BodyWindow!)}),"data drag promoted above both actors");
-        p.State.EndDrag();p.State.Collect(id);p.Publish();await Frames(3);Require(!p.ObjectWindows.ContainsKey(id),"removed object leaves stack");
+        p.Objects.State.EndDrag();p.State.Collect(id);p.Publish();await Frames(3);Require(!p.ObjectWindows.ContainsKey(id),"removed object leaves stack");
         c.State.BeginDrag(c.State.Foot);c.Publish();await Frames(3);c.SetVisible(false);p.SetVisible(false);await Frames(3);
         Require(!c.BodyWindow!.Visible&&!p.DoctorWindow!.Visible&&c.State.Gesture!=CompanionGesture.Drag,"hide cancels drag and unregisters native islands");
         c.SetVisible(true);p.SetVisible(true);await Frames(5);Require(!Front999(),"restored handles regain base order");

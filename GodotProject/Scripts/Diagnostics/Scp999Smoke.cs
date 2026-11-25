@@ -114,6 +114,8 @@ public partial class Scp999Smoke : Node
     private async Task Frames(int count){for(int i=0;i<count;i++)await ToSignal(GetTree(),SceneTree.SignalName.ProcessFrame);}
     private async Task NativeInput(Scp999Controller controller)
     {
+        GD.Print($"INPUT_ROOT handle={DisplayServer.WindowGetNativeHandle(DisplayServer.HandleType.WindowHandle,GetWindow().GetWindowId())} bounds={WindowsDesktop.GetBounds(GetWindow())}");
+        WindowsDesktop.SetControlVisible(GetWindow(),false);
         controller.AutomaticInput=true;controller.SetVisible(true);controller.AutomaticInput=false;controller.ResetPositions();
         using var fixture=new NativeInputFixture(_output);
         async Task Click(){fixture.Press();await Frames(3);fixture.Release();await Frames(6);}
@@ -121,7 +123,7 @@ public partial class Scp999Smoke : Node
         Require(fixture.Ready,"separate owned input receiver ready");
         await Frames(30);bool focused=false;
         for(int i=0;i<30&&!focused;i++){focused=fixture.Focus();await Frames(1);}
-        Require(focused,"owned receiver acquired foreground before synthetic input");controller.RefreshPlatforms();await Frames(6);
+        Require(focused,"owned receiver acquired foreground before synthetic input");fixture.PlaceBehind(controller.BodyWindow!);controller.RefreshPlatforms();await Frames(6);
         var s=controller.State;var point=s.Position+new Vector2(64,90);
         fixture.Move(point);await Frames(3);var before=fixture.Counts();int presses=s.PetPresses;
         GD.Print($"BODY_INPUT_TRACE actual={NativeInputFixture.WindowAt(point)} expected={DisplayServer.WindowGetNativeHandle(DisplayServer.HandleType.WindowHandle,controller.BodyWindow!.GetWindowId())} point={point} bounds={WindowsDesktop.GetBounds(controller.BodyWindow)} hit={controller.BodyWindow.ContainsDesktop(point)} motion={s.Motion} tag={s.Tag}");
@@ -130,6 +132,7 @@ public partial class Scp999Smoke : Node
         Require(s.PetPresses==presses+1&&fixture.Counts().Down==before.Down&&controller.Stress.Targets["native-neighbor"].Value==47,"native body click reaches pet/shared stress, not receiver");
         s.EndGesture();for(int i=0;i<50;i++)controller.Advance(.02,s.Foot);
         fixture.Move(s.Position+new Vector2(4,4));await Frames(3);before=fixture.Counts();await Click();
+        GD.Print($"CORNER_TRACE point={s.Position+new Vector2(4,4)} window={NativeInputFixture.WindowAt(s.Position+new Vector2(4,4))} receiver={fixture.Handle} actual={(WindowsDesktop.TryGetPointer(out var actual,out _)?actual:Vector2.Zero)} counts={fixture.Counts()} before={before} hit={controller.BodyWindow!.ContainsDesktop(s.Position+new Vector2(4,4))}");
         Require(fixture.Counts().Down==before.Down+1&&fixture.Counts().Up==before.Up+1,"native transparent corner passes down and up to separate process");
         fixture.Move(s.Position+new Vector2(64,90));await Frames(3);int typing=s.TypingReactions;before=fixture.Counts();
         controller.AutomaticInput=true;fixture.KeyActivity();await Frames(6);controller.AutomaticInput=false;

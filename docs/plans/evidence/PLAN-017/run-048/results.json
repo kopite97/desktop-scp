@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "method": "User actual tray actions; process and log observation",
+  "user_confirmation": "Show controls/X/Alt+F4, Lockdown/Resume 정상; SCP-173 OFF; Exit를 누르니 아이콘과 SCP가 모두 사라졌어요",
+  "settings": {
+    "version": 1,
+    "enabled": {
+      "scp-999": true,
+      "scp-049": true,
+      "scp-173": false
+    }
+  },
+  "exit_log": "SITE_DESKTOP_EXIT_REQUESTED and SITE_DESKTOP_STOPPED; PID 24128 absent after final Exit",
+  "limitation": "Initial completion reply preceded actual final exit; a second explicit Exit confirmation and process observation were required. No synthetic tray click claimed."
+}

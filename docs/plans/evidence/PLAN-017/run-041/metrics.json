@@ -1,0 +1,36 @@
+{
+  "samples": [
+    {
+      "run": 0,
+      "windowObservations": 394,
+      "seconds": 20.0166728,
+      "cpuMs": 7171.875,
+      "allocatedBytes": 14481176,
+      "frames": 1201,
+      "meanFrameMs": 16.66541140716071,
+      "p95FrameMs": 17.3397
+    },
+    {
+      "run": 1,
+      "windowObservations": 300,
+      "seconds": 20.0158627,
+      "cpuMs": 7312.5,
+      "allocatedBytes": 13570824,
+      "frames": 1201,
+      "meanFrameMs": 16.665093671940024,
+      "p95FrameMs": 17.313
+    },
+    {
+      "run": 2,
+      "windowObservations": 300,
+      "seconds": 20.0151913,
+      "cpuMs": 5875,
+      "allocatedBytes": 13349512,
+      "frames": 1201,
+      "meanFrameMs": 16.664574937552064,
+      "p95FrameMs": 17.3784
+    }
+  ],
+  "conditions": "3 SCPs; icon worker disabled; 5s warmup \u002B20s each; real desktop input; not fixed-input CPU equivalence",
+  "limitations": "frame wall interval includes FPS pacing; OS changes and autonomous behavior affect CPU"
+}

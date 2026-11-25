@@ -1,0 +1,6 @@
+{"Sequence":2,"From":null,"To":"Idle","Reason":"cancelled"}
+{"Sequence":3,"From":"Idle","To":"Moving","Reason":"target reserved"}
+{"Sequence":4,"From":"Moving","To":"Transferring","Reason":"departure reached"}
+{"Sequence":5,"From":"Transferring","To":"Moving","Reason":"portal arrived"}
+{"Sequence":6,"From":"Moving","To":"Treating","Reason":"treatment range"}
+{"Sequence":8,"From":null,"To":"Idle","Reason":"cancelled"}

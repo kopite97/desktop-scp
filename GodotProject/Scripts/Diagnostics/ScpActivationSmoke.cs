@@ -146,8 +146,8 @@ public partial class ScpActivationSmoke : Node
                 {
                     for(int i=0;i<600&&!receiver.Ready;i++)await Frames(1);
                     Check(receiver.Ready,"Owned external-effect receiver is ready");
-                    bool focused=false;GD.Print("ACTIVATION_RECEIVER_FOCUS_WAIT");for(int i=0;i<3600&&!focused;i++){focused=receiver.FocusWithoutInput();await Frames(1);}
-                    Check(focused,"Owned receiver acquires foreground without injecting input");
+                    bool focused=false;GD.Print("ACTIVATION_RECEIVER_FOCUS_WAIT");for(int i=0;i<180&&!focused;i++){focused=args.Contains("--native-input")?receiver.Focus():receiver.FocusWithoutInput();await Frames(1);}
+                    Check(focused,"Owned receiver acquires foreground using the requested input policy");
                     _main.Statue!.State.Stress.Set(90);_main.Systems!.SetStrong(true);
                     Check(_main.Systems.RequestStressEffect(),"Active SCP starts an effect on the owned receiver");
                     int moves=_main.Systems.Shake.Moves,restores=_main.Systems.Shake.Restores;_main.Systems.Shake.Tick(.06);
@@ -179,7 +179,7 @@ public partial class ScpActivationSmoke : Node
     private sealed class ProbeModule : IScpModule
     {
         public bool Active;public int Stops;public string Status=>"fixture";public float Stress=>0;
-        public void SetActivity(bool active,bool disabled){Active=active;}
+        public void SetActivity(bool active,ActivityReason reason){Active=active;}
         public void ApplyReactions(SystemOptions system,double delta){}
         public void Reset(){}
         public void Shutdown(){Stops++;}

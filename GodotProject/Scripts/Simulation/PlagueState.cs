@@ -1,4 +1,5 @@
 using Godot;
+using SiteDesktop.Behavior.Scp049;
 using SiteDesktop.Desktop;
 using SiteDesktop.Platforms;
 using System;
@@ -7,22 +8,26 @@ using System.Linq;
 
 namespace SiteDesktop.Simulation;
 
-// SCP-049 behavior. Shared objects have a separate owner; facade methods preserve diagnostic commands.
+public enum DoctorPhase { Idle, Seeking, Treating, Dragging, Transferring }
+
+// SCP-049 composition: behavior, body, and presentation have separate owners.
 public sealed class PlagueState
 {
     public const string DoctorId="scp049";
     public PlatformWorld Doctor { get; }
+    public TreatmentPresentationState? TreatmentView=>Phase==DoctorPhase.Treating&&TargetId is int id&&TreatmentStartedAt is double start?new(id,Math.Max(0,Clock-start),Visible&&!Stopped):null;
     public DoctorAnimation Animation { get; }=new();
     public StressTarget DoctorStress { get; }
     public PlagueSettings Settings { get; }
-    public DoctorPhase Phase { get; private set; }
-    public int? TargetId { get; private set; }
+    public DoctorBehavior Behavior { get; }
+    public DoctorPhase Phase=>Behavior.Phase;
+    public int? TargetId=>Behavior.TargetId;
     public int? DraggedObject => World.DraggedObject;
-    public double TreatmentAge { get; private set; }
-    public double? TreatmentStartedAt { get; private set; }
+    public double TreatmentAge=>Behavior.TreatmentAge;
+    public double? TreatmentStartedAt=>Behavior.TreatmentStartedAt;
     public event Action<DummyRemoval>? Removed { add=>World.Removed+=value; remove=>World.Removed-=value; }
-    public float TreatmentRate { get; set; }=1;
-    public double Clock { get; private set; }
+    public float TreatmentRate { get=>Behavior.TreatmentRate; set=>Behavior.TreatmentRate=value; }
+    public double Clock=>Behavior.Clock;
     public bool Visible { get; private set; }=true;
     public bool Stopped { get; private set; }
     public bool AutoSpawn { get=>World.AutoSpawn; set=>World.AutoSpawn=value; }
@@ -36,17 +41,18 @@ public sealed class PlagueState
     public DesktopObjectState World { get; }
     private IReadOnlyDictionary<int,DummyObject> _objects=>World.Objects;
     private readonly bool _ownsWorld;
-    private readonly Dictionary<int,double> _retry=new();
+
     private IReadOnlyList<WindowObservation> _observations=Array.Empty<WindowObservation>();
     private readonly StressState _stress;
 
-    private double _seekAge;
 
-    public PlagueState(IReadOnlyList<DesktopScreen> screens,StressState stress,PlagueSettings? settings=null,DesktopObjectState? world=null)
+
+    public PlagueState(IReadOnlyList<DesktopScreen> screens,StressState stress,PlagueSettings? settings=null,DesktopObjectState? world=null,DesktopObjectSettings? objectSettings=null)
     {
-        _ownsWorld=world==null;World=world??new(screens,settings);Settings=World.Settings;_stress=stress;World.TargetInvalidated+=Invalidated;
-        if(Settings.SpawnInterval<=0||Settings.TreatmentSeconds<=0||Settings.DataLifetime<=0||Settings.ZombieLifetime<=0||Settings.MaxData<0||Settings.MaxZombies<0)throw new ArgumentOutOfRangeException(nameof(settings));
+        _ownsWorld=world==null;World=world??new(screens,objectSettings);Settings=settings??new();_stress=stress;World.TargetInvalidated+=Invalidated;
+        if(Settings.TreatmentSeconds<=0||Settings.DoctorSpeed<=0||Settings.TargetTimeout<=0||Settings.RetrySeconds<0)throw new ArgumentOutOfRangeException(nameof(settings));
         Doctor=new(screens,new PlatformSettings{Speed=Settings.DoctorSpeed,HalfWidth=40,Height=112});
+        Behavior=new(Doctor,World,Settings,DoctorId);
         DoctorStress=new(DoctorId,Doctor.Body.Foot,40);stress.Add(DoctorStress);ResetDoctor();
     }
     private DesktopScreen Nearest(Vector2 foot)=>Screens.OrderBy(s=>((Vector2)s.Usable.GetCenter()).DistanceSquaredTo(foot)).First();
@@ -61,56 +67,36 @@ public sealed class PlagueState
 
     public bool Break(int id,string owner)=>World.Break(id,owner);
 
-    private void CancelTarget(bool retry=false)
-    {
-        if(TargetId is int id){Release(id,DoctorId);if(retry)_retry[id]=Clock+Settings.RetrySeconds;}
-        TargetId=null;TreatmentAge=0;TreatmentStartedAt=null;_seekAge=0;
-        if(Phase!=DoctorPhase.Dragging)Phase=DoctorPhase.Idle;
-        Doctor.Walk(0);
-        Animation.Update(this,0);
-    }
+    private void CancelTarget(bool retry=false){Behavior.Cancel(retry);Animation.Update(this,0);}
     public bool Collect(int id)=>World.Collect(id);
-
-    private void Invalidated(int id){if(TargetId==id)CancelTarget();_retry.Remove(id);}
-
-    private bool InTreatmentRange(DummyObject item)=>Settled(Doctor)&&Settled(item.Physics)&&Doctor.Body.SupportId==item.Physics.Body.SupportId&&Math.Abs(Doctor.Body.Foot.X-item.Foot.X)<=Settings.TreatmentRange&&Math.Abs(Doctor.Body.Foot.Y-item.Foot.Y)<1;
-    public bool CompleteTreatment(int id,string owner)
-    {
-        if(Stopped||!Visible||owner!=DoctorId||TargetId!=id||Phase!=DoctorPhase.Treating||TreatmentAge+1e-8<Settings.TreatmentSeconds||!_objects.TryGetValue(id,out var item))return false;
-        if(item.Kind==DummyKind.Zombie||item.ClaimedBy!=owner||!InTreatmentRange(item)||_objects.Values.Count(o=>o.Kind==DummyKind.Zombie)>=Settings.MaxZombies)return false;
-        if(!World.Transform(id,owner))return false;CancelTarget();Animation.Update(this,0);return true;
-    }
+    private void Invalidated(int id){Behavior.Invalidated(id);Animation.Update(this,0);}
+    public bool CompleteTreatment(int id,string owner)=>Behavior.Complete(id,owner);
     public bool BeginDoctorDrag(Vector2 pointer)
     {
-        if(Stopped||!Visible)return false;EndDrag();CancelTarget();Phase=DoctorPhase.Dragging;Doctor.BeginDrag(pointer);Animation.Update(this,0);return true;
+        if(Stopped||!Visible||Behavior.Portal.Active)return false;EndDrag();Behavior.DragStarted();Doctor.BeginDrag(pointer);Animation.Update(this,0);return true;
     }
-    public bool BeginObjectDrag(int id,Vector2 pointer){EndDrag();return World.BeginObjectDrag(id,pointer);}
 
     public void Drag(Vector2 pointer)
     {
         if(Stopped||!Visible)return;
         if(Phase==DoctorPhase.Dragging)Doctor.Drag(pointer);
-        else World.Drag(pointer);
         DoctorStress.Position=Doctor.Body.Foot;
         Animation.Update(this,0);
     }
     public void EndDrag()
     {
-        if(Phase==DoctorPhase.Dragging){Doctor.EndDrag();Phase=DoctorPhase.Idle;}
-        World.EndDrag();
+        if(Phase==DoctorPhase.Dragging){Doctor.EndDrag();Behavior.DragEnded();}
         Animation.Update(this,0);
     }
-    public void Observe(IReadOnlyList<WindowObservation> windows){World.Observe(windows);ObserveDoctor(windows);}
     public void ObserveDoctor(IReadOnlyList<WindowObservation> windows)
     {
         if(Stopped||!Visible)return;_observations=windows;Doctor.Observe(windows);
-        if(Phase==DoctorPhase.Treating&&TargetId is int id&&(!_objects.TryGetValue(id,out var item)||!InTreatmentRange(item)))CancelTarget();
+        Behavior.Revalidate();
         DoctorStress.Position=Doctor.Body.Foot;
         Animation.Update(this,0);
     }
 
 
-    public void Tick(double seconds){World.Tick(seconds);TickDoctor(seconds);}
     public void TickDoctor(double seconds)
     {
         TickCore(seconds);
@@ -120,41 +106,8 @@ public sealed class PlagueState
     private void TickCore(double seconds)
     {
         if(!double.IsFinite(seconds)||seconds<0)throw new ArgumentOutOfRangeException(nameof(seconds));
-        if(Stopped||!Visible)return;double dt=Math.Min(.1,seconds);Clock+=dt;
-        if(Phase==DoctorPhase.Dragging){DoctorStress.Position=Doctor.Body.Foot;return;}
-        Doctor.Walk(0);
-        if(TargetId is int current&&(!_objects.TryGetValue(current,out var held)||held.Kind==DummyKind.Zombie||held.ClaimedBy!=DoctorId))CancelTarget();
-        if(Phase==DoctorPhase.Treating&&TargetId is int treating&&!InTreatmentRange(_objects[treating]))CancelTarget();
-        if(TargetId==null&&Settled(Doctor)&&_objects.Values.Count(o=>o.Kind==DummyKind.Zombie)<Settings.MaxZombies)
-        {
-            int screen=Nearest(Doctor.Body.Foot).Index;
-            var target=_objects.Values.Where(o=>o.Kind!=DummyKind.Zombie&&o.BrokenAge==null&&o.ClaimedBy==null&&o.Physics.Body.Motion!=PlatformMotion.Dragging&&Nearest(o.Foot).Index==screen&&(!_retry.TryGetValue(o.Id,out var retry)||Clock>=retry))
-                .OrderBy(o=>o.Foot.DistanceSquaredTo(Doctor.Body.Foot)).ThenBy(o=>o.Id).FirstOrDefault();
-            if(target!=null&&TryClaim(target.Id,DoctorId)){TargetId=target.Id;Phase=DoctorPhase.Seeking;_seekAge=0;}
-        }
-        if(TargetId is int targetId)
-        {
-            var target=_objects[targetId];
-            if(InTreatmentRange(target)){if(Phase!=DoctorPhase.Treating)TreatmentStartedAt=Clock;Phase=DoctorPhase.Treating;TreatmentAge+=dt*TreatmentRate;}
-            else
-            {
-                Phase=DoctorPhase.Seeking;TreatmentAge=0;TreatmentStartedAt=null;_seekAge+=dt;
-                if(_seekAge>=Settings.TargetTimeout)CancelTarget(true);
-                else if(Settled(Doctor))
-                {
-                    float dx=target.Foot.X-Doctor.Body.Foot.X;int direction=Math.Sign(dx);
-                    Doctor.Body.AutoJump=target.Foot.Y<=Doctor.Body.Foot.Y;
-                    if(target.Foot.Y<Doctor.Body.Foot.Y-4)Doctor.JumpToAdjacent(direction);
-                    if(Math.Abs(dx)<Settings.TreatmentRange&&target.Foot.Y>Doctor.Body.Foot.Y+4)
-                    {
-                        var support=Doctor.Surfaces.FirstOrDefault(s=>s.Id==Doctor.Body.SupportId);
-                        if(support!=null&&!support.Floor)direction=Doctor.Body.Foot.X<(support.Left+support.Right)/2?-1:1;
-                    }
-                    Doctor.Walk(direction);
-                }
-            }
-        }
-        Doctor.Tick(dt);DoctorStress.Position=Doctor.Body.Foot;
+        if(Stopped||!Visible)return;double dt=Math.Min(.1,seconds);
+        Behavior.Tick(dt);if(!Behavior.Portal.Active)Doctor.Tick(dt);DoctorStress.Position=Doctor.Body.Foot;
         if(TargetId is int completed&&TreatmentAge>=Settings.TreatmentSeconds)CompleteTreatment(completed,DoctorId);
     }
     public void ResetDoctor()
@@ -164,23 +117,22 @@ public sealed class PlagueState
         for(int i=0;i<3;i++)Doctor.Tick(.1);DoctorStress.Position=Doctor.Body.Foot;
         Animation.Reset(this);
     }
-    public void ReplaceScreens(IReadOnlyList<DesktopScreen> screens)
+    public void ReplaceDoctorScreens(IReadOnlyList<DesktopScreen> screens)
     {
         if(Stopped||screens.Count==0)return;EndDrag();CancelTarget();_observations=Array.Empty<WindowObservation>();Doctor.ReplaceScreens(screens);
-        World.ReplaceScreens(screens);DoctorStress.Position=Doctor.Body.Foot;
+        DoctorStress.Position=Doctor.Body.Foot;
     }
-    public void SetVisible(bool visible){SetDoctorActive(visible,false);World.SetActivity(visible,visible);}
     public void SetDoctorActive(bool active,bool disabled)
     {
         if(Stopped)return;
-        if(disabled){CancelTarget();World.ReleaseOwner(DoctorId);_retry.Clear();}
-        if(Visible!=active){if(Phase==DoctorPhase.Dragging){Doctor.EndDrag();Phase=DoctorPhase.Idle;}Visible=active;Doctor.SetVisible(active);}
+        if(disabled){CancelTarget();World.ReleaseOwner(DoctorId);Behavior.Reset();}
+        if(Visible!=active){if(Phase==DoctorPhase.Dragging){Doctor.EndDrag();Behavior.DragEnded();}Visible=active;Doctor.SetVisible(active);}
         DoctorStress.Active=active;
     }
 
     public void Shutdown()
     {
         if(Stopped)return;CancelTarget();EndDrag();Visible=false;Stopped=true;Doctor.Stop();
-        World.TargetInvalidated-=Invalidated;if(_ownsWorld)World.Shutdown();_retry.Clear();_stress.Remove(DoctorId);
+        World.TargetInvalidated-=Invalidated;if(_ownsWorld)World.Shutdown();Behavior.Reset();_stress.Remove(DoctorId);
     }
 }

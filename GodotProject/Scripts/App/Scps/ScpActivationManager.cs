@@ -34,12 +34,12 @@ public sealed class ScpActivationManager
     public bool SetEnabled(string id,bool enabled)
     {
         if(_stopped||!_entries.TryGetValue(id,out var e)||e.Enabled==enabled)return false;
-        e.Enabled=enabled;e.Active=enabled&&!_locked();e.Module.SetActivity(e.Active,!enabled);Changed?.Invoke(id);return true;
+        e.Enabled=enabled;e.Active=enabled&&!_locked();e.Module.SetActivity(e.Active,enabled?ActivityReason.Enabled:ActivityReason.Disabled);Changed?.Invoke(id);return true;
     }
     public void RefreshLockdown()
     {
         if(_stopped)return;
-        foreach(var e in _entries.Values){bool active=e.Enabled&&!_locked();if(e.Active==active)continue;e.Active=active;e.Module.SetActivity(active,false);}
+        foreach(var e in _entries.Values){bool active=e.Enabled&&!_locked();if(e.Active==active)continue;e.Active=active;e.Module.SetActivity(active,active?ActivityReason.Resume:ActivityReason.Lockdown);}
         Changed?.Invoke(null);
     }
     public void ApplyReactions(SystemOptions system,double delta){if(_stopped)return;foreach(var e in _entries.Values)if(e.Active)e.Module.ApplyReactions(system,delta);}

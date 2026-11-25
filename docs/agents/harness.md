@@ -65,3 +65,8 @@ DoctorArtSmoke는 승인 r001 해시·태그/상태·양방향 실제 RGBA·알�
 ZombieArtSmoke는 ART-006/007의 해시·게임 시계·소멸/캐시 수명을 검사한다. `scripts/godot.ps1 -Action ZombieArtSmoke -Headless` 또는 `-MonitorId GSM5BDE`에 새 EvidenceDirectory/LogFile을 지정한다. native는9종 아이콘·30프레임·양방향 렌더/알파·효과·봉쇄·정리·짧은 비용을 추가한다. `-NativeInput`은 시간 승인 후 별도 소유 수신기로 구멍/효과/잔상 투과·드래그·회수를 검사한다. [PLAN-014 증거](../plans/evidence/PLAN-014/README.md).
 
 ScpActivationSmoke는 제품 관리자·공용 상태로 8개 조합·봉쇄 중 변경·치료/좀비 중단·설정 오류/복구·신규 등록을 검사한다. `ScpActivationSmoke -Headless` 또는 `-MonitorId GSM5BDE`에 새 EvidenceDirectory/LogFile을 지정한다. 진단 Main은 PersistScpSettings=false 또는 격리 SettingsPath를 사용한다.
+
+BehaviorSmoke는 제품 FSM·이동·복구·배회·봉쇄 시간과 환경 공유를 검사한다. `scripts/godot.ps1 -Action BehaviorSmoke -Headless -EvidenceDirectory <새 회차> -LogFile <새 로그>`를 사용한다. `-Measure -MonitorId GSM5BDE -TimeoutSeconds 100`은 준비5초+측정20초를3회 실행하며 실제 입력은 주입하지 않는다. Baseline은 변경 전 재현용으로 보존한 경로이며 현재 제품의 통과 검사로 사용하지 않는다.
+PlagueScenario는 진단에서 공용 월드와 049를 각각 한 번 갱신하는 조정 함수다. 제품 컨트롤러에 진단용 전체 월드 갱신을 다시 추가하지 않는다. InputProbe는 자체 창 크기 설정을 시작 코드가 덮어쓰지 않게 준비하며 NativeInputFixture는 포커스와 포인터 대상 PID를 검사한다.
+
+MonitorPortalSmoke는 모의 생성/전이/중단 및 실제 두 모니터 포털을 검사한다. `scripts/godot.ps1 -Action MonitorPortalSmoke -Headless -EvidenceDirectory <새 회차> -LogFile <새 로그>`를 사용한다. 실제 두 화면 검사는 MonitorId 제한 없이 실행하며, 승인된 `-NativeInput`만 별도 수신기 클릭/드래그를 수행한다. 수신기는 모든 시험 화면을 덮고 캡처는 그 위 포털 영역으로 제한한다. 종료 전에 수신기를 정리하며 Quit 이후 프레임을 기다리지 않는다.

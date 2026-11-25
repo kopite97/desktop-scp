@@ -27,7 +27,7 @@ public partial class StatueSmoke : Node
         return(new StatueState(new[]{Lg},stress),p,stress,id);
     }
     private void Step(StatueState s,PlagueState p,Vector2? cursor,double time)
-    {for(int i=0;i<(int)Math.Ceiling(time/.02);i++)s.Tick(.02,cursor,Screens,p);}
+    {for(int i=0;i<(int)Math.Ceiling(time/.02);i++)s.Tick(.02,cursor,Screens,p.World);}
     private void Logic()
     {
         var (s,p,stress,id)=Setup();var before=s.Position;var near=s.Position+new Vector2(32,44);
@@ -75,7 +75,7 @@ public partial class StatueSmoke : Node
         int id=c.State.SpawnAt(area.Position+new Vector2(800,area.Size.Y-8))!.Value;
         for(int i=0;i<5;i++)c.Advance(.1);string appearance=c.State.Objects[id].AppearanceId!;
         var screens=OverlayController.ReadScreens();Vector2 far=area.Position+new Vector2(10,10);
-        for(int i=0;i<410;i++)statue.State.Tick(.02,far,screens,c.State);
+        for(int i=0;i<410;i++)statue.State.Tick(.02,far,screens,c.Objects.State);
         statue.Publish();c.Publish();await Frames(15);
         Check(statue.State.Attacks==1&&c.State.Objects[id].BrokenAge!=null,"Native product state breaks runtime icon");
         Check(c.State.Objects[id].AppearanceId==appearance&&c.ObjectWindows[id].Icon!=null,"Native fragments use original icon texture");

@@ -15,6 +15,7 @@ public partial class PlagueActorWindow : Window
     public DoctorSprite? DoctorArt { get; private set; }
     public ZombieSprite? ZombieArt { get; private set; }
     private readonly PlagueArt? _art;
+    private bool _transferring;
     private static readonly Vector2[] DataShape={new(8,12),new(44,12),new(56,24),new(56,56),new(8,56)};
     public PlagueActorWindow(int id,PlagueArt? art=null)
     {
@@ -32,7 +33,7 @@ public partial class PlagueActorWindow : Window
     }
     private void OnInput(InputEvent input)
     {
-        if(input is InputEventMouseButton {Pressed:true} b)
+        if(!_transferring&&input is InputEventMouseButton {Pressed:true} b)
         {
             if(Hit(b.Position))Pressed?.Invoke(ObjectId,b.ButtonIndex,WindowsDesktop.GetBounds(this).Position+b.Position);
         }
@@ -48,6 +49,10 @@ public partial class PlagueActorWindow : Window
         {
             if(doctor==null||!doctor.Visible||doctor.Stopped){Hide();return;}
             foot=doctor.Doctor.Body.Foot;DoctorArt!.Publish(doctor.Animation);
+            var portal=doctor.Behavior.Portal.Frame;_transferring=portal!=null;
+            float alpha=portal?.BodyAlpha??1;float scale=.45f+.55f*alpha;
+            DoctorArt.SelfModulate=new Color(1,1,1,alpha);DoctorArt.Scale=new(2*scale,2*scale);DoctorArt.Position=new(64,112-48*scale);
+            if(alpha<=0){Hide();return;}
         }
         else
         {
@@ -66,7 +71,7 @@ public partial class PlagueActorWindow : Window
         if(!Visible)Show();
         if(WindowsDesktop.TryGetPointer(out var pointer,out _))
         {
-            bool pass=!Hit(pointer-WindowsDesktop.GetBounds(this).Position);
+            bool pass=_transferring||!Hit(pointer-WindowsDesktop.GetBounds(this).Position);
             if(MousePassthrough!=pass)MousePassthrough=pass;
             WindowsDesktop.SetIconClickThrough(this,pass);
         }

@@ -1,0 +1,93 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+PORTAL_CHECK automatic generation stays on anchor monitor and respects global cap
+PORTAL_CHECK drag suspends spawning and leaves old icons untouched
+PORTAL_CHECK new monitor receives clones without multiplying cap
+PORTAL_CHECK anchor resolves negative origin
+PORTAL_CHECK equal overlap retains previous screen
+PORTAL_CHECK missing anchor and unknown region cannot create clones
+DESKTOP_OBJECTS_STARTED
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED body=ART-004-r001
+SCP173_STARTED art=temporary-code
+SITE_CONTROLS_SHOWN
+SITE_DESKTOP_READY
+PORTAL_CHECK initial spawn occurs after actor registration
+SCP_SETTING scp-049=False
+PORTAL_CHECK 173-only consumer keeps spawning
+SCP_SETTING scp-173=False
+PORTAL_CHECK no consumer means no clones
+PORTAL_CHECK cross-monitor route transfers once then treats target
+PORTAL_CHECK arrival releases reservation after treatment
+PORTAL_CHECK right to left portal treats target
+PORTAL_CHECK cross-monitor drag starts grace after landing
+PORTAL_CHECK local target beats remote target during grace
+PORTAL_CHECK portal starts at departure gate
+PORTAL_CHECK transfer refuses new body drag
+PORTAL_CHECK lockdown freezes transfer stage 0.2
+PORTAL_CHECK target removal cancels without a late commit 0.2
+PORTAL_CHECK cancel retains committed side 0.2
+PORTAL_CHECK portal starts at departure gate
+PORTAL_CHECK transfer refuses new body drag
+PORTAL_CHECK lockdown freezes transfer stage 0.5
+PORTAL_CHECK target removal cancels without a late commit 0.5
+PORTAL_CHECK cancel retains committed side 0.5
+PORTAL_CHECK portal starts at departure gate
+PORTAL_CHECK transfer refuses new body drag
+PORTAL_CHECK lockdown freezes transfer stage 0.8
+PORTAL_CHECK target removal cancels without a late commit 0.8
+PORTAL_CHECK cancel retains committed side 0.8
+PORTAL_CHECK individual OFF cancels portal and claim
+PORTAL_CHECK removed destination recovers on remaining screen
+PORTAL_CHECK portal does not bypass unreachable destination ledge
+PORTAL_CHECK long local walk survives original twelve-second timeout
+PORTAL_CHECK separated vertically stacked screens transfer in physical coordinates
+PORTAL_CHECK generic actor can cancel transfer without stale completion
+SCP173_STOPPED
+SCP049_STOPPED
+SCP999_STOPPED
+DESKTOP_OBJECTS_STOPPED
+SITE_DESKTOP_STOPPED
+DESKTOP_OBJECTS_STARTED
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED body=ART-004-r001
+SCP173_STARTED art=temporary-code
+SITE_CONTROLS_HIDDEN
+SITE_DESKTOP_READY
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-173=False
+PORTAL_CHECK native environment exposes at least two monitors
+ERROR: System.InvalidOperationException: owned input receiver ready
+   at SiteDesktop.Diagnostics.MonitorPortalSmoke.Check(Boolean ok, String name) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\MonitorPortalSmoke.cs:line 22
+   at SiteDesktop.Diagnostics.MonitorPortalSmoke.Native(Boolean input) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\MonitorPortalSmoke.cs:line 60
+   at SiteDesktop.Diagnostics.MonitorPortalSmoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\MonitorPortalSmoke.cs:line 30
+   at: void SiteDesktop.Diagnostics.MonitorPortalSmoke+<_Ready>d__6.MoveNext() (res://Scripts/Diagnostics/MonitorPortalSmoke.cs:30)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.MonitorPortalSmoke+<_Ready>d__6.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\MonitorPortalSmoke.cs:30)
+       [2] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [3] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [4] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [5] void System.Threading.Tasks.Task.RunContinuations(object)
+       [6] void System.Threading.Tasks.Task.FinishSlow(bool)
+       [7] bool System.Threading.Tasks.Task.TrySetException(object)
+       [8] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(System.Exception, System.Threading.Tasks.Task`1[TResult]&)
+       [9] void SiteDesktop.Diagnostics.MonitorPortalSmoke+<Native>d__8.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\MonitorPortalSmoke.cs:60)
+       [10] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [11] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [12] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [13] void System.Threading.Tasks.Task.RunContinuations(object)
+       [14] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [15] void SiteDesktop.Diagnostics.MonitorPortalSmoke+<Frames>d__7.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\MonitorPortalSmoke.cs:35)
+       [16] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [17] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [18] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+SITE_DESKTOP_EXIT_REQUESTED
+SYSTEM_OPTIONS_STOPPED
+SCP173_STOPPED
+SCP049_STOPPED
+SCP999_STOPPED
+DESKTOP_OBJECTS_STOPPED
+SITE_DESKTOP_STOPPED

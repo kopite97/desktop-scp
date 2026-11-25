@@ -1,0 +1,399 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+ACTIVATION_CHECK Missing and malformed entries leave catalog defaults available
+ACTIVATION_CHECK Unknown IDs survive atomic saving without creating actors
+ACTIVATION_CHECK Corrupt original is preserved with a separate recovery file
+ACTIVATION_CHECK Subsequent launch restores recovery preferences while preserving the damaged original
+ACTIVATION_CHECK Newer schema is not overwritten
+ACTIVATION_CHECK Write failure is reported without invalidating session selection
+ACTIVATION_CHECK New registration uses its own missing-key default
+ACTIVATION_CHECK A new module participates in toggles, lockdown and persistence without a switch
+ACTIVATION_CHECK New registration generates its UI row
+ACTIVATION_CHECK Shutdown is idempotent and rejects later changes
+ACTIVATION_CHECK Duplicate stable IDs are rejected before modules are created
+ACTIVATION_CHECK Late icon result after pause cannot populate the catalog
+ACTIVATION_CHECK Resume accepts a fresh icon generation
+ACTIVATION_CHECK Shared icon shutdown releases cached textures
+SITE_DESKTOP_READY
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+ACTIVATION_CHECK Combination 0: independent bodies and shared world
+ACTIVATION_CHECK Combination 0: only active clocks and stress progress
+SITE_LOCKED
+ACTIVATION_CHECK Combination 0: lockdown freezes clocks
+SITE_RESUMED
+ACTIVATION_CHECK Combination 0: resume honors individual preferences
+SCP999_SHOWN
+SCP_SETTING scp-999=True
+ACTIVATION_CHECK Combination 1: independent bodies and shared world
+ACTIVATION_CHECK Combination 1: only active clocks and stress progress
+SCP999_HIDDEN
+SITE_LOCKED
+ACTIVATION_CHECK Combination 1: lockdown freezes clocks
+SCP999_SHOWN
+SITE_RESUMED
+ACTIVATION_CHECK Combination 1: resume honors individual preferences
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=True
+ACTIVATION_CHECK Combination 2: independent bodies and shared world
+ACTIVATION_CHECK Combination 2: only active clocks and stress progress
+SITE_LOCKED
+ACTIVATION_CHECK Combination 2: lockdown freezes clocks
+SITE_RESUMED
+ACTIVATION_CHECK Combination 2: resume honors individual preferences
+SCP999_SHOWN
+SCP_SETTING scp-999=True
+ACTIVATION_CHECK Combination 3: independent bodies and shared world
+ACTIVATION_CHECK Combination 3: only active clocks and stress progress
+SCP999_HIDDEN
+SITE_LOCKED
+ACTIVATION_CHECK Combination 3: lockdown freezes clocks
+SCP999_SHOWN
+SITE_RESUMED
+ACTIVATION_CHECK Combination 3: resume honors individual preferences
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=True
+ACTIVATION_CHECK Combination 4: independent bodies and shared world
+ACTIVATION_CHECK Combination 4: only active clocks and stress progress
+SITE_LOCKED
+ACTIVATION_CHECK Combination 4: lockdown freezes clocks
+SITE_RESUMED
+ACTIVATION_CHECK Combination 4: resume honors individual preferences
+SCP999_SHOWN
+SCP_SETTING scp-999=True
+ACTIVATION_CHECK Combination 5: independent bodies and shared world
+ACTIVATION_CHECK Combination 5: only active clocks and stress progress
+SCP999_HIDDEN
+SITE_LOCKED
+ACTIVATION_CHECK Combination 5: lockdown freezes clocks
+SCP999_SHOWN
+SITE_RESUMED
+ACTIVATION_CHECK Combination 5: resume honors individual preferences
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=True
+ACTIVATION_CHECK Combination 6: independent bodies and shared world
+ACTIVATION_CHECK Combination 6: only active clocks and stress progress
+SITE_LOCKED
+ACTIVATION_CHECK Combination 6: lockdown freezes clocks
+SITE_RESUMED
+ACTIVATION_CHECK Combination 6: resume honors individual preferences
+SCP999_SHOWN
+SCP_SETTING scp-999=True
+ACTIVATION_CHECK Combination 7: independent bodies and shared world
+ACTIVATION_CHECK Combination 7: only active clocks and stress progress
+SCP999_HIDDEN
+SITE_LOCKED
+ACTIVATION_CHECK Combination 7: lockdown freezes clocks
+SCP999_SHOWN
+SITE_RESUMED
+ACTIVATION_CHECK Combination 7: resume honors individual preferences
+SCP999_HIDDEN
+SITE_LOCKED
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SCP_SETTING scp-173=True
+ACTIVATION_CHECK Changing preferences during lockdown does not expose actors
+SCP999_SHOWN
+SITE_RESUMED
+ACTIVATION_CHECK Resume applies the final locked-time selection
+ACTIVATION_CHECK Disabled stress excludes both relief and metric updates
+ACTIVATION_CHECK Inactive high stress cannot request external effects
+ACTIVATION_CHECK Active effect requests retain their SCP owner
+SCP_SETTING scp-173=False
+ACTIVATION_CHECK Disabling effect owner clears eligibility
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+ACTIVATION_CHECK Treatment fixture uses the actual doctor and shared object
+SITE_LOCKED
+SITE_RESUMED
+ACTIVATION_CHECK Global lockdown preserves treatment progress and reservation
+SITE_LOCKED
+SCP_SETTING scp-049=False
+ACTIVATION_CHECK Individual OFF during lockdown cancels treatment and rejects late completion
+SITE_RESUMED
+ACTIVATION_CHECK Statue can claim and break the released shared target with doctor OFF
+ACTIVATION_CHECK Shared object lifetime runs independently of the disabled doctor
+SCP_SETTING scp-049=True
+ACTIVATION_CHECK Transformation records owner identity on the existing object
+SCP_SETTING scp-049=False
+ACTIVATION_CHECK Owned zombies freeze while ordinary shared data advances and inactive input is rejected
+ACTIVATION_CHECK Individual OFF clears transient mutation and disappearance effects
+SCP_SETTING scp-049=True
+ACTIVATION_CHECK Zombie resumes remaining life without catch-up
+SCP_SETTING scp-049=False
+ACTIVATION_CHECK Owner OFF releases zombie drag
+SCP999_SHOWN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+ACTIVATION_CHECK Individual OFF cancels all three body drag states
+SCP_SETTING scp-173=True
+SCP_SETTING scp-173=False
+ACTIVATION_CHECK Disabling an owner releases its shared reservation and rejects a late attack
+SCP999_SHOWN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+SITE_LOCKED
+SCP999_HIDDEN
+SCP_SETTING scp-999=True
+SCP_SETTING scp-049=True
+SCP_SETTING scp-173=True
+SCP999_SHOWN
+SITE_RESUMED
+ACTIVATION_CHECK Twenty transitions do not duplicate stress registrations
+ACTIVATION_CHECK Twenty transitions reuse module instances
+SCP999_HIDDEN
+SCP_SETTING scp-999=False
+SCP_SETTING scp-049=False
+SCP_SETTING scp-173=False
+ACTIVATION_CHECK All OFF retains application access and stops input/world
+SYSTEM_OPTIONS_STOPPED
+SCP173_STOPPED
+SCP049_STOPPED
+SCP999_STOPPED
+DESKTOP_OBJECTS_STOPPED
+SITE_DESKTOP_STOPPED
+SITE_DESKTOP_READY
+ACTIVATION_CHECK Fresh application restores preferences before first actor publication
+SCP_SETTING scp-173=False
+ACTIVATION_CHECK Product UI command persists changes through settings store
+SYSTEM_OPTIONS_STOPPED
+SCP173_STOPPED
+SCP049_STOPPED
+SCP999_STOPPED
+DESKTOP_OBJECTS_STOPPED
+SITE_DESKTOP_STOPPED
+SITE_DESKTOP_READY
+ACTIVATION_CHECK Statue and shared world initialize without constructing SCP-049
+ACTIVATION_PASS
+SITE_DESKTOP_EXIT_REQUESTED
+SYSTEM_OPTIONS_STOPPED
+SCP173_STOPPED
+SCP999_STOPPED
+DESKTOP_OBJECTS_STOPPED
+SITE_DESKTOP_STOPPED

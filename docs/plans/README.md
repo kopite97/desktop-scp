@@ -18,3 +18,5 @@
 | [PLAN-014](PLAN-014-zombie-art-integration.md) | 승인된 좀비 발과 치료·변이 효과 정식 적용 | art | completed |
 | [PLAN-015](PLAN-015-tray-residency.md) | 제어창 없는 트레이 상주와 숨김·종료 분리 | development | completed |
 | [PLAN-016](PLAN-016-scp-activation.md) | SCP별 활성화 설정과 확장 가능한 수명 관리 | development | completed |
+| [PLAN-017](PLAN-017-shared-behavior-and-decoupling.md) | 공통 FSM·이동 기반과 SCP 책임 분리 | development | completed |
+| [PLAN-018](PLAN-018-monitor-portals-and-local-spawning.md) | 모니터 간 포털 이동과 역병의사 중심 아이콘 생성 | development | completed |

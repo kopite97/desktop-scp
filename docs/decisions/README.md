@@ -35,3 +35,5 @@
 | [TECH-014](TECH-014-system-options-and-lockdown.md) | 시스템 지표 관찰과 단일 봉쇄·외부 효과 소유자 | accepted |
 | [TECH-015](TECH-015-zombie-presentation-lifetime.md) | 좀비 표시 수명과 승인 발·효과의 게임 시계 연결 | accepted |
 | [TECH-016](TECH-016-scp-activation-and-shared-world.md) | SCP 등록·활성 상태와 공용 오브젝트 소유권 분리 | accepted |
+| [TECH-017](TECH-017-shared-behavior-and-runtime.md) | 개체별 공통 FSM과 환경·이동·표현 책임 분리 | accepted |
+| [TECH-018](TECH-018-monitor-portals-and-spawn-policy.md) | 모니터 전이 상태와 중립 생성 위치 정책 | accepted |

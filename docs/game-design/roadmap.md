@@ -22,6 +22,10 @@
 | Phase 4 후속 | 트레이 상주·제어창 숨김/종료 분리·명확한 봉쇄 안내·로컬 EXE | [PLAN-015](../plans/PLAN-015-tray-residency.md) | 완료: Windows 동작·사용자 실제 트레이 메뉴 확인·최종 EXE 및 배너 렌더 검증. 부트 표면 한계는 PLAN 참조 |
 | Phase 3·4 후속 | SCP별 ON/OFF·설정 저장·공용 대상 분리·등록 기반 수명 관리 | [PLAN-016](../plans/PLAN-016-scp-activation.md) | 완료: SCP별 설정·공용 대상 분리·Windows/EXE 복원 검증. 범위·한계는 PLAN 참조 |
 
+| 구조 개선 후속 | 공통 FSM·환경/이동 공유, SCP별 정책·월드·표현·수명 분리와 049 복구/999 배회 | [PLAN-017](../plans/PLAN-017-shared-behavior-and-decoupling.md) | 완료: 로직·LG 입력·EXE 메뉴/설정 검증. 초기 부트 포커스·비용 측정 제한은 PLAN 참조 |
+
+| 다중 모니터 후속 | 049 중심 아이콘 생성과 공통 포털 전이 | [PLAN-018](../plans/PLAN-018-monitor-portals-and-local-spawning.md) | 완료: 모의/실제 두 모니터·입력·최종 EXE 사용자 확인. 혼합 DPI 등 한계는 PLAN 참조 |
+
 승인된 순차 개발 PLAN-012 → PLAN-007 → PLAN-008 완료. ART-004 r001 정식 본체 적용은 [PLAN-013](../plans/PLAN-013-scp-049-art-integration.md) 완료. ART-006/007 r001도 제작·시각 승인을 완료했으며, 정식 적용은 [PLAN-014](../plans/PLAN-014-zombie-art-integration.md)에서 정식 적용·기술 검증·보행/깜빡임 수정과 사용자 제품 시각 승인을 완료했다.
 
 ## 단계 판정

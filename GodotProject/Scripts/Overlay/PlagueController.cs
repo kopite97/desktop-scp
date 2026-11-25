@@ -1,11 +1,12 @@
 using Godot;
+using SiteDesktop.Desktop;
 using SiteDesktop.Platform.Windows;
 using SiteDesktop.Simulation;
 using System.Collections.Generic;
 
 namespace SiteDesktop.Overlay;
 
-// Owns only SCP-049. The compatibility accessors forward to the shared world's owner.
+// Owns only SCP-049. Diagnostic orchestration lives outside product actors.
 public partial class PlagueController : Node
 {
     public StressState Stress { get; init; }=null!;
@@ -20,32 +21,34 @@ public partial class PlagueController : Node
     public IReadOnlyDictionary<int,PlagueEffectWindow> FadingWindows=>Objects.FadingWindows;
     public WindowsWindowObserver Observer=>Objects.Observer;
     public bool Automatic { get=>Objects.Automatic; set=>Objects.Automatic=value; }
+    public WindowsDesktopEnvironmentSource Environment { get; init; }=null!;
+    private long _environmentVersion=-1;
+    private ActorWindowLifetime _lifetime=null!;
     private bool _stopped;
-    private double _observeAge;
+    public PortalPresentation? Portals { get; private set; }
+
     public override void _Ready()
     {
-        State=new(Objects.State.Screens,Stress,world:Objects.State);State.SetDoctorActive(InitialActive,!InitialActive);Objects.AttachDoctor(State);
+        _lifetime=new(Stack,"049");
+        State=new(Objects.State.Screens,Stress,world:Objects.State);State.SetDoctorActive(InitialActive,!InitialActive);Objects.Presentation.Treatment=()=>State.TreatmentView;
         if(DisplayServer.GetName()=="headless")return;
-        DoctorWindow=new(0);DoctorWindow.Pressed+=Pressed;AddChild(DoctorWindow);Refresh();PublishDoctor();
+        Portals=new(this,Stack,"049-portals");DoctorWindow=new(0);DoctorWindow.Pressed+=Pressed;_lifetime!.Attach(this,DoctorWindow);RefreshBody();PublishBody();
         GD.Print("SCP049_STARTED body=ART-004-r001");
     }
-    private void Pressed(int id,MouseButton button,Vector2 pointer){if(button==MouseButton.Right)State.BeginDoctorDrag(pointer);Publish();}
-    public void Refresh(){if(_stopped)return;Objects.Refresh();if(State.Visible)State.ObserveDoctor(Objects.State.Observations);PublishDoctor();}
-    public override void _Process(double delta)
+    private void Pressed(int id,MouseButton button,Vector2 pointer){if(button==MouseButton.Right)State.BeginDoctorDrag(pointer);PublishBody();}
+    public void RefreshBody(){if(_stopped)return;if(State.Visible)State.ObserveDoctor(Environment.Capture(0,true).Windows);PublishBody();}
+    public void RuntimeTick(double delta,DesktopEnvironmentSnapshot snapshot)
     {
         if(_stopped||!Automatic||DoctorWindow==null||!State.Visible)return;
-        if((_observeAge+=delta)>=.05){_observeAge=0;State.ObserveDoctor(Objects.State.Observations);}
-        if(State.Doctor.Screens!=Objects.State.Screens)State.ReplaceScreens(Objects.State.Screens);
-        if(State.Phase==DoctorPhase.Dragging){if(WindowsDesktop.TryGetPointer(out var p,out _))State.Drag(p);if(!WindowsDesktop.RightPressed)State.EndDrag();}
-        State.TickDoctor(delta);PublishDoctor();
+        if(State.Doctor.Screens!=snapshot.Screens)State.ReplaceDoctorScreens(snapshot.Screens);
+        if(_environmentVersion!=snapshot.Version){State.ObserveDoctor(snapshot.Windows);_environmentVersion=snapshot.Version;}
+        if(State.Phase==DoctorPhase.Dragging){if(snapshot.Pointer is {} p)State.Drag(p);if(!snapshot.Right)State.EndDrag();}
+        State.TickDoctor(delta);PublishBody();
     }
-    public void Advance(double delta){if(_stopped)return;State.Tick(delta);Publish();}
-    private void PublishDoctor(){if(_stopped||DoctorWindow==null)return;DoctorWindow.Publish(State);Stack.Update("049",new[]{new OverlayStackCoordinator.Entry(DoctorWindow,30,0,State.Phase==DoctorPhase.Dragging)});}
-    public void Publish(){PublishDoctor();Objects.Publish();}
+    public void PublishBody(){if(_stopped||DoctorWindow==null)return;Portals?.Publish(State.Behavior.Portal.Frame,State.Visible&&!State.Stopped);DoctorWindow.Publish(State);Stack.Update("049",new[]{new OverlayStackCoordinator.Entry(DoctorWindow,30,0,State.Phase==DoctorPhase.Dragging)});}
     public void SpawnData()=>Objects.SpawnData();
-    public void SetActive(bool active,bool disabled){if(_stopped)return;State.SetDoctorActive(active,disabled);if(active)Refresh();else PublishDoctor();}
-    public void SetVisible(bool visible){SetActive(visible,false);Objects.SetActivity(visible,visible);}
-    public void ResetDoctor(){if(_stopped)return;State.ResetDoctor();Publish();}
-    public void Shutdown(){if(_stopped)return;_stopped=true;Stack.Remove("049");State?.Shutdown();if(DoctorWindow!=null){DoctorWindow.Pressed-=Pressed;DoctorWindow.Hide();DoctorWindow.QueueFree();DoctorWindow=null;}GD.Print("SCP049_STOPPED");}
+    public void SetActive(bool active,bool disabled){if(_stopped)return;State.SetDoctorActive(active,disabled);if(active)RefreshBody();else PublishBody();}
+    public void ResetDoctor(){if(_stopped)return;State.ResetDoctor();PublishBody();}
+    public void Shutdown(){if(_stopped)return;_stopped=true;Portals?.Dispose();_lifetime?.Dispose();State?.Shutdown();if(DoctorWindow!=null){DoctorWindow.Pressed-=Pressed;_lifetime!.Release(DoctorWindow);DoctorWindow=null;}GD.Print("SCP049_STOPPED");}
     public override void _ExitTree()=>Shutdown();
 }

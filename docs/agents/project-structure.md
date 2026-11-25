@@ -28,8 +28,10 @@
 - `GodotProject/Scenes/App/`와 `GodotProject/Scripts/App/`는 실제 진입 씬·C# 코드다.
 - `Scripts/Desktop/`는 좌표·오버레이 상태, `Scripts/Overlay/`는 창·표현·입력 연결, `Scripts/Platform/Windows/`는 Win32 경계다.
 - `Scripts/Overlay/OverlayStackCoordinator.cs`는 Main이 소유하며 제품 개체·효과의 상대 순서와 드래그 우선순위를 통합한다. 실제 Win32 적용·조회는 WindowsDesktop 경계에 둔다.
-- `Scripts/Companions/`는 SCP 행동·애니메이션 계약, `Scripts/Simulation/`은 Main이 소유하는 공통 스트레스 상태다. 런타임 아트는 `Assets/Sprites/<category>/<AssetId>/`에 둔다.
-- `Scripts/Simulation/DesktopObjectState.cs`와 `Scripts/Overlay/DesktopObjectController.cs`가 공용 복제 대상·예약·좀비 수명/표현을 소유한다. PlagueState/Controller는 049 치료·본체를 소유하고 173은 공용 대상에 직접 명령한다.
+- `Scripts/Behavior/`는 공통 FSM과 SCP별 행동 정책, `Scripts/Companions/`는 999 조작·상태·애니메이션 계약, `Scripts/Simulation/`은 공용 월드·스트레스와 SCP 상태 조립이다. 런타임 아트는 `Assets/Sprites/<category>/<AssetId>/`에 둔다.
+- `DesktopObjectState`는 공용 복제 대상·예약·수명, `DesktopObjectController/PlaguePresentation`은 창과 좀비·효과 애니메이션을 소유한다. 049 치료는 DoctorBehavior가 담당하고 공용 표현에는 TreatmentPresentationState만 전달한다.
+- `App/ScpRuntime.cs`는 갱신 순서, `Desktop/DesktopEnvironmentSnapshot.cs`는 환경 계약, `Platform/Windows/WindowsDesktopEnvironmentSource.cs`는 공통 관찰을 담당한다. `Overlay/ActorWindowLifetime.cs`는 창 수명과 스택 해제를 조합한다.
+- `Desktop/ScreenLocator`, `Simulation/ObjectSpawnPolicy`는 생성 위치 판정, `Platforms/MonitorRoutePlanner`는 모니터 구간, `Behavior/PortalTransferState`는 전이, `Overlay/PortalPresentation`은 효과 수명을 담당한다.
 - `Scripts/App/Scps/`는 SCP 등록·활성화·모듈 연결, ScpSettingsStore/ScpOptionsPanel은 설정 저장·동적 UI를 담당한다. [TECH-016](../decisions/TECH-016-scp-activation-and-shared-world.md).
 - `Scripts/Platforms/`는 창 관찰값에서 발판을 만들고 공통 보행/낙하/도약 상태를 갱신한다. `Scenes/App/PlatformDesktop.tscn`은 개별 SCP AI와 분리된 실제 물리 실행 경로다.
 - `GodotProject/Scenes/Diagnostics/`와 `GodotProject/Scripts/Diagnostics/`는 환경 검증 씬·C# 코드다. 제품 진입은 여기에 의존하지 않는다.

@@ -1,0 +1,21 @@
+{"Sequence":3,"From":null,"To":"Idle","Reason":"reset"}
+{"Sequence":4,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":5,"From":"Moving","To":"Idle","Reason":"Arrived"}
+{"Sequence":6,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":7,"From":"Moving","To":"Idle","Reason":"Arrived"}
+{"Sequence":8,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":9,"From":"Moving","To":"Idle","Reason":"Arrived"}
+{"Sequence":10,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":11,"From":"Moving","To":"Idle","Reason":"Arrived"}
+{"Sequence":12,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":13,"From":"Moving","To":"Idle","Reason":"Arrived"}
+{"Sequence":14,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":15,"From":"Moving","To":"Idle","Reason":"Arrived"}
+{"Sequence":16,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":17,"From":"Moving","To":"Idle","Reason":"Arrived"}
+{"Sequence":18,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":19,"From":"Moving","To":"Idle","Reason":"Arrived"}
+{"Sequence":20,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":21,"From":"Moving","To":"Idle","Reason":"Arrived"}
+{"Sequence":22,"From":"Idle","To":"Moving","Reason":"wander destination"}
+{"Sequence":23,"From":"Moving","To":"Idle","Reason":"Arrived"}

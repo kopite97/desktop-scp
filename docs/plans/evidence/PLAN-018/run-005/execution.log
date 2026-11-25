@@ -1,0 +1,23 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+BEHAVIOR_CHECK clamped floor reports no actual walk
+BEHAVIOR_CHECK unchanged geometry retains revision
+BEHAVIOR_CHECK shared movement arrives on floor
+BEHAVIOR_CHECK unreachable high ledge rejected
+BEHAVIOR_CHECK unchanged support pair reuses failed route despite target motion
+BEHAVIOR_CHECK shared route jumps to reachable ledge
+BEHAVIOR_CHECK platform carry reported separately
+BEHAVIOR_CHECK machines have independent state and time; same-state request is idempotent
+BEHAVIOR_CHECK cancel exits once and invalidates generation
+BEHAVIOR_CHECK replayed environment is captured once and shared in registration order
+BEHAVIOR_CHECK shutdown prevents further observation and actor ticks
+BEHAVIOR_CHECK distant cursor permits autonomous wandering
+BEHAVIOR_CHECK wander remains within actor footprint bounds
+BEHAVIOR_CHECK lockdown freezes companion behavior time and movement
+BEHAVIOR_CHECK cursor dead zone does not churn FSM transitions
+BEHAVIOR_CHECK unreachable target has bounded attempts and releases reservation
+BEHAVIOR_CHECK reachable alternative is treated despite unreachable closer target
+BEHAVIOR_CHECK environment change allows failed target to become reachable
+BEHAVIOR_CHECK lockdown preserves treatment and reservation without advancing time
+BEHAVIOR_CHECK individual OFF during lockdown cancels preserved treatment
+BEHAVIOR_PASS checks=20

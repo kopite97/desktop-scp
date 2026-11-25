@@ -1,0 +1,14 @@
+[
+  {
+    "Path": "C:\\Dev\\scp_desktop\\.artifacts\\PLAN-018\\windows-x64\\SiteDesktop.exe",
+    "Hash": "F60CCAFDFEA9A53A9D7E4D733ACC5E05D071BF76975B028A811BE862B83F66B4"
+  },
+  {
+    "Path": "C:\\Dev\\scp_desktop\\.artifacts\\PLAN-018\\windows-x64\\SiteDesktop.pck",
+    "Hash": "0F61E020D6B936AC5017C107AA907490CFE5B9F30C06597C48512EA0761298BE"
+  },
+  {
+    "Path": "C:\\Dev\\scp_desktop\\.artifacts\\PLAN-018\\windows-x64\\data_SiteDesktop_windows_x86_64\\SiteDesktop.dll",
+    "Hash": "1F73CACCC769A86A4F93E7F2700CAC4CB45757F695E65DBF1D49B9B546B05EDB"
+  }
+]

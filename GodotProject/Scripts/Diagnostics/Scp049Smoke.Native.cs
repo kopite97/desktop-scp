@@ -65,34 +65,35 @@ public partial class Scp049Smoke
     }
     private async Task NativeInput(PlagueController c)
     {
+        WindowsDesktop.SetControlVisible(GetWindow(),false);
         var s=c.State;s.AutoSpawn=false;Clear(c);s.ResetDoctor();
         using var fixture=new NativeInputFixture(_output);
         for(int i=0;i<180&&!fixture.Ready;i++)await Frames(1);Require(fixture.Ready,"owned separate input receiver ready");
         bool focused=false;for(int i=0;i<30&&!focused;i++){focused=fixture.Focus();await Frames(1);}Require(focused,"owned input receiver foreground verified");await Frames(10);c.Refresh();
-        var top=s.Doctor.Body.Foot-new Vector2(64,112);fixture.Move(top+new Vector2(2,2));await Frames(10);var counts=fixture.Counts();fixture.Click();await Frames(10);
+        var top=s.Doctor.Body.Foot-new Vector2(64,112);fixture.Move(top+new Vector2(2,2));c.Publish();await Frames(10);var counts=fixture.Counts();fixture.Click();await Frames(10);
         Require(fixture.Counts().Down==counts.Down+1&&fixture.Counts().Up==counts.Up+1,"doctor empty corner passes actual input to separate process");
-        var point=s.Doctor.Body.Foot-new Vector2(0,30);fixture.Move(point);await Frames(10);var start=s.Doctor.Body.Foot;
+        var point=s.Doctor.Body.Foot-new Vector2(0,30);fixture.Move(point);c.Publish();await Frames(10);var start=s.Doctor.Body.Foot;
         Require(NativeInputFixture.WindowAt(point)==(long)Handle(c.DoctorWindow!),"native pointer targets owned doctor input island");
-        c.Automatic=true;fixture.Press(true);await Frames(10);fixture.Move(point+new Vector2(120,-150));await Frames(6);
+        c.Automatic=true;fixture.Press(true);await Frames(10);fixture.Move(point+new Vector2(120,-150));c.Publish();await Frames(6);
         Require(s.Phase==DoctorPhase.Dragging&&s.Doctor.Body.Foot.DistanceTo(start+new Vector2(120,-150))<2,"native right drag moves doctor through product input");
         fixture.Release();await Frames(10);c.Automatic=false;Require(s.Phase!=DoctorPhase.Dragging&&s.Doctor.Body.Motion==PlatformMotion.Falling,"native right release drops doctor with gravity");Advance(c,1);
-        int id=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(180,0))!.Value;Advance(c,.4);var item=s.Objects[id];point=item.Foot-new Vector2(0,20);fixture.Move(point);await Frames(10);start=item.Foot;
+        int id=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(180,0))!.Value;Advance(c,.4);var item=s.Objects[id];point=item.Foot-new Vector2(0,20);fixture.Move(point);c.Publish();await Frames(10);start=item.Foot;
         Require(NativeInputFixture.WindowAt(point)==(long)Handle(c.ObjectWindows[id]),"native pointer targets owned data input island");
-        c.Automatic=true;fixture.Press(true);await Frames(10);fixture.Move(point+new Vector2(80,-100));await Frames(6);
+        c.Automatic=true;fixture.Press(true);await Frames(10);fixture.Move(point+new Vector2(80,-100));c.Publish();await Frames(6);
         WindowsDesktop.TryGetPointer(out var actualPointer,out _);GD.Print($"DATA_DRAG_RESULT wanted={point+new Vector2(80,-100)} actualPointer={actualPointer} dragged={s.DraggedObject} foot={item.Foot} expectedFoot={start+new Vector2(80,-100)} right={WindowsDesktop.RightPressed}");
         Require(s.DraggedObject==id&&item.Foot.DistanceTo(start+new Vector2(80,-100))<2,"native data drag releases doctor reservation and moves same object");fixture.Release();await Frames(10);c.Automatic=false;Advance(c,.8);
-        fixture.Move(item.Foot-new Vector2(0,20));await Frames(10);counts=fixture.Counts();
+        fixture.Move(item.Foot-new Vector2(0,20));c.Publish();await Frames(10);counts=fixture.Counts();
         GD.Print($"DATA_CLICK_TARGET actual={NativeInputFixture.WindowAt(item.Foot-new Vector2(0,20))} expected={Handle(c.ObjectWindows[id])} point={item.Foot-new Vector2(0,20)} bounds={WindowsDesktop.GetBounds(c.ObjectWindows[id])}");
         fixture.Press();await Frames(3);fixture.Release();await Frames(10);
         GD.Print($"DATA_CLICK_RESULT exists={s.Objects.ContainsKey(id)} window={c.ObjectWindows.ContainsKey(id)} before={counts} after={fixture.Counts()}");
         Require(!s.Objects.ContainsKey(id)&&!c.ObjectWindows.ContainsKey(id)&&fixture.Counts().Down==counts.Down,"native data click collects game object without reaching desktop receiver");
         Clear(c);s.ResetDoctor();id=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(35,0))!.Value;Advance(c,3.6);Require(s.Objects[id].Kind==DummyKind.Zombie,"native input fixture has transformed zombie");
-        point=s.Objects[id].Foot-new Vector2(0,22);fixture.Move(point);await Frames(10);counts=fixture.Counts();int collected=s.Collected;fixture.Click();await Frames(10);
+        point=s.Objects[id].Foot-new Vector2(0,22);fixture.Move(point);c.Publish();await Frames(10);counts=fixture.Counts();int collected=s.Collected;fixture.Click();await Frames(10);
         Require(!s.Objects.ContainsKey(id)&&s.Collected==collected+1&&fixture.Counts().Down==counts.Down,"native zombie click collects exactly once");
         _main!.Companion.SetVisible(true);_main.Companion.ResetPositions();s.ResetDoctor();await Frames(10);c.Refresh();
-        var companion=_main.Companion;point=companion.State.Position+new Vector2(64,90);fixture.Move(point);companion.AutomaticInput=true;await Frames(10);float stress=s.DoctorStress.Value;counts=fixture.Counts();fixture.Press();await Frames(3);fixture.Release();await Frames(10);companion.AutomaticInput=false;
+        var companion=_main.Companion;point=companion.State.Position+new Vector2(64,90);fixture.Move(point);c.Publish();companion.AutomaticInput=true;await Frames(10);float stress=s.DoctorStress.Value;counts=fixture.Counts();fixture.Press();await Frames(3);fixture.Release();await Frames(10);companion.AutomaticInput=false;
         Require(s.DoctorStress.Value==stress-3&&fixture.Counts().Down==counts.Down,"native SCP-999 pet reduces actual SCP-049 shared stress");companion.State.EndGesture();companion.SetVisible(false);
-        id=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(180,0))!.Value;Advance(c,.4);point=s.Objects[id].Foot-new Vector2(0,22);c.SetVisible(false);await Frames(10);fixture.Move(point);await Frames(10);counts=fixture.Counts();fixture.Click();await Frames(10);
+        id=s.SpawnAt(s.Doctor.Body.Foot+new Vector2(180,0))!.Value;Advance(c,.4);point=s.Objects[id].Foot-new Vector2(0,22);c.SetVisible(false);await Frames(10);fixture.Move(point);c.Publish();await Frames(10);counts=fixture.Counts();fixture.Click();await Frames(10);
         Require(s.Objects.ContainsKey(id)&&fixture.Counts().Down==counts.Down+1,"hidden data cannot intercept or consume clicks");c.SetVisible(true);
     }
 }

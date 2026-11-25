@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": 21,
+  "tests": [
+    "clamped floor reports no actual walk",
+    "unchanged geometry retains revision",
+    "shared movement arrives on floor",
+    "unreachable high ledge rejected",
+    "shared route jumps to reachable ledge",
+    "platform carry reported separately",
+    "machines have independent state and time; same-state request is idempotent",
+    "cancel exits once and invalidates generation",
+    "distant cursor permits autonomous wandering",
+    "wander remains within actor footprint bounds",
+    "lockdown freezes companion behavior time and movement",
+    "cursor dead zone does not churn FSM transitions",
+    "unreachable target has bounded attempts and releases reservation",
+    "reachable alternative is treated despite unreachable closer target",
+    "environment change allows failed target to become reachable",
+    "lockdown preserves treatment and reservation without advancing time",
+    "individual OFF during lockdown cancels preserved treatment",
+    "shared OS observation bounded to 20Hz run 0",
+    "shared OS observation bounded to 20Hz run 1",
+    "shared OS observation bounded to 20Hz run 2",
+    "multiple consumers share same-frame observation"
+  ]
+}

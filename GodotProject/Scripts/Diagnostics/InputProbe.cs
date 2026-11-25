@@ -15,7 +15,9 @@ public partial class InputProbe : Node2D
 
     public override void _Ready()
     {
+        SiteDesktop.App.WindowStartup.KeepHidden=true;
         var window = GetWindow();
+        SiteDesktop.App.WindowStartup.PrepareControls(window,new(1000,740));
         window.Title = "SCP Input Receiver";
         window.ContentScaleMode = Window.ContentScaleModeEnum.Disabled;
         window.Size = new Vector2I(1000, 740);
@@ -33,6 +35,7 @@ public partial class InputProbe : Node2D
             {window.Borderless=false;window.Position=area.Position+new Vector2I(900,160);window.Size=new(640,480);}
             SaveCounts();
         }
+        SiteDesktop.Platform.Windows.WindowsDesktop.SetControlVisible(window,true);
         GD.Print($"INPUT_PROBE_READY position={window.Position} size={window.Size}");
     }
 
