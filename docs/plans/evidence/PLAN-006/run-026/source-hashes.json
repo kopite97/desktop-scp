@@ -1,0 +1,38 @@
+[
+  {
+    "file": "GodotProject/Scripts/Simulation/PlagueState.cs",
+    "sha256": "73c842d8fc725e0a92f2df0185447bf6e8a114d7ef0fec48cfef19a937938e28"
+  },
+  {
+    "file": "GodotProject/Scripts/Simulation/PlagueSettings.cs",
+    "sha256": "90bae8861de2d6fe6a1ce1e8eba526f3154c93854e4c057ce136733da150a50b"
+  },
+  {
+    "file": "GodotProject/Scripts/Overlay/PlagueController.cs",
+    "sha256": "1547fa0f432e0c44592a27ff319fd042d1890b7ea181b10719105ea6db73e86b"
+  },
+  {
+    "file": "GodotProject/Scripts/Overlay/PlagueActorWindow.cs",
+    "sha256": "8c9a668a1b6c3a15109fcc6e3d8404b3008c45752f52cc8d4f55a8c2c26818ff"
+  },
+  {
+    "file": "GodotProject/Scripts/App/Main.cs",
+    "sha256": "9231c8d942266746ff6597c82a0e39f82a5b9bbeea07db9b703c98a2edc0fb6e"
+  },
+  {
+    "file": "GodotProject/Scripts/Diagnostics/Scp049Smoke.cs",
+    "sha256": "f95dcdbb7d668f77aee39b3da03af43ae08333aa217c7ab19137aa300e9bf342"
+  },
+  {
+    "file": "GodotProject/Scripts/Diagnostics/Scp049Smoke.Native.cs",
+    "sha256": "cfd58e6485ae473e76f8417f59010fdeded182617676750448175681bbfaf048"
+  },
+  {
+    "file": "GodotProject/project.godot",
+    "sha256": "29fc10cb1724b39bcf4a216e52dfe414cb943f29ba8f5970062a10e23a5594c2"
+  },
+  {
+    "file": "scripts/godot.ps1",
+    "sha256": "d95ba11c9a71445bae5e8f3bd2f105808bdadc427948e63b031743a0ab2960fc"
+  }
+]

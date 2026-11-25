@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "native": false,
+  "checks": [
+    "Observed statue does not move or attack",
+    "Observation radius includes 180px boundary",
+    "Same-screen unseen delay does not trigger early",
+    "Unseen threshold breaks same icon object and retains appearance",
+    "Broken target cannot be reserved for surgery",
+    "Duplicate break cannot apply twice",
+    "Broken icon removed after bounded visual lifetime",
+    "Other-monitor attack does not steal doctor reservation",
+    "Other monitor triggers after retry cooldown without eight-second wait",
+    "Observation resets unseen accumulation",
+    "Hidden statue cannot attack",
+    "Missing or out-of-desktop pointer fails closed",
+    "SCP-999 common relief lowers actual statue stress",
+    "Relief below stress threshold restores long delay",
+    "High stress uses four-second unseen delay",
+    "Shutdown releases common stress registrations",
+    "Empty or removed target is a safe no-op",
+    "User drag suppresses autonomous attack"
+  ]
+}

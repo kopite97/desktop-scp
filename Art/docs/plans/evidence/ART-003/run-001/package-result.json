@@ -1,0 +1,22 @@
+{
+  "metadata": "PASS",
+  "animations": {
+    "puddle_a": {
+      "frames": 9,
+      "durationMs": 1100,
+      "plays": 1
+    },
+    "puddle_b": {
+      "frames": 9,
+      "durationMs": 1100,
+      "plays": 1
+    },
+    "composite": {
+      "frames": 152,
+      "durationMs": 5000,
+      "plays": 0
+    }
+  },
+  "sourceSha256": "b95919dfaf11057ff56e7753bfa6f38a02944e033fc7bd31a2e4ada0d43cfff3",
+  "referenceBodySha256": "cf6fa4cbe281134a27860a0869827bd25b2c23738d2a4438b1a7075cb59bb290"
+}

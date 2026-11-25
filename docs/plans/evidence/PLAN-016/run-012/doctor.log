@@ -1,0 +1,173 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+DOCTOR_ART_CHECK Approved r001 hash matches Scp049.png
+DOCTOR_ART_CHECK Approved r001 hash matches Scp049.contract.json
+DOCTOR_ART_CHECK Contract has ten tags and 42 fixed 64px cells
+DOCTOR_ART_CHECK idle selects frame 0 for its authored duration
+DOCTOR_ART_CHECK idle selects frame 1 for its authored duration
+DOCTOR_ART_CHECK idle selects frame 2 for its authored duration
+DOCTOR_ART_CHECK idle selects frame 3 for its authored duration
+DOCTOR_ART_CHECK idle loop/hold matches contract
+DOCTOR_ART_CHECK move selects frame 4 for its authored duration
+DOCTOR_ART_CHECK move selects frame 5 for its authored duration
+DOCTOR_ART_CHECK move selects frame 6 for its authored duration
+DOCTOR_ART_CHECK move selects frame 7 for its authored duration
+DOCTOR_ART_CHECK move selects frame 8 for its authored duration
+DOCTOR_ART_CHECK move selects frame 9 for its authored duration
+DOCTOR_ART_CHECK move selects frame 10 for its authored duration
+DOCTOR_ART_CHECK move selects frame 11 for its authored duration
+DOCTOR_ART_CHECK move loop/hold matches contract
+DOCTOR_ART_CHECK treat_start selects frame 12 for its authored duration
+DOCTOR_ART_CHECK treat_start selects frame 13 for its authored duration
+DOCTOR_ART_CHECK treat_start selects frame 14 for its authored duration
+DOCTOR_ART_CHECK treat_start selects frame 15 for its authored duration
+DOCTOR_ART_CHECK treat_start loop/hold matches contract
+DOCTOR_ART_CHECK treat_loop selects frame 16 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 17 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 18 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 19 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 20 for its authored duration
+DOCTOR_ART_CHECK treat_loop selects frame 21 for its authored duration
+DOCTOR_ART_CHECK treat_loop loop/hold matches contract
+DOCTOR_ART_CHECK treat_end selects frame 22 for its authored duration
+DOCTOR_ART_CHECK treat_end selects frame 23 for its authored duration
+DOCTOR_ART_CHECK treat_end selects frame 24 for its authored duration
+DOCTOR_ART_CHECK treat_end selects frame 25 for its authored duration
+DOCTOR_ART_CHECK treat_end loop/hold matches contract
+DOCTOR_ART_CHECK takeoff selects frame 26 for its authored duration
+DOCTOR_ART_CHECK takeoff selects frame 27 for its authored duration
+DOCTOR_ART_CHECK takeoff selects frame 28 for its authored duration
+DOCTOR_ART_CHECK takeoff loop/hold matches contract
+DOCTOR_ART_CHECK fall selects frame 29 for its authored duration
+DOCTOR_ART_CHECK fall selects frame 30 for its authored duration
+DOCTOR_ART_CHECK fall selects frame 31 for its authored duration
+DOCTOR_ART_CHECK fall loop/hold matches contract
+DOCTOR_ART_CHECK land selects frame 32 for its authored duration
+DOCTOR_ART_CHECK land selects frame 33 for its authored duration
+DOCTOR_ART_CHECK land selects frame 34 for its authored duration
+DOCTOR_ART_CHECK land loop/hold matches contract
+DOCTOR_ART_CHECK balance selects frame 35 for its authored duration
+DOCTOR_ART_CHECK balance selects frame 36 for its authored duration
+DOCTOR_ART_CHECK balance selects frame 37 for its authored duration
+DOCTOR_ART_CHECK balance selects frame 38 for its authored duration
+DOCTOR_ART_CHECK balance loop/hold matches contract
+DOCTOR_ART_CHECK balance_recover selects frame 39 for its authored duration
+DOCTOR_ART_CHECK balance_recover selects frame 40 for its authored duration
+DOCTOR_ART_CHECK balance_recover selects frame 41 for its authored duration
+DOCTOR_ART_CHECK balance_recover loop/hold matches contract
+DOCTOR_ART_CHECK Actual seek/treatment produces start-loop-end without changing three-second game rule
+DOCTOR_ART_CHECK Hidden animation time freezes
+DOCTOR_ART_CHECK Surgery faces left-side target even when velocity is zero
+DOCTOR_ART_CHECK Collection cancels surgery animation immediately
+DOCTOR_ART_CHECK Right-side target restores original orientation
+DOCTOR_ART_CHECK Treatment anchors mirror about the fixed pivot
+DOCTOR_ART_CHECK Drag interrupts treatment immediately
+DOCTOR_ART_CHECK Actual drop and landing map to fall and land
+DOCTOR_ART_CHECK Overload accelerates surgery without delaying logical completion for art
+DOCTOR_ART_CHECK Moving support selects balance
+DOCTOR_ART_CHECK Settling support selects balance recovery
+DOCTOR_ART_CHECK Actual adjacent-platform jump selects takeoff
+DOCTOR_ART_CHECK All ten tags are reached by actual game/physics transitions
+DESKTOP_OBJECTS_STARTED
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED body=ART-004-r001
+SITE_CONTROLS_SHOWN
+SITE_DESKTOP_READY
+SCP999_HIDDEN
+DOCTOR_ART_CHECK Native frame 0, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 0, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 1, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 1, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 2, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 2, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 3, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 3, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 4, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 4, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 5, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 5, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 6, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 6, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 7, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 7, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 8, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 8, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 9, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 9, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 10, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 10, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 11, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 11, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 12, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 12, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 13, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 13, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 14, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 14, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 15, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 15, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 16, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 16, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 17, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 17, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 18, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 18, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 19, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 19, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 20, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 20, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 21, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 21, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 22, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 22, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 23, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 23, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 24, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 24, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 25, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 25, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 26, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 26, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 27, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 27, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 28, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 28, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 29, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 29, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 30, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 30, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 31, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 31, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 32, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 32, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 33, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 33, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 34, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 34, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 35, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 35, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 36, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 36, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 37, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 37, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 38, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 38, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 39, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 39, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 40, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 40, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 41, flip False: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Native frame 41, flip True: exact color/alpha/nearest and click mask
+DOCTOR_ART_CHECK Night CanvasModulate and warm Light2D do not alter approved unshaded pixels
+DOCTOR_ART_CHECK Native LG physical position keeps approved pivot at the physics foot
+DOCTOR_ART_CHECK Actual native doctor completes treatment while approved sprite plays
+DOCTOR_ART_CHECK Hide removes approved body window
+DOCTOR_ART_CHECK Restore preserves approved body position
+SCP049_STOPPED
+DOCTOR_ART_CHECK Shutdown frees approved doctor window and state
+DOCTOR_ART_PASS
+SITE_DESKTOP_EXIT_REQUESTED
+SCP999_STOPPED
+DESKTOP_OBJECTS_STOPPED
+SITE_DESKTOP_STOPPED

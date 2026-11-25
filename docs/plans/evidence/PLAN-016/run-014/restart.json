@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "enabled": {
+    "scp-999": true,
+    "scp-049": false,
+    "scp-173": true
+  }
+}

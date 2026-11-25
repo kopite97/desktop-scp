@@ -11,38 +11,54 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_main")
 
-[node name="Content" type="VBoxContainer" parent="."]
-layout_mode = 0
+[node name="Scroll" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 offset_left = 24.0
 offset_top = 24.0
-offset_right = 616.0
-offset_bottom = 396.0
-theme_override_constants/separation = 12
+offset_right = -24.0
+offset_bottom = -24.0
+horizontal_scroll_mode = 0
 
-[node name="Title" type="Label" parent="Content"]
+[node name="Content" type="VBoxContainer" parent="Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="Title" type="Label" parent="Scroll/Content"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 30
 text = "SCP: SITE-DESKTOP"
 
-[node name="Description" type="Label" parent="Content"]
+[node name="Description" type="Label" parent="Scroll/Content"]
 layout_mode = 2
-text = "Drag the two desktop tokens. Empty space stays clickable.\nHide pauses interaction; this control window stays available."
+autowrap_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "SCP-999 follows your cursor. Left click / rub to pet; right drag to move.\nSCP-049 treats icon clones. Left click a clone to collect it.\nWatch SCP-173 to keep it still. Move away and it may attack a clone.\nLockdown pauses all activity. Resume with Ctrl+Shift+L or the tray."
 
-[node name="RuntimeStatus" type="Label" parent="Content"]
+[node name="RuntimeStatus" type="Label" parent="Scroll/Content"]
 layout_mode = 2
+autowrap_mode = 2
 text = "Starting C# runtime..."
 
-[node name="Exit" type="Button" parent="Content"]
+[node name="TrayStatus" type="Label" parent="Scroll/Content"]
+layout_mode = 2
+autowrap_mode = 2
+text = "Starting tray..."
+
+[node name="Exit" type="Button" parent="Scroll/Content"]
 custom_minimum_size = Vector2(0, 42)
 layout_mode = 2
 text = "Exit"
 
-[node name="Visibility" type="Button" parent="Content"]
+[node name="Visibility" type="Button" parent="Scroll/Content"]
 custom_minimum_size = Vector2(0, 38)
 layout_mode = 2
 text = "Hide overlays"
 
-[node name="Reset" type="Button" parent="Content"]
+[node name="Reset" type="Button" parent="Scroll/Content"]
 custom_minimum_size = Vector2(0, 38)
 layout_mode = 2
 text = "Reset positions"

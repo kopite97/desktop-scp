@@ -1,0 +1,11 @@
+2026-11-25 ART-006 proposed -> active. User authorized sequential art production and individual visual review.
+Aseprite 1.3.18.6 API41 live, initially empty workspace.
+First dofile timed out at Aseprite script write-permission dialog. User manually granted write permission; generation completed.
+Created Scp0492 source and preserved r001: 32x32, 30 frames, LeftFoot/RightFoot.
+Exported two 192x160 PNG sheets and JSON contract.
+Inspected representative foot silhouettes and generated six original generic icon fixtures; no actual desktop icon data captured.
+Static verification PASS: 34 checks; 120 layer-frame comparisons; 60 duration comparisons; outline, alpha, direction, hole, 64px bounds.
+Live Aseprite timer observed frames1..30 over10.02s, then regular playback continued.
+LG window location observed -1883,1091 / 1826x943. Zoom0.5 fits full review at physical1:1 under current UI scaling.
+User response: ART-006 r001 시각 승인. Mark completed and approved_revision1.
+Product integration not executed; separate development requirements recorded in handoff.

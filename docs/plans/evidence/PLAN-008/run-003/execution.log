@@ -1,0 +1,45 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+SYSTEM_CHECK Fresh session defaults strong effects OFF
+SYSTEM_CHECK Below thresholds leaves reactions inactive
+SYSTEM_CHECK Threshold boundaries enable heat and noise
+SYSTEM_CHECK Hysteresis avoids threshold flicker
+SYSTEM_CHECK Low readings release reactions
+SYSTEM_CHECK RAM independently enables heat; mute suppresses noise
+SYSTEM_CHECK Invalid metrics become unavailable
+SYSTEM_CHECK Stale readings expire after five seconds
+SYSTEM_CHECK Explicit option enables effect requests
+SYSTEM_CHECK Lockdown rejects effects and late metrics
+SYSTEM_CHECK Resume rejects old generation without catch-up
+SYSTEM_CHECK Shutdown rejects subsequent state updates
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED art=temporary-code ART-004..007
+SCP173_STARTED art=temporary-code
+SITE_DESKTOP_READY
+SYSTEM_CHECK Product metric input updates actual companion speed, shape and surgery rate
+SYSTEM_CHECK Product noise increases common statue stress
+SYSTEM_CHECK Flattened sprite and input contour share the same transform
+SYSTEM_CHECK Real aggregate Windows CPU and RAM reach product state
+SYSTEM_CHECK Real default-output volume reaches product state
+SYSTEM_CHECK Native tray indicator and three-item menu created
+SYSTEM_CHECK Real Ctrl+Shift+L global hotkey registered
+SCP999_HIDDEN
+SITE_LOCKED
+SYSTEM_CHECK UI button locks all actors and icon service through shared command
+SYSTEM_CHECK Lockdown freezes position, simulation time and stress
+SYSTEM_CHECK Lockdown removes native actor, control panel and shutter input surfaces
+SCP999_SHOWN
+SITE_RESUMED
+SYSTEM_CHECK Registered tray callback resumes the same application state
+SYSTEM_CHECK Tray menu reflects resumed state
+SYSTEM_CHECK Resume preserves existing state without elapsed-time burst
+SYSTEM_OPTIONS_STOPPED
+SYSTEM_CHECK Shutdown releases effect, hotkey, tray and sampling owner
+SYSTEM_CHECK Hotkey can register again after shutdown
+SYSTEM_PASS
+SITE_DESKTOP_EXIT_REQUESTED
+SCP173_STOPPED
+SCP999_STOPPED
+SCP049_STOPPED
+SITE_DESKTOP_STOPPED

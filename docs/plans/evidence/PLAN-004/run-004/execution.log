@@ -1,0 +1,132 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS walking uses physical pixels without a second DPI multiplier
+PLATFORM_CHECK_PASS moving support carries body and emits balancing state
+PLATFORM_CHECK_PASS support movement generates bounded inertial slip
+PLATFORM_CHECK_PASS minimized support immediately releases body
+PLATFORM_CHECK_PASS missing support falls to work-area floor above taskbar
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS closed support falls through same update path
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS large support teleport releases instead of flinging body
+PLATFORM_CHECK_PASS front window cuts covered platform into exposed segments
+PLATFORM_CHECK_PASS z-order reversal restores front edge
+PLATFORM_CHECK_PASS maximized top has no headroom and hides lower windows
+PLATFORM_CHECK_PASS hidden and cloaked windows cannot create platforms
+PLATFORM_CHECK_PASS non-supporting window has no ledge
+PLATFORM_CHECK_PASS one-way ledge never pulls a body upward from below
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS reachable adjacent ledge starts a ballistic jump
+PLATFORM_CHECK_PASS ballistic jump lands on neighboring upper ledge
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS walking toward edge automatically jumps to adjacent reachable platform
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS walking beyond ledge falls when no jump is available
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS no target in requested direction leaves support unchanged
+PLATFORM_CHECK_PASS hide freezes physics and environment application
+PLATFORM_CHECK_PASS show validates latest support without hidden-time catch-up
+PLATFORM_CHECK_PASS drag release uses gravity rather than floor snap
+PLATFORM_CHECK_PASS hide cancels drag capture
+PLATFORM_CHECK_PASS removed monitor recovers into remaining work area
+PLATFORM_CHECK_PASS shutdown is terminal and freezes body
+PLATFORM_CHECK_PASS recorded environment and elapsed-time input replay produces identical trace
+PLATFORM_STARTED monitor=1 origin=(-1920, 1061)
+PLATFORM_DESKTOP_READY
+ERROR: Can't change "force_native" while a window is displayed. Consider hiding window before changing this value.
+   at: set_force_native (scene/main/window.cpp:1462)
+   C# backtrace (most recent call first):
+       [0] void Godot.NativeCalls.godot_icall_1_14(nint, nint, Godot.NativeInterop.godot_bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:140)
+       [1] void Godot.Window.SetForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:1463)
+       [2] void Godot.Window.set_ForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:692)
+       [3] Godot.Window SiteDesktop.Diagnostics.PlatformSmoke.Fixture(string, Godot.Rect2I, bool) (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:130)
+       [4] void SiteDesktop.Diagnostics.PlatformSmoke+<Native>d__19.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:140)
+       [5] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [6] System.Threading.Tasks.Task SiteDesktop.Diagnostics.PlatformSmoke.Native()
+       [7] void SiteDesktop.Diagnostics.PlatformSmoke+<_Ready>d__21.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:196)
+       [8] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [9] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [10] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [11] void System.Threading.Tasks.Task.RunContinuations(object)
+       [12] bool System.Threading.Tasks.Task`1.TrySetResult(TResult)
+       [13] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(System.Threading.Tasks.Task`1[TResult], TResult)
+       [14] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [15] void SiteDesktop.Diagnostics.PlatformSmoke+<Frames>d__16.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:126)
+       [16] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [17] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [18] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+ERROR: Can't change "force_native" while a window is displayed. Consider hiding window before changing this value.
+   at: set_force_native (scene/main/window.cpp:1462)
+   C# backtrace (most recent call first):
+       [0] void Godot.NativeCalls.godot_icall_1_14(nint, nint, Godot.NativeInterop.godot_bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:140)
+       [1] void Godot.Window.SetForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:1463)
+       [2] void Godot.Window.set_ForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:692)
+       [3] Godot.Window SiteDesktop.Diagnostics.PlatformSmoke.Fixture(string, Godot.Rect2I, bool) (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:130)
+       [4] void SiteDesktop.Diagnostics.PlatformSmoke+<Native>d__19.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:141)
+       [5] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [6] System.Threading.Tasks.Task SiteDesktop.Diagnostics.PlatformSmoke.Native()
+       [7] void SiteDesktop.Diagnostics.PlatformSmoke+<_Ready>d__21.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:196)
+       [8] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [9] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [10] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [11] void System.Threading.Tasks.Task.RunContinuations(object)
+       [12] bool System.Threading.Tasks.Task`1.TrySetResult(TResult)
+       [13] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(System.Threading.Tasks.Task`1[TResult], TResult)
+       [14] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [15] void SiteDesktop.Diagnostics.PlatformSmoke+<Frames>d__16.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:126)
+       [16] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [17] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [18] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+ERROR: Can't change "force_native" while a window is displayed. Consider hiding window before changing this value.
+   at: set_force_native (scene/main/window.cpp:1462)
+   C# backtrace (most recent call first):
+       [0] void Godot.NativeCalls.godot_icall_1_14(nint, nint, Godot.NativeInterop.godot_bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:140)
+       [1] void Godot.Window.SetForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:1463)
+       [2] void Godot.Window.set_ForceNative(bool) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:692)
+       [3] Godot.Window SiteDesktop.Diagnostics.PlatformSmoke.Fixture(string, Godot.Rect2I, bool) (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:130)
+       [4] void SiteDesktop.Diagnostics.PlatformSmoke+<Native>d__19.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:142)
+       [5] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [6] System.Threading.Tasks.Task SiteDesktop.Diagnostics.PlatformSmoke.Native()
+       [7] void SiteDesktop.Diagnostics.PlatformSmoke+<_Ready>d__21.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:196)
+       [8] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [9] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [10] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [11] void System.Threading.Tasks.Task.RunContinuations(object)
+       [12] bool System.Threading.Tasks.Task`1.TrySetResult(TResult)
+       [13] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(System.Threading.Tasks.Task`1[TResult], TResult)
+       [14] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [15] void SiteDesktop.Diagnostics.PlatformSmoke+<Frames>d__16.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:126)
+       [16] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [17] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [18] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+PLATFORM_CHECK_PASS all native fixture windows placed within requested monitor work area
+ERROR: PLATFORM_SMOKE_FAILED System.InvalidOperationException: DWM observation creates real window ledges
+   at SiteDesktop.Diagnostics.PlatformSmoke.Require(Boolean ok, String label) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:line 24
+   at SiteDesktop.Diagnostics.PlatformSmoke.Native() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:line 148
+   at SiteDesktop.Diagnostics.PlatformSmoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:line 196
+   at: void SiteDesktop.Diagnostics.PlatformSmoke+<_Ready>d__21.MoveNext() (res://Scripts/Diagnostics/PlatformSmoke.cs:196)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.PlatformSmoke+<_Ready>d__21.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:196)
+       [2] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [3] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [4] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [5] void System.Threading.Tasks.Task.RunContinuations(object)
+       [6] void System.Threading.Tasks.Task.FinishSlow(bool)
+       [7] bool System.Threading.Tasks.Task.TrySetException(object)
+       [8] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(System.Exception, System.Threading.Tasks.Task`1[TResult]&)
+       [9] void SiteDesktop.Diagnostics.PlatformSmoke+<Native>d__19.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:148)
+       [10] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [11] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [12] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [13] void System.Threading.Tasks.Task.RunContinuations(object)
+       [14] bool System.Threading.Tasks.Task`1.TrySetResult(TResult)
+       [15] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(System.Threading.Tasks.Task`1[TResult], TResult)
+       [16] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [17] void SiteDesktop.Diagnostics.PlatformSmoke+<Frames>d__16.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:126)
+       [18] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [19] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [20] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+PLATFORM_STOPPED

@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checks": [
+    "Actual Desktop view returns bounded icon images",
+    "Owned custom shortcut icon retrieved with exact RGB and transparent hole",
+    "Cancelled worker request terminates",
+    "Product Main owns populated runtime icon service",
+    "Owned fixture reaches product texture cache",
+    "Godot texture roundtrip preserves all source RGBA bytes",
+    "Alpha hit mask includes body and excludes transparent hole and margin",
+    "Treatment retains icon identity in zombie state",
+    "No icon means skip spawn instead of substitute art",
+    "Native actor receives cached icon appearance",
+    "Actual native viewport renders expected fixture color",
+    "Actual native viewport preserves fixture hole alpha",
+    "Owned native receiver focused",
+    "Transparent icon hole passes actual click to receiver",
+    "Opaque icon click collects clone without opening original",
+    "Hide pauses icons and removes native input islands",
+    "Restore shows existing icon snapshots",
+    "Catalog plus live appearance cache is bounded",
+    "Exit clears textures and game state"
+  ],
+  "nativeInput": true,
+  "catalogCount": 14,
+  "kinds": [
+    {
+      "kind": "shortcut",
+      "count": 5
+    },
+    {
+      "kind": "folder",
+      "count": 2
+    },
+    {
+      "kind": "item",
+      "count": 7
+    }
+  ],
+  "limitations": [
+    "Filename labels, thumbnails, sync badges not reproduced",
+    "Mixed-DPI hardware not yet verified",
+    "User visual confirmation pending"
+  ]
+}

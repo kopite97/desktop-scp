@@ -1,0 +1,20 @@
+[
+  {
+    "Id": "window:34536:395640:17",
+    "bounds": "(-1101, 1500), (462, 262)",
+    "CanSupport": true,
+    "Blocks": true
+  },
+  {
+    "Id": "window:34536:461182:18",
+    "bounds": "(-1701, 1600), (502, 272)",
+    "CanSupport": true,
+    "Blocks": true
+  },
+  {
+    "Id": "window:34536:395644:19",
+    "bounds": "(-1920, 1061), (1920, 1032)",
+    "CanSupport": false,
+    "Blocks": true
+  }
+]

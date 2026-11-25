@@ -1,0 +1,366 @@
+{
+  "alpha": "straight",
+  "assetId": "Scp999Reaction",
+  "bodyReference": {
+    "assetId": "Scp999",
+    "revision": 4
+  },
+  "canvas": {
+    "height": 32,
+    "width": 32
+  },
+  "colorMode": "RGBA",
+  "colorSpace": "sRGB",
+  "engineFade": false,
+  "engineOwns": [
+    "spawn frequency",
+    "event merging",
+    "concurrency limit",
+    "world-space rise",
+    "cleanup",
+    "input passthrough"
+  ],
+  "frames": [
+    {
+      "alpha": 160,
+      "asepriteFrame": 1,
+      "durationMs": 70,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 0,
+        "y": 0
+      },
+      "index": 0,
+      "phase": "appear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "heart"
+    },
+    {
+      "alpha": 230,
+      "asepriteFrame": 2,
+      "durationMs": 80,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 32,
+        "y": 0
+      },
+      "index": 1,
+      "phase": "appear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "heart"
+    },
+    {
+      "alpha": 255,
+      "asepriteFrame": 3,
+      "durationMs": 100,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 64,
+        "y": 0
+      },
+      "index": 2,
+      "phase": "accent",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "heart"
+    },
+    {
+      "alpha": 255,
+      "asepriteFrame": 4,
+      "durationMs": 160,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 96,
+        "y": 0
+      },
+      "index": 3,
+      "phase": "accent",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "heart"
+    },
+    {
+      "alpha": 230,
+      "asepriteFrame": 5,
+      "durationMs": 160,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 128,
+        "y": 0
+      },
+      "index": 4,
+      "phase": "accent",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "heart"
+    },
+    {
+      "alpha": 150,
+      "asepriteFrame": 6,
+      "durationMs": 120,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 160,
+        "y": 0
+      },
+      "index": 5,
+      "phase": "disappear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "heart"
+    },
+    {
+      "alpha": 80,
+      "asepriteFrame": 7,
+      "durationMs": 100,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 192,
+        "y": 0
+      },
+      "index": 6,
+      "phase": "disappear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "heart"
+    },
+    {
+      "alpha": 0,
+      "asepriteFrame": 8,
+      "durationMs": 60,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 224,
+        "y": 0
+      },
+      "index": 7,
+      "phase": "disappear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "heart"
+    },
+    {
+      "alpha": 160,
+      "asepriteFrame": 9,
+      "durationMs": 70,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 0,
+        "y": 32
+      },
+      "index": 8,
+      "phase": "appear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "note"
+    },
+    {
+      "alpha": 230,
+      "asepriteFrame": 10,
+      "durationMs": 80,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 32,
+        "y": 32
+      },
+      "index": 9,
+      "phase": "appear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "note"
+    },
+    {
+      "alpha": 255,
+      "asepriteFrame": 11,
+      "durationMs": 100,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 64,
+        "y": 32
+      },
+      "index": 10,
+      "phase": "accent",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "note"
+    },
+    {
+      "alpha": 255,
+      "asepriteFrame": 12,
+      "durationMs": 160,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 96,
+        "y": 32
+      },
+      "index": 11,
+      "phase": "accent",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "note"
+    },
+    {
+      "alpha": 230,
+      "asepriteFrame": 13,
+      "durationMs": 160,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 128,
+        "y": 32
+      },
+      "index": 12,
+      "phase": "accent",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "note"
+    },
+    {
+      "alpha": 150,
+      "asepriteFrame": 14,
+      "durationMs": 120,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 160,
+        "y": 32
+      },
+      "index": 13,
+      "phase": "disappear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "note"
+    },
+    {
+      "alpha": 80,
+      "asepriteFrame": 15,
+      "durationMs": 100,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 192,
+        "y": 32
+      },
+      "index": 14,
+      "phase": "disappear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "note"
+    },
+    {
+      "alpha": 0,
+      "asepriteFrame": 16,
+      "durationMs": 60,
+      "frame": {
+        "h": 32,
+        "w": 32,
+        "x": 224,
+        "y": 32
+      },
+      "index": 15,
+      "phase": "disappear",
+      "pivot": {
+        "x": 16,
+        "y": 16
+      },
+      "tag": "note"
+    }
+  ],
+  "lifetimeMs": 850,
+  "lighting": "unlit; no normal/specular/emission maps",
+  "pivot": {
+    "x": 16,
+    "y": 16
+  },
+  "revision": 1,
+  "sheet": {
+    "columns": 8,
+    "height": 64,
+    "padding": 0,
+    "rows": 2,
+    "spacing": 0,
+    "width": 256
+  },
+  "spawn": {
+    "anchor": "reactionAnchor snapshot at spawn",
+    "flipGlyph": false,
+    "followBody": false,
+    "offsets": {
+      "heart": {
+        "x": -14,
+        "y": -10
+      },
+      "note": {
+        "x": 14,
+        "y": -10
+      }
+    },
+    "units": "source pixels; multiply by body integer scale"
+  },
+  "tags": [
+    {
+      "direction": "forward",
+      "durationMs": 850,
+      "endState": "transparent; remove instance",
+      "from": 0,
+      "loop": false,
+      "name": "heart",
+      "repeats": 1,
+      "to": 7
+    },
+    {
+      "direction": "forward",
+      "durationMs": 850,
+      "endState": "transparent; remove instance",
+      "from": 8,
+      "loop": false,
+      "name": "note",
+      "repeats": 1,
+      "to": 15
+    }
+  ]
+}

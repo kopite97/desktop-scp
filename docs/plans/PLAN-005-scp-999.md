@@ -1,7 +1,7 @@
 ---
 id: PLAN-005
 type: development
-status: active
+status: completed
 title: SCP-999와 공통 스트레스 상태
 updated: 2026-11-24
 ---
@@ -21,7 +21,7 @@ updated: 2026-11-24
 ## 기준 문서와 선행 조건
 
 - [기획 원본](../../SCP_site-desktop.md), [기획 MAP](../game-design/README.md), [로드맵](../game-design/roadmap.md).
-- 단계 A 선행: 완료된 PLAN-002/003 및 ART-001 r002. [PLAN-004](PLAN-004-window-platforms.md)는 창 발판·물리 연동의 선행이며 독립 조명 시험을 막지 않는다. PLAN-004 자체는 미승인이다.
+- 단계 A 선행: 완료된 PLAN-002/003 및 ART-001 r002. [PLAN-004](PLAN-004-window-platforms.md)는 창 발판·물리 연동의 선행이며 독립 조명 시험을 막지 않는다. PLAN-004는 2026-11-24 완료했고 최종 통합에 사용했다.
 - 지침: [작업 절차](../agents/workflow.md), [PLAN 관리](../agents/plan-management.md), [관련 구현 지침](../agents/architecture.md), [검증](../agents/verification.md).
 - 행동 구현 착수 전: 이동 속도·반경·감소량·입력 빈도 처리와 스트레스 범위를 정한다. 단계 A는 이 미정 제품 수치를 사용하지 않는다.
 - 아트 제작 지침은 [Art MAP](../../Art/AGENTS.md), 계획 승인은 [Art PLAN 관리](../../Art/docs/plans/plan.md), 전달은 [Art 전달 지침](../../Art/docs/agents/handoff.md)을 따른다.
@@ -33,9 +33,9 @@ updated: 2026-11-24
 
 | 요청 ID | 제작 ART·AssetId | 요청 결과 | 현재 수령·적용 |
 | --- | --- | --- | --- |
-| PLAN-005-SPR-001 | [ART-001](../../Art/docs/plans/ART-001-scp-999-character.md) · Scp999, 후속 ART-002 | 64×64 반투명 주황 본체, idle/move/typing_react/pet 및 도약·낙하·착지·균형 표현 | r004 승인·ART-001 completed 유지. ART-002에서 r005 외곽선 분리 50프레임 제출·엔진 검증, 시각 확인 대기·제품 미적용 |
-| PLAN-005-SPR-002 | [ART-002](../../Art/docs/plans/ART-002-scp-999-reaction.md) · Scp999Reaction | 독립 하트/음표 효과, 등장·강조·소멸 태그와 합성 기준 | r001 16프레임·2태그 제출, 파일/합성·Unshaded 엔진 검사 완료. 사용자 시각 확인 대기·제품 미적용 |
-| PLAN-005-SPR-003 | [ART-003](../../Art/docs/plans/ART-003-scp-999-trail.md) · Scp999Trail | 독립 점액 자국, 형태 변형·유지·증발 구간 | 미수령·미적용 |
+| PLAN-005-SPR-001 | [ART-001](../../Art/docs/plans/ART-001-scp-999-character.md) · Scp999, 후속 ART-002 | 64×64 반투명 주황 본체, idle/move/typing_react/pet 및 도약·낙하·착지·균형 표현 | r005 외곽선 분리 50프레임, 승인(F-008)·제품 적용. 실제 창 물리 통합 완료 |
+| PLAN-005-SPR-002 | [ART-002](../../Art/docs/plans/ART-002-scp-999-reaction.md) · Scp999Reaction | 독립 하트/음표 효과, 등장·강조·소멸 태그와 합성 기준 | r001 16프레임·2태그, 승인(F-002)·제품 스폰/수명/입력 적용. ART-002 completed |
+| PLAN-005-SPR-003 | [ART-003](../../Art/docs/plans/ART-003-scp-999-trail.md) · Scp999Trail | 독립 점액 자국, 형태 변형·유지·증발 구간 | r001 18프레임·2태그/32×16, 시각 확인 대기·미승인 임시 제품 적용. [전달 계약](../../Art/assets/vfx/Scp999Trail/handoff.md) |
 
 - Art는 Aseprite 원본·그림·애니메이션·프레임별 ms·피벗/접점·PNG/JSON·리비전 검수·사용자 시각 확인을 담당한다.
 - 개발은 논리 상태·실제 위치 이동·입력 판정·스트레스 변화·효과 생성/수명·Godot 임포트/재생·창/입력 영역을 담당한다.
@@ -114,10 +114,31 @@ updated: 2026-11-24
 - 여러 기능에 영향을 주는 기술 선택이 생기면 다음 미사용 TECH ID로 기록한다.
 - 아트 작업 기록: 위 ART-001~003 문서. 원본·제출·리뷰 예정 경로는 해당 ART에 명시한다.
 - 정식 리소스 적용 대상: `GodotProject/Assets/Sprites/characters/Scp999/`, `GodotProject/Assets/Sprites/vfx/Scp999Reaction/`, `GodotProject/Assets/Sprites/vfx/Scp999Trail/`.
-- 수령·적용 증거: `docs/plans/evidence/PLAN-005/run-001/art-integration.md`에 AssetId·리비전·태그 매핑·표시/입력 결과·정식/임시 구분을 기록한다.
+- 수령·적용 증거: [run-025/art-integration.md](evidence/PLAN-005/run-025/art-integration.md)에 AssetId·리비전·태그 매핑·표시/입력 결과·정식/임시 구분을 기록했다. 최초 예정 run-001의 미생성 파일을 소급 생성하지 않았다.
 - 제품 스크립트/씬·검증 시나리오의 정확한 파일명은 PLAN-004 결과와 현재 구조를 확인해 해당 제품 구현 착수 전에 확정한다.
 
 ## 작업 목록
+
+### 2026-11-24 최종 통합 재개
+
+- 사용자 “Plan-005를 마무리해줘 … scp-999의 색감을 좀 더 밝게” 요청으로 on hold → active. 먼저 런타임 조명과 원본 색을 대조해 밝은 주황색을 확보하고 LG FULL HD(GSM5BDE)에서 검증한다.
+- 현재 원본 r005의 주황은 #F78A21, 제품 주변광 .42·주광 .72 설정이 어두운 갈색 인상을 강화한다. 우선 제품 주변광/주광을 조절하고 승인 PNG·Aseprite 원본은 유지한다. 픽셀 수정이 필요해질 경우 별도 새 리비전으로 관리한다.
+- 색 비교 예정: `Scripts/Diagnostics/Scp999ColorProbe.cs`·씬, run-027부터 실제 Godot before/after·동일 알파/윤곽 검사.
+- 물리 위치의 단일 소유자를 PlatformWorld로 통합한다. Scp999State는 AI·제스처·태그·효과를 소유하며 Position/Foot는 공통 물리에서 파생한다. 보행/드래그/중력/도약을 별도 가짜 물리로 복제하지 않는다.
+- 접지점은 본체 원본(32,56)×2, 물리 충돌 폭128px/높이112px(최대 자세 셀을 보수적으로 포함). 드래그 해제는 중력으로 낙하하고 실제 land 이벤트에만 착지 재생한다. 타이핑/쓰다듬기보다 공중/균형 상태를 우선한다.
+- 점액은 생성한 지지면 ID·창 원점과의 상대 좌표를 저장한다. 같은 지지 창 이동 시 함께 이동, 지지 소실/가림/최소화/종료 시 제거한다. 공중에는 생성하지 않으며 화면 바닥 자국은 고정한다. 숨김/모니터 변경/종료 시 모두 정리한다.
+- ART-003 r001은 기존 미승인 임시 적용을 유지한다. 개발 완료를 사용자 아트 승인으로 처리하지 않는다. 정식 승인 적용은 별도 proposed 통합 PLAN으로 남긴다.
+
+### 2026-11-24 행동 구현 재개 범위
+
+- “이제 Plan-005를 마저 작업해줘.” 요청으로 단계 B 제품 행동 구현을 재개한다. PLAN-004는 proposed로 보존하며 창 열거·실제 발판 물리 구현을 이 PLAN에 섞지 않는다.
+- 우선 작업 영역 바닥의 추적·타이핑·쓰다듬기·상태 애니메이션·효과·공통 스트레스와 동일 경로 하네스를 구현한다. 실제 창 발판 이벤트 통합은 PLAN-004 결과가 없어 완료할 수 없으며 필수 미완료로 남긴다.
+- 프로토타입 조정값: 이동160 물리px/s, 추적 반경420px/정지거리36px, 쓰다듬기 반경240px, 스트레스0~100, 클릭3 감소/문지름12초당 감소. 하트/음표 간격650ms·상한4, 점액 간격300ms 이상+이동48px·상한12·유지1800ms. 제품 확정값이 아닌 코드 설정값으로 분리한다.
+- 조작 초안: 왼쪽 클릭/누른 채 문지름=쓰다듬기, 오른쪽 드래그=이동. 우선순위 드래그→공중/물리 표현→쓰다듬기→타이핑→추적. 중복 클릭·쿨다운 중 입력은 추가 감소/효과를 만들지 않는다. 키 입력 내용은 취득하지 않고 활동 발생만 병합한다.
+- 숨김: 입력 감시·활동을 중단하고 효과를 제거, 위치/스트레스는 보존한다. 진행 중 드래그는 바닥으로 취소한 뒤 보존한다. 복원 시 숨김 동안의 경과나 입력을 누적 재생하지 않는다. 프레임 delta 상한100ms로 긴 정지의 순간 이동을 제한한다.
+- 본체r005·하트/음표r001은 승인본, 점액r001은 미승인 임시 적용이다. 이번 요청을 ART-003 시각 승인으로 해석하지 않는다.
+- 예정 제품 파일: `Scripts/Companions/Scp999State.cs`, `Scp999Settings.cs`, `SpriteAnimationSet.cs`, `Scripts/Simulation/StressState.cs`, `Scripts/Overlay/Scp999Controller.cs`, `Scp999Window.cs`, `ScpEffectWindow.cs`, `Scripts/Platform/Windows/KeyboardActivityMonitor.cs`. 기존 Main에서 새 컨트롤러를 사용하고 기존 임시 오버레이는 회귀 진단에 보존한다.
+- 예정 검증: `Scripts/Diagnostics/Scp999Smoke.cs`·해당 씬과 godot.ps1 Scp999Smoke 액션. 새 증거는 `evidence/PLAN-005/run-015/`부터 사용한다.
 
 - [x] 2026-11-23 명시적 활성화 승인, 단계 A 독립 선행과 실행 경로 확정
 - [x] r002 4장 실제 조명·반사·반투명·좌우 반전 관문
@@ -126,12 +147,14 @@ updated: 2026-11-24
 - [x] 관문 통과 후 r004 전체 50프레임·10태그로 확장, 전체 자세의 조명·반전·알파와 실제 재생 확인
 - [x] ART-002의 Scp999 r005 외곽선 분리/효과 r001 Unshaded 구현과 1배/2배 조명 불변성 검사
 - [x] r005 실제 재생 시작/끝과 기존 lit 대비 추가 비용의 최종 결과 기록
-- [ ] 실행 요청·선행 결과 확인, 미정 규칙·제품 파일 경로 확정
-- [ ] 범위의 제품 동작과 필요한 실행 하네스 구현
-- [ ] Art 요청 계약의 미정 값·물리/표현 분담·태그/연결점 확정
-- [ ] 본체 상태 재생, 하트/음표·점액의 생성/수명/상한과 숨김/종료 정리 구현
-- [ ] 수령 리비전 또는 임시 표현 기록, nearest 배율·알파·프레임 시간·좌표/입력 영역 연결
-- [ ] 아래 필수 검증·실제 결과·미검증 한계 기록
+- [x] 실행 요청·선행 결과 확인, 독립 행동 규칙·제품 파일 경로 확정
+- [x] 바닥 추적·타이핑·쓰다듬기·공통 스트레스와 같은 경로 실행 하네스 구현
+- [x] 본체 상태 재생, 하트/음표·점액의 생성/수명/상한과 숨김/종료 정리 구현
+- [x] 수령 리비전/임시 표현, nearest 배율·알파·프레임 시간·좌표/실루엣 입력 영역 연결
+- [x] 독립 기능의 실제 native 입력·결과·실패·미검증 한계 기록
+- [x] PLAN-004 실제 창 발판 물리와 takeoff/fall/land/balance 이벤트 통합
+- [x] 발판 이동/소멸 시 점액 부착·정리 정책 확정 및 실제 검증
+- [x] 위 물리 의존 항목을 포함한 모든 필수 완료 기준 충족
 
 ## 완료 기준과 검증 방법
 
@@ -148,13 +171,24 @@ updated: 2026-11-24
 
 ## 현재 상황과 다음 행동
 
-- 현재: active. 단계 A r004 검증 뒤 r005 외곽선 분리와 효과 r001 Unshaded 진단을 추가했다. 1200 외곽선 조건의 색/알파/동기화 오류 0, 실제 시간 재생·추가 비용 확인 완료. 제품 행동·스트레스·창 발판 통합은 남아 있다.
-- 다음 행동: 본체 r005와 효과 r001의 사용자 시각 피드백을 각각 기록한다(본체 최근 승인 r004, 효과 승인 없음). [전달 계약](../../Art/assets/vfx/Scp999Reaction/handoff.md)을 바탕으로 제품 행동/입력 규칙과 파일 경로를 확정한다. 실제 상태 전환·효과 스폰/수명/창·입력 통합은 별도 검증한다. ART-002 active, ART-003 proposed.
-- 물리 의존 작업은 PLAN-004 결과를 기다리며 독립 조명 작업은 진행한다.
+- 2026-11-24 사용자 최종 재개 요청 범위 완료, active → completed. [최종 증거](evidence/PLAN-005/run-035/README.md), [제품 적용 계약](evidence/PLAN-005/run-035/art-integration.md).
+- SCP-999 색감은 원본 r005를 유지하고 제품 조명을 밝게 변경했다. [실제 비교](evidence/PLAN-005/run-029/README.md)의 동일 idle 몸체 평균 밝기 +41.21%, 알파·외곽선 차이0.
+- PLAN-004 공통 물리에 위치를 일원화했다. 실제 창 추적/도약/낙하/착지/균형과 점액 부착/이동/소멸, 입력·스트레스·숨김/복원/종료를 통합 완료했다. 과거 단계 B의 ApplyMotion·바닥 스냅 정책은 최종 적용 계약으로 대체한다.
+- 본체 r005·반응 r001은 승인본, 점액 r001은 미승인 임시 표현이다. ART-003 active/시각 확인 대기는 그대로이며 정식 승인본 적용은 [PLAN-010](PLAN-010-scp-999-trail-integration.md) proposed로 분리했다.
+- 후속 2026-11-24: 사용자 점액 승인 후 [PLAN-010](PLAN-010-scp-999-trail-integration.md) 정식 적용도 완료했다. 위 완료 당시의 미승인 상태는 역사적 기록이며 현재 Trail r001은 승인본이다. PLAN-005 completed는 유지한다.
 
 ## 검증 결과
 
-- 제품 행동/스트레스 검증은 미실행이다. 단계 A 진단 결과와 구분한다.
+- 최종 문서 검사 통과: 개발 PLAN10개/active0, ART3개/active1(ART-003), TECH10개, 링크·메타데이터·목록 일치. `git diff --check` 통과. LG 제품 실행은 run-038/live-preview.log의 시작 마커와 오류 없음 확인 후 열어 두었다.
+
+- 최종: [run-035](evidence/PLAN-005/run-035/README.md) 실제 LG 창/별도 프로세스 입력105개, [run-037](evidence/PLAN-005/run-037/README.md) 공통 규칙66개·Import·환경 검사 통과. Build 경고/오류0, 에셋10개 SHA256 원본/이전 실행 동일.
+- [색 비교 run-029](evidence/PLAN-005/run-029/README.md) 실제 렌더 통과. run-030~034와036의 실패 및 수정은 최종 증거에 기록하고 로그를 보존했다.
+- 아래 단계 A/B 수치는 당시 결과다. 현재 창 물리 미완료 문구는 역사적 한계이며 위 최종 증거로 해소했다. 실제 혼합 DPI 하드웨어·장기 전체 제품 비용·배포는 미검증, ART-003 시각 승인도 별도다.
+
+- 단계 B: [검증 원본](evidence/PLAN-005/run-025/README.md). 최종 headless56/native 상태66 통과, run-021 실제 Windows 입력77개 통과. 공통 스트레스 경계·중복/연속 입력·우선순위·효과·실제 클릭 투과·문지름/드래그/추적·숨김/복원/종료를 확인했다. 실제 창 물리는 미검증이다.
+- 효과 클릭 투과 실패를 Windows layered/transparent 스타일로 수정했다. 이후 포커스 거부로 중단된 run-022~024는 환경 실패로 보존했고 입력 전 중단을 확인했다. 일반 native 검사와 명시적 `-NativeInput` 검사를 분리했다. 실패를 생략하거나 새 입력 성공으로 소급하지 않았다.
+- 런타임 PNG/contract10개가 Art 지정 리비전과 SHA256 일치. Build 경고/오류0·Import 성공·기존 환경/오버레이23개 회귀 통과. 성능 전체 재측정·배포 내보내기는 하지 않았다.
+- 단계 B 문서 마감: `node scripts/validate-agent-docs.mjs` 통과. 개발 active1·ART active1·TECH8, 적용 handoff·기획 단계·목록·로컬 링크 일치. 실제 창 물리나 ART 시각 완료 판정은 아니다.
 - 2026-11-24: [진단 코드](../../GodotProject/Scripts/Diagnostics/Scp999LightingProbe.cs)·[씬](../../GodotProject/Scenes/Diagnostics/Scp999LightingProbe.tscn) 구현, C# 빌드 경고/오류 0.
 - [r002 관문](evidence/PLAN-005/run-004/README.md): 실제 광원/반사·알파·좌우 반전 확인. 강한 shininess 값으로 반사가 사라지는 설정 및 Viewport 알파 중복 합성 오류 수정.
 - [r003 재생](evidence/PLAN-005/run-007/README.md): 432 렌더 조건, 알파 오류 0·좌우 대응 RGB 오차 0. 6개 광원/반전 조건의 실제 전환 318개, 최대 duration 오차 13.413ms.
@@ -164,15 +198,21 @@ updated: 2026-11-24
 - 초기 실패/메타데이터 잔여 오류·CPU 측정 편차는 각 run에 보존했다. 전체 제품·모든 DPI·1배 Godot 표시·동적 그림자·실제 시간 연동을 검증한 것은 아니다.
 - r005 [전체 렌더](evidence/PLAN-005/run-012/README.md): 외곽선 1200조건 오류 0, 효과 16장×4조건 통과. [최종 재생](evidence/PLAN-005/run-014/README.md): 486개 전환 최대 시간 오차 16.757ms/p95 13.172ms, 시작 프레임 단축 수정. 효과 850ms 논리 수명의 숨김 850.814ms 관측.
 - r005 [추가 비용](evidence/PLAN-005/run-013/README.md): 기존 합성 lit 대비 분리 경로 6쌍 모두 예산 통과. 렌더 p95 추가 최대 CPU .023ms/GPU .022ms, 프로세스 CPU +1.405%p, 쌍별 working set +.157MiB 이내. 최종 재생 회차에서 비용을 재측정한 것은 아니다.
-- 문서 검사: `node scripts/validate-agent-docs.mjs` 통과. 개발/ART 각각 active 1개, TECH 7개와 문서/목록/링크를 확인했다. 제작물·제품 검증과 별개다.
+- 문서 검사: `node scripts/validate-agent-docs.mjs` 통과. ART-003 실행 반영 후 개발 active 1개·ART active 1개, TECH 7개와 문서/목록/링크를 확인했다. 제작물·제품 검증과 별개다.
 - 2026-11-23 계획 작성 검증: `node scripts/validate-agent-docs.mjs` 통과. 개발 PLAN 8개·ART 3개, 각 active 0개. 문서/목록/링크 검증이며 제품 검증과 구분한다.
 
 ## 관련 결정과 상태 전환
 
+- 2026-11-24: “Plan-005를 마무리해줘 … scp-999의 색감을 좀 더 밝게”에 따라 on hold → active, 실제 색·제품 통합·필수 검증 완료 후 completed. [TECH-010](../decisions/TECH-010-companion-platform-integration.md)으로 위치 소유와 점액 부착 정책 기록.
+
+- 2026-11-24: 사용자 “Plan-005를 on hold상태로 바꾸고 Plan-004를 진행해줘”에 따라 active → on hold. PLAN-004 동안 이 PLAN의 개별 SCP 통합 작업은 진행하지 않는다.
+
 - 관련 기술 결정: [TECH-005](../decisions/TECH-005-separate-art-plans.md). 제품 구현 선택은 실행 단계에서 필요한 경우 추가한다.
+- 단계 B 실제 구현: [TECH-008](../decisions/TECH-008-companion-state-and-input.md), 공통 상태·활동 감시·장식 창 입력 경계.
 - 조명 제작·시험 절차: [TECH-006](../decisions/TECH-006-lighting-aware-art.md). 문서 연결만 반영했으며 개발 status는 proposed 유지.
 - 2026-11-23: proposed 생성. 후속 작업을 proposed로 작성하라는 사용자 지시를 따른다.
 - 2026-11-23: 사용자 요청으로 ART-001~003 및 상세 요청/전달 계약 연결. status는 proposed 유지, 실행 승인 없음.
 - 2026-11-23: “일단 Plan-005도 활성화 해줘 … 현재 4장 … idle/move 전체 프레임 … Plan에 반영하고 진행해줘”에 따라 proposed → active. 조명 검증을 단계 A로 우선 실행하며 PLAN-009의 중복 시험 범위를 통합했다.
 - 2026-11-24: r003 idle/move 진단까지 진행. PLAN-005와 ART-001은 active 유지, 제품 동작 전체 완료나 최종 사용자 시각 승인으로 처리하지 않음.
+- 2026-11-24: “이제 Plan-005를 마저 작업해줘.”에 따라 독립 행동 제품 구현·검증. PLAN-005 active 유지, PLAN-004 실제 창 물리 의존 필수 항목은 미완료로 남긴다. ART-003 승인 상태는 변경하지 않음.
 

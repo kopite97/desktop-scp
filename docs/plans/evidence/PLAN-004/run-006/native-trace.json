@@ -1,0 +1,50 @@
+[
+  {
+    "action": "land",
+    "x": -1451,
+    "y": 1600,
+    "state": "Grounded",
+    "support": "window:39572:330116:18",
+    "ledges": 3
+  },
+  {
+    "action": "move",
+    "x": -1423.5,
+    "y": 1580,
+    "state": "Balancing",
+    "support": "window:39572:330116:18",
+    "ledges": 3
+  },
+  {
+    "action": "minimize",
+    "x": -1427.2463,
+    "y": 2085,
+    "state": "Grounded",
+    "support": "floor:1",
+    "ledges": 2
+  },
+  {
+    "action": "jump",
+    "x": -1074.5737,
+    "y": 1500,
+    "state": "Grounded",
+    "support": "window:39572:330104:17",
+    "ledges": 3
+  },
+  {
+    "action": "cover",
+    "x": -1074.5737,
+    "y": 1500,
+    "state": "Grounded",
+    "support": "window:39572:330104:17",
+    "ledges": 5
+  },
+  {
+    "action": "close",
+    "x": -1001,
+    "y": 1500,
+    "state": "Falling",
+    "support": null,
+    "ledges": 2
+  }
+]

@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+INPUT_PROBE_READY position=(0, 1061) size=(1920, 1032)
+INPUT_PROBE {"down":1,"up":0,"pressed":true,"x":800,"y":988}
+INPUT_PROBE {"down":1,"up":1,"pressed":false,"x":800,"y":988}
+INPUT_PROBE {"down":2,"up":1,"pressed":true,"x":784,"y":972}
+INPUT_PROBE {"down":2,"up":2,"pressed":false,"x":784,"y":972}

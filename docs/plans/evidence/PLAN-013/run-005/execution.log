@@ -1,0 +1,21 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+STATUE_CHECK Observed statue does not move or attack
+STATUE_CHECK Observation radius includes 180px boundary
+STATUE_CHECK Same-screen unseen delay does not trigger early
+STATUE_CHECK Unseen threshold breaks same icon object and retains appearance
+STATUE_CHECK Broken target cannot be reserved for surgery
+STATUE_CHECK Duplicate break cannot apply twice
+STATUE_CHECK Broken icon removed after bounded visual lifetime
+STATUE_CHECK Other-monitor attack does not steal doctor reservation
+STATUE_CHECK Other monitor triggers after retry cooldown without eight-second wait
+STATUE_CHECK Observation resets unseen accumulation
+STATUE_CHECK Hidden statue cannot attack
+STATUE_CHECK Missing or out-of-desktop pointer fails closed
+STATUE_CHECK SCP-999 common relief lowers actual statue stress
+STATUE_CHECK Relief below stress threshold restores long delay
+STATUE_CHECK High stress uses four-second unseen delay
+STATUE_CHECK Shutdown releases common stress registrations
+STATUE_CHECK Empty or removed target is a safe no-op
+STATUE_CHECK User drag suppresses autonomous attack
+STATUE_PASS

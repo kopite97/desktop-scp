@@ -1,11 +1,11 @@
 ---
 id: ART-002
 type: art
-status: active
+status: completed
 title: SCP-999 반응 효과와 본체 외곽선 조명 분리
 asset_id: Scp999Reaction
 revision: 1
-approved_revision: 0
+approved_revision: 1
 updated: 2026-11-24
 ---
 
@@ -22,12 +22,12 @@ updated: 2026-11-24
 ## 추가 범위: 본체 외곽선 조명 분리
 
 - 2026-11-24 사용자가 지침 보완·PLAN 반영 및 완료된 ART-001의 후속 작업을 ART-002에 포함해 실행하도록 명시했다. ART-001 completed/r004/approved_revision=4는 유지한다.
-- 주 에셋 메타데이터는 Scp999Reaction r001/승인0이다. 아래 추가 에셋의 승인·완료는 별도로 판단한다.
+- 주 에셋 메타데이터는 Scp999Reaction r001/승인1이다. 아래 추가 에셋 Scp999 r005도 별도로 사용자 시각 확인을 받았다.
 
 | AssetId | 작업 리비전 | 최근 사용자 확인 | 이번 범위 |
 | --- | --- | --- | --- |
-| Scp999Reaction | r001 | 없음 | 전체 기호 Unshaded, 원본 알파와 단일 fade, 실제 Godot 검증 |
-| Scp999 | r005 제출 | r004 | lit 몸체/표정과 unlit 외곽선 분리, r004와 비교, 50프레임 동기화 |
+| Scp999Reaction | r001 | r001 (2026-11-24, F-002) | 전체 기호 Unshaded, 원본 알파와 단일 fade, 실제 Godot 검증 |
+| Scp999 | r005 제출 | r005 (2026-11-24, F-008) | lit 몸체/표정과 unlit 외곽선 분리, r004와 비교, 50프레임 동기화 |
 
 - 본체는 4장(원본 1/7/9/12)으로 분리·재합성·Godot 관문을 확인한 뒤 전체 50장으로 확장한다. 원래 형태·색·태그·시간·피벗·연결점과 r004 노멀/반사 데이터는 보존한다.
 - 외곽선은 기본색에서 제거하고 Scp999_outline.png로 출력한다. 표정은 기존 lit 경로를 유지한다. 별도 원본 Scp999-outline-unlit.aseprite와 r005 제출본을 만든다.
@@ -103,7 +103,7 @@ updated: 2026-11-24
 - [x] 본체 r004 보존, 외곽선 분리 4장과 Godot 조명 제외 관문
 - [x] 본체 r005 전체 50프레임 분리·동기화·원본 대응 및 엔진 검사
 - [x] 효과 전체 Unshaded/부모 색 변조/소멸 알파의 실제 Godot 검사, PLAN-005 증거 연결
-- [ ] 최종 사용자 시각 확인과 전달 기록, 목록 메타데이터 갱신
+- [x] 최종 사용자 시각 확인과 전달 기록, 목록 메타데이터 갱신
 
 ## 완료 기준과 검증 방법
 
@@ -118,8 +118,9 @@ updated: 2026-11-24
 
 ## 현재 상황과 다음 행동
 
-- 현재 active, 주 에셋 Scp999Reaction revision=1/approved_revision=0. 추가 본체 Scp999 r005 제출/최근 승인r004. 파일·외곽선/VFX 조명 제외·실제 시간 재생·추가 비용 검증을 마쳤다. 효과 r001과 본체 r005의 최종 사용자 시각 확인은 각각 대기한다.
-- 다음: 효과 r001 및 본체 r005의 시각 피드백을 각각 기록한다. 정식 제품 통합은 PLAN-005 후속, ART-003은 proposed 유지.
+- 현재 completed, 주 에셋 Scp999Reaction revision=1/approved_revision=1. 추가 본체 Scp999 r005 제출/승인r005. 파일·외곽선/VFX 조명 제외·실제 시간 재생·추가 비용 검증과 두 에셋의 최종 사용자 시각 확인을 마쳤다.
+- 다음: 승인된 효과 r001·본체 r005의 정식 제품 통합은 PLAN-005 후속이다. ART-003은 proposed 유지하며 이번 결과물 승인과 제작 실행 승인을 구분한다.
+- 2026-11-24 재개: ART-001~003의 상태와 기존 검증을 대조하고, 원본 6개 보존·진단 사본 8개 일치를 확인했다. [최종 시각 검수 안내](evidence/ART-002/run-004/README.md)에 효과 r001·본체 r005의 확인 자료를 연결했다. 새 엔진 실행이나 사용자 승인은 아니다.
 - 실제 자료: [명세](../../assets/vfx/Scp999Reaction/spec.md), [r001 제출](../../assets/vfx/Scp999Reaction/revisions/r001/README.md), [handoff](../../assets/vfx/Scp999Reaction/handoff.md), [검수 증거](evidence/ART-002/run-001/README.md).
 - 본체 후속: [r005 제출](../../assets/characters/Scp999/revisions/r005/README.md), [4장 관문](evidence/ART-002/run-002/README.md), [50프레임 파일 검사](evidence/ART-002/run-003/README.md), [엔진 행렬](../../../docs/plans/evidence/PLAN-005/run-012/README.md).
 
@@ -128,7 +129,7 @@ updated: 2026-11-24
 - 2026-11-24: 32×32 셀, 8열×2행 시트, heart/note 각 8프레임·850ms 일회 재생. 마지막 프레임 완전 투명, 기본색 소멸 알파·Godot 상승/스폰 책임 분리.
 - 원본/제출/PNG 픽셀 불일치 0, 1px 윤곽 오류·잘림·미허용 색/알파 0. JSON 프레임 사각형·시간·태그 일치, source 해시 동일, 본체 r004 변경 없음.
 - 낮/밤·3배경·1배/2배 합성에서 구분·표정 가독성 확인. 본체 50자세의 생성 위치에서 효과/Face 겹침 0. 97프레임·2600ms 반복 생성 리뷰를 Aseprite에서 실제 재생했다.
-- 위 r001 초기 검사는 제작·합성 검수다. 후속 실제 엔진 시험은 아래와 구분한다. 사용자 최종 시각 확인 대기.
+- 위 r001 초기 검사는 제작·합성 검수다. 후속 실제 엔진 시험은 아래와 구분한다. 사용자 최종 시각 확인은 2026-11-24 완료했다.
 - 본체 r005: 50프레임 재합성·원본 대응 오류 0, 1200개 외곽선 렌더 조건의 색/알파/동기화 오류 0. 효과 16프레임×4조건 색/알파·끝 투명도 검사 통과(8bit 알파 합성 반올림 허용).
 - [최종 재생](../../../docs/plans/evidence/PLAN-005/run-014/README.md): 본체 전환 486개, 최대 시간 오차 16.757ms/p95 13.172ms. 효과 850ms 논리 수명에 숨김 850.814ms 관측. [추가 비용](../../../docs/plans/evidence/PLAN-005/run-013/README.md): 6쌍 모두 예산 통과. 제품 스폰·입력·물리 통합 시험은 아니다.
 - 2026-11-23 계획 문서 검사: 프로젝트 루트의 `node scripts/validate-agent-docs.mjs` 통과. 제작물 검증은 아니다.
@@ -139,3 +140,5 @@ updated: 2026-11-24
 - 2026-11-23: 계획 작성 요청에 따라 proposed 생성. 활성화 승인 없음.
 - 2026-11-24: “Art-002를 승인할게 작업 시작해줘”에 따라 proposed→active. 본체 r004 확인으로 ART-001을 완료한 후 전환했다. ART-003은 proposed 유지.
 - 2026-11-24: 사용자가 외곽선 조명 제외 지침/PLAN 보완과 ART-001 후속을 ART-002에 포함한 실행을 지시했다. 주 에셋 메타데이터를 유지하고 추가 Scp999 r005/최근 승인r004를 별도 표로 추적한다. ART-001 메타데이터와 r004 원본은 변경하지 않는다.
+- 2026-11-24: 사용자의 ART-001~003 확인 및 진행 중 작업 마무리 요청으로 ART-002의 검수·전달 정리를 재개했다. 최종 시각 확인이 남아 active와 각 승인 리비전을 유지한다. ART-003 제작 착수나 임의 보류 전환은 하지 않았다.
+- 2026-11-24: 본체 r005와 하트·음표 r001의 이미지·재생 자료를 제시하고 두 결과물 확정을 요청한 데 대해 사용자가 “승인할게.”라고 답했다. [효과 F-002](../../assets/vfx/Scp999Reaction/revisions/r001/review/feedback.md)와 [본체 F-008](../../assets/characters/Scp999/revisions/r005/review/feedback.md)에 각각 기록했다. 필수 산출물·기술 검증·시각 확인 충족으로 active→completed, 주 에셋 approved_revision 0→1, 추가 본체 승인 r004→r005. ART-001 완료 당시 메타데이터와 ART-003 proposed는 유지한다.

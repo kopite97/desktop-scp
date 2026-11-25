@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+ERROR: DESKTOP_ICON_FAILED System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.IO.Path.Combine(String path1, String path2, String path3)
+   at SiteDesktop.Platform.Windows.DesktopIconProvider.ReadAsync(CancellationToken cancellation) in C:\Dev\scp_desktop\GodotProject\Scripts\Platform\Windows\DesktopIconProvider.cs:line 14
+   at SiteDesktop.Diagnostics.DesktopIconSmoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DesktopIconSmoke.cs:line 34
+   at: void SiteDesktop.Diagnostics.DesktopIconSmoke+<_Ready>d__6.MoveNext() (res://Scripts/Diagnostics/DesktopIconSmoke.cs:34)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.DesktopIconSmoke+<_Ready>d__6.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DesktopIconSmoke.cs:34)
+       [2] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [3] void SiteDesktop.Diagnostics.DesktopIconSmoke._Ready()
+       [4] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2660)
+       [5] bool SiteDesktop.Diagnostics.DesktopIconSmoke.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\SiteDesktop.Diagnostics.DesktopIconSmoke_ScriptMethods.generated.cs:50)
+       [6] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)

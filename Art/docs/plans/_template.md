@@ -24,6 +24,7 @@ updated: YYYY-MM-DD
 
 - 기준 기획·디자인·규격:
 - 에셋 spec·사용자 참조:
+- 참고 이미지 폴더 README·채택할 특징·상충하는 참조의 우선순위(미수령이면 명시):
 - 개발 PLAN·요청 ID·적용 담당:
 - 선행 ART·필요한 제품 상태:
 - 캔버스·방향·동작·태그·프레임 시간·필요한 보조 이미지:
@@ -38,6 +39,7 @@ updated: YYYY-MM-DD
 | 산출물 | 예정 경로 |
 | --- | --- |
 | 현재 명세 | assets/<category>/<AssetId>/spec.md |
+| 참고 이미지·출처/활용 기록 | docs/plans/references/<이 ART 파일명에서 .md를 뺀 이름>/README.md 및 이미지 |
 | 작업 원본 | assets/<category>/<AssetId>/source/<AssetId>.aseprite |
 | 제출 원본·출력·README | assets/<category>/<AssetId>/revisions/rNNN/ |
 | 시각 리뷰·피드백 | 같은 리비전의 review/ |
@@ -47,6 +49,7 @@ updated: YYYY-MM-DD
 ## 작업 목록
 
 - [ ] 범위·규격·출력 위치 확정
+- [ ] 참고 이미지 확인·출처/채택 기준 기록. 미수령이면 해당 사실 기록
 - [ ] 조명 방식·파일 역할·맵/프레임/반전 계약 명시
 - [ ] 동적 조명용 제작이면 대표 샘플 엔진 검증 후 전체 맵 확장. 해당 없으면 사유 기록
 - [ ] 승인된 원본·애니메이션·필요한 보조 이미지 제작

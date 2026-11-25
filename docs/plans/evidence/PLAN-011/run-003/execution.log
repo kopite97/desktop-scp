@@ -1,0 +1,59 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED art=temporary-code ART-004..007
+SITE_DESKTOP_READY
+STACK_CHECK_PASS stationary stable stack has zero repeated native batches
+STACK_CHECK_PASS stationary actual native order stable
+STACK_CHECK_PASS slow-drag stable stack has zero repeated native batches
+STACK_CHECK_PASS slow-drag actual native order stable
+STACK_CHECK_PASS fast-drag stable stack has zero repeated native batches
+STACK_CHECK_PASS fast-drag actual native order stable
+STACK_CHECK_PASS drag start priority 0
+STACK_CHECK_PASS drag release base order 0
+STACK_CHECK_PASS drag start priority 1
+STACK_CHECK_PASS drag release base order 1
+STACK_CHECK_PASS drag start priority 2
+STACK_CHECK_PASS drag release base order 2
+STACK_CHECK_PASS drag start priority 3
+STACK_CHECK_PASS drag release base order 3
+STACK_CHECK_PASS drag start priority 4
+STACK_CHECK_PASS drag release base order 4
+STACK_CHECK_PASS doctor drag priority
+STACK_CHECK_PASS data drag promoted above both actors
+STACK_CHECK_PASS removed object leaves stack
+SCP999_HIDDEN
+STACK_CHECK_PASS hide cancels drag and unregisters native islands
+SCP999_SHOWN
+STACK_CHECK_PASS restored handles regain base order
+STACK_CHECK_PASS actual external order drift repaired
+ERROR: OVERLAY_STACK_FAILED System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SiteDesktop.Diagnostics.OverlayStackSmoke.Lifecycle() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\OverlayStackSmoke.cs:line 87
+   at SiteDesktop.Diagnostics.OverlayStackSmoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\OverlayStackSmoke.cs:line 115
+   at: void SiteDesktop.Diagnostics.OverlayStackSmoke+<_Ready>d__19.MoveNext() (res://Scripts/Diagnostics/OverlayStackSmoke.cs:115)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.OverlayStackSmoke+<_Ready>d__19.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\OverlayStackSmoke.cs:115)
+       [2] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [3] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [4] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [5] void System.Threading.Tasks.Task.RunContinuations(object)
+       [6] void System.Threading.Tasks.Task.FinishSlow(bool)
+       [7] bool System.Threading.Tasks.Task.TrySetException(object)
+       [8] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(System.Exception, System.Threading.Tasks.Task`1[TResult]&)
+       [9] void SiteDesktop.Diagnostics.OverlayStackSmoke+<Lifecycle>d__18.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\OverlayStackSmoke.cs:87)
+       [10] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [11] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [12] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [13] void System.Threading.Tasks.Task.RunContinuations(object)
+       [14] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [15] void SiteDesktop.Diagnostics.OverlayStackSmoke+<Frames>d__15.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\OverlayStackSmoke.cs:38)
+       [16] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [17] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [18] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+SCP999_STOPPED
+SCP049_STOPPED
+SITE_DESKTOP_STOPPED

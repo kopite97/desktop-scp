@@ -23,4 +23,4 @@
 - [하트 일회 재생](review/heart.apng), [음표 일회 재생](review/note.apng), [연속 생성 합성](review/composite-preview.apng), [Aseprite 재생 파일](review/composite-preview.aseprite).
 - 합성은 실제 Godot 본체 캡처와 Aseprite 효과를 조합한 리뷰다. 상승·생성 간격은 예시이며 제품 구현 결과가 아니다. 본체는 타이핑 태그를 리뷰용으로 반복한다.
 - APNG는 Aseprite 렌더 프레임의 PNG 데이터와 ms를 그대로 묶었다. 합성은 97프레임·2600ms, 원본 태그 경계와 시간 유지.
-- [피드백](review/feedback.md): 최종 사용자 확인 대기. 정식 제품 미적용.
+- [피드백](review/feedback.md): 2026-11-24 F-002로 r001 최종 사용자 확인 완료. 정식 제품 미적용.

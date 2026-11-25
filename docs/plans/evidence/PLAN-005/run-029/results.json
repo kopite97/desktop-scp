@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "bodyPixels": 4296,
+  "beforeMean": 0.3839514265372417,
+  "afterMean": 0.5421837485806399,
+  "ratio": 1.4121154685384412,
+  "alphaErrors": 0,
+  "outlineErrors": 0,
+  "sourceRevision": "r005 unchanged",
+  "ambient": 0.9,
+  "keyEnergy": 0.5
+}

@@ -26,3 +26,12 @@
 | [TECH-005](TECH-005-separate-art-plans.md) | ART 제작 계획과 개발 PLAN의 분리 | accepted |
 | [TECH-006](TECH-006-lighting-aware-art.md) | 동적 조명을 고려한 아트 제작과 샘플 검증 | accepted |
 | [TECH-007](TECH-007-unlit-outline-and-reactions.md) | 본체 외곽선과 반응 효과의 조명 제외 | accepted |
+| [TECH-008](TECH-008-companion-state-and-input.md) | 공통 행동 상태와 활동 입력·장식 효과 창 | accepted |
+| [TECH-009](TECH-009-window-platform-physics.md) | DWM 창 관찰과 공통 일방향 발판 물리 | accepted |
+| [TECH-010](TECH-010-companion-platform-integration.md) | SCP-999 공통 물리 위치와 지지면 부착 효과 | accepted |
+| [TECH-011](TECH-011-plague-objects-and-reservations.md) | 가짜 데이터 수명과 SCP-049 예약·치료 상태 | accepted |
+| [TECH-012](TECH-012-overlay-stacking.md) | 단일 제품 창 순서 소유자·드래그 우선순위 | accepted |
+| [TECH-013](TECH-013-runtime-icon-appearance.md) | Shell 아이콘 작업 프로세스와 세션 외형 캐시 | accepted |
+| [TECH-014](TECH-014-system-options-and-lockdown.md) | 시스템 지표 관찰과 단일 봉쇄·외부 효과 소유자 | accepted |
+| [TECH-015](TECH-015-zombie-presentation-lifetime.md) | 좀비 표시 수명과 승인 발·효과의 게임 시계 연결 | accepted |
+| [TECH-016](TECH-016-scp-activation-and-shared-world.md) | SCP 등록·활성 상태와 공용 오브젝트 소유권 분리 | accepted |

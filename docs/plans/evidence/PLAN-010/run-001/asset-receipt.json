@@ -1,0 +1,63 @@
+{
+  "asset": "Scp999Trail",
+  "revision": "r001",
+  "approval": "F-004 / 2026-11-24",
+  "files": [
+    {
+      "file": "Scp999Trail.png",
+      "source": "Art\\assets\\vfx\\Scp999Trail\\revisions\\r001\\export\\Scp999Trail.png",
+      "runtime": "GodotProject\\Assets\\Sprites\\vfx\\Scp999Trail\\Scp999Trail.png",
+      "sourceSha256": "5eb30a481b6db4659e302aaad8a6e904342d7c365b3ff58e222b3f5b1e242833",
+      "runtimeSha256": "5eb30a481b6db4659e302aaad8a6e904342d7c365b3ff58e222b3f5b1e242833",
+      "equal": true
+    },
+    {
+      "file": "Scp999Trail.contract.json",
+      "source": "Art\\assets\\vfx\\Scp999Trail\\revisions\\r001\\export\\Scp999Trail.contract.json",
+      "runtime": "GodotProject\\Assets\\Sprites\\vfx\\Scp999Trail\\Scp999Trail.contract.json",
+      "sourceSha256": "d12ba869148291214de28ac985192298231cf71add482572e8b6276be38ba135",
+      "runtimeSha256": "d12ba869148291214de28ac985192298231cf71add482572e8b6276be38ba135",
+      "equal": true
+    }
+  ],
+  "sourceSha256": "b95919dfaf11057ff56e7753bfa6f38a02944e033fc7bd31a2e4ada0d43cfff3",
+  "submissionSourceSha256": "b95919dfaf11057ff56e7753bfa6f38a02944e033fc7bd31a2e4ada0d43cfff3",
+  "sourceMatches": true,
+  "canvas": {
+    "height": 16,
+    "width": 32
+  },
+  "tags": [
+    {
+      "demoDurationMs": 1100,
+      "direction": "forward",
+      "endState": "transparent; remove instance",
+      "evaporateFrom": 3,
+      "evaporateTo": 8,
+      "from": 0,
+      "holdFrame": 2,
+      "loop": false,
+      "name": "puddle_a",
+      "repeats": 1,
+      "to": 8
+    },
+    {
+      "demoDurationMs": 1100,
+      "direction": "forward",
+      "endState": "transparent; remove instance",
+      "evaporateFrom": 12,
+      "evaporateTo": 17,
+      "from": 9,
+      "holdFrame": 11,
+      "loop": false,
+      "name": "puddle_b",
+      "repeats": 1,
+      "to": 17
+    }
+  ],
+  "pivot": {
+    "x": 16,
+    "y": 8
+  },
+  "pixelsAndContractChanged": false
+}

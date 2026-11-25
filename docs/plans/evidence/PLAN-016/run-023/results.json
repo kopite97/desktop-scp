@@ -1,0 +1,8317 @@
+{
+  "observations": [
+    {
+      "milliseconds": 4,
+      "windows": []
+    },
+    {
+      "milliseconds": 30,
+      "windows": []
+    },
+    {
+      "milliseconds": 45,
+      "windows": []
+    },
+    {
+      "milliseconds": 61,
+      "windows": []
+    },
+    {
+      "milliseconds": 77,
+      "windows": []
+    },
+    {
+      "milliseconds": 93,
+      "windows": []
+    },
+    {
+      "milliseconds": 109,
+      "windows": []
+    },
+    {
+      "milliseconds": 125,
+      "windows": []
+    },
+    {
+      "milliseconds": 140,
+      "windows": []
+    },
+    {
+      "milliseconds": 156,
+      "windows": []
+    },
+    {
+      "milliseconds": 172,
+      "windows": []
+    },
+    {
+      "milliseconds": 187,
+      "windows": []
+    },
+    {
+      "milliseconds": 203,
+      "windows": []
+    },
+    {
+      "milliseconds": 234,
+      "windows": []
+    },
+    {
+      "milliseconds": 250,
+      "windows": []
+    },
+    {
+      "milliseconds": 266,
+      "windows": []
+    },
+    {
+      "milliseconds": 282,
+      "windows": []
+    },
+    {
+      "milliseconds": 297,
+      "windows": []
+    },
+    {
+      "milliseconds": 312,
+      "windows": []
+    },
+    {
+      "milliseconds": 328,
+      "windows": []
+    },
+    {
+      "milliseconds": 344,
+      "windows": []
+    },
+    {
+      "milliseconds": 359,
+      "windows": []
+    },
+    {
+      "milliseconds": 374,
+      "windows": []
+    },
+    {
+      "milliseconds": 390,
+      "windows": []
+    },
+    {
+      "milliseconds": 406,
+      "windows": []
+    },
+    {
+      "milliseconds": 421,
+      "windows": []
+    },
+    {
+      "milliseconds": 436,
+      "windows": []
+    },
+    {
+      "milliseconds": 452,
+      "windows": []
+    },
+    {
+      "milliseconds": 467,
+      "windows": []
+    },
+    {
+      "milliseconds": 483,
+      "windows": []
+    },
+    {
+      "milliseconds": 499,
+      "windows": []
+    },
+    {
+      "milliseconds": 514,
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 1,
+          "Height": 1,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 529,
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 546,
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 561,
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 577,
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 592,
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 608,
+      "windows": [
+        {
+          "Title": "SCP-999",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 623,
+      "windows": [
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 639,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 654,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 670,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 685,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 702,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 717,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 733,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 748,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 764,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 780,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 795,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 811,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 827,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 842,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 857,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 872,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 889,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 904,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 919,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 935,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 951,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 966,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 982,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 998,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1013,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1028,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1044,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1059,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1075,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1091,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1106,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1122,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1139,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1154,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1169,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1185,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1201,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1217,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1231,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1248,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1264,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1280,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1296,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1311,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1327,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1342,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1358,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1373,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1389,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1405,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1421,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1436,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1452,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1468,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1484,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1500,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1516,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1531,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1546,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1562,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1578,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1594,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1609,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1625,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1641,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1657,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1672,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1687,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1703,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1718,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1735,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1750,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1765,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1780,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1797,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1813,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1829,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1844,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1859,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1875,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1890,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1906,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1921,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1937,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1953,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1968,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 1983,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2000,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2016,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2031,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2047,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2064,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2080,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2095,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2110,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2127,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2142,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2157,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2172,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2189,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2204,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2220,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2235,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2250,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2266,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2281,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2297,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2313,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2329,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2344,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2359,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2374,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2390,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2406,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2422,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2437,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2452,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2469,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2484,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2500,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2515,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2531,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2547,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2563,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2578,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2594,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2610,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2626,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2641,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2656,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2672,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2687,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2703,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2718,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2734,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2749,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2764,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2780,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2796,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2811,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2826,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2842,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2857,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2873,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2889,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2904,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2920,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2937,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2953,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2969,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 2984,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3000,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3016,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3031,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3047,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3063,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3079,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3094,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3110,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3126,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3141,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3157,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3172,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3188,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3204,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3220,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3236,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3252,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3267,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3283,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3299,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3315,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3330,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3346,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3361,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3377,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3393,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3409,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3424,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3440,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3456,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3471,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3486,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3502,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3518,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3534,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3549,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3564,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3580,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3595,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3611,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3627,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3642,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3658,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3674,
+      "windows": [
+        {
+          "Title": "SCP-173",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -392,
+          "Y": 1997,
+          "Width": 64,
+          "Height": 96,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP-999",
+          "Visible": true,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": -1680,
+          "Y": 1973,
+          "Width": 128,
+          "Height": 128,
+          "Style": 134217752,
+          "Foreground": false
+        },
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3690,
+      "windows": [
+        {
+          "Title": "SCP: Site-Desktop",
+          "Visible": false,
+          "Minimized": false,
+          "OnScreen": true,
+          "X": 1719,
+          "Y": 695,
+          "Width": 64,
+          "Height": 64,
+          "Style": 134479888,
+          "Foreground": false
+        }
+      ]
+    },
+    {
+      "milliseconds": 3705,
+      "windows": []
+    },
+    {
+      "milliseconds": 3719,
+      "windows": []
+    }
+  ],
+  "passed": true,
+  "unexpectedVisibleControls": 0,
+  "exitCode": 0,
+  "pid": 14812,
+  "controlSamples": 204,
+  "visibleActorSamples": 391,
+  "visibleControlSamples": 1,
+  "samples": 237,
+  "durationMs": 3783
+}

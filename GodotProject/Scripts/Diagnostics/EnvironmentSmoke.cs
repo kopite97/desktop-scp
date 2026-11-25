@@ -3,7 +3,7 @@ using SiteDesktop.App;
 
 namespace SiteDesktop.Diagnostics;
 
-// Loads the real entry scene and exits through the same command as its Exit button.
+// Loads the real entry scene and exits through the common explicit shutdown command.
 public partial class EnvironmentSmoke : Node
 {
     private Main? _main;
@@ -11,7 +11,7 @@ public partial class EnvironmentSmoke : Node
 
     public override void _Ready()
     {
-        _main = GD.Load<PackedScene>("res://Scenes/App/Main.tscn").Instantiate<Main>();
+        _main = GD.Load<PackedScene>("res://Scenes/App/Main.tscn").Instantiate<Main>();_main.PersistScpSettings=false;_main.EnableSystemOptions=false;_main.EnableStatue=false;
         AddChild(_main);
     }
 
@@ -22,7 +22,7 @@ public partial class EnvironmentSmoke : Node
         SetProcess(false);
 
         if (_main is null || !_main.IsNodeReady()
-            || _main.GetNode<Label>("Content/RuntimeStatus").Text != "C# runtime ready")
+            || _main.GetNode<Label>("Scroll/Content/RuntimeStatus").Text != "C# runtime ready")
         {
             GD.PushError("ENVIRONMENT_SMOKE_FAILED: main scene did not initialize through C#.");
             GetTree().Quit(1);

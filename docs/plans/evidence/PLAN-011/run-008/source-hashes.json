@@ -1,0 +1,10 @@
+{
+  "GodotProject/Scripts/App/Main.cs": "a1aa9265c8e74eba24419c8b054c24ab079046abab7ca993b2501eea4b579a84",
+  "GodotProject/Scripts/Overlay/OverlayStackCoordinator.cs": "b793cad3ed0dfc7f18f6a22075bf296556bafdf5b8c146a14973234e32114569",
+  "GodotProject/Scripts/Overlay/Scp999Controller.cs": "e6a321a9ed7ee768a675b16e4adf6b1943a070375f21cb75cdffc0f5d4e282f3",
+  "GodotProject/Scripts/Overlay/PlagueController.cs": "c96ddcb9bffb4f0e00338deba516da55ad74a34f28583a0bf0c43ead07d0a99b",
+  "GodotProject/Scripts/Platform/Windows/WindowsDesktop.cs": "702dcae0c0ef27a052b2846e0541059b8b2f667ca5910d191a43e15207913fbe",
+  "GodotProject/Scripts/Diagnostics/OverlayStackSmoke.cs": "0a0199ac6b49695d15506e4262e8002b5fe1fdf7f2aa96409edd30f4abfe609d",
+  "GodotProject/Scripts/Diagnostics/OverlayStackSmoke.Input.cs": "e4cac48cf260173a0b6d311e973a984bb96c6184bb38be61667c5d493f484c07",
+  "GodotProject/Scripts/Diagnostics/Scp049Smoke.Native.cs": "78ab84c9fe984cbfb9c6cf5161861dffca79d24cf33accf1e17d03d352764419"
+}

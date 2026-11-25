@@ -10,12 +10,13 @@
 | AGENTS.md | 아트 작업 탐색 MAP |
 | docs/agents | 아트 제작·도구·리비전·전달·검수 지침 |
 | docs/plans | ART-NNN 제작 계획·승인·상태·진행·검증 기록 |
+| [docs/plans/references](docs/plans/references/README.md) | ART 플랜명별 참고 이미지와 출처·활용 기록 |
 | assets/README.md | 실제 제작 에셋과 ART의 연결 목록 |
 | templates | 에셋 명세·제출 리비전·Godot 전달 기록 양식 |
 | docs/evidence | PLAN에 속하지 않는 하네스 관리 작업의 검증 기록 |
 
 작업용 원본과 제출 보존본은 실제 제작 때 `assets/<category>/<AssetId>/` 아래에 만든다.
-`palettes/`, `references/`는 채택한 파일이 생길 때 만든다. 빈 캐릭터 폴더나 가상 스프라이트는 생성하지 않는다.
+`palettes/`는 채택한 파일이 생길 때 만든다. 참고 이미지는 [아트 구조의 PLAN별 참고 이미지 규칙](docs/agents/project-structure.md)에 따라 `docs/plans/references/` 아래에 모은다. 빈 캐릭터 폴더나 가상 스프라이트는 생성하지 않는다.
 
 ## 프로젝트 문서와의 관계
 

@@ -1,17 +1,25 @@
-; Engine configuration file. Source project; no export configuration yet.
+; Engine configuration file.
 config_version=5
 
 [application]
 config/name="SCP: Site-Desktop"
 run/main_scene="res://Scenes/App/Main.tscn"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
+boot_splash/bg_color=Color(0, 0, 0, 0)
+boot_splash/show_image=false
+
+[autoload]
+WindowStartup="*res://Scripts/App/WindowStartup.cs"
 
 [display]
 window/per_pixel_transparency/allowed=true
 window/size/viewport_width=640
-window/size/viewport_height=420
-window/size/window_width_override=640
-window/size/window_height_override=420
+window/size/viewport_height=600
+window/size/window_width_override=1
+window/size/window_height_override=1
+window/size/borderless=true
+window/size/no_focus=true
+window/size/transparent=true
 
 [dotnet]
 project/assembly_name="SiteDesktop"
@@ -19,4 +27,5 @@ project/assembly_name="SiteDesktop"
 [rendering]
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+viewport/transparent_background=true
 environment/defaults/default_clear_color=Color(0.055, 0.07, 0.085, 1)

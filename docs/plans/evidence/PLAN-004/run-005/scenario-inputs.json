@@ -1,0 +1,8 @@
+{"screen":[-1920,1061,1920,1032],"steps":[
+  {"command":"observe","rect":[-1700,1661,500,300]},
+  {"command":"place","point":[-1450,1500]},
+  {"command":"tick","seconds":0.7},
+  {"command":"observe","rect":[-1660,1641,500,300]},
+  {"command":"tick","seconds":0.2},
+  {"command":"hide"},{"command":"tick","seconds":8},
+  {"command":"show"},{"command":"remove"},{"command":"tick","seconds":2}]}

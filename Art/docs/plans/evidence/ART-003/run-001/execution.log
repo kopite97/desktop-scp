@@ -1,0 +1,17 @@
+2026-11-24 ART-003 r001
+Aseprite status: 1.3.18.6/API41; batch available; Live disconnected, port41234 in use.
+Initial MCP dofile(build-trail.lua) failed: lexical args was not visible to dofile.
+Changed build script to CLI app.params.mode; no existing art source overwritten.
+GUI: Aseprite.exe --script-param mode=samples --script build-trail.lua
+GUI: Aseprite.exe --script-param mode=samples --script review-trail.lua
+Inspected samples.png and lighting-candidates-2x.png; selected low-alpha unlit.
+GUI: Aseprite.exe --script-param mode=full --script build-trail.lua Scp999Trail.aseprite
+Generated 18 frames/2 tags, saved work+revision sources, PNG/JSON/contract.
+GUI review attempt did not produce composite-review.json; initial package attempt failed ENOENT.
+Completed review generation: Aseprite.exe -b --script-param mode=full --script review-trail.lua
+Batch MCP dofile(audit-trail.lua): passed true; all error counters 0.
+node Art/docs/plans/evidence/ART-003/run-001/package-review.mjs: PASS.
+Opened contact-sheet.png, overlap-and-flip.png, backgrounds-2x.png and composite frame PNGs for visual inspection.
+GUI: Aseprite.exe trail-preview.aseprite --script show-preview.lua
+Process title confirms trail-preview.aseprite open. No gui-playback.json produced; auto-play/frame observation not verified.
+No new Godot execution, no product integration, no final user visual approval.

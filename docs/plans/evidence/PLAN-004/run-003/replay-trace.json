@@ -1,0 +1,82 @@
+[
+  {
+    "command": "observe",
+    "x": -1640,
+    "y": 1913,
+    "support": null,
+    "motion": "Falling",
+    "Visible": true
+  },
+  {
+    "command": "place",
+    "x": -1450,
+    "y": 1500,
+    "support": null,
+    "motion": "Falling",
+    "Visible": true
+  },
+  {
+    "command": "tick",
+    "x": -1450,
+    "y": 1661,
+    "support": "replay",
+    "motion": "Grounded",
+    "Visible": true
+  },
+  {
+    "command": "observe",
+    "x": -1410,
+    "y": 1641,
+    "support": "replay",
+    "motion": "Balancing",
+    "Visible": true
+  },
+  {
+    "command": "tick",
+    "x": -1422.5,
+    "y": 1641,
+    "support": "replay",
+    "motion": "Balancing",
+    "Visible": true
+  },
+  {
+    "command": "hide",
+    "x": -1422.5,
+    "y": 1641,
+    "support": "replay",
+    "motion": "Balancing",
+    "Visible": false
+  },
+  {
+    "command": "tick",
+    "x": -1422.5,
+    "y": 1641,
+    "support": "replay",
+    "motion": "Balancing",
+    "Visible": false
+  },
+  {
+    "command": "show",
+    "x": -1422.5,
+    "y": 1641,
+    "support": "replay",
+    "motion": "Balancing",
+    "Visible": true
+  },
+  {
+    "command": "remove",
+    "x": -1422.5,
+    "y": 1641,
+    "support": null,
+    "motion": "Falling",
+    "Visible": true
+  },
+  {
+    "command": "tick",
+    "x": -1426.0382,
+    "y": 2085,
+    "support": "floor:0",
+    "motion": "Grounded",
+    "Visible": true
+  }
+]

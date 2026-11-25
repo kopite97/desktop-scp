@@ -1,0 +1,82 @@
+[
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_color.png",
+    "source": "2413ECF1B8716C875FA9B6668C40C98135A84E380D07C85ABB11A576B9CE767B",
+    "runtime": "2413ECF1B8716C875FA9B6668C40C98135A84E380D07C85ABB11A576B9CE767B",
+    "equal": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_combined.png",
+    "source": "6C1214D64D23D88CC632DA4A0AF80CF8B354AB6498F9BDF5B2807732A7F6BAAE",
+    "runtime": "6C1214D64D23D88CC632DA4A0AF80CF8B354AB6498F9BDF5B2807732A7F6BAAE",
+    "equal": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_normal.png",
+    "source": "24F58D0ACF905A247F8701CD423B3F08540BB4F9561DBA30A34585333F685D06",
+    "runtime": "24F58D0ACF905A247F8701CD423B3F08540BB4F9561DBA30A34585333F685D06",
+    "equal": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_outline.png",
+    "source": "961C77087A168CD0F687298DF9A3556BBA13B0D20B23C04F49E6C9EB5EABE7A6",
+    "runtime": "961C77087A168CD0F687298DF9A3556BBA13B0D20B23C04F49E6C9EB5EABE7A6",
+    "equal": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_specular.png",
+    "source": "4D27565AB49A4149670089FB9B83B0FE73102026B6238CCDC32EB43C54F5EFC8",
+    "runtime": "4D27565AB49A4149670089FB9B83B0FE73102026B6238CCDC32EB43C54F5EFC8",
+    "equal": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999.contract.json",
+    "source": "63FD191E7504AF885ECE3DAC5A22DD510B3705139EA1D2ECA26FC894C3BF940F",
+    "runtime": "63FD191E7504AF885ECE3DAC5A22DD510B3705139EA1D2ECA26FC894C3BF940F",
+    "equal": true
+  },
+  {
+    "asset": "Scp999Reaction",
+    "revision": "r001",
+    "file": "Scp999Reaction.contract.json",
+    "source": "A0882B6D1AC851BA19674BF4CB419C0FFB98540FB7E867A452A860C0D710180E",
+    "runtime": "A0882B6D1AC851BA19674BF4CB419C0FFB98540FB7E867A452A860C0D710180E",
+    "equal": true
+  },
+  {
+    "asset": "Scp999Reaction",
+    "revision": "r001",
+    "file": "Scp999Reaction.png",
+    "source": "9698A78E37AF49C03230E74D20D7D15591C716A3B349853A95AD796752B3DFCC",
+    "runtime": "9698A78E37AF49C03230E74D20D7D15591C716A3B349853A95AD796752B3DFCC",
+    "equal": true
+  },
+  {
+    "asset": "Scp999Trail",
+    "revision": "r001",
+    "file": "Scp999Trail.contract.json",
+    "source": "D12BA869148291214DE28AC985192298231CF71ADD482572E8B6276BE38BA135",
+    "runtime": "D12BA869148291214DE28AC985192298231CF71ADD482572E8B6276BE38BA135",
+    "equal": true
+  },
+  {
+    "asset": "Scp999Trail",
+    "revision": "r001",
+    "file": "Scp999Trail.png",
+    "source": "5EB30A481B6DB4659E302AAAD8A6E904342D7C365B3FF58E222B3F5B1E242833",
+    "runtime": "5EB30A481B6DB4659E302AAAD8A6E904342D7C365B3FF58E222B3F5B1E242833",
+    "equal": true
+  }
+]

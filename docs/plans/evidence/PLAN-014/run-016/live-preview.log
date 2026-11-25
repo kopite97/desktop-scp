@@ -1,0 +1,26 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+ERROR: Could not create child process: dotnet --list-sdks
+   at: execute (platform/windows/os_windows.cpp:1495)
+ERROR: .NET failed to get list of installed SDKs. Error: Can't fork
+   at: try_get_dotnet_root_from_command_line (modules/mono/mono_gd/gd_mono.cpp:121)
+ERROR: .NET: One of the dependent libraries is missing. Typically when the `hostfxr`, `hostpolicy` or `coreclr` dynamic libraries are not present in the expected locations.
+   at: find_hostfxr (modules/mono/mono_gd/gd_mono.cpp:182)
+ERROR: .NET: Failed to load hostfxr
+   at: initialize (modules/mono/mono_gd/gd_mono.cpp:676)
+
+================================================================
+CrashHandlerException: Program crashed with signal 11
+Engine version: Godot Engine v4.7.2.stable.mono.official (ed1daf0bf001b61586d9930840f2f1394092c079)
+Dumping the backtrace. Please include this when reporting the bug on: https://github.com/godotengine/godot/issues
+Load address: 7ff592c50000
+
+[1] 7ff6d6d84a61 (main+4134a61) - no debug info in PE/COFF executable
+[2] 7ffcc7077732 (ntdll.dll+127732) - no debug info in PE/COFF executable
+[3] 7ffcc70bab3e (ntdll.dll+16ab3e) - no debug info in PE/COFF executable
+[4] 7ffcc7016984 (ntdll.dll+c6984) - no debug info in PE/COFF executable
+[5] 7ffcc70ba47d (ntdll.dll+16a47d) - no debug info in PE/COFF executable
+[6] -1 (main+-7ff6d2c50001) - no debug info in PE/COFF executable
+-- END OF C++ BACKTRACE --
+================================================================

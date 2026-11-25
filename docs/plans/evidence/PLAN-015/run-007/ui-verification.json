@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-25",
+  "executable": "C:/Dev/scp_desktop/.artifacts/PLAN-015/windows-x64/SiteDesktop.exe",
+  "pid": 4976,
+  "toolObserved": [
+    "Startup exposed SCP actors and clone windows without the control window",
+    "Control window showed Desktop icons: 13",
+    "Actual title-bar X click hid controls while actors remained visible",
+    "Process 4976 exited after tray Exit; shutdown markers were recorded"
+  ],
+  "userVerified": [
+    "Show controls opens controls; Alt+F4 hides only controls and SCPs continue",
+    "Lockdown hides SCPs; Resume restores SCPs while controls remain hidden",
+    "Exit removes SCPs and the tray icon"
+  ],
+  "userReply": "세 단계 모두 정상이에요",
+  "limitation": "The automation tool could not target the tray overflow/menu; menu actions were performed by the user. Later startup and banner changes were covered separately by final native tests and exported startup observation."
+}

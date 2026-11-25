@@ -1,0 +1,101 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+SCP999_CHECK_PASS follow speed, negative desktop origin and move tag
+SCP999_CHECK_PASS movement has no baked vertical bounce
+SCP999_CHECK_PASS follow dead zone
+SCP999_CHECK_PASS out-of-range cursor ignored
+SCP999_CHECK_PASS direction reversal
+SCP999_CHECK_PASS pet begins through common command
+SCP999_CHECK_PASS duplicate press ignored
+SCP999_CHECK_PASS stress inclusive radius and outside exclusion
+SCP999_CHECK_PASS pet priority over typing
+SCP999_CHECK_PASS stationary hold does not repeatedly count as rubbing
+SCP999_CHECK_PASS rubbing relieves shared state within range
+SCP999_CHECK_PASS release outside recovers pet
+SCP999_CHECK_PASS typing burst merged and reaction spawned
+SCP999_CHECK_PASS reaction lifetime and one-shot return
+SCP999_CHECK_PASS right drag across physical monitors without extra DPI scale
+SCP999_CHECK_PASS drag release snaps to work-area floor and lands
+SCP999_CHECK_PASS ground movement emits trail
+SCP999_CHECK_PASS trail does not follow body after spawn
+SCP999_CHECK_PASS airborne contract prevents new trail
+SCP999_CHECK_PASS takeoff contract
+SCP999_CHECK_PASS landing contract
+SCP999_CHECK_PASS balance contract
+SCP999_CHECK_PASS balance recovery contract
+SCP999_CHECK_PASS hide cancels gestures/VFX and freezes common state
+SCP999_CHECK_PASS show preserves position without queued actions
+SCP999_CHECK_PASS removed monitor recovery
+SCP999_CHECK_PASS stress clamps lower bound
+SCP999_CHECK_PASS stress clamps upper bound
+SCP999_CHECK_PASS trail cap removes oldest
+SCP999_CHECK_PASS reaction cap under sustained input
+SCP999_CHECK_PASS all effect categories cleared together
+SCP999_CHECK_PASS shutdown is terminal and idempotent
+SCP999_CHECK_PASS idle starts at correct frame
+SCP999_CHECK_PASS idle loop/one-shot contract
+SCP999_CHECK_PASS move starts at correct frame
+SCP999_CHECK_PASS move loop/one-shot contract
+SCP999_CHECK_PASS typing_react starts at correct frame
+SCP999_CHECK_PASS typing_react loop/one-shot contract
+SCP999_CHECK_PASS pet starts at correct frame
+SCP999_CHECK_PASS pet loop/one-shot contract
+SCP999_CHECK_PASS pet_recover starts at correct frame
+SCP999_CHECK_PASS pet_recover loop/one-shot contract
+SCP999_CHECK_PASS takeoff starts at correct frame
+SCP999_CHECK_PASS takeoff loop/one-shot contract
+SCP999_CHECK_PASS fall starts at correct frame
+SCP999_CHECK_PASS fall loop/one-shot contract
+SCP999_CHECK_PASS land starts at correct frame
+SCP999_CHECK_PASS land loop/one-shot contract
+SCP999_CHECK_PASS balance starts at correct frame
+SCP999_CHECK_PASS balance loop/one-shot contract
+SCP999_CHECK_PASS balance_recover starts at correct frame
+SCP999_CHECK_PASS balance_recover loop/one-shot contract
+SCP999_CHECK_PASS trail hold extension and transparent end
+SCP999_CHECK_PASS reaction transparent end frame
+SCP999_STARTED body=r005 reaction=r001 trail=r001-unapproved
+SITE_DESKTOP_READY
+SCP999_CHECK_PASS native body window flags
+SCP999_CHECK_PASS native physical origin matches state
+SCP999_CHECK_PASS art silhouette input region replaces placeholder
+SCP999_CHECK_PASS Windows keyboard activity subscription installed
+SCP999_CHECK_PASS native reaction fully click-through
+SCP999_CHECK_PASS native trail independent windows
+SCP999_HIDDEN
+SCP999_CHECK_PASS hide releases Windows input subscription and all effect windows
+SCP999_SHOWN
+SCP999_CHECK_PASS restore reinstalls input without stale VFX
+SCP999_CHECK_PASS separate owned input receiver ready
+SCP999_CHECK_PASS native body click reaches pet/shared stress, not receiver
+SCP999_CHECK_PASS native transparent corner passes down and up to separate process
+SCP999_CHECK_PASS global activity hook reacts while receiver retains keyboard focus
+SCP999_CHECK_PASS reaction input probe lies outside body silhouette
+SCP999_CHECK_PASS native reaction window passes down and up to separate process
+SCP999_CHECK_PASS native trail window passes down and up to separate process
+SCP999_HIDDEN
+SCP999_CHECK_PASS hidden body passes input and generates no typing reaction
+ERROR: Condition "!windows.has(p_window)" is true. Returning: 0
+   at: window_get_native_handle (platform/windows/display_server_windows.cpp:2047)
+   C# backtrace (most recent call first):
+       [0] long Godot.NativeCalls.godot_icall_2_438(nint, nint, int, int) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:4115)
+       [1] long Godot.DisplayServer.WindowGetNativeHandle(Godot.DisplayServer+HandleType, int) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/DisplayServer.cs:2684)
+       [2] uint SiteDesktop.Platform.Windows.WindowsDesktop.GetDpi(Godot.Window) (C:\Dev\scp_desktop\GodotProject\Scripts\Platform\Windows\WindowsDesktop.cs:54)
+       [3] void SiteDesktop.Diagnostics.Scp999Smoke+<NativeInput>d__9.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999Smoke.cs:118)
+       [4] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [5] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [6] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [7] void System.Threading.Tasks.Task.RunContinuations(object)
+       [8] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(System.Threading.Tasks.Task`1[TResult], TResult)
+       [9] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [10] void SiteDesktop.Diagnostics.Scp999Smoke+<Frames>d__8.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999Smoke.cs:88)
+       [11] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [12] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [13] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+SCP999_SHOWN
+SCP999_STOPPED
+SCP999_CHECK_PASS product shutdown releases resources
+SCP999_SMOKE_PASS checks=71 native=True
+SITE_DESKTOP_EXIT_REQUESTED
+SITE_DESKTOP_STOPPED

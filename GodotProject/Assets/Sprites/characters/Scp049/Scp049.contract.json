@@ -1,0 +1,1189 @@
+{
+  "alpha": "straight RGBA; 0 or 255",
+  "assetId": "Scp049",
+  "canvas": {
+    "height": 64,
+    "width": 64
+  },
+  "colorSpace": "sRGB",
+  "completeAnimation": true,
+  "flip": {
+    "allowed": true,
+    "anchorFormula": "x_mirrored = 64 - x; mirror tools and bag with body",
+    "pivot": {
+      "x": 32,
+      "y": 56
+    }
+  },
+  "frames": [
+    {
+      "asepriteFrame": 1,
+      "durationMs": 300,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 0,
+        "y": 0
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 0,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "idle",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 2,
+      "durationMs": 160,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 64,
+        "y": 0
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 1,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "idle",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 3,
+      "durationMs": 300,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 128,
+        "y": 0
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 2,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "idle",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 4,
+      "durationMs": 160,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 192,
+        "y": 0
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 3,
+      "phase": 4,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "idle",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 5,
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 256,
+        "y": 0
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 4,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "move",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 6,
+      "durationMs": 80,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 320,
+        "y": 0
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 5,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "move",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 7,
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 384,
+        "y": 0
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 6,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "move",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 8,
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 0,
+        "y": 64
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 7,
+      "phase": 4,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "move",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 9,
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 64,
+        "y": 64
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 8,
+      "phase": 5,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "move",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 10,
+      "durationMs": 80,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 128,
+        "y": 64
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 9,
+      "phase": 6,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "move",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 11,
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 192,
+        "y": 64
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 10,
+      "phase": 7,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "move",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 12,
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 256,
+        "y": 64
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 11,
+      "phase": 8,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "move",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 13,
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 320,
+        "y": 64
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 12,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_start",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 14,
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 384,
+        "y": 64
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 13,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_start",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 15,
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 0,
+        "y": 128
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 14,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_start",
+      "tool": "scalpel",
+      "treatmentAnchor": {
+        "x": 57,
+        "y": 41
+      }
+    },
+    {
+      "asepriteFrame": 16,
+      "durationMs": 180,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 64,
+        "y": 128
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 15,
+      "phase": 4,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_start",
+      "tool": "scalpel",
+      "treatmentAnchor": {
+        "x": 57,
+        "y": 43
+      }
+    },
+    {
+      "asepriteFrame": 17,
+      "durationMs": 160,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 128,
+        "y": 128
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 16,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_loop",
+      "tool": "scalpel",
+      "treatmentAnchor": {
+        "x": 57,
+        "y": 43
+      }
+    },
+    {
+      "asepriteFrame": 18,
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 192,
+        "y": 128
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 17,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_loop",
+      "tool": "scalpel",
+      "treatmentAnchor": {
+        "x": 57,
+        "y": 44
+      }
+    },
+    {
+      "asepriteFrame": 19,
+      "durationMs": 180,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 256,
+        "y": 128
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 18,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_loop",
+      "tool": "scalpel",
+      "treatmentAnchor": {
+        "x": 57,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 20,
+      "durationMs": 160,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 320,
+        "y": 128
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 19,
+      "phase": 4,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_loop",
+      "tool": "syringe",
+      "treatmentAnchor": {
+        "x": 57,
+        "y": 43
+      }
+    },
+    {
+      "asepriteFrame": 21,
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 384,
+        "y": 128
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 20,
+      "phase": 5,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_loop",
+      "tool": "syringe",
+      "treatmentAnchor": {
+        "x": 57,
+        "y": 44
+      }
+    },
+    {
+      "asepriteFrame": 22,
+      "durationMs": 180,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 0,
+        "y": 192
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 21,
+      "phase": 6,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_loop",
+      "tool": "syringe",
+      "treatmentAnchor": {
+        "x": 57,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 23,
+      "durationMs": 130,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 64,
+        "y": 192
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 22,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_end",
+      "tool": "scalpel",
+      "treatmentAnchor": {
+        "x": 57,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 24,
+      "durationMs": 130,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 128,
+        "y": 192
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 23,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_end",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 25,
+      "durationMs": 160,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 192,
+        "y": 192
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 24,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_end",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 26,
+      "durationMs": 180,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 256,
+        "y": 192
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 25,
+      "phase": 4,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "treat_end",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 27,
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 320,
+        "y": 192
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 26,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "takeoff",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 28,
+      "durationMs": 80,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 384,
+        "y": 192
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 27,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "takeoff",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 29,
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 0,
+        "y": 256
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 28,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "takeoff",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 30,
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 64,
+        "y": 256
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 29,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "fall",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 31,
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 128,
+        "y": 256
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 30,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "fall",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 32,
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 192,
+        "y": 256
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 31,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "fall",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 33,
+      "durationMs": 100,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 256,
+        "y": 256
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 32,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "land",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 34,
+      "durationMs": 130,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 320,
+        "y": 256
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 33,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "land",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 35,
+      "durationMs": 170,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 384,
+        "y": 256
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 34,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "land",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 36,
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 0,
+        "y": 320
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 35,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "balance",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 37,
+      "durationMs": 180,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 64,
+        "y": 320
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 36,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "balance",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 38,
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 128,
+        "y": 320
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 37,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "balance",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 39,
+      "durationMs": 180,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 192,
+        "y": 320
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 38,
+      "phase": 4,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "balance",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 40,
+      "durationMs": 120,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 256,
+        "y": 320
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 39,
+      "phase": 1,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "balance_recover",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 41,
+      "durationMs": 140,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 320,
+        "y": 320
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 40,
+      "phase": 2,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "balance_recover",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    },
+    {
+      "asepriteFrame": 42,
+      "durationMs": 180,
+      "frame": {
+        "h": 64,
+        "w": 64,
+        "x": 384,
+        "y": 320
+      },
+      "groundContact": {
+        "x": 32,
+        "y": 56
+      },
+      "index": 41,
+      "phase": 3,
+      "pivot": {
+        "x": 32,
+        "y": 56
+      },
+      "tag": "balance_recover",
+      "tool": "none",
+      "treatmentAnchor": {
+        "x": 50,
+        "y": 42
+      }
+    }
+  ],
+  "lighting": "Unshaded / Mix / neutral parent",
+  "pivot": {
+    "x": 32,
+    "y": 56
+  },
+  "reference": "ART-004 ref-001",
+  "revision": "r001",
+  "sheet": {
+    "columns": 7,
+    "mergeDuplicates": false,
+    "padding": 0,
+    "rotation": false,
+    "rows": 6,
+    "trim": false
+  },
+  "tags": [
+    {
+      "from": 0,
+      "loop": true,
+      "name": "idle",
+      "to": 3
+    },
+    {
+      "from": 4,
+      "loop": true,
+      "name": "move",
+      "to": 11
+    },
+    {
+      "from": 12,
+      "loop": false,
+      "name": "treat_start",
+      "to": 15
+    },
+    {
+      "from": 16,
+      "loop": true,
+      "name": "treat_loop",
+      "to": 21
+    },
+    {
+      "from": 22,
+      "loop": false,
+      "name": "treat_end",
+      "to": 25
+    },
+    {
+      "from": 26,
+      "loop": false,
+      "name": "takeoff",
+      "to": 28
+    },
+    {
+      "from": 29,
+      "loop": true,
+      "name": "fall",
+      "to": 31
+    },
+    {
+      "from": 32,
+      "loop": false,
+      "name": "land",
+      "to": 34
+    },
+    {
+      "from": 35,
+      "loop": true,
+      "name": "balance",
+      "to": 38
+    },
+    {
+      "from": 39,
+      "loop": false,
+      "name": "balance_recover",
+      "to": 41
+    }
+  ]
+}

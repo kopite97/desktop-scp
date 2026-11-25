@@ -1,0 +1,185 @@
+{ "frames": [
+   {
+    "filename": "Scp999Trail 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 80
+   },
+   {
+    "filename": "Scp999Trail 1.aseprite",
+    "frame": { "x": 32, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "Scp999Trail 2.aseprite",
+    "frame": { "x": 64, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 200
+   },
+   {
+    "filename": "Scp999Trail 3.aseprite",
+    "frame": { "x": 96, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 140
+   },
+   {
+    "filename": "Scp999Trail 4.aseprite",
+    "frame": { "x": 128, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 140
+   },
+   {
+    "filename": "Scp999Trail 5.aseprite",
+    "frame": { "x": 160, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 140
+   },
+   {
+    "filename": "Scp999Trail 6.aseprite",
+    "frame": { "x": 192, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 120
+   },
+   {
+    "filename": "Scp999Trail 7.aseprite",
+    "frame": { "x": 224, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "Scp999Trail 8.aseprite",
+    "frame": { "x": 256, "y": 0, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 80
+   },
+   {
+    "filename": "Scp999Trail 9.aseprite",
+    "frame": { "x": 0, "y": 16, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 80
+   },
+   {
+    "filename": "Scp999Trail 10.aseprite",
+    "frame": { "x": 32, "y": 16, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "Scp999Trail 11.aseprite",
+    "frame": { "x": 64, "y": 16, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 200
+   },
+   {
+    "filename": "Scp999Trail 12.aseprite",
+    "frame": { "x": 96, "y": 16, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 140
+   },
+   {
+    "filename": "Scp999Trail 13.aseprite",
+    "frame": { "x": 128, "y": 16, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 140
+   },
+   {
+    "filename": "Scp999Trail 14.aseprite",
+    "frame": { "x": 160, "y": 16, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 140
+   },
+   {
+    "filename": "Scp999Trail 15.aseprite",
+    "frame": { "x": 192, "y": 16, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 120
+   },
+   {
+    "filename": "Scp999Trail 16.aseprite",
+    "frame": { "x": 224, "y": 16, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 100
+   },
+   {
+    "filename": "Scp999Trail 17.aseprite",
+    "frame": { "x": 256, "y": 16, "w": 32, "h": 16 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 32, "h": 16 },
+    "sourceSize": { "w": 32, "h": 16 },
+    "duration": 80
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3.18.6-x64",
+  "image": "Scp999Trail.png",
+  "format": "RGBA8888",
+  "size": { "w": 288, "h": 32 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "puddle_a", "from": 0, "to": 8, "direction": "forward", "repeat": "1", "color": "#000000ff" },
+   { "name": "puddle_b", "from": 9, "to": 17, "direction": "forward", "repeat": "1", "color": "#000000ff" }
+  ],
+  "layers": [
+   { "name": "PuddleFill", "opacity": 255, "blendMode": "normal" },
+   { "name": "PuddleOutline", "opacity": 255, "blendMode": "normal" },
+   { "name": "DropletsFill", "opacity": 255, "blendMode": "normal" },
+   { "name": "DropletsOutline", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

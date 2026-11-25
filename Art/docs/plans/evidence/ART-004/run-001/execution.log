@@ -1,0 +1,8 @@
+2026-11-24 ART-004 run-001
+Aseprite 1.3.18.6 Lua API 41; MCP backend=batch; absolute project paths.
+Native Lua source generation: 42 frames, 10 tags, 8 layers.
+review-scp049.lua: PASS; results.json contains detailed bounds and checks.
+GUI preview: process 17160, LG GSM5BDE; console observedFrames 1..42.
+Computer Use: console dismissed, zoom adjusted, native playback started; frames 4 and 14 observed.
+Optional independent GIF probe with Python Pillow unavailable (module not installed); no install performed. GIF created by Aseprite with source durations.
+User visual approval pending. Godot integration not executed.

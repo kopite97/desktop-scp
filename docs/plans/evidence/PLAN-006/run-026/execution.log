@@ -1,0 +1,88 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+SCP049_CHECK_PASS spawn creates only in-memory dummy object
+SCP049_CHECK_PASS nearest eligible target reserved by doctor
+SCP049_CHECK_PASS duplicate owner cannot claim or transform target
+SCP049_CHECK_PASS walking reaches target and begins timed treatment
+SCP049_CHECK_PASS completion command rejects early treatment
+SCP049_CHECK_PASS treatment atomically changes one target into zombie
+SCP049_CHECK_PASS repeated completion cannot duplicate zombie
+SCP049_CHECK_PASS zombie walks toward lower corner
+SCP049_CHECK_PASS zombie patrol stays within corner interval
+SCP049_CHECK_PASS click collection is idempotent and removes object
+SCP049_CHECK_PASS object IDs never reuse removed identity
+SCP049_CHECK_PASS foreign reservation excluded from search
+SCP049_CHECK_PASS released reservation becomes selectable
+SCP049_CHECK_PASS disappearing target cancels treatment immediately
+SCP049_CHECK_PASS removed target never transforms later
+SCP049_CHECK_PASS data count cap rejects extra spawn
+SCP049_CHECK_PASS zombie cap keeps remaining data intact
+SCP049_CHECK_PASS collecting zombie frees treatment capacity
+SCP049_CHECK_PASS data expiry releases any reservation
+SCP049_CHECK_PASS zombie expiry uses reset lifetime after transformation
+SCP049_CHECK_PASS hide freezes movement, treatment and lifetime clocks
+SCP049_CHECK_PASS hidden state rejects spawn collection and drag
+SCP049_CHECK_PASS restore resumes one treatment without hidden-time catch-up
+SCP049_CHECK_PASS long frame is bounded and cannot spawn a backlog
+SCP049_CHECK_PASS periodic spawner uses visible simulation time
+SCP049_CHECK_PASS hide cancels object drag without moving its position
+SCP049_CHECK_PASS restored dragged object resumes gravity
+SCP049_CHECK_PASS doctor right release uses shared gravity
+SCP049_CHECK_PASS monitor removal recovers doctor and data in physical pixels
+SCP049_CHECK_PASS shutdown is terminal and clears all objects and reservations
+SCP049_CHECK_PASS doctor treats data on same observed window ledge
+SCP049_CHECK_PASS moving ledge carries doctor and data through same physics
+SCP049_CHECK_PASS balance interrupts surgery and releases reservation
+SCP049_CHECK_PASS stable ledge can start fresh treatment
+SCP049_CHECK_PASS support disappearance cancels treatment immediately
+SCP049_CHECK_PASS both entities fall onto desktop floor
+SCP049_CHECK_PASS unreachable target releases reservation after bounded search
+SCP049_CHECK_PASS doctor search uses shared adjacent jump and completes upper ledge treatment
+SCP049_CHECK_PASS doctor registers with shared stress owner
+SCP049_CHECK_PASS SCP-999 relief command reduces actual doctor stress
+SCP049_CHECK_PASS shared stress position follows doctor drag
+SCP049_CHECK_PASS shutdown removes doctor from common stress registry
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED art=temporary-code ART-004..007
+SITE_DESKTOP_READY
+SCP049_CHECK_PASS all application controls fit inside visible panel
+SCP999_HIDDEN
+SCP049_CHECK_PASS native falling doctor and data start surgery on actual window
+SCP049_CHECK_PASS native doctor and data use separate transparent unfocusable windows
+SCP049_CHECK_PASS native LG physical coordinates match doctor simulation
+SCP049_CHECK_PASS temporary doctor silhouette distinguishes body and empty corner
+SCP049_CHECK_PASS actual window movement carries both and interrupts treatment
+SCP049_CHECK_PASS native stable support restarts treatment
+SCP049_CHECK_PASS actual minimize cancels surgery and releases support
+SCP049_CHECK_PASS native doctor and data settle above LG taskbar
+SCP049_CHECK_PASS visible real-frame treatment changes data to zombie exactly once
+SCP049_CHECK_PASS hide removes every native input island and freezes zombie age
+SCP049_CHECK_PASS restore recreates visible native windows without replaying hidden time
+SCP049_CHECK_PASS common collection removes native zombie
+SCP049_CHECK_PASS removed zombie frees native window
+SCP049_CHECK_PASS restore validates destroyed native ledge and cancels stale operation
+SCP049_CHECK_PASS owned separate input receiver ready
+SCP049_CHECK_PASS owned input receiver foreground verified
+SCP049_CHECK_PASS doctor empty corner passes actual input to separate process
+SCP049_CHECK_PASS native pointer targets owned doctor input island
+SCP049_CHECK_PASS native right drag moves doctor through product input
+SCP049_CHECK_PASS native right release drops doctor with gravity
+SCP049_CHECK_PASS native pointer targets owned data input island
+DATA_DRAG_RESULT wanted=(-1120, 1965) actualPointer=(-1120, 1965) dragged=5 foot=(-1120, 1985) expectedFoot=(-1120, 1985) right=True
+SCP049_CHECK_PASS native data drag releases doctor reservation and moves same object
+DATA_CLICK_TARGET actual=1837380 expected=1837380 point=(-1120, 2065) bounds=(-1152, 2029), (64, 64)
+DATA_CLICK_RESULT exists=False window=False before=(1, 1, 0) after=(1, 2, 0)
+SCP049_CHECK_PASS native data click collects game object without reaching desktop receiver
+SCP049_CHECK_PASS native input fixture has transformed zombie
+SCP049_CHECK_PASS native zombie click collects exactly once
+SCP999_SHOWN
+SCP049_CHECK_PASS native SCP-999 pet reduces actual SCP-049 shared stress
+SCP999_HIDDEN
+SCP049_CHECK_PASS hidden data cannot intercept or consume clicks
+SITE_DESKTOP_EXIT_REQUESTED
+SCP999_STOPPED
+SCP049_STOPPED
+SCP049_CHECK_PASS application exit clears plague resources and shared registration
+SCP049_SMOKE_PASS checks=71
+SITE_DESKTOP_STOPPED

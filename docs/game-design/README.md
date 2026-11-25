@@ -1,17 +1,20 @@
 # 기획 MAP
 
-현재 제품 기획 원본은 [SCP: Site-Desktop 프로토타입 기획서](../../SCP_site-desktop.md)다.
+현재 제품 기획 원본은 [SCP: Site-Desktop 프로토타입 기획서](../../SCP_site-desktop.md)다. 2026-11-25 사용자 방향 변경의 상세 원본은 [실제 아이콘 복제 기획](desktop-icon-clones.md)에 분리했으며 고정 .tmp/쓰레기 외형을 대체한다.
 원본의 API 이름·예시 수치는 구현 검증이나 확정된 세부 수치로 간주하지 않는다.
 
 | 찾는 내용 | 기준 위치 |
 | --- | --- |
 | 장르·개발 환경·프로토타입 범위 | 원본 1절 |
 | 아트 방향 | 원본 2절 |
+| 실제 바탕화면 아이콘 취득·복제본 외형·원본 불변 | [아이콘 복제 기획](desktop-icon-clones.md) |
+| 좀비 발 부착·치료/변이 효과·소멸 애니메이션의 후속 연결 | [아이콘 좀비 연결 계약](icon-zombie-presentation.md) |
 | SCP-999·173·049 동작 | 원본 3절 |
 | 창 물리·OS 환경 반응 | 원본 4절 |
 | 클릭 투과·강한 연출·봉쇄 | 원본 5절 |
 | 원본 개발 단계 | 원본 6절 |
 | 하네스 선행 작업과 실행 단위 | [개발 로드맵](roadmap.md) |
+| SCP별 ON/OFF·설정 저장·공용 대상 활동 | [SCP 활성화](scp-activation.md) |
 | 실제 작업 상태 | [PLAN 목록](../plans/README.md) |
 
 ## 기획 유지
@@ -35,3 +38,5 @@
 | 비기능 기준 | 지원 Windows 환경·성능 목표·종료/재실행 기준 | [PLAN-002](../plans/PLAN-002-development-environment.md), [PLAN-008](../plans/PLAN-008-system-options.md) |
 
 이 목록은 검토 사항이며 새로운 제품 기능이나 확정 수치를 추가하지 않는다.
+
+시스템 지표·봉쇄·외부 창 효과의 현재 프로토타입 규칙은 [시스템 반응](system-reactions.md)에 기록한다.

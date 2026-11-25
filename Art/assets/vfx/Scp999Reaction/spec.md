@@ -2,7 +2,8 @@
 
 - AssetId Scp999Reaction / vfx / 타이핑 반응 하트·음표. [ART-002](../../../docs/plans/ART-002-scp-999-reaction.md), [PLAN-005](../../../../docs/plans/PLAN-005-scp-999.md), 요청 PLAN-005-SPR-002.
 - 본체 참조: 사용자 확인된 [Scp999 r004](../../characters/Scp999/revisions/r004/README.md). 효과 자체의 승인과 구분한다.
-- 현재 r001 제출, approved_revision=0, 정식 출력 후보. 제품 미적용.
+- 효과 최신 제출·승인 r001: 2026-11-24 [F-002](revisions/r001/review/feedback.md) 사용자 시각 확인 완료. 정식 제품 적용은 [전달 기록](handoff.md)을 따른다.
+- 현재 r001 제출·승인(approved_revision=1)·제품 적용. 실제 파일·생성/수명·입력 검증은 [전달 기록](handoff.md)을 따른다.
 
 ## 규격과 표현
 

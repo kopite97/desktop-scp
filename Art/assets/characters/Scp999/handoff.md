@@ -1,11 +1,11 @@
 # Scp999 Godot 전달 기록
 
 - 요청 출처/적용 담당: [PLAN-005](../../../../docs/plans/PLAN-005-scp-999.md), PLAN-005-SPR-001.
-- 최초 제작: [ART-001](../../../docs/plans/ART-001-scp-999-character.md) completed/r004. 사용자 지정 후속 작업: [ART-002](../../../docs/plans/ART-002-scp-999-reaction.md) active, [현재 명세](spec.md).
-- 이력: [r001](revisions/r001/README.md) 전체 동작·[r002](revisions/r002/README.md) 조명 샘플. 최신 r004는 2026-11-24 사용자 시각 확인을 받았다. 정식 제품 적용은 별개다.
+- 최초 제작: [ART-001](../../../docs/plans/ART-001-scp-999-character.md) completed/r004. 사용자 지정 후속 작업: [ART-002](../../../docs/plans/ART-002-scp-999-reaction.md) completed, [현재 명세](spec.md).
+- 이력: [r001](revisions/r001/README.md) 전체 동작·[r002](revisions/r002/README.md) 조명 샘플. r004와 후속 r005는 각각 2026-11-24 사용자 시각 확인을 받았다. 정식 제품 적용은 별개다.
 - 엔진 샘플 검증 담당: PLAN-005 단계 A(active). PLAN-009 독립 후보를 통합했다. 4장→idle/move 전체 재생 검증 순이며 r002는 50프레임 애니메이션을 대체하지 않는다.
-- 최신 제출: [r005](revisions/r005/README.md), 외곽선 분리 전체 50장. 마지막 사용자 확인은 r004이며 기존 제출본은 보존한다. 정식 제품 통합은 아직 없다.
-- 적용 예정: 프로젝트 루트 GodotProject/Assets/Sprites/characters/Scp999/.
+- 최신 제출·승인·제품 적용: [r005](revisions/r005/README.md), 외곽선 분리 전체 50장. 2026-11-24 사용자 시각 확인 F-008 후 PLAN-005 단계 B에 적용했다. 실제 창 물리는 미연결이다.
+- 실제 적용: 프로젝트 루트 GodotProject/Assets/Sprites/characters/Scp999/. [제품 계약과 검증](../../../../docs/plans/evidence/PLAN-005/run-025/art-integration.md), [파일 동일성](../../../../docs/plans/evidence/PLAN-005/run-025/asset-hashes.json).
 - 원본은 Art에 유지한다. 제품으로 전달할 후보는 PNG·JSON·contract JSON이다.
 
 | 리비전 | 수령 export | 기술 확인 | 제품 적용 | 사용자 시각 확인 |
@@ -17,11 +17,12 @@
 
 ## r005 추가 전달
 
-r005 추가 전달: [기본색](revisions/r005/export/Scp999_color.png) · [외곽선](revisions/r005/export/Scp999_outline.png) · [노멀](revisions/r005/export/Scp999_normal.png) · [반사](revisions/r005/export/Scp999_specular.png) · [계약](revisions/r005/export/Scp999.contract.json). 진단 경로에만 복사, 사용자 확인 대기.
+r005 추가 전달: [기본색](revisions/r005/export/Scp999_color.png) · [외곽선](revisions/r005/export/Scp999_outline.png) · [노멀](revisions/r005/export/Scp999_normal.png) · [반사](revisions/r005/export/Scp999_specular.png) · [계약](revisions/r005/export/Scp999.contract.json). 진단 후 제품 경로에도 복사, 2026-11-24 사용자 확인 완료([F-008](revisions/r005/review/feedback.md)). combined PNG는 제품 클릭 윤곽 생성에 사용한다.
 
 - 외곽선 포함 r004 기본색과 r005 outline을 함께 쓰지 않는다. r005 lit 기본색+outline의 합으로 한 번만 표시한다.
 - 두 Sprite2D의 프레임·FlipH·배율·피벗·가시성을 동일 상태에서 갱신한다. neutral parent와 외곽선 Unshaded/Mix, 몸체 CanvasTexture 조명을 사용한다.
-- 진단 위치 GodotProject/Assets/Diagnostics/Scp999Lighting/r005/. [전체 검사](../../../../docs/plans/evidence/PLAN-005/run-012/README.md). 제품 입력/물리 이벤트 연결은 여전히 PLAN-005 후속이다.
+- 진단 위치 GodotProject/Assets/Diagnostics/Scp999Lighting/r005/. [전체 검사](../../../../docs/plans/evidence/PLAN-005/run-012/README.md). 제품 입력은 [단계 B](../../../../docs/plans/evidence/PLAN-005/run-025/README.md)에서 확인했으며 실제 창 물리 연결은 남아 있다.
+- 2026-11-24 재개 시 원본 보존·진단 사본 일치를 확인했다. [시각 검수 안내](../../../docs/plans/evidence/ART-002/run-004/README.md)에 1배·외곽선 비교·전체 동작·재생 자료를 연결했고, 이후 r005 최종 사용자 확인을 받았다.
 
 ## r001 전체 동작 연결 참조
 
@@ -59,3 +60,11 @@ r005 추가 전달: [기본색](revisions/r005/export/Scp999_color.png) · [외�
 - 시트는 3200×64·50열×1행이다. r001의 8열×7행이나 r003의 12열을 적용하지 않는다. 실제 제품 연결은 r004 JSON을 읽는다.
 - 10태그의 프레임별 ms·반복/일회, 피벗·반응/점액 연결점은 원래 계약을 유지한다. 미구현 게임 이벤트/물리를 진단 재생 순서로 대체하지 않는다.
 - 승인 리비전 4(2026-11-24 F-006), 정식 제품 적용 없음. 제품 상태/입력/좌표 통합은 PLAN-005 후속 단계다.
+
+## 2026-11-24 최종 제품 통합
+
+- [최종 적용 계약](../../../../docs/plans/evidence/PLAN-005/run-035/art-integration.md): 원본/제출/런타임 파일 변경 없이 조명 밝기 수정·실제 창 물리·점액 지지면 부착/이동/제거 완료.
+- [LG native105개 검사](../../../../docs/plans/evidence/PLAN-005/run-035/README.md), [공통 규칙66개/해시](../../../../docs/plans/evidence/PLAN-005/run-037/README.md). 위 초기 적용 시점의 창 물리 미검증은 이번 증거로 해소했다. 전체 비용은 새로 측정하지 않았다.
+- 본체r005/Reactionr001 승인, Trailr001 미승인 임시 상태 유지. 점액의 사용자 승인/정식 적용은 [PLAN-010 후보](../../../../docs/plans/PLAN-010-scp-999-trail-integration.md)로 추적한다.
+
+- 후속 2026-11-24: Scp999Trail r001도 F-004 사용자 승인 후 [PLAN-010](../../../../docs/plans/PLAN-010-scp-999-trail-integration.md) 정식 적용 완료. 위 PLAN-005 마감 당시의 점액 승인 대기는 해소되었다.

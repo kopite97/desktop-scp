@@ -1,0 +1,211 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED body=ART-004-r001 zombie-feet=ART-006-r001 aura=ART-007-r001
+SITE_DESKTOP_READY
+STACK_CHECK_PASS overlap receiver ready
+STACK_CHECK_PASS overlap receiver foreground verified
+STACK_CHECK_PASS 999 native drag starts on correct actor
+STACK_CHECK_PASS 999 real right press starts product gesture
+STACK_CHECK_PASS 999 cursor held on trajectory 1
+STACK_CHECK_PASS 999 stays ahead while overlapping 1
+STACK_CHECK_PASS 999 cursor held on trajectory 2
+STACK_CHECK_PASS 999 stays ahead while overlapping 2
+STACK_CHECK_PASS 999 cursor held on trajectory 3
+STACK_CHECK_PASS 999 stays ahead while overlapping 3
+STACK_CHECK_PASS 999 cursor held on trajectory 4
+STACK_CHECK_PASS 999 stays ahead while overlapping 4
+STACK_CHECK_PASS 999 cursor held on trajectory 5
+STACK_CHECK_PASS 999 stays ahead while overlapping 5
+STACK_CHECK_PASS 999 cursor held on trajectory 6
+STACK_CHECK_PASS 999 stays ahead while overlapping 6
+STACK_CHECK_PASS 999 cursor held on trajectory 7
+STACK_CHECK_PASS 999 stays ahead while overlapping 7
+STACK_CHECK_PASS 999 cursor held on trajectory 8
+STACK_CHECK_PASS 999 stays ahead while overlapping 8
+STACK_CHECK_PASS 999 cursor held on trajectory 9
+STACK_CHECK_PASS 999 stays ahead while overlapping 9
+STACK_CHECK_PASS 999 cursor held on trajectory 10
+STACK_CHECK_PASS 999 stays ahead while overlapping 10
+STACK_CHECK_PASS 999 cursor held on trajectory 11
+STACK_CHECK_PASS 999 stays ahead while overlapping 11
+STACK_CHECK_PASS 999 cursor held on trajectory 12
+STACK_CHECK_PASS 999 stays ahead while overlapping 12
+STACK_CHECK_PASS 999 cursor held on trajectory 13
+STACK_CHECK_PASS 999 stays ahead while overlapping 13
+STACK_CHECK_PASS 999 cursor held on trajectory 14
+STACK_CHECK_PASS 999 stays ahead while overlapping 14
+STACK_CHECK_PASS 999 cursor held on trajectory 15
+STACK_CHECK_PASS 999 stays ahead while overlapping 15
+STACK_CHECK_PASS 999 cursor held on trajectory 16
+STACK_CHECK_PASS 999 stays ahead while overlapping 16
+STACK_CHECK_PASS 999 cursor held on trajectory 17
+STACK_CHECK_PASS 999 stays ahead while overlapping 17
+STACK_CHECK_PASS 999 cursor held on trajectory 18
+STACK_CHECK_PASS 999 stays ahead while overlapping 18
+STACK_CHECK_PASS 999 actual release ends gesture
+STACK_CHECK_PASS 049 native drag starts on correct actor
+STACK_CHECK_PASS 049 real right press starts product gesture
+STACK_CHECK_PASS 049 cursor held on trajectory 1
+STACK_CHECK_PASS 049 stays ahead while overlapping 1
+STACK_CHECK_PASS 049 cursor held on trajectory 2
+STACK_CHECK_PASS 049 stays ahead while overlapping 2
+STACK_CHECK_PASS 049 cursor held on trajectory 3
+STACK_CHECK_PASS 049 stays ahead while overlapping 3
+STACK_CHECK_PASS 049 cursor held on trajectory 4
+STACK_CHECK_PASS 049 stays ahead while overlapping 4
+STACK_CHECK_PASS 049 cursor held on trajectory 5
+STACK_CHECK_PASS 049 stays ahead while overlapping 5
+STACK_CHECK_PASS 049 cursor held on trajectory 6
+STACK_CHECK_PASS 049 stays ahead while overlapping 6
+STACK_CHECK_PASS 049 cursor held on trajectory 7
+STACK_CHECK_PASS 049 stays ahead while overlapping 7
+STACK_CHECK_PASS 049 cursor held on trajectory 8
+STACK_CHECK_PASS 049 stays ahead while overlapping 8
+STACK_CHECK_PASS 049 cursor held on trajectory 9
+STACK_CHECK_PASS 049 stays ahead while overlapping 9
+STACK_CHECK_PASS 049 cursor held on trajectory 10
+STACK_CHECK_PASS 049 stays ahead while overlapping 10
+STACK_CHECK_PASS 049 cursor held on trajectory 11
+STACK_CHECK_PASS 049 stays ahead while overlapping 11
+STACK_CHECK_PASS 049 cursor held on trajectory 12
+STACK_CHECK_PASS 049 stays ahead while overlapping 12
+STACK_CHECK_PASS 049 cursor held on trajectory 13
+STACK_CHECK_PASS 049 stays ahead while overlapping 13
+STACK_CHECK_PASS 049 cursor held on trajectory 14
+STACK_CHECK_PASS 049 stays ahead while overlapping 14
+STACK_CHECK_PASS 049 cursor held on trajectory 15
+STACK_CHECK_PASS 049 stays ahead while overlapping 15
+STACK_CHECK_PASS 049 cursor held on trajectory 16
+STACK_CHECK_PASS 049 stays ahead while overlapping 16
+STACK_CHECK_PASS 049 cursor held on trajectory 17
+STACK_CHECK_PASS 049 stays ahead while overlapping 17
+STACK_CHECK_PASS 049 cursor held on trajectory 18
+STACK_CHECK_PASS 049 stays ahead while overlapping 18
+STACK_CHECK_PASS 049 actual release ends gesture
+STACK_CHECK_PASS data native drag starts on correct actor
+STACK_CHECK_PASS data real right press starts product gesture
+STACK_CHECK_PASS data cursor held on trajectory 1
+STACK_CHECK_PASS data stays ahead while overlapping 1
+STACK_CHECK_PASS data stays ahead while overlapping 1
+STACK_CHECK_PASS data cursor held on trajectory 2
+STACK_CHECK_PASS data stays ahead while overlapping 2
+STACK_CHECK_PASS data stays ahead while overlapping 2
+STACK_CHECK_PASS data cursor held on trajectory 3
+STACK_CHECK_PASS data stays ahead while overlapping 3
+STACK_CHECK_PASS data stays ahead while overlapping 3
+STACK_CHECK_PASS data cursor held on trajectory 4
+STACK_CHECK_PASS data stays ahead while overlapping 4
+STACK_CHECK_PASS data stays ahead while overlapping 4
+STACK_CHECK_PASS data cursor held on trajectory 5
+STACK_CHECK_PASS data stays ahead while overlapping 5
+STACK_CHECK_PASS data stays ahead while overlapping 5
+STACK_CHECK_PASS data cursor held on trajectory 6
+STACK_CHECK_PASS data stays ahead while overlapping 6
+STACK_CHECK_PASS data stays ahead while overlapping 6
+STACK_CHECK_PASS data cursor held on trajectory 7
+STACK_CHECK_PASS data stays ahead while overlapping 7
+STACK_CHECK_PASS data stays ahead while overlapping 7
+STACK_CHECK_PASS data cursor held on trajectory 8
+STACK_CHECK_PASS data stays ahead while overlapping 8
+STACK_CHECK_PASS data stays ahead while overlapping 8
+STACK_CHECK_PASS data cursor held on trajectory 9
+STACK_CHECK_PASS data stays ahead while overlapping 9
+STACK_CHECK_PASS data stays ahead while overlapping 9
+STACK_CHECK_PASS data cursor held on trajectory 10
+STACK_CHECK_PASS data stays ahead while overlapping 10
+STACK_CHECK_PASS data stays ahead while overlapping 10
+STACK_CHECK_PASS data cursor held on trajectory 11
+STACK_CHECK_PASS data stays ahead while overlapping 11
+STACK_CHECK_PASS data stays ahead while overlapping 11
+STACK_CHECK_PASS data cursor held on trajectory 12
+STACK_CHECK_PASS data stays ahead while overlapping 12
+STACK_CHECK_PASS data stays ahead while overlapping 12
+STACK_CHECK_PASS data cursor held on trajectory 13
+STACK_CHECK_PASS data stays ahead while overlapping 13
+STACK_CHECK_PASS data stays ahead while overlapping 13
+STACK_CHECK_PASS data cursor held on trajectory 14
+STACK_CHECK_PASS data stays ahead while overlapping 14
+STACK_CHECK_PASS data stays ahead while overlapping 14
+STACK_CHECK_PASS data cursor held on trajectory 15
+STACK_CHECK_PASS data stays ahead while overlapping 15
+STACK_CHECK_PASS data stays ahead while overlapping 15
+STACK_CHECK_PASS data cursor held on trajectory 16
+STACK_CHECK_PASS data stays ahead while overlapping 16
+STACK_CHECK_PASS data stays ahead while overlapping 16
+STACK_CHECK_PASS data cursor held on trajectory 17
+STACK_CHECK_PASS data stays ahead while overlapping 17
+STACK_CHECK_PASS data stays ahead while overlapping 17
+STACK_CHECK_PASS data cursor held on trajectory 18
+STACK_CHECK_PASS data stays ahead while overlapping 18
+STACK_CHECK_PASS data stays ahead while overlapping 18
+STACK_CHECK_PASS data actual release ends gesture
+STACK_CHECK_PASS product treatment creates zombie for drag test
+STACK_CHECK_PASS zombie native drag starts on correct actor
+STACK_CHECK_PASS zombie real right press starts product gesture
+STACK_CHECK_PASS zombie cursor held on trajectory 1
+STACK_CHECK_PASS zombie stays ahead while overlapping 1
+STACK_CHECK_PASS zombie stays ahead while overlapping 1
+STACK_CHECK_PASS zombie cursor held on trajectory 2
+STACK_CHECK_PASS zombie stays ahead while overlapping 2
+STACK_CHECK_PASS zombie stays ahead while overlapping 2
+STACK_CHECK_PASS zombie cursor held on trajectory 3
+STACK_CHECK_PASS zombie stays ahead while overlapping 3
+STACK_CHECK_PASS zombie stays ahead while overlapping 3
+STACK_CHECK_PASS zombie cursor held on trajectory 4
+STACK_CHECK_PASS zombie stays ahead while overlapping 4
+STACK_CHECK_PASS zombie stays ahead while overlapping 4
+STACK_CHECK_PASS zombie cursor held on trajectory 5
+STACK_CHECK_PASS zombie stays ahead while overlapping 5
+STACK_CHECK_PASS zombie stays ahead while overlapping 5
+STACK_CHECK_PASS zombie cursor held on trajectory 6
+STACK_CHECK_PASS zombie stays ahead while overlapping 6
+STACK_CHECK_PASS zombie stays ahead while overlapping 6
+STACK_CHECK_PASS zombie cursor held on trajectory 7
+STACK_CHECK_PASS zombie stays ahead while overlapping 7
+STACK_CHECK_PASS zombie stays ahead while overlapping 7
+STACK_CHECK_PASS zombie cursor held on trajectory 8
+STACK_CHECK_PASS zombie stays ahead while overlapping 8
+STACK_CHECK_PASS zombie stays ahead while overlapping 8
+STACK_CHECK_PASS zombie cursor held on trajectory 9
+STACK_CHECK_PASS zombie stays ahead while overlapping 9
+STACK_CHECK_PASS zombie stays ahead while overlapping 9
+STACK_CHECK_PASS zombie cursor held on trajectory 10
+STACK_CHECK_PASS zombie stays ahead while overlapping 10
+STACK_CHECK_PASS zombie stays ahead while overlapping 10
+STACK_CHECK_PASS zombie cursor held on trajectory 11
+STACK_CHECK_PASS zombie stays ahead while overlapping 11
+STACK_CHECK_PASS zombie stays ahead while overlapping 11
+STACK_CHECK_PASS zombie cursor held on trajectory 12
+STACK_CHECK_PASS zombie stays ahead while overlapping 12
+STACK_CHECK_PASS zombie stays ahead while overlapping 12
+STACK_CHECK_PASS zombie cursor held on trajectory 13
+STACK_CHECK_PASS zombie stays ahead while overlapping 13
+STACK_CHECK_PASS zombie stays ahead while overlapping 13
+STACK_CHECK_PASS zombie cursor held on trajectory 14
+STACK_CHECK_PASS zombie stays ahead while overlapping 14
+STACK_CHECK_PASS zombie stays ahead while overlapping 14
+STACK_CHECK_PASS zombie cursor held on trajectory 15
+STACK_CHECK_PASS zombie stays ahead while overlapping 15
+STACK_CHECK_PASS zombie stays ahead while overlapping 15
+STACK_CHECK_PASS zombie cursor held on trajectory 16
+STACK_CHECK_PASS zombie stays ahead while overlapping 16
+STACK_CHECK_PASS zombie stays ahead while overlapping 16
+STACK_CHECK_PASS zombie cursor held on trajectory 17
+STACK_CHECK_PASS zombie stays ahead while overlapping 17
+STACK_CHECK_PASS zombie stays ahead while overlapping 17
+STACK_CHECK_PASS zombie cursor held on trajectory 18
+STACK_CHECK_PASS zombie stays ahead while overlapping 18
+STACK_CHECK_PASS zombie stays ahead while overlapping 18
+STACK_CHECK_PASS zombie actual release ends gesture
+SCP999_HIDDEN
+STACK_CHECK_PASS front zombie click collects without desktop input
+STACK_CHECK_PASS hidden overlap area passes click to receiver
+SCP999_SHOWN
+STACK_CAPTURE_COMPLETE
+OVERLAY_STACK_PASS
+SITE_DESKTOP_EXIT_REQUESTED
+SCP999_STOPPED
+SCP049_STOPPED
+SITE_DESKTOP_STOPPED

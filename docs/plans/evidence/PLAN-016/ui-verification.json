@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-25",
+  "tool": "computer-use / @oai/sky",
+  "actions": [
+    "173 ON",
+    "049 ON",
+    "049 OFF",
+    "999 ON",
+    "title bar X"
+  ],
+  "result": "controls hidden; SCP-999 and SCP-173 remain; SCP-049 disabled",
+  "persistence": "run-014/restart.json",
+  "ownedEffectVerification": "run-018/results.json",
+  "externalData": "No transmission"
+}

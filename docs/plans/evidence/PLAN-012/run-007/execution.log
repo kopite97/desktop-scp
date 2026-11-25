@@ -1,0 +1,51 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+ICON_CHECK Actual Desktop view returns bounded icon images
+ICON_CHECK Owned custom shortcut icon retrieved with exact RGB and transparent hole
+ICON_CHECK Cancelled worker request terminates
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED art=temporary-code ART-004..007
+SITE_DESKTOP_READY
+SCP999_HIDDEN
+ICON_CHECK Product Main owns populated runtime icon service
+ICON_CHECK Owned fixture reaches product texture cache
+ICON_CHECK Godot texture roundtrip preserves all source RGBA bytes
+ICON_CHECK Alpha hit mask includes body and excludes transparent hole and margin
+ICON_CHECK Treatment retains icon identity in zombie state
+ICON_CHECK No icon means skip spawn instead of substitute art
+ICON_CHECK Native actor receives cached icon appearance
+ICON_CHECK Actual native viewport renders expected fixture color
+ICON_CHECK Actual native viewport preserves fixture hole alpha
+ICON_CHECK Owned native receiver focused
+ICON_RECEIVER_READY
+ERROR: DESKTOP_ICON_FAILED System.InvalidOperationException: Transparent icon hole passes actual click to receiver
+   at SiteDesktop.Diagnostics.DesktopIconSmoke.Check(Boolean ok, String text) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DesktopIconSmoke.cs:line 20
+   at SiteDesktop.Diagnostics.DesktopIconSmoke.Input(PlagueController c, Int32 id) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DesktopIconSmoke.cs:line 86
+   at SiteDesktop.Diagnostics.DesktopIconSmoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DesktopIconSmoke.cs:line 64
+   at: void SiteDesktop.Diagnostics.DesktopIconSmoke+<_Ready>d__6.MoveNext() (res://Scripts/Diagnostics/DesktopIconSmoke.cs:64)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.DesktopIconSmoke+<_Ready>d__6.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DesktopIconSmoke.cs:64)
+       [2] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [3] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [4] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [5] void System.Threading.Tasks.Task.RunContinuations(object)
+       [6] void System.Threading.Tasks.Task.FinishSlow(bool)
+       [7] bool System.Threading.Tasks.Task.TrySetException(object)
+       [8] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException(System.Exception, System.Threading.Tasks.Task`1[TResult]&)
+       [9] void SiteDesktop.Diagnostics.DesktopIconSmoke+<Input>d__7.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DesktopIconSmoke.cs:86)
+       [10] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [11] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [12] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [13] void System.Threading.Tasks.Task.RunContinuations(object)
+       [14] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(System.Threading.Tasks.Task`1[TResult], TResult)
+       [15] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [16] void SiteDesktop.Diagnostics.DesktopIconSmoke+<Frames>d__4.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\DesktopIconSmoke.cs:21)
+       [17] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [18] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [19] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+SITE_DESKTOP_EXIT_REQUESTED
+SCP999_STOPPED
+SCP049_STOPPED
+SITE_DESKTOP_STOPPED

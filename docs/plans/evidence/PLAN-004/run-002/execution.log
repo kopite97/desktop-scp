@@ -1,0 +1,33 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS walking uses physical pixels without a second DPI multiplier
+PLATFORM_CHECK_PASS moving support carries body and emits balancing state
+PLATFORM_CHECK_PASS support movement generates bounded inertial slip
+PLATFORM_CHECK_PASS minimized support immediately releases body
+PLATFORM_CHECK_PASS missing support falls to work-area floor above taskbar
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS closed support falls through same update path
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS large support teleport releases instead of flinging body
+PLATFORM_CHECK_PASS front window cuts covered platform into exposed segments
+PLATFORM_CHECK_PASS z-order reversal restores front edge
+PLATFORM_CHECK_PASS maximized top has no headroom and hides lower windows
+PLATFORM_CHECK_PASS hidden and cloaked windows cannot create platforms
+PLATFORM_CHECK_PASS non-supporting window has no ledge
+PLATFORM_CHECK_PASS one-way ledge never pulls a body upward from below
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS reachable adjacent ledge starts a ballistic jump
+ERROR: PLATFORM_SMOKE_FAILED System.InvalidOperationException: ballistic jump lands on neighboring upper ledge
+   at SiteDesktop.Diagnostics.PlatformSmoke.Require(Boolean ok, String label) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:line 24
+   at SiteDesktop.Diagnostics.PlatformSmoke.Logic() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:line 68
+   at SiteDesktop.Diagnostics.PlatformSmoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:line 193
+   at: void SiteDesktop.Diagnostics.PlatformSmoke+<_Ready>d__21.MoveNext() (res://Scripts/Diagnostics/PlatformSmoke.cs:193)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.PlatformSmoke+<_Ready>d__21.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\PlatformSmoke.cs:193)
+       [2] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [3] void SiteDesktop.Diagnostics.PlatformSmoke._Ready()
+       [4] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2660)
+       [5] bool SiteDesktop.Diagnostics.PlatformSmoke.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\SiteDesktop.Diagnostics.PlatformSmoke_ScriptMethods.generated.cs:90)
+       [6] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)

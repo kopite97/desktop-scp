@@ -1,0 +1,92 @@
+[
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_color.png",
+    "source": "2413ecf1b8716c875fa9b6668c40c98135a84e380d07c85abb11a576b9ce767b",
+    "runtime": "2413ecf1b8716c875fa9b6668c40c98135a84e380d07c85abb11a576b9ce767b",
+    "equal": true,
+    "unchangedSinceRun025": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_combined.png",
+    "source": "6c1214d64d23d88cc632da4a0af80cf8b354ab6498f9bdf5b2807732a7f6baae",
+    "runtime": "6c1214d64d23d88cc632da4a0af80cf8b354ab6498f9bdf5b2807732a7f6baae",
+    "equal": true,
+    "unchangedSinceRun025": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_normal.png",
+    "source": "24f58d0acf905a247f8701cd423b3f08540bb4f9561dba30a34585333f685d06",
+    "runtime": "24f58d0acf905a247f8701cd423b3f08540bb4f9561dba30a34585333f685d06",
+    "equal": true,
+    "unchangedSinceRun025": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_outline.png",
+    "source": "961c77087a168cd0f687298df9a3556bba13b0d20b23c04f49e6c9eb5eabe7a6",
+    "runtime": "961c77087a168cd0f687298df9a3556bba13b0d20b23c04f49e6c9eb5eabe7a6",
+    "equal": true,
+    "unchangedSinceRun025": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999_specular.png",
+    "source": "4d27565ab49a4149670089fb9b83b0fe73102026b6238ccdc32eb43c54f5efc8",
+    "runtime": "4d27565ab49a4149670089fb9b83b0fe73102026b6238ccdc32eb43c54f5efc8",
+    "equal": true,
+    "unchangedSinceRun025": true
+  },
+  {
+    "asset": "Scp999",
+    "revision": "r005",
+    "file": "Scp999.contract.json",
+    "source": "63fd191e7504af885ece3dac5a22dd510b3705139ea1d2eca26fc894c3bf940f",
+    "runtime": "63fd191e7504af885ece3dac5a22dd510b3705139ea1d2eca26fc894c3bf940f",
+    "equal": true,
+    "unchangedSinceRun025": true
+  },
+  {
+    "asset": "Scp999Reaction",
+    "revision": "r001",
+    "file": "Scp999Reaction.contract.json",
+    "source": "a0882b6d1ac851ba19674bf4cb419c0ffb98540fb7e867a452a860c0d710180e",
+    "runtime": "a0882b6d1ac851ba19674bf4cb419c0ffb98540fb7e867a452a860c0d710180e",
+    "equal": true,
+    "unchangedSinceRun025": true
+  },
+  {
+    "asset": "Scp999Reaction",
+    "revision": "r001",
+    "file": "Scp999Reaction.png",
+    "source": "9698a78e37af49c03230e74d20d7d15591c716a3b349853a95ad796752b3dfcc",
+    "runtime": "9698a78e37af49c03230e74d20d7d15591c716a3b349853a95ad796752b3dfcc",
+    "equal": true,
+    "unchangedSinceRun025": true
+  },
+  {
+    "asset": "Scp999Trail",
+    "revision": "r001",
+    "file": "Scp999Trail.contract.json",
+    "source": "d12ba869148291214de28ac985192298231cf71add482572e8b6276be38ba135",
+    "runtime": "d12ba869148291214de28ac985192298231cf71add482572e8b6276be38ba135",
+    "equal": true,
+    "unchangedSinceRun025": true
+  },
+  {
+    "asset": "Scp999Trail",
+    "revision": "r001",
+    "file": "Scp999Trail.png",
+    "source": "5eb30a481b6db4659e302aaad8a6e904342d7c365b3ff58e222b3f5b1e242833",
+    "runtime": "5eb30a481b6db4659e302aaad8a6e904342d7c365b3ff58e222b3f5b1e242833",
+    "equal": true,
+    "unchangedSinceRun025": true
+  }
+]

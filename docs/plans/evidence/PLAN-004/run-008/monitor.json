@@ -1,0 +1,20 @@
+{
+  "requested": "GSM5BDE",
+  "screen": "(-1920, 1061), (1920, 1032)",
+  "dpi": 96,
+  "hardware": [
+    {
+      "Device": "\\\\.\\DISPLAY2",
+      "HardwareId": "\\\\?\\DISPLAY#GSM5BDE#5\u00265489817\u00260\u0026UID4352#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}",
+      "Name": "Generic PnP Monitor",
+      "X": -1920,
+      "Y": 1061,
+      "Width": 1920,
+      "Height": 1080,
+      "WorkX": -1920,
+      "WorkY": 1061,
+      "WorkWidth": 1920,
+      "WorkHeight": 1032
+    }
+  ]
+}

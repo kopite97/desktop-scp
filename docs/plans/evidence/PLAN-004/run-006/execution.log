@@ -1,0 +1,57 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS walking uses physical pixels without a second DPI multiplier
+PLATFORM_CHECK_PASS moving support carries body and emits balancing state
+PLATFORM_CHECK_PASS support movement generates bounded inertial slip
+PLATFORM_CHECK_PASS minimized support immediately releases body
+PLATFORM_CHECK_PASS missing support falls to work-area floor above taskbar
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS closed support falls through same update path
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS large support teleport releases instead of flinging body
+PLATFORM_CHECK_PASS front window cuts covered platform into exposed segments
+PLATFORM_CHECK_PASS z-order reversal restores front edge
+PLATFORM_CHECK_PASS maximized top has no headroom and hides lower windows
+PLATFORM_CHECK_PASS hidden and cloaked windows cannot create platforms
+PLATFORM_CHECK_PASS non-supporting window has no ledge
+PLATFORM_CHECK_PASS one-way ledge never pulls a body upward from below
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS reachable adjacent ledge starts a ballistic jump
+PLATFORM_CHECK_PASS ballistic jump lands on neighboring upper ledge
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS walking toward edge automatically jumps to adjacent reachable platform
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS walking beyond ledge falls when no jump is available
+PLATFORM_CHECK_PASS downward sweep lands on exposed top at negative desktop origin
+PLATFORM_CHECK_PASS no target in requested direction leaves support unchanged
+PLATFORM_CHECK_PASS hide freezes physics and environment application
+PLATFORM_CHECK_PASS show validates latest support without hidden-time catch-up
+PLATFORM_CHECK_PASS drag release uses gravity rather than floor snap
+PLATFORM_CHECK_PASS hide cancels drag capture
+PLATFORM_CHECK_PASS removed monitor recovers into remaining work area
+PLATFORM_CHECK_PASS shutdown is terminal and freezes body
+PLATFORM_CHECK_PASS recorded environment and elapsed-time input replay produces identical trace
+PLATFORM_STARTED monitor=1 origin=(-1920, 1061)
+PLATFORM_DESKTOP_READY
+PLATFORM_CHECK_PASS all native fixture windows placed within requested monitor work area
+PLATFORM_CHECK_PASS DWM observation creates real window ledges
+PLATFORM_CHECK_PASS native observed ledge catches visible falling body
+PLATFORM_CHECK_PASS negative LG physical origin matches native actor position
+PLATFORM_CHECK_PASS actual desktop pixel shows physics body above owned test background
+PLATFORM_CHECK_PASS real native window movement carries support with balance event
+PLATFORM_CHECK_PASS native moved ledge creates inertial slip
+PLATFORM_CHECK_PASS real minimize removes support
+PLATFORM_CHECK_PASS real minimized ledge falls to requested monitor floor
+PLATFORM_CHECK_PASS native adjacent ledge accepts common jump command
+PLATFORM_CHECK_PASS visible jump lands on adjacent real window
+PLATFORM_CHECK_PASS actual foreground window splits covered native edge
+PLATFORM_CHECK_PASS actual maximized window removes obstructed ledges
+PLATFORM_CHECK_PASS restored exposed native ledge is usable again
+PLATFORM_CHECK_PASS destroyed native window invalidates support identity
+PLATFORM_CHECK_PASS hide freezes platform observations and physical display
+PLATFORM_CHECK_PASS show refreshes environment and restores native display
+PLATFORM_STOPPED
+PLATFORM_CHECK_PASS runtime shutdown releases platform actor
+PLATFORM_SMOKE_PASS checks=50

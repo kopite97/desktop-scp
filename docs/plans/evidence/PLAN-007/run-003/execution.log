@@ -1,0 +1,42 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+STATUE_CHECK Observed statue does not move or attack
+STATUE_CHECK Observation radius includes 180px boundary
+STATUE_CHECK Same-screen unseen delay does not trigger early
+STATUE_CHECK Unseen threshold breaks same icon object and retains appearance
+STATUE_CHECK Broken target cannot be reserved for surgery
+STATUE_CHECK Duplicate break cannot apply twice
+STATUE_CHECK Broken icon removed after bounded visual lifetime
+STATUE_CHECK Other-monitor attack does not steal doctor reservation
+STATUE_CHECK Other monitor triggers after retry cooldown without eight-second wait
+STATUE_CHECK Observation resets unseen accumulation
+STATUE_CHECK Hidden statue cannot attack
+STATUE_CHECK Missing or out-of-desktop pointer fails closed
+STATUE_CHECK SCP-999 common relief lowers actual statue stress
+STATUE_CHECK Relief below stress threshold restores long delay
+STATUE_CHECK High stress uses four-second unseen delay
+STATUE_CHECK Shutdown releases common stress registrations
+STATUE_CHECK Empty or removed target is a safe no-op
+STATUE_CHECK User drag suppresses autonomous attack
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED art=temporary-code ART-004..007
+SCP173_STARTED art=temporary-code
+SITE_DESKTOP_READY
+STATUE_CHECK Native product has real runtime icons
+STATUE_CHECK Native product state breaks runtime icon
+STATUE_CHECK Native fragments use original icon texture
+STATUE_CHECK Statue native position matches LG physical coordinates
+STATUE_CHECK Rendered broken top fragment retains source alpha
+STATUE_CHECK Broken icon native window cleaned up
+STATUE_CHECK Actual product statue shares relief owner with SCP-999
+STATUE_CHECK Hide removes statue native window
+STATUE_CHECK Restore returns statue native window
+STATUE_CHECK Real Windows cursor observation reaches product statue state
+SCP173_STOPPED
+STATUE_CHECK Statue shutdown removes window and stress target
+STATUE_PASS
+SITE_DESKTOP_EXIT_REQUESTED
+SCP999_STOPPED
+SCP049_STOPPED
+SITE_DESKTOP_STOPPED

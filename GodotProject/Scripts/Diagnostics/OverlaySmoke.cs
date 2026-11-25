@@ -2,6 +2,7 @@ using Godot;
 using SiteDesktop.App;
 using SiteDesktop.Desktop;
 using SiteDesktop.Platform.Windows;
+using SiteDesktop.Overlay;
 using System;
 
 namespace SiteDesktop.Diagnostics;
@@ -9,6 +10,7 @@ namespace SiteDesktop.Diagnostics;
 public partial class OverlaySmoke : Node
 {
     private Main? _main;
+    private OverlayController _legacy = null!;
     private int _frames;
     private int _checks;
     private bool _failed;
@@ -44,8 +46,10 @@ public partial class OverlaySmoke : Node
             state.BeginDrag(0,state.Tokens[0].Position + new Vector2I(10,10));
             state.UpdateDrag(new Vector2I(-1000,300),false);
             Require(state.DraggingId is null && state.Tokens[0].Position == new Vector2I(-1010,290), "fast drag retains release position");
-            _main = GD.Load<PackedScene>("res://Scenes/App/Main.tscn").Instantiate<Main>();
-            AddChild(_main);
+            _main = GD.Load<PackedScene>("res://Scenes/App/Main.tscn").Instantiate<Main>();_main.PersistScpSettings=false;_main.EnableSystemOptions=false;_main.EnableStatue=false;
+            _main.EnablePlague=false;AddChild(_main);
+            _main.Companion.SetVisible(false);
+            _legacy=new OverlayController();AddChild(_legacy);
         }
         catch (Exception error) { Fail(error); }
     }
@@ -58,27 +62,27 @@ public partial class OverlaySmoke : Node
             _frames++;
             if (_frames == 10 && DisplayServer.GetName() != "headless")
             {
-                Require(_main.Overlays.Islands.Count == 2, "two native islands");
-                foreach (var island in _main.Overlays.Islands)
+                Require(_legacy.Islands.Count == 2, "two native islands");
+                foreach (var island in _legacy.Islands)
                 {
                     Require(!island.IsEmbedded() && island.Visible && island.Transparent && island.TransparentBg, "native transparent window");
                     Require(WindowsDesktop.GetBounds(island) == new Rect2I(island.Token.Position,OverlayState.TokenSize), "Win32 and Godot physical coordinate agreement");
                     Require(island.MousePassthroughPolygon.Length == 8, "input contour installed");
                 }
-                _main.Overlays.SetVisible(false);
+                _legacy.SetVisible(false);
             }
             if (_frames == 15 && DisplayServer.GetName() != "headless")
             {
-                foreach (var island in _main.Overlays.Islands) Require(!island.Visible, "native window hidden");
-                _main.Overlays.SetVisible(true);
+                foreach (var island in _legacy.Islands) Require(!island.Visible, "native window hidden");
+                _legacy.SetVisible(true);
             }
             bool native = DisplayServer.GetName() != "headless";
             if (_frames == 25 && native)
-                foreach (var island in _main.Overlays.Islands)
+                foreach (var island in _legacy.Islands)
                     Require(island.Visible && WindowsDesktop.GetBounds(island).Position == island.Token.Position, "restore location");
             if (native && _frames >= 25)
             {
-                var state = _main.Overlays.State!;
+                var state = _legacy.State!;
                 int monitor = (_frames - 25) / 5;
                 if (monitor < state.Screens.Count)
                 {
@@ -87,11 +91,11 @@ public partial class OverlaySmoke : Node
                         // Exercise the same state commands, then publish to a real native window.
                         state.BeginDrag(0,state.Tokens[0].Position);
                         state.UpdateDrag(state.Screens[monitor].Usable.Position + new Vector2I(64,64),false);
-                        _main.Overlays.SetVisible(true);
+                        _legacy.SetVisible(true);
                     }
                     if ((_frames - 25) % 5 == 4)
                     {
-                        var bounds = WindowsDesktop.GetBounds(_main.Overlays.Islands[0]);
+                        var bounds = WindowsDesktop.GetBounds(_legacy.Islands[0]);
                         Require(bounds.Position == state.Tokens[0].Position && state.Screens[monitor].Usable.Encloses(bounds),
                             $"native monitor {monitor} placement at {bounds.Position}");
                     }
@@ -117,7 +121,7 @@ public partial class OverlaySmoke : Node
     {
         _failed = true;
         GD.PushError("OVERLAY_SMOKE_FAILED " + error);
-        _main?.Overlays.Shutdown();
+        _legacy?.Shutdown();
         GetTree().Quit(1);
     }
 }

@@ -1,0 +1,734 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+ZOMBIE_ART_CHECK left foot flipFalse: planted sole travels opposite facing
+ZOMBIE_ART_CHECK left foot flipTrue: planted sole travels opposite facing
+ZOMBIE_ART_CHECK right foot flipFalse: planted sole travels opposite facing
+ZOMBIE_ART_CHECK right foot flipTrue: planted sole travels opposite facing
+ZOMBIE_ART_CHECK Corrected gait preserves authored duration frame15
+ZOMBIE_ART_CHECK Corrected gait preserves authored duration frame14
+ZOMBIE_ART_CHECK Corrected gait preserves authored duration frame13
+ZOMBIE_ART_CHECK Corrected gait preserves authored duration frame12
+ZOMBIE_ART_CHECK Corrected gait preserves authored duration frame11
+ZOMBIE_ART_CHECK Corrected gait preserves authored duration frame10
+ZOMBIE_ART_CHECK Corrected gait preserves authored duration frame9
+ZOMBIE_ART_CHECK Corrected gait preserves authored duration frame8
+ZOMBIE_ART_CHECK Corrected gait keeps840ms period
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp0492.contract.json
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp0492_left-foot.png
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp0492_right-foot.png
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp049Mutation.contract.json
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp049Mutation.png
+ZOMBIE_ART_CHECK Authored spawn frame0 duration/index
+ZOMBIE_ART_CHECK Authored spawn frame1 duration/index
+ZOMBIE_ART_CHECK Authored spawn frame2 duration/index
+ZOMBIE_ART_CHECK Authored spawn frame3 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: spawn
+ZOMBIE_ART_CHECK Authored idle frame4 duration/index
+ZOMBIE_ART_CHECK Authored idle frame5 duration/index
+ZOMBIE_ART_CHECK Authored idle frame6 duration/index
+ZOMBIE_ART_CHECK Authored idle frame7 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: idle
+ZOMBIE_ART_CHECK Authored move frame8 duration/index
+ZOMBIE_ART_CHECK Authored move frame9 duration/index
+ZOMBIE_ART_CHECK Authored move frame10 duration/index
+ZOMBIE_ART_CHECK Authored move frame11 duration/index
+ZOMBIE_ART_CHECK Authored move frame12 duration/index
+ZOMBIE_ART_CHECK Authored move frame13 duration/index
+ZOMBIE_ART_CHECK Authored move frame14 duration/index
+ZOMBIE_ART_CHECK Authored move frame15 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: move
+ZOMBIE_ART_CHECK Authored fall frame16 duration/index
+ZOMBIE_ART_CHECK Authored fall frame17 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: fall
+ZOMBIE_ART_CHECK Authored land frame18 duration/index
+ZOMBIE_ART_CHECK Authored land frame19 duration/index
+ZOMBIE_ART_CHECK Authored land frame20 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: land
+ZOMBIE_ART_CHECK Authored collect frame21 duration/index
+ZOMBIE_ART_CHECK Authored collect frame22 duration/index
+ZOMBIE_ART_CHECK Authored collect frame23 duration/index
+ZOMBIE_ART_CHECK Authored collect frame24 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: collect
+ZOMBIE_ART_CHECK Authored expire frame25 duration/index
+ZOMBIE_ART_CHECK Authored expire frame26 duration/index
+ZOMBIE_ART_CHECK Authored expire frame27 duration/index
+ZOMBIE_ART_CHECK Authored expire frame28 duration/index
+ZOMBIE_ART_CHECK Authored expire frame29 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: expire
+ZOMBIE_ART_CHECK Authored treat frame0 duration/index
+ZOMBIE_ART_CHECK Authored treat frame1 duration/index
+ZOMBIE_ART_CHECK Authored treat frame2 duration/index
+ZOMBIE_ART_CHECK Authored treat frame3 duration/index
+ZOMBIE_ART_CHECK Authored treat frame4 duration/index
+ZOMBIE_ART_CHECK Authored treat frame5 duration/index
+ZOMBIE_ART_CHECK Authored treat frame6 duration/index
+ZOMBIE_ART_CHECK Authored treat frame7 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: treat
+ZOMBIE_ART_CHECK Authored transform frame8 duration/index
+ZOMBIE_ART_CHECK Authored transform frame9 duration/index
+ZOMBIE_ART_CHECK Authored transform frame10 duration/index
+ZOMBIE_ART_CHECK Authored transform frame11 duration/index
+ZOMBIE_ART_CHECK Authored transform frame12 duration/index
+ZOMBIE_ART_CHECK Authored transform frame13 duration/index
+ZOMBIE_ART_CHECK Authored transform frame14 duration/index
+ZOMBIE_ART_CHECK Authored transform frame15 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: transform
+ZOMBIE_ART_CHECK Transform includes its transparent tail in800ms
+ZOMBIE_ART_CHECK Treat clock stays unscaled at rate1
+ZOMBIE_ART_CHECK Game success stays approximately3s
+ZOMBIE_ART_CHECK Success starts spawn and transform at the same zero
+ZOMBIE_ART_CHECK Spawn does not freeze game movement
+ZOMBIE_ART_CHECK Dragging interrupts spawn without restarting treatment
+ZOMBIE_ART_CHECK Real drop selects authored landing
+ZOMBIE_ART_CHECK Facing change preserves animation phase
+ZOMBIE_ART_CHECK Collection removes game identity and rewards exactly once
+ZOMBIE_ART_CHECK Collection preserves only a decorative snapshot
+ZOMBIE_ART_CHECK Lockdown freezes disappearance clock
+ZOMBIE_ART_CHECK Transparent collect tail holds before cleanup
+ZOMBIE_ART_CHECK Collect cleans up at360ms
+ZOMBIE_ART_CHECK Treat clock stays unscaled at rate1.5
+ZOMBIE_ART_CHECK Game success stays approximately2s
+ZOMBIE_ART_CHECK Success starts spawn and transform at the same zero
+ZOMBIE_ART_CHECK Spawn does not freeze game movement
+ZOMBIE_ART_CHECK Dragging interrupts spawn without restarting treatment
+ZOMBIE_ART_CHECK Real drop selects authored landing
+ZOMBIE_ART_CHECK Facing change preserves animation phase
+ZOMBIE_ART_CHECK Collection removes game identity and rewards exactly once
+ZOMBIE_ART_CHECK Collection preserves only a decorative snapshot
+ZOMBIE_ART_CHECK Lockdown freezes disappearance clock
+ZOMBIE_ART_CHECK Transparent collect tail holds before cleanup
+ZOMBIE_ART_CHECK Collect cleans up at360ms
+ZOMBIE_ART_CHECK Actual Treating produces aura
+ZOMBIE_ART_CHECK Cancellation cannot produce transform/feet
+ZOMBIE_ART_CHECK Treatment restart begins at frame zero
+ZOMBIE_ART_CHECK Normal data collection has no zombie disappearance
+ZOMBIE_ART_CHECK Game treatment actually transforms target 1
+ZOMBIE_ART_CHECK Expiry starts only the authored expire snapshot
+ZOMBIE_ART_CHECK Expire retains transparent tail through640ms
+ZOMBIE_ART_CHECK Expire cleans up at660ms
+ZOMBIE_ART_CHECK Game treatment actually transforms target 2
+ZOMBIE_ART_CHECK Monitor change discards detached snapshots
+ZOMBIE_ART_CHECK Shutdown clears all presentation identity
+ZOMBIE_ART_CHECK Owned fixtures populate the real texture cache
+SCP049_STARTED body=ART-004-r001 zombie-feet=ART-006-r001 aura=ART-007-r001
+ZOMBIE_ART_CHECK Game treatment actually transforms target 2
+ZOMBIE_ART_CHECK Unchanged Publish does not reset native region or erase window background
+ZOMBIE_ART_CHECK Visible alpha bounds align without resampling fixture0
+ZOMBIE_ART_CHECK Fixture0 frame0 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame0 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame1 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame1 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame2 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame2 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame3 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame3 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame4 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame4 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame5 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame5 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame6 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame6 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame7 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame7 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame8 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame8 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame9 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame9 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame10 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame10 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame11 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame11 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame12 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame12 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame13 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame13 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame14 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame14 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame15 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame15 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame16 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame16 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame17 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame17 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame18 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame18 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame19 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame19 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame20 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame20 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame21 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame21 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame22 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame22 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame23 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame23 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame24 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame24 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame25 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame25 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame26 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame26 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame27 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame27 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame28 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame28 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame29 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture0 frame29 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Feet and runtime icon retain authored colors under night and warm light
+ZOMBIE_ART_CHECK Zombie sole stays at physics foot fixture0
+ZOMBIE_ART_CHECK Game treatment actually transforms target 3
+ZOMBIE_ART_CHECK Visible alpha bounds align without resampling fixture1
+ZOMBIE_ART_CHECK Fixture1 frame0 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame0 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame1 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame1 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame2 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame2 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame3 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame3 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame4 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame4 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame5 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame5 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame6 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame6 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame7 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame7 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame8 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame8 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame9 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame9 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame10 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame10 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame11 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame11 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame12 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame12 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame13 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame13 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame14 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame14 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame15 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame15 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame16 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame16 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame17 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame17 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame18 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame18 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame19 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame19 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame20 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame20 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame21 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame21 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame22 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame22 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame23 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame23 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame24 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame24 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame25 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame25 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame26 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame26 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame27 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame27 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame28 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame28 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame29 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture1 frame29 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Zombie sole stays at physics foot fixture1
+ZOMBIE_ART_CHECK Game treatment actually transforms target 4
+ZOMBIE_ART_CHECK Visible alpha bounds align without resampling fixture2
+ZOMBIE_ART_CHECK Fixture2 frame0 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame0 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame1 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame1 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame2 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame2 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame3 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame3 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame4 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame4 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame5 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame5 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame6 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame6 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame7 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame7 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame8 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame8 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame9 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame9 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame10 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame10 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame11 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame11 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame12 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame12 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame13 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame13 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame14 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame14 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame15 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame15 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame16 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame16 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame17 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame17 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame18 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame18 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame19 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame19 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame20 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame20 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame21 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame21 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame22 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame22 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame23 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame23 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame24 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame24 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame25 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame25 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame26 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame26 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame27 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame27 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame28 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame28 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame29 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture2 frame29 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Zombie sole stays at physics foot fixture2
+ZOMBIE_ART_CHECK Game treatment actually transforms target 5
+ZOMBIE_ART_CHECK Visible alpha bounds align without resampling fixture3
+ZOMBIE_ART_CHECK Fixture3 frame0 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame0 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame1 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame1 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame2 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame2 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame3 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame3 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame4 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame4 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame5 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame5 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame6 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame6 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame7 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame7 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame8 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame8 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame9 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame9 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame10 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame10 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame11 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame11 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame12 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame12 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame13 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame13 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame14 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame14 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame15 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame15 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame16 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame16 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame17 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame17 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame18 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame18 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame19 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame19 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame20 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame20 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame21 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame21 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame22 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame22 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame23 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame23 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame24 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame24 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame25 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame25 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame26 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame26 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame27 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame27 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame28 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame28 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame29 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture3 frame29 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Zombie sole stays at physics foot fixture3
+ZOMBIE_ART_CHECK Game treatment actually transforms target 6
+ZOMBIE_ART_CHECK Visible alpha bounds align without resampling fixture4
+ZOMBIE_ART_CHECK Fixture4 frame0 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame0 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame1 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame1 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame2 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame2 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame3 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame3 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame4 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame4 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame5 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame5 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame6 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame6 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame7 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame7 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame8 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame8 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame9 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame9 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame10 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame10 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame11 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame11 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame12 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame12 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame13 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame13 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame14 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame14 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame15 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame15 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame16 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame16 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame17 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame17 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame18 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame18 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame19 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame19 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame20 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame20 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame21 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame21 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame22 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame22 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame23 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame23 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame24 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame24 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame25 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame25 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame26 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame26 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame27 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame27 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame28 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame28 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame29 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture4 frame29 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Zombie sole stays at physics foot fixture4
+ZOMBIE_ART_CHECK Game treatment actually transforms target 7
+ZOMBIE_ART_CHECK Visible alpha bounds align without resampling fixture5
+ZOMBIE_ART_CHECK Fixture5 frame0 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame0 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame1 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame1 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame2 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame2 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame3 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame3 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame4 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame4 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame5 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame5 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame6 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame6 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame7 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame7 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame8 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame8 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame9 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame9 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame10 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame10 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame11 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame11 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame12 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame12 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame13 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame13 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame14 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame14 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame15 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame15 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame16 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame16 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame17 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame17 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame18 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame18 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame19 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame19 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame20 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame20 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame21 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame21 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame22 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame22 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame23 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame23 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame24 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame24 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame25 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame25 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame26 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame26 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame27 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame27 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame28 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame28 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame29 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture5 frame29 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Zombie sole stays at physics foot fixture5
+ZOMBIE_ART_CHECK Game treatment actually transforms target 8
+ZOMBIE_ART_CHECK Visible alpha bounds align without resampling fixture6
+ZOMBIE_ART_CHECK Fixture6 frame0 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame0 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame1 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame1 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame2 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame2 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame3 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame3 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame4 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame4 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame5 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame5 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame6 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame6 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame7 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame7 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame8 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame8 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame9 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame9 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame10 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame10 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame11 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame11 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame12 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame12 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame13 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame13 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame14 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame14 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame15 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame15 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame16 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame16 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame17 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame17 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame18 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame18 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame19 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame19 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame20 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame20 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame21 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame21 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame22 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame22 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame23 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame23 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame24 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame24 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame25 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame25 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame26 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame26 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame27 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame27 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame28 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame28 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame29 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture6 frame29 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Zombie sole stays at physics foot fixture6
+ZOMBIE_ART_CHECK Game treatment actually transforms target 9
+ZOMBIE_ART_CHECK Visible alpha bounds align without resampling fixture7
+ZOMBIE_ART_CHECK Fixture7 frame0 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame0 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame1 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame1 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame2 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame2 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame3 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame3 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame4 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame4 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame5 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame5 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame6 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame6 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame7 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame7 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame8 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame8 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame9 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame9 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame10 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame10 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame11 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame11 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame12 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame12 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame13 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame13 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame14 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame14 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame15 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame15 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame16 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame16 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame17 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame17 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame18 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame18 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame19 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame19 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame20 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame20 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame21 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame21 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame22 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame22 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame23 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame23 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame24 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame24 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame25 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame25 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame26 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame26 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame27 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame27 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame28 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame28 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame29 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture7 frame29 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Zombie sole stays at physics foot fixture7
+ZOMBIE_ART_CHECK Game treatment actually transforms target 10
+ZOMBIE_ART_CHECK Visible alpha bounds align without resampling fixture8
+ZOMBIE_ART_CHECK Fixture8 frame0 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame0 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame1 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame1 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame2 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame2 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame3 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame3 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame4 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame4 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame5 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame5 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame6 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame6 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame7 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame7 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame8 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame8 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame9 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame9 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame10 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame10 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame11 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame11 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame12 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame12 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame13 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame13 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame14 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame14 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame15 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame15 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame16 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame16 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame17 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame17 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame18 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame18 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame19 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame19 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame20 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame20 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame21 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame21 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame22 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame22 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame23 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame23 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame24 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame24 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame25 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame25 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame26 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame26 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame27 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame27 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame28 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame28 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame29 flipFalse: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Fixture8 frame29 flipTrue: native RGBA + exact input (bad=0,hit=0)
+ZOMBIE_ART_CHECK Zombie sole stays at physics foot fixture8
+ZOMBIE_ART_CHECK Aura native frame0 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame1 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame2 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame3 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame4 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame5 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame6 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame7 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame8 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame9 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame10 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame11 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame12 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame13 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame14 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura native frame15 premultiplied RGBA/nearest (bad=0)
+ZOMBIE_ART_CHECK Aura unshaded color/alpha unchanged by night and warm light
+ZOMBIE_ART_CHECK Work-area mask clips effect without shifting target at (-1896, 1121)
+ZOMBIE_ART_CHECK Work-area mask clips effect without shifting target at (-24, 1121)
+ZOMBIE_ART_CHECK Work-area mask clips effect without shifting target at (-1896, 2093)
+ZOMBIE_ART_CHECK Work-area mask clips effect without shifting target at (-24, 2093)
+ZOMBIE_ART_CHECK Game treatment actually transforms target 11
+ZOMBIE_ART_CHECK Repeated Publish does not advance either animation clock
+ZOMBIE_ART_CHECK Hidden game and all native presentation freeze
+ZOMBIE_ART_CHECK Owned receiver ready
+ZOMBIE_ART_CHECK Owned receiver has focus before input
+ZOMBIE_ART_CHECK Actual transparent hole/old hand position passes click (1, 31)
+ZOMBIE_ART_CHECK Actual transparent hole/old hand position passes click (32, 32)
+ZOMBIE_ART_CHECK Actual transparent hole/old hand position passes click (63, 30)
+ZOMBIE_ART_CHECK Actual aura window forwards click across processes
+ZOMBIE_ART_CHECK Fixture opaque point for actual drag
+ZOMBIE_ART_CHECK Real right drag follows alpha body and reaches expected position
+ZOMBIE_ART_CHECK Release ends drag with bounded common stack changes
+ZOMBIE_ART_CHECK Real left click collects once and creates decorative fade
+ZOMBIE_ART_CHECK Click through visible fade reaches external receiver without double reward
+ZOMBIE_ART_CHECK Catalogue refresh keeps removed icon texture while fading
+ZOMBIE_ART_CHECK Hidden disappearance keeps snapshot without accepting input
+ZOMBIE_ART_CHECK Fade completion releases window and last uncatalogued icon reference
+ZOMBIE_ART_CHECK Game treatment actually transforms target 12
+ZOMBIE_ART_CHECK Game treatment actually transforms target 13
+ZOMBIE_ART_CHECK Game treatment actually transforms target 14
+ZOMBIE_ART_CHECK Game treatment actually transforms target 15
+ZOMBIE_ART_CHECK Game treatment actually transforms target 16
+ZOMBIE_ART_CHECK Game treatment actually transforms target 17
+ZOMBIE_ART_CHECK Game treatment actually transforms target 18
+ZOMBIE_ART_CHECK Game treatment actually transforms target 19
+ZOMBIE_ART_CHECK Eight overlapping zombies remain after effects finish
+ZOMBIE_ART_CHECK Eight independent decorative disappearances coexist
+SCP049_STOPPED
+ZOMBIE_ART_CHECK Shutdown immediately frees every actor/aura/fade window
+ZOMBIE_ART_PASS

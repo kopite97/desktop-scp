@@ -1,0 +1,121 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+SCP999_CHECK_PASS follow speed, negative desktop origin and move tag
+SCP999_CHECK_PASS movement has no baked vertical bounce
+SCP999_CHECK_PASS follow dead zone
+SCP999_CHECK_PASS out-of-range cursor ignored
+SCP999_CHECK_PASS direction reversal
+SCP999_CHECK_PASS pet begins through common command
+SCP999_CHECK_PASS duplicate press ignored
+SCP999_CHECK_PASS stress inclusive radius and outside exclusion
+SCP999_CHECK_PASS pet priority over typing
+SCP999_CHECK_PASS stationary hold does not repeatedly count as rubbing
+SCP999_CHECK_PASS rubbing relieves shared state within range
+SCP999_CHECK_PASS release outside recovers pet
+SCP999_CHECK_PASS typing burst merged and reaction spawned
+SCP999_CHECK_PASS reaction lifetime and one-shot return
+SCP999_CHECK_PASS right drag across physical monitors without extra DPI scale
+SCP999_CHECK_PASS drag release starts actual gravity
+SCP999_CHECK_PASS ground movement emits trail
+SCP999_CHECK_PASS trail does not follow body after spawn
+SCP999_CHECK_PASS actual airborne state prevents new trail
+SCP999_CHECK_PASS actual landing recovers to idle
+SCP999_CHECK_PASS actual collision starts land animation
+SCP999_CHECK_PASS moving ledge carries body and attached trail
+SCP999_CHECK_PASS balance has priority over pet and typing
+SCP999_CHECK_PASS balance recovery animation retained
+SCP999_CHECK_PASS companion footprint fits adjacent jump
+SCP999_CHECK_PASS shared jump emits takeoff tag
+SCP999_CHECK_PASS companion lands on adjacent ledge
+SCP999_CHECK_PASS minimize removes attached trail
+SCP999_CHECK_PASS removed ledge emits fall
+SCP999_CHECK_PASS companion settles to floor after ledge removal
+SCP999_CHECK_PASS hide cancels gestures/VFX and freezes common state
+SCP999_CHECK_PASS show preserves position without queued actions
+SCP999_CHECK_PASS removed monitor recovery
+SCP999_CHECK_PASS stress clamps lower bound
+SCP999_CHECK_PASS stress clamps upper bound
+SCP999_CHECK_PASS trail cap removes oldest
+SCP999_CHECK_PASS reaction cap under sustained input
+SCP999_CHECK_PASS all effect categories cleared together
+SCP999_CHECK_PASS shutdown is terminal and idempotent
+SCP999_CHECK_PASS hide cancels drag while preserving airborne position
+SCP999_CHECK_PASS idle starts at correct frame
+SCP999_CHECK_PASS idle loop/one-shot contract
+SCP999_CHECK_PASS move starts at correct frame
+SCP999_CHECK_PASS move loop/one-shot contract
+SCP999_CHECK_PASS typing_react starts at correct frame
+SCP999_CHECK_PASS typing_react loop/one-shot contract
+SCP999_CHECK_PASS pet starts at correct frame
+SCP999_CHECK_PASS pet loop/one-shot contract
+SCP999_CHECK_PASS pet_recover starts at correct frame
+SCP999_CHECK_PASS pet_recover loop/one-shot contract
+SCP999_CHECK_PASS takeoff starts at correct frame
+SCP999_CHECK_PASS takeoff loop/one-shot contract
+SCP999_CHECK_PASS fall starts at correct frame
+SCP999_CHECK_PASS fall loop/one-shot contract
+SCP999_CHECK_PASS land starts at correct frame
+SCP999_CHECK_PASS land loop/one-shot contract
+SCP999_CHECK_PASS balance starts at correct frame
+SCP999_CHECK_PASS balance loop/one-shot contract
+SCP999_CHECK_PASS balance_recover starts at correct frame
+SCP999_CHECK_PASS balance_recover loop/one-shot contract
+SCP999_CHECK_PASS trail hold extension and transparent end
+SCP999_CHECK_PASS reaction transparent end frame
+SCP999_STARTED body=r005 reaction=r001 trail=r001-unapproved
+SITE_DESKTOP_READY
+SCP999_CHECK_PASS native body window flags
+SCP999_CHECK_PASS native physical origin matches state
+SCP999_CHECK_PASS art silhouette input region replaces placeholder
+SCP999_CHECK_PASS Windows keyboard activity subscription installed
+SCP999_CHECK_PASS native reaction fully click-through
+SCP999_CHECK_PASS native trail independent windows
+SCP999_HIDDEN
+SCP999_CHECK_PASS hide releases Windows input subscription and all effect windows
+SCP999_SHOWN
+SCP999_CHECK_PASS restore reinstalls input without stale VFX
+SCP999_CHECK_PASS companion fixtures within requested LG work area
+SCP999_CHECK_PASS native airborne companion rejects pet
+SCP999_CHECK_PASS native observed collision plays landing
+SCP999_CHECK_PASS native body and trail attached to actual ledge at physical coordinates
+SCP999_CHECK_PASS native moved window carries sprite and residue with balance animation
+SCP999_CHECK_PASS native balance recovery is not overwritten by idle
+SCP999_CHECK_PASS actual minimize removes residue and releases companion
+SCP999_CHECK_PASS native fall settles above LG taskbar
+SCP999_CHECK_PASS actual adjacent window accepts companion jump
+SCP999_CHECK_PASS native jump starts takeoff
+SCP999_CHECK_PASS visible companion lands on neighboring native window
+SCP999_CHECK_PASS neighbor window receives its own trail
+SCP999_CHECK_PASS native occlusion clears companion support and residue
+SCP999_CHECK_PASS destroyed native support clears residue without stale identity
+SCP999_HIDDEN
+SCP999_CHECK_PASS hidden companion freezes environment observation
+SCP999_SHOWN
+SCP999_CHECK_PASS restore observes moved support immediately
+SCP999_CHECK_PASS product controller polls actual OS windows
+SCP999_SHOWN
+SCP999_CHECK_PASS separate owned input receiver ready
+SCP999_CHECK_PASS owned receiver acquired foreground before synthetic input
+SCP999_CHECK_PASS native body click reaches pet/shared stress, not receiver
+SCP999_CHECK_PASS native transparent corner passes down and up to separate process
+SCP999_CHECK_PASS global activity hook reacts while receiver retains keyboard focus
+SCP999_CHECK_PASS reaction input probe lies outside body silhouette
+SCP999_CHECK_PASS native reaction window passes down and up to separate process
+SCP999_CHECK_PASS native trail window passes down and up to separate process
+SCP999_CHECK_PASS native held rubbing reduces common stress and release ends gesture
+SCP999_CHECK_PASS native right drag uses global pointer polling
+SCP999_CHECK_PASS native right release starts falling
+SCP999_CHECK_PASS native cursor drives follow movement
+SCP999_CHECK_PASS fresh effect present before real-time expiry check
+SCP999_CHECK_PASS real elapsed frames finish reaction and settle to idle
+SCP999_HIDDEN
+SCP999_CHECK_PASS hidden body passes input and generates no typing reaction
+SCP999_SHOWN
+SCP999_CHECK_PASS fresh reaction before wall-clock expiry
+SCP999_CHECK_PASS wall-clock reaction expiry removes native window
+SCP999_STOPPED
+SCP999_CHECK_PASS product shutdown releases resources
+SCP999_SMOKE_PASS checks=105 native=True
+SITE_DESKTOP_EXIT_REQUESTED
+SITE_DESKTOP_STOPPED

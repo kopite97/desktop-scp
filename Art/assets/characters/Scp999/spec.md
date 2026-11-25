@@ -2,10 +2,10 @@
 
 - AssetId: Scp999 / characters / SCP-999 정식 본체 후보.
 - 제작: [ART-001](../../../docs/plans/ART-001-scp-999-character.md), 요청 PLAN-005-SPR-001.
-- 개발: [PLAN-005](../../../../docs/plans/PLAN-005-scp-999.md), active. 단계 A 조명 시험을 먼저 실행하며 제품 기능 통합은 미실행이다.
+- 개발: [PLAN-005](../../../../docs/plans/PLAN-005-scp-999.md), on hold. 단계 A 조명과 단계 B 바닥 행동 제품 통합을 검증했고 공통 창 발판 물리와 이 개체의 최종 연결은 남아 있다.
 - 전체 동작 원본: [Scp999.aseprite](source/Scp999.aseprite), r001 유지.
-- 현재 편집: [Scp999-outline-unlit.aseprite](source/Scp999-outline-unlit.aseprite), 최신 [r005 외곽선 분리](revisions/r005/README.md). 후속 담당 [ART-002](../../../docs/plans/ART-002-scp-999-reaction.md), 마지막 사용자 확인은 r004.
-- 보존: [r001](revisions/r001/README.md) 전체 동작 시안 / [r002](revisions/r002/README.md) 4장 조명 샘플. 최신 사용자 확인 리비전은 r004다.
+- 현재 편집: [Scp999-outline-unlit.aseprite](source/Scp999-outline-unlit.aseprite), 최신 [r005 외곽선 분리](revisions/r005/README.md). 후속 담당 [ART-002](../../../docs/plans/ART-002-scp-999-reaction.md), 마지막 사용자 확인은 r005(2026-11-24 F-008).
+- 보존: [r001](revisions/r001/README.md) 전체 동작 시안 / [r002](revisions/r002/README.md) 4장 조명 샘플. 최신 사용자 확인 리비전은 r005다.
 - 엔진 샘플 시험: PLAN-005 단계 A. 별도 후보 PLAN-009의 범위를 통합했다.
 - 전달: [handoff](handoff.md).
 
@@ -16,7 +16,7 @@
 - Scp999_outline.png를 Unshaded/Mix로 앞에 합성한다. lit 출력과 겹침 0, 재합성은 r004 RGBA와 정확히 일치한다. normal/specular 데이터는 r004와 동일하다.
 - 중립 공통 부모, 몸체의 선택적 self_modulate, 단일 상태의 frame/FlipH/scale/visibility 동기화. 표정은 lit 유지. 원본 1px 외곽선의 색을 조명과 무관하게 보존한다.
 - [r005 계약](revisions/r005/export/Scp999.contract.json), [Art 파일 검사](../../../docs/plans/evidence/ART-002/run-003/README.md), [전체 엔진 검사](../../../../docs/plans/evidence/PLAN-005/run-012/README.md).
-- 최신 제출 r005 사용자 시각 확인 대기, 최근 승인 r004, 정식 제품 미적용. 아래는 이전 리비전 참조다.
+- 최신 제출·승인·제품 적용 r005, 2026-11-24 [F-008](revisions/r005/review/feedback.md) 사용자 시각 확인 완료. 현재 적용은 [전달 기록](handoff.md)을 따른다. 아래는 이전 리비전 참조다.
 
 ## r004 이전 제출
 
@@ -30,7 +30,7 @@
 
 반투명 주황색 슬라임에 짧고 둥근 점액 팔 두 개를 추가했다.
 2026-11-23 사용자 요청에 따라 move는 바닥에 붙어 앞쪽이 먼저 나아가고 뒤쪽 몸체가 늘어졌다 따라오는 형태다.
-별도 바닥 점액 자국은 ART-003에서 제작한다. 본체에 대한 현재 사용자 확인은 r004에 기록한다.
+별도 바닥 점액 자국은 ART-003에서 제작한다. 이 절의 r004 사용자 확인은 당시 피드백 F-006이며 최신 승인은 위 r005를 따른다.
 
 ## 공통 규격과 r001 전체 동작 참조
 

@@ -13,6 +13,7 @@
 | --- | --- |
 | 원본·출력·리비전 경로와 명명 | [아트 구조](docs/agents/project-structure.md) |
 | 외형·팔레트·규격·데스크톱 가독성 | [디자인 기준](docs/agents/design.md) |
+| PLAN별 참고 이미지 저장·명명·출처 기록 | [아트 구조](docs/agents/project-structure.md), [참고 이미지 폴더](docs/plans/references/README.md) |
 | 기본색·노멀/반사 맵·조명 샘플·시간대 연출 계약 | [조명과 재질](docs/agents/lighting.md) |
 | 동작·태그·시간·프레임 정렬 | [애니메이션](docs/agents/animation.md) |
 | Aseprite 연결·파일 대상·편집·출력 | [Aseprite 운영](docs/agents/aseprite.md) |

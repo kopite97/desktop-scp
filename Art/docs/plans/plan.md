@@ -5,7 +5,7 @@
 
 ## 작업 단위와 위치
 
-- 실제 기록은 이 디렉터리 바로 아래 `ART-NNN-topic.md`다. README·plan.md·템플릿·evidence는 작업 기록이 아니다.
+- 실제 기록은 이 디렉터리 바로 아래 `ART-NNN-topic.md`다. README·plan.md·템플릿·evidence·references는 작업 기록이 아니다.
 - 기본 작업 단위는 에셋 하나와 이번 제작 범위다. 같은 에셋의 방향·동작·보조 맵은 해당 범위에 묶을 수 있다.
 - 사용자가 기존 active ART에 다른 에셋의 후속 수정을 명시적으로 묶으면 그 지시를 기록하고 포함할 수 있다. 완료된 과거 ART는 그대로 보존한다.
 - 이 경우 메타데이터는 주 에셋을 유지하고 본문에 추가 AssetId별 작업/승인 리비전·검수·전달 표를 둔다. 주 에셋의 승인 숫자로 추가 에셋까지 승인됐다고 판단하지 않는다.
@@ -73,7 +73,7 @@
 
 1. [_template.md](_template.md)를 이 디렉터리의 새 ART 파일로 복사한다.
 2. 목표·포함/제외·요청 근거·선행 조건·규격·산출물 위치·완료 기준을 정한다.
-3. 원본·제출본·리뷰 위치는 [아트 구조](../agents/project-structure.md)와 [리비전](../agents/revisions.md)을 따른다.
+3. 원본·제출본·리뷰와 PLAN별 참고 이미지 위치·명명은 [아트 구조](../agents/project-structure.md)와 [리비전](../agents/revisions.md)을 따른다. 참고 폴더 README를 ART에 연결하고 채택 기준을 적는다.
 4. 실행 로그·결과는 `Art/docs/plans/evidence/ART-NNN/run-NNN/`에 저장한다. 원본과 리뷰는 복제하지 않고 연결한다.
 5. 실제 결과·미검증·현재 상황·다음 행동을 ART에 갱신한다.
 

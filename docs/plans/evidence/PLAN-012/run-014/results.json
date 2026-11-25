@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "checks": [
+    "Actual Desktop view returns bounded icon images",
+    "Owned custom shortcut icon retrieved with exact RGB and transparent hole",
+    "In-flight process cancellation completes without leaving worker",
+    "Cancelled worker request terminates",
+    "Catalog sample accepted by product service",
+    "Provider failure clears future candidates and retains live snapshot",
+    "Completed stale generation is discarded after pause and resume",
+    "Unused snapshot released after object removal",
+    "Repeated extraction retains fixture identity 0",
+    "Repeated extraction retains fixture identity 1",
+    "Repeated extraction retains fixture identity 2",
+    "Bounded extraction and cancellation leave no worker processes",
+    "Product Main owns populated runtime icon service",
+    "Owned fixture reaches product texture cache",
+    "Godot texture roundtrip preserves all source RGBA bytes",
+    "Alpha hit mask includes body and excludes transparent hole and margin",
+    "Treatment retains icon identity in zombie state",
+    "No icon means skip spawn instead of substitute art",
+    "Native actor receives cached icon appearance",
+    "Actual native viewport renders expected fixture color",
+    "Actual native viewport preserves fixture hole alpha",
+    "Hide pauses icons and removes native input islands",
+    "Restore shows existing icon snapshots",
+    "Catalog plus live appearance cache is bounded",
+    "Exit clears textures and game state"
+  ],
+  "nativeInput": false,
+  "catalogCount": 14,
+  "kinds": [
+    {
+      "kind": "shortcut",
+      "count": 5
+    },
+    {
+      "kind": "folder",
+      "count": 2
+    },
+    {
+      "kind": "item",
+      "count": 7
+    }
+  ],
+  "limitations": [
+    "Filename labels, thumbnails, sync badges not reproduced",
+    "Mixed-DPI hardware not yet verified",
+    "User visual confirmation pending"
+  ]
+}

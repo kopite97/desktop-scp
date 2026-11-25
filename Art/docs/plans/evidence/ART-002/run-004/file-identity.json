@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-24",
+  "scope": "Resume file identity check only; no new engine rendering or animation timing measurement",
+  "passed": false,
+  "checks": [
+    {
+      "kind": "source-preservation",
+      "path": "Art/assets/characters/Scp999/source/Scp999-lighting.aseprite",
+      "sha256": "BC94BF55AAB22ED38F110D369774692C618E4C0DAC62AB4A84D3951D83D34C1F",
+      "expected": "BC94BF55AAB22ED38F110D369774692C618E4C0DAC62AB4A84D3951D83D34C1F",
+      "passed": true
+    },
+    {
+      "kind": "source-preservation",
+      "path": "Art/assets/characters/Scp999/revisions/r004/source/Scp999-lighting.aseprite",
+      "sha256": "BC94BF55AAB22ED38F110D369774692C618E4C0DAC62AB4A84D3951D83D34C1F",
+      "expected": "BC94BF55AAB22ED38F110D369774692C618E4C0DAC62AB4A84D3951D83D34C1F",
+      "passed": true
+    },
+    {
+      "kind": "source-preservation",
+      "path": "Art/assets/characters/Scp999/source/Scp999-outline-unlit.aseprite",
+      "sha256": "CF6FA4CBE281134A27860A0869827BD25B2C23738D2A4438B1A7075CB59BB290",
+      "expected": "CF6FA4CBE281134A27860A0869827BD25B2C23738D2A4438B1A7075CB59BB290",
+      "passed": true
+    },
+    {
+      "kind": "source-preservation",
+      "path": "Art/assets/characters/Scp999/revisions/r005/source/Scp999-outline-unlit.aseprite",
+      "sha256": "CF6FA4CBE281134A27860A0869827BD25B2C23738D2A4438B1A7075CB59BB290",
+      "expected": "CF6FA4CBE281134A27860A0869827BD25B2C23738D2A4438B1A7075CB59BB290",
+      "passed": true
+    },
+    {
+      "kind": "source-preservation",
+      "path": "Art/assets/vfx/Scp999Reaction/source/Scp999Reaction.aseprite",
+      "sha256": "CDC415ECEF470B9B5314EA145B548950D96E06D843F1E8F2A8C414C7E9D2CA2B",
+      "expected": "CDC415ECEF470B9B5314EA145B548950D96E06D843F1E8F2A8C414C7E9D2CA2B",
+      "passed": true
+    },
+    {
+      "kind": "source-preservation",
+      "path": "Art/assets/vfx/Scp999Reaction/revisions/r001/source/Scp999Reaction.aseprite",
+      "sha256": "CDC415ECEF470B9B5314EA145B548950D96E06D843F1E8F2A8C414C7E9D2CA2B",
+      "expected": "CDC415ECEF470B9B5314EA145B548950D96E06D843F1E8F2A8C414C7E9D2CA2B",
+      "passed": true
+    },
+    {
+      "kind": "diagnostic-copy",
+      "path": "Art/assets/characters/Scp999/revisions/r005/export/Scp999_color.png",
+      "target": "GodotProject\\Assets\\Diagnostics\\Scp999Lighting\\r005\\Scp999_color.png",
+      "sha256": "2413ECF1B8716C875FA9B6668C40C98135A84E380D07C85ABB11A576B9CE767B",
+      "targetSha256": "2413ECF1B8716C875FA9B6668C40C98135A84E380D07C85ABB11A576B9CE767B",
+      "passed": true
+    },
+    {
+      "kind": "diagnostic-copy",
+      "path": "Art/assets/characters/Scp999/revisions/r005/export/Scp999_combined.png",
+      "target": "GodotProject\\Assets\\Diagnostics\\Scp999Lighting\\r005\\Scp999_combined.png",
+      "sha256": "6C1214D64D23D88CC632DA4A0AF80CF8B354AB6498F9BDF5B2807732A7F6BAAE",
+      "targetSha256": "6C1214D64D23D88CC632DA4A0AF80CF8B354AB6498F9BDF5B2807732A7F6BAAE",
+      "passed": true
+    },
+    {
+      "kind": "diagnostic-copy",
+      "path": "Art/assets/characters/Scp999/revisions/r005/export/Scp999_normal.png",
+      "target": "GodotProject\\Assets\\Diagnostics\\Scp999Lighting\\r005\\Scp999_normal.png",
+      "sha256": "24F58D0ACF905A247F8701CD423B3F08540BB4F9561DBA30A34585333F685D06",
+      "targetSha256": "24F58D0ACF905A247F8701CD423B3F08540BB4F9561DBA30A34585333F685D06",
+      "passed": true
+    },
+    {
+      "kind": "diagnostic-copy",
+      "path": "Art/assets/characters/Scp999/revisions/r005/export/Scp999_outline.png",
+      "target": "GodotProject\\Assets\\Diagnostics\\Scp999Lighting\\r005\\Scp999_outline.png",
+      "sha256": "961C77087A168CD0F687298DF9A3556BBA13B0D20B23C04F49E6C9EB5EABE7A6",
+      "targetSha256": "961C77087A168CD0F687298DF9A3556BBA13B0D20B23C04F49E6C9EB5EABE7A6",
+      "passed": true
+    },
+    {
+      "kind": "diagnostic-copy",
+      "path": "Art/assets/characters/Scp999/revisions/r005/export/Scp999_specular.png",
+      "target": "GodotProject\\Assets\\Diagnostics\\Scp999Lighting\\r005\\Scp999_specular.png",
+      "sha256": "4D27565AB49A4149670089FB9B83B0FE73102026B6238CCDC32EB43C54F5EFC8",
+      "targetSha256": "4D27565AB49A4149670089FB9B83B0FE73102026B6238CCDC32EB43C54F5EFC8",
+      "passed": true
+    },
+    {
+      "kind": "diagnostic-copy",
+      "path": "Art/assets/characters/Scp999/revisions/r005/export/Scp999.contract.json",
+      "target": "GodotProject\\Assets\\Diagnostics\\Scp999Lighting\\r005\\Scp999.contract.json",
+      "sha256": "63FD191E7504AF885ECE3DAC5A22DD510B3705139EA1D2ECA26FC894C3BF940F",
+      "targetSha256": "63FD191E7504AF885ECE3DAC5A22DD510B3705139EA1D2ECA26FC894C3BF940F",
+      "passed": true
+    },
+    {
+      "kind": "diagnostic-copy",
+      "path": "Art/assets/vfx/Scp999Reaction/revisions/r001/export/Scp999Reaction.contract.json",
+      "target": "GodotProject\\Assets\\Diagnostics\\Scp999Lighting\\reaction-r001\\Scp999Reaction.contract.json",
+      "sha256": "A0882B6D1AC851BA19674BF4CB419C0FFB98540FB7E867A452A860C0D710180E",
+      "targetSha256": "A0882B6D1AC851BA19674BF4CB419C0FFB98540FB7E867A452A860C0D710180E",
+      "passed": true
+    },
+    {
+      "kind": "diagnostic-copy",
+      "path": "Art/assets/vfx/Scp999Reaction/revisions/r001/export/Scp999Reaction.json",
+      "target": "GodotProject\\Assets\\Diagnostics\\Scp999Lighting\\reaction-r001\\Scp999Reaction.json",
+      "sha256": "8482A22D651E9ADD21098FC8328D187619AE98857784325C0F78100BF965FBD3",
+      "targetSha256": null,
+      "passed": false
+    },
+    {
+      "kind": "diagnostic-copy",
+      "path": "Art/assets/vfx/Scp999Reaction/revisions/r001/export/Scp999Reaction.png",
+      "target": "GodotProject\\Assets\\Diagnostics\\Scp999Lighting\\reaction-r001\\Scp999Reaction.png",
+      "sha256": "9698A78E37AF49C03230E74D20D7D15591C716A3B349853A95AD796752B3DFCC",
+      "targetSha256": "9698A78E37AF49C03230E74D20D7D15591C716A3B349853A95AD796752B3DFCC",
+      "passed": true
+    }
+  ]
+}

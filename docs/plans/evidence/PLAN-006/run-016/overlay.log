@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+OVERLAY_CHECK_PASS negative-origin conversion
+OVERLAY_CHECK_PASS monitor boundary clamp
+OVERLAY_CHECK_PASS work-area clamp
+OVERLAY_CHECK_PASS cross-monitor physical pixels, no DPI double scaling
+OVERLAY_CHECK_PASS hide cancels drag
+OVERLAY_CHECK_PASS hidden input ignored
+OVERLAY_CHECK_PASS restore preserves state
+OVERLAY_CHECK_PASS removed monitor recovery
+OVERLAY_CHECK_PASS release outside cancels capture
+OVERLAY_CHECK_PASS fast drag retains release position
+SITE_DESKTOP_READY
+SCP999_HIDDEN
+OVERLAY_SMOKE_PASS checks=10 display=headless
+SITE_DESKTOP_EXIT_REQUESTED
+SCP999_STOPPED
+OVERLAY_STOPPED
+SITE_DESKTOP_STOPPED

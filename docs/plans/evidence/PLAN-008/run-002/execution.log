@@ -1,0 +1,69 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+SYSTEM_CHECK Fresh session defaults strong effects OFF
+SYSTEM_CHECK Below thresholds leaves reactions inactive
+SYSTEM_CHECK Threshold boundaries enable heat and noise
+SYSTEM_CHECK Hysteresis avoids threshold flicker
+SYSTEM_CHECK Low readings release reactions
+SYSTEM_CHECK RAM independently enables heat; mute suppresses noise
+SYSTEM_CHECK Invalid metrics become unavailable
+SYSTEM_CHECK Stale readings expire after five seconds
+SYSTEM_CHECK Explicit option enables effect requests
+SYSTEM_CHECK Lockdown rejects effects and late metrics
+SYSTEM_CHECK Resume rejects old generation without catch-up
+SYSTEM_CHECK Shutdown rejects subsequent state updates
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED art=temporary-code ART-004..007
+SCP173_STARTED art=temporary-code
+SITE_DESKTOP_READY
+SYSTEM_CHECK Product metric input updates actual companion speed, shape and surgery rate
+SYSTEM_CHECK Product noise increases common statue stress
+SYSTEM_CHECK Flattened sprite and input contour share the same transform
+SYSTEM_CHECK Real aggregate Windows CPU and RAM reach product state
+SYSTEM_CHECK Real default-output volume reaches product state
+SYSTEM_CHECK Native tray indicator and three-item menu created
+SYSTEM_CHECK Real Ctrl+Shift+L global hotkey registered
+SCP999_HIDDEN
+ERROR: Can't change visibility of main window.
+   at: set_visible (scene/main/window.cpp:1017)
+   C# backtrace (most recent call first):
+       [0] void Godot.NativeCalls.godot_icall_0_3(nint, nint) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:51)
+       [1] void Godot.Window.Hide() (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Window.cs:1277)
+       [2] void SiteDesktop.App.SystemController.SetLocked(bool) (C:\Dev\scp_desktop\GodotProject\Scripts\App\SystemController.cs:51)
+       [3] void SiteDesktop.App.SystemController.ToggleLockdown() (C:\Dev\scp_desktop\GodotProject\Scripts\App\SystemController.cs:40)
+       [4] void SiteDesktop.App.Main.ToggleOverlays() (C:\Dev\scp_desktop\GodotProject\Scripts\App\Main.cs:59)
+       [5] void Godot.Callable.<From>g__Trampoline|1_0(object, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Callable.generics.cs:39)
+       [6] void Godot.DelegateUtils.InvokeWithVariantArgs(nint, System.Void*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/DelegateUtils.cs:86)
+       [7] Godot.NativeInterop.godot_variant Godot.NativeInterop.NativeFuncs.godotsharp_method_bind_call(nint, nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Godot.SourceGenerators.Internal/Godot.SourceGenerators.Internal.UnmanagedCallbacksGenerator/Godot.NativeInterop.NativeFuncs.generated.cs:388)
+       [8] int Godot.NativeCalls.godot_icall_2_921(nint, nint, Godot.NativeInterop.godot_string_name, System.ReadOnlySpan`1[Godot.Variant], Godot.NativeInterop.godot_string_name) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:8163)
+       [9] Godot.Error Godot.GodotObject.EmitSignal(Godot.StringName, Godot.Variant[]) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/GodotObject.cs:719)
+       [10] void SiteDesktop.Diagnostics.SystemSmoke+<_Ready>d__11.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\SystemSmoke.cs:76)
+       [11] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [12] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [13] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [14] void System.Threading.Tasks.Task.RunContinuations(object)
+       [15] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(System.Threading.Tasks.Task`1[TResult], TResult)
+       [16] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [17] void SiteDesktop.Diagnostics.SystemSmoke+<Frames>d__9.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\SystemSmoke.cs:27)
+       [18] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [19] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [20] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+SITE_LOCKED
+SYSTEM_CHECK UI button locks all actors and icon service through shared command
+SYSTEM_CHECK Lockdown freezes position, simulation time and stress
+SYSTEM_CHECK Lockdown removes native actor and shutter input surfaces
+SCP999_SHOWN
+SITE_RESUMED
+SYSTEM_CHECK Registered tray callback resumes the same application state
+SYSTEM_CHECK Tray menu reflects resumed state
+SYSTEM_CHECK Resume preserves existing state without elapsed-time burst
+SYSTEM_OPTIONS_STOPPED
+SYSTEM_CHECK Shutdown releases effect, hotkey, tray and sampling owner
+SYSTEM_CHECK Hotkey can register again after shutdown
+SYSTEM_PASS
+SITE_DESKTOP_EXIT_REQUESTED
+SCP173_STOPPED
+SCP999_STOPPED
+SCP049_STOPPED
+SITE_DESKTOP_STOPPED

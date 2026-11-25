@@ -9,7 +9,7 @@
 - .NET SDK 8.0.318, 런타임 8.0.21, 대상 net8.0, Godot.NET.Sdk 4.7.2.
 - 프로젝트는 [GodotProject/project.godot](../../GodotProject/project.godot), 솔루션은 [SiteDesktop.sln](../../GodotProject/SiteDesktop.sln)이다.
 - 렌더러는 Compatibility/OpenGL이다. Windows 11 10.0.26300과 NVIDIA RTX 5070에서 최소 창을 확인했다.
-- 현재 구현은 C# 제어 창·두 투명 오버레이·클릭 투과·드래그·숨김/복원과 진단 씬이다. SCP 행동은 아직 없다.
+- Run은 SCP·복제 아이콘을 활동시키고 제어창 없이 트레이에 상주한다. PlatformPreview는 공통 창 발판/물리의 별도 실행 경로다.
 - 버전·선택 이유·한계는 [TECH-002](../decisions/TECH-002-development-toolchain.md), 실행 증거는 [PLAN-002](../plans/PLAN-002-development-environment.md)를 따른다.
 
 ## 도구 경로와 준비
@@ -47,9 +47,9 @@ node --test scripts/validate-agent-docs.test.mjs
 ```
 
 Build는 C# 컴파일이며 배포용 내보내기가 아니다. C# 수정 뒤 다시 실행한다.
-Run은 제어 창과 두 오버레이를 연다. 개체를 드래그하고 Hide/Show로 숨김·복원, Reset positions로 위치를 초기화한다.
-Exit 버튼 또는 제어 창 닫기로 모두 종료한다. Hide 중 제어 창은 유지한다.
-Editor는 편집기 실행용이며 PLAN-002의 시각 검증은 Run 창에서 수행했다.
+Run은 저장된 SCP ON/OFF를 복원한 뒤 트레이를 시작한다. 트레이 좌클릭/Show controls로 제어창을 열고, X·Alt+F4·Hide controls로 창만 숨긴다. 봉쇄/재개는 Ctrl+Shift+L 또는 트레이 메뉴를 사용한다.
+완전 종료는 트레이 Exit다. 트레이 생성 실패 시 제어창과 Exit 버튼을 유지한다. 재개 시 제어창은 자동으로 열리지 않는다.
+진단은 사용자 설정을 격리한다. 로컬 EXE 재현은 `-- --scp-settings-file <격리 JSON 절대 경로>`로 저장 파일을 지정할 수 있다.
 
 ## 환경 검증
 
@@ -86,10 +86,9 @@ Editor는 편집기 실행용이며 PLAN-002의 시각 검증은 Run 창에서 �
 ## SCP-999 조명 진단
 
 ```powershell
-./scripts/godot.ps1 -Action LightingProbe -Revision r005 -EvidenceDirectory 'docs/plans/evidence/PLAN-005/run-015' -LogFile 'docs/plans/evidence/PLAN-005/run-015/execution.log' -Preview
+./scripts/godot.ps1 -Action LightingProbe -Revision r005 -EvidenceDirectory 'docs/plans/evidence/PLAN-005/run-039' -LogFile 'docs/plans/evidence/PLAN-005/run-039/execution.log' -MonitorId GSM5BDE -Preview
 ```
 
-- run-015는 다음 실행 예시다. 기존 결과/로그를 덮어쓰지 않는다. 실제 Windows 디스플레이가 필요하며 Headless는 거부한다.
 - r002는 4장, r003은 idle/move 12장, r004는 50장이다. r005-sample/r005는 외곽선 분리 4장/50장이다. 제품 진입 씬은 바꾸지 않는다.
 - Preview를 생략하면 제한 시간 내 자동 종료한다. Preview에서는 방향키로 광원, N으로 밤, F로 반전, Space로 재생, H로 두 오버레이 숨김/복원, Esc/Exit로 종료한다.
 - Measure는 렌더 검증 뒤 비용 검사, MeasureOnly는 렌더 캡처 없이 비용만 검사한다. 후자는 이미지·재생 검증 성공으로 보고하지 않는다.
@@ -100,12 +99,51 @@ Editor는 편집기 실행용이며 PLAN-002의 시각 검증은 Run 창에서 �
 
 ## 실행 기록과 마감
 
+창 발판/물리는 LG 하드웨어 ID를 지정해 실행한다. WMI의 LG FULL HD와 Win32 경계를 대조한 식별자이며 주 모니터 설정은 변경하지 않는다.
+
+```powershell
+./scripts/godot.ps1 -Action PlatformPreview -MonitorId GSM5BDE
+./scripts/godot.ps1 -Action PlatformSmoke -MonitorId GSM5BDE -EvidenceDirectory 'docs/plans/evidence/PLAN-004/run-009' -LogFile 'docs/plans/evidence/PLAN-004/run-009/execution.log'
+```
+
+- 새 회차 경로를 사용한다. Headless 옵션은 공통 규칙/재현 검사, native는 선택 화면의 소유한 시험 창 이동·가려짐·최소화·최대화·종료·화면 픽셀까지 검사한다.
+- Preview는 물리 마커를 오른쪽 드래그 후 놓아 낙하시키고 왼쪽 클릭/Jump로 도약한다. 제어 창의 보행/정지/숨김/복원/종료를 사용할 수 있다.
+- MonitorId 선택은 PlatformPreview/PlatformSmoke/Run/Scp999Smoke/Scp999Color에서 지원한다. 지정 화면이 초기부터 없거나 여러 개면 실패한다.
+- [PLAN-004 최종 증거](../plans/evidence/PLAN-004/run-008/README.md)는 개별 SCP-999 통합/아트 검수와 구분한다.
+
+SCP-999 제품 검사는 새 회차 경로에 다음과 같이 실행한다.
+
+```powershell
+./scripts/godot.ps1 -Action Scp999Smoke -EvidenceDirectory 'docs/plans/evidence/PLAN-005/run-039' -LogFile 'docs/plans/evidence/PLAN-005/run-039/execution.log' -MonitorId GSM5BDE
+```
+
+- `-Headless`는 공통 상태·규칙만 확인한다. 기본 Windows 검사는 실제 창/수명/정리를 포함한다.
+- `-NativeInput`은 별도 소유 수신기에 합성 클릭과 F24 활동을 보내 실제 입력 전달·문지름·오른쪽 드래그를 검사한다. 포커스 요청이 거부되면 WindowFromPoint/PID로 소유 수신기를 확인한 뒤 활성화 클릭을 시도한다. 이후에도 포커스가 달라지면 입력을 중단하며 사용자 앱에 대신 보내지 않는다.
+- NativeInput 실행 중 커서를 사용하면 검사와 충돌할 수 있다. 시험은 제한 시간 안에 끝나며 생성한 수신기만 종료하고 원래 커서/포커스 복원을 시도한다.
+- 결과·실패 원인·회귀와 한계는 [최종 통합 증거](../plans/evidence/PLAN-005/run-035/README.md)에 있다. 네이티브 창 플래그만으로 외부 클릭 전달 성공을 판정하지 않는다.
+
+- `Scp999Color`는 EvidenceDirectory/LogFile/MonitorId로 동일 프레임의 실제 제품 조명 전후를 비교한다. Headless는 지원하지 않는다.
+- `Run -MonitorId GSM5BDE`는 SCP를 LG에 표시하고 제어창은 트레이에서 열 때 LG에 표시한다. 오른쪽 드래그를 놓으면 실제 창/바닥에 낙하한다.
+
 - 정확한 버전·명령·작업 디렉터리·대상·종료 결과·산출물 위치를 PLAN 증거에 남긴다.
 - 일반 C# 컴파일, 에디터 실행, 테스트 실행, 배포용 내보내기를 구분한다.
 - 실제 Windows 표시·클릭 투과를 화면 없는 테스트 통과로 대신하지 않는다.
 - 테스트 도구 연결 성공과 테스트 수행·제품 검증 성공을 구분한다.
 
+## SCP-049 진단
+
+- `Scp049Smoke -MonitorId GSM5BDE -EvidenceDirectory <새 회차> -LogFile <새 로그>`: LG의 소유 창에서 제품 사이클/물리를 검증한다. `-Headless`는 규칙, `-NativeInput`은 별도 수신기 입력을 추가한다.
+- native Scp049Smoke/Scp999Smoke/PlatformSmoke는 같은 프로젝트의 live-preview.log 프로세스가 남아 있으면 시작 전에 거부한다. CloseMainWindow 반환만으로 종료를 가정하지 말고 소유 PID/프로세스 종료를 확인한다.
+- 실제 입력 중 사용자 마우스 이동과 충돌하면 실패를 보존하고 간섭 없는 구간에 다시 검사한다. [PLAN-006 증거](../plans/evidence/PLAN-006/run-026/README.md).
+
+- `OverlayStackSmoke -MonitorId GSM5BDE -EvidenceDirectory <새 회차> -LogFile <새 로그> -TimeoutSeconds 90`: 실제 겹침 30초·순서·창 수명 검사. `-NativeInput`은 별도의 짧은 실제 겹침 드래그/수신기 검사다. Headless는 거부하며 [PLAN-011](../plans/PLAN-011-overlay-stacking.md)에 증거를 남긴다.
+
 ## 공식 기준
+
+- 로컬 EXE: [export-windows.ps1](../../scripts/export-windows.ps1) `-LogFile <새 로그>`로 Windows x64를 `.artifacts/PLAN-015/windows-x64`에 내보낸다. 4.7.2 .NET Windows 템플릿이 필요하다. `SiteDesktop.exe`와 PCK·data·IconWorker 폴더를 함께 유지한다. 콘솔 래퍼는 생성하지 않는다.
+- 시작 관찰: [observe-tray-startup.ps1](../../scripts/observe-tray-startup.ps1) `-EvidenceDirectory <새 회차>`는 소유 EXE만 최대30초 관찰하고 180프레임 후 종료한다. 입력 없이 창 크기·표시·포커스를 표본 기록하며 트레이 실제 메뉴 검증과 구분한다.
+
+- `DesktopIconSmoke -MonitorId GSM5BDE -EvidenceDirectory <새 회차> -LogFile <새 로그>`는 PLAN-012의 테스트 소유 ICO/바로가기 fixture를 준비한 뒤 실행한다. `-NativeInput`은 별도 수신기로 실제 클릭/드래그를 검사한다. helper는 Build 시 함께 빌드되며 [최종 기록](../plans/evidence/PLAN-012/run-014/README.md)에 준비/정리·한계를 남겼다.
 
 - [Godot 4.7 C# 준비와 작업 흐름](https://docs.godotengine.org/en/4.7/tutorials/scripting/c_sharp/c_sharp_basics.html)
 - [Godot 4.7 CLI](https://docs.godotengine.org/en/4.7/tutorials/editor/command_line_tutorial.html)

@@ -21,4 +21,4 @@
 - [Art 전체 검사](../../../../../docs/plans/evidence/ART-002/run-003/README.md): 50프레임 재합성·원본/출력·노멀/반사·시간·태그 차이 0.
 - [엔진 4장 관문](../../../../../../docs/plans/evidence/PLAN-005/run-011/README.md), [전체 엔진 검사](../../../../../../docs/plans/evidence/PLAN-005/run-012/README.md). 최신 검사 진행/결과는 해당 기록을 따른다.
 - 전체 렌더 1200조건의 외곽선 색·alpha·동기화 오류 0. run-012의 시작 프레임 시간 오류를 수정하고 [최종 재생](../../../../../../docs/plans/evidence/PLAN-005/run-014/README.md)에서 486개 전환 최대 오차 16.757ms/p95 13.172ms를 확인했다. [추가 비용](../../../../../../docs/plans/evidence/PLAN-005/run-013/README.md) 6쌍은 모두 예산을 통과했다.
-- [피드백](review/feedback.md), [최신 전달 상태](../../handoff.md). 제출 리비전5, 최근 사용자 확인 리비전4. r005 사용자 시각 확인 대기, 정식 제품 미적용.
+- [피드백](review/feedback.md), [최신 전달 상태](../../handoff.md). 제출·승인 리비전5, 2026-11-24 F-008로 r005 사용자 시각 확인 완료. 정식 제품 미적용.

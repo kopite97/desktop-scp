@@ -1,0 +1,44 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+SCP999_CHECK_PASS follow speed, negative desktop origin and move tag
+SCP999_CHECK_PASS movement has no baked vertical bounce
+SCP999_CHECK_PASS follow dead zone
+SCP999_CHECK_PASS out-of-range cursor ignored
+SCP999_CHECK_PASS direction reversal
+SCP999_CHECK_PASS pet begins through common command
+SCP999_CHECK_PASS duplicate press ignored
+SCP999_CHECK_PASS stress inclusive radius and outside exclusion
+SCP999_CHECK_PASS pet priority over typing
+SCP999_CHECK_PASS stationary hold does not repeatedly count as rubbing
+SCP999_CHECK_PASS rubbing relieves shared state within range
+SCP999_CHECK_PASS release outside recovers pet
+SCP999_CHECK_PASS typing burst merged and reaction spawned
+SCP999_CHECK_PASS reaction lifetime and one-shot return
+SCP999_CHECK_PASS right drag across physical monitors without extra DPI scale
+SCP999_CHECK_PASS drag release starts actual gravity
+SCP999_CHECK_PASS ground movement emits trail
+SCP999_CHECK_PASS trail does not follow body after spawn
+SCP999_CHECK_PASS actual airborne state prevents new trail
+SCP999_CHECK_PASS actual landing recovers to idle
+SCP999_CHECK_PASS actual collision starts land animation
+SCP999_CHECK_PASS moving ledge carries body and attached trail
+SCP999_CHECK_PASS balance has priority over pet and typing
+SCP999_CHECK_PASS balance recovery animation retained
+SCP999_CHECK_PASS companion footprint fits adjacent jump
+SCP999_CHECK_PASS shared jump emits takeoff tag
+SCP999_CHECK_PASS companion lands on adjacent ledge
+SCP999_CHECK_PASS cursor following automatically jumps using companion footprint
+ERROR: SCP999_SMOKE_FAILED System.InvalidOperationException: pet can start on actual window ledge
+   at SiteDesktop.Diagnostics.Scp999Smoke.Require(Boolean value, String name) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999Smoke.cs:line 26
+   at SiteDesktop.Diagnostics.Scp999Smoke.PlatformLogic() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999Smoke.cs:line 108
+   at SiteDesktop.Diagnostics.Scp999Smoke.Logic() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999Smoke.cs:line 67
+   at SiteDesktop.Diagnostics.Scp999Smoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999Smoke.cs:line 181
+   at: void SiteDesktop.Diagnostics.Scp999Smoke+<_Ready>d__12.MoveNext() (res://Scripts/Diagnostics/Scp999Smoke.cs:181)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.Scp999Smoke+<_Ready>d__12.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\Scp999Smoke.cs:181)
+       [2] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [3] void SiteDesktop.Diagnostics.Scp999Smoke._Ready()
+       [4] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2660)
+       [5] bool SiteDesktop.Diagnostics.Scp999Smoke.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\SiteDesktop.Diagnostics.Scp999Smoke_ScriptMethods.generated.cs:70)
+       [6] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)

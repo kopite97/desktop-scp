@@ -1,0 +1,68 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 621.01 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 5070
+
+SYSTEM_CHECK Fresh session defaults strong effects OFF
+SYSTEM_CHECK Below thresholds leaves reactions inactive
+SYSTEM_CHECK Threshold boundaries enable heat and noise
+SYSTEM_CHECK Hysteresis avoids threshold flicker
+SYSTEM_CHECK Low readings release reactions
+SYSTEM_CHECK RAM independently enables heat; mute suppresses noise
+SYSTEM_CHECK Invalid metrics become unavailable
+SYSTEM_CHECK Stale readings expire after five seconds
+SYSTEM_CHECK Explicit option enables effect requests
+SYSTEM_CHECK Lockdown rejects effects and late metrics
+SYSTEM_CHECK Resume rejects old generation without catch-up
+SYSTEM_CHECK Shutdown rejects subsequent state updates
+SCP999_STARTED body=r005 reaction=r001 trail=r001-approved
+SCP049_STARTED body=ART-004-r001 zombie-feet=ART-006-r001 aura=ART-007-r001
+SCP173_STARTED art=temporary-code
+SITE_CONTROLS_HIDDEN
+SITE_DESKTOP_READY
+SYSTEM_CHECK Startup hides controls while leaving the product active
+SYSTEM_CHECK Native actor windows and simulation advance with hidden controls
+SITE_CONTROLS_SHOWN
+SYSTEM_CHECK Registered Show controls callback opens active session
+SITE_CONTROLS_HIDDEN
+SYSTEM_CHECK Close-request signal hides controls without pausing simulation
+SITE_CONTROLS_SHOWN
+SITE_CONTROLS_HIDDEN
+SYSTEM_CHECK Control button hides instead of exiting when tray is available
+SCP999_HIDDEN
+SITE_CONTROLS_HIDDEN
+SITE_LOCKED
+SITE_CONTROLS_SHOWN
+SYSTEM_CHECK Opening controls during lockdown preserves pause
+SCP999_SHOWN
+SITE_RESUMED
+SYSTEM_CHECK Resume preserves explicitly opened controls
+SITE_CONTROLS_HIDDEN
+SYSTEM_CHECK Product metric input updates actual companion speed, shape and surgery rate
+SYSTEM_CHECK Product noise increases common statue stress
+SYSTEM_CHECK Flattened sprite and input contour share the same transform
+SYSTEM_CHECK Real aggregate Windows CPU and RAM reach product state
+SYSTEM_CHECK Real default-output volume reaches product state
+SYSTEM_CHECK Native tray indicator and three-item menu created
+SYSTEM_CHECK Real Ctrl+Shift+L global hotkey registered
+SITE_CONTROLS_SHOWN
+ERROR: SYSTEM_FAILED System.InvalidOperationException: All product controls fit inside the LG control window
+   at SiteDesktop.Diagnostics.SystemSmoke.Check(Boolean ok, String name) in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\SystemSmoke.cs:line 26
+   at SiteDesktop.Diagnostics.SystemSmoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\SystemSmoke.cs:line 78
+   at: void SiteDesktop.Diagnostics.SystemSmoke+<_Ready>d__11.MoveNext() (res://Scripts/Diagnostics/SystemSmoke.cs:78)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.SystemSmoke+<_Ready>d__11.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\SystemSmoke.cs:78)
+       [2] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [3] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [4] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)
+       [5] void System.Threading.Tasks.Task.RunContinuations(object)
+       [6] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+       [7] void SiteDesktop.Diagnostics.SystemSmoke+<Frames>d__9.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\SystemSmoke.cs:27)
+       [8] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)
+       [9] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)
+       [10] void Godot.SignalAwaiter.SignalCallback(nint, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_bool*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/SignalAwaiter.cs:65)
+SITE_DESKTOP_EXIT_REQUESTED
+SYSTEM_OPTIONS_STOPPED
+SCP173_STOPPED
+SCP999_STOPPED
+SCP049_STOPPED
+SITE_DESKTOP_STOPPED

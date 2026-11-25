@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+SITE_DESKTOP_READY
+ENVIRONMENT_SMOKE_PASS frames=3 display=headless runtime=8.0.21
+SITE_DESKTOP_EXIT_REQUESTED
+SCP999_STOPPED
+SCP049_STOPPED
+SITE_DESKTOP_STOPPED

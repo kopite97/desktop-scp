@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "native": true,
+  "nativeInput": false,
+  "checks": [
+    "Fresh session defaults strong effects OFF",
+    "Below thresholds leaves reactions inactive",
+    "Threshold boundaries enable heat and noise",
+    "Hysteresis avoids threshold flicker",
+    "Low readings release reactions",
+    "RAM independently enables heat; mute suppresses noise",
+    "Invalid metrics become unavailable",
+    "Stale readings expire after five seconds",
+    "Explicit option enables effect requests",
+    "Lockdown rejects effects and late metrics",
+    "Resume rejects old generation without catch-up",
+    "Shutdown rejects subsequent state updates",
+    "Product metric input updates actual companion speed, shape and surgery rate",
+    "Product noise increases common statue stress",
+    "Flattened sprite and input contour share the same transform",
+    "Real aggregate Windows CPU and RAM reach product state",
+    "Real default-output volume reaches product state",
+    "Native tray indicator and three-item menu created",
+    "Real Ctrl\u002BShift\u002BL global hotkey registered",
+    "All product controls fit inside the LG control window",
+    "UI button locks all actors and icon service through shared command",
+    "Lockdown freezes position, simulation time and stress",
+    "Lockdown removes native actor, control panel and shutter input surfaces",
+    "Registered tray callback resumes the same application state",
+    "Tray menu reflects resumed state",
+    "Resume preserves existing state without elapsed-time burst",
+    "Shutdown releases effect, hotkey, tray and sampling owner",
+    "Hotkey can register again after shutdown"
+  ],
+  "metrics": {
+    "sample": {
+      "Cpu": 12.207031,
+      "Ram": 45,
+      "Volume": 48.000034,
+      "Muted": false
+    },
+    "samples": 4,
+    "maxReadMilliseconds": 2.7869
+  }
+}

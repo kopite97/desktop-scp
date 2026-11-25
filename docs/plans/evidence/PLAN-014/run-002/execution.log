@@ -1,0 +1,103 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp0492.contract.json
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp0492_left-foot.png
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp0492_right-foot.png
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp049Mutation.contract.json
+ZOMBIE_ART_CHECK Approved r001 bytes: Scp049Mutation.png
+ZOMBIE_ART_CHECK Authored spawn frame0 duration/index
+ZOMBIE_ART_CHECK Authored spawn frame1 duration/index
+ZOMBIE_ART_CHECK Authored spawn frame2 duration/index
+ZOMBIE_ART_CHECK Authored spawn frame3 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: spawn
+ZOMBIE_ART_CHECK Authored idle frame4 duration/index
+ZOMBIE_ART_CHECK Authored idle frame5 duration/index
+ZOMBIE_ART_CHECK Authored idle frame6 duration/index
+ZOMBIE_ART_CHECK Authored idle frame7 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: idle
+ZOMBIE_ART_CHECK Authored move frame8 duration/index
+ZOMBIE_ART_CHECK Authored move frame9 duration/index
+ZOMBIE_ART_CHECK Authored move frame10 duration/index
+ZOMBIE_ART_CHECK Authored move frame11 duration/index
+ZOMBIE_ART_CHECK Authored move frame12 duration/index
+ZOMBIE_ART_CHECK Authored move frame13 duration/index
+ZOMBIE_ART_CHECK Authored move frame14 duration/index
+ZOMBIE_ART_CHECK Authored move frame15 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: move
+ZOMBIE_ART_CHECK Authored fall frame16 duration/index
+ZOMBIE_ART_CHECK Authored fall frame17 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: fall
+ZOMBIE_ART_CHECK Authored land frame18 duration/index
+ZOMBIE_ART_CHECK Authored land frame19 duration/index
+ZOMBIE_ART_CHECK Authored land frame20 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: land
+ZOMBIE_ART_CHECK Authored collect frame21 duration/index
+ZOMBIE_ART_CHECK Authored collect frame22 duration/index
+ZOMBIE_ART_CHECK Authored collect frame23 duration/index
+ZOMBIE_ART_CHECK Authored collect frame24 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: collect
+ZOMBIE_ART_CHECK Authored expire frame25 duration/index
+ZOMBIE_ART_CHECK Authored expire frame26 duration/index
+ZOMBIE_ART_CHECK Authored expire frame27 duration/index
+ZOMBIE_ART_CHECK Authored expire frame28 duration/index
+ZOMBIE_ART_CHECK Authored expire frame29 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: expire
+ZOMBIE_ART_CHECK Authored treat frame0 duration/index
+ZOMBIE_ART_CHECK Authored treat frame1 duration/index
+ZOMBIE_ART_CHECK Authored treat frame2 duration/index
+ZOMBIE_ART_CHECK Authored treat frame3 duration/index
+ZOMBIE_ART_CHECK Authored treat frame4 duration/index
+ZOMBIE_ART_CHECK Authored treat frame5 duration/index
+ZOMBIE_ART_CHECK Authored treat frame6 duration/index
+ZOMBIE_ART_CHECK Authored treat frame7 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: treat
+ZOMBIE_ART_CHECK Authored transform frame8 duration/index
+ZOMBIE_ART_CHECK Authored transform frame9 duration/index
+ZOMBIE_ART_CHECK Authored transform frame10 duration/index
+ZOMBIE_ART_CHECK Authored transform frame11 duration/index
+ZOMBIE_ART_CHECK Authored transform frame12 duration/index
+ZOMBIE_ART_CHECK Authored transform frame13 duration/index
+ZOMBIE_ART_CHECK Authored transform frame14 duration/index
+ZOMBIE_ART_CHECK Authored transform frame15 duration/index
+ZOMBIE_ART_CHECK Authored loop/terminal: transform
+ZOMBIE_ART_CHECK Transform includes its transparent tail in800ms
+ZOMBIE_ART_CHECK Treat clock stays unscaled at rate1
+ZOMBIE_ART_CHECK Game success stays approximately3s
+ZOMBIE_ART_CHECK Success starts spawn and transform at the same zero
+ZOMBIE_ART_CHECK Spawn does not freeze game movement
+ZOMBIE_ART_CHECK Dragging interrupts spawn without restarting treatment
+ZOMBIE_ART_CHECK Real drop selects authored landing
+ZOMBIE_ART_CHECK Facing change preserves animation phase
+ZOMBIE_ART_CHECK Collection removes game identity and rewards exactly once
+ZOMBIE_ART_CHECK Collection preserves only a decorative snapshot
+ZOMBIE_ART_CHECK Lockdown freezes disappearance clock
+ZOMBIE_ART_CHECK Transparent collect tail holds before cleanup
+ZOMBIE_ART_CHECK Collect cleans up at360ms
+ZOMBIE_ART_CHECK Treat clock stays unscaled at rate1.5
+ZOMBIE_ART_CHECK Game success stays approximately2s
+ZOMBIE_ART_CHECK Success starts spawn and transform at the same zero
+ZOMBIE_ART_CHECK Spawn does not freeze game movement
+ZOMBIE_ART_CHECK Dragging interrupts spawn without restarting treatment
+ZOMBIE_ART_CHECK Real drop selects authored landing
+ZOMBIE_ART_CHECK Facing change preserves animation phase
+ZOMBIE_ART_CHECK Collection removes game identity and rewards exactly once
+ZOMBIE_ART_CHECK Collection preserves only a decorative snapshot
+ZOMBIE_ART_CHECK Lockdown freezes disappearance clock
+ZOMBIE_ART_CHECK Transparent collect tail holds before cleanup
+ZOMBIE_ART_CHECK Collect cleans up at360ms
+ZOMBIE_ART_CHECK Actual Treating produces aura
+ZOMBIE_ART_CHECK Cancellation cannot produce transform/feet
+ERROR: ZOMBIE_ART_FAILED System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at SiteDesktop.Diagnostics.ZombieArtSmoke.Logic() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\ZombieArtSmoke.cs:line 81
+   at SiteDesktop.Diagnostics.ZombieArtSmoke._Ready() in C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\ZombieArtSmoke.cs:line 106
+   at: void SiteDesktop.Diagnostics.ZombieArtSmoke+<_Ready>d__15.MoveNext() (res://Scripts/Diagnostics/ZombieArtSmoke.cs:106)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void SiteDesktop.Diagnostics.ZombieArtSmoke+<_Ready>d__15.MoveNext() (C:\Dev\scp_desktop\GodotProject\Scripts\Diagnostics\ZombieArtSmoke.cs:106)
+       [2] void System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start<TStateMachine>(TStateMachine&)
+       [3] void SiteDesktop.Diagnostics.ZombieArtSmoke._Ready()
+       [4] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2660)
+       [5] bool SiteDesktop.Diagnostics.ZombieArtSmoke.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\Dev\scp_desktop\GodotProject\.godot\mono\temp\obj\Debug\Godot.SourceGenerators\Godot.SourceGenerators.ScriptMethodsGenerator\SiteDesktop.Diagnostics.ZombieArtSmoke_ScriptMethods.generated.cs:60)
+       [6] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)

@@ -1,0 +1,12 @@
+2026-11-25 ART-006 r001 visually approved; ART-006 completed before ART-007 active.
+ART-007 activation uses existing user authorization for sequential art production.
+Aseprite1.3.18.6/API41 Live; inspected4 representative aura frames, adjusted treatment radius pulse.
+Created source/preserved r001,48x48,16frames, Aura/Particles; treat8x120ms and transform8x100ms.
+Export PNG192x192 and JSON contract. Transparent center24x24; alpha bounds2..45.
+Review uses only6 original generic fixtures and approved ART-006 foot pixels; no actual user desktop icon captured.
+Static/source/mock timeline validation PASS23 checks.32 source/preserved PNG pixel comparisons and32 frame duration comparisons.
+Review86frames/9720ms includes normal3000,overload2000,transform800,cancel,restart,removal.
+Started12s live frame observation on LG and regular animation playback; see playback.json.
+Live observation saw all86 review frames over12.02s. User response: ART-007 r001 시각 승인.
+Working source tab marked modified; read-only comparison found zero composite pixel differences across16 frames. Submitted disk files preserved.
+ART-007 completed, approved_revision1. Godot/Windows integration not executed.

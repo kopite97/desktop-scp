@@ -18,6 +18,7 @@
 | docs/plans/evidence | 실행별 검증 증거 |
 | docs/decisions | 기술 결정·목록·템플릿 |
 | scripts | 문서 검사·개발 자동화와 해당 도구의 테스트 |
+| tools/DesktopIconWorker | 제품이 실행하는 독립 STA Shell 아이콘 취득 도구. bin/obj는 캐시 |
 | GodotProject | Godot에서 여는 프로젝트·C# 솔루션·원본 씬과 스크립트 |
 | Art | [Art MAP](../../Art/AGENTS.md)이 안내하는 아트 작업 공간 |
 | .tools | 로컬 Godot 배포본·다운로드. 원본 관리 대상에서 제외 |
@@ -26,6 +27,11 @@
 
 - `GodotProject/Scenes/App/`와 `GodotProject/Scripts/App/`는 실제 진입 씬·C# 코드다.
 - `Scripts/Desktop/`는 좌표·오버레이 상태, `Scripts/Overlay/`는 창·표현·입력 연결, `Scripts/Platform/Windows/`는 Win32 경계다.
+- `Scripts/Overlay/OverlayStackCoordinator.cs`는 Main이 소유하며 제품 개체·효과의 상대 순서와 드래그 우선순위를 통합한다. 실제 Win32 적용·조회는 WindowsDesktop 경계에 둔다.
+- `Scripts/Companions/`는 SCP 행동·애니메이션 계약, `Scripts/Simulation/`은 Main이 소유하는 공통 스트레스 상태다. 런타임 아트는 `Assets/Sprites/<category>/<AssetId>/`에 둔다.
+- `Scripts/Simulation/DesktopObjectState.cs`와 `Scripts/Overlay/DesktopObjectController.cs`가 공용 복제 대상·예약·좀비 수명/표현을 소유한다. PlagueState/Controller는 049 치료·본체를 소유하고 173은 공용 대상에 직접 명령한다.
+- `Scripts/App/Scps/`는 SCP 등록·활성화·모듈 연결, ScpSettingsStore/ScpOptionsPanel은 설정 저장·동적 UI를 담당한다. [TECH-016](../decisions/TECH-016-scp-activation-and-shared-world.md).
+- `Scripts/Platforms/`는 창 관찰값에서 발판을 만들고 공통 보행/낙하/도약 상태를 갱신한다. `Scenes/App/PlatformDesktop.tscn`은 개별 SCP AI와 분리된 실제 물리 실행 경로다.
 - `GodotProject/Scenes/Diagnostics/`와 `GodotProject/Scripts/Diagnostics/`는 환경 검증 씬·C# 코드다. 제품 진입은 여기에 의존하지 않는다.
 - `.sln`, `.csproj`, `global.json`, `project.godot`, `.tscn`, `.cs`, 생성된 `.cs.uid`는 보존할 원본이다.
 - `.godot/`는 Godot 임포트와 C# 중간/출력 캐시다. bin·obj·IDE 사용자 설정과 함께 원본 관리에서 제외한다.

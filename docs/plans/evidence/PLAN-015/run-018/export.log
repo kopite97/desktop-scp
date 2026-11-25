@@ -1,0 +1,129 @@
+  Determining projects to restore...
+  복원할 모든 프로젝트가 최신 상태입니다.
+  DesktopIconWorker -> C:\Dev\scp_desktop\tools\DesktopIconWorker\bin\Release\net8.0\win-x64\DesktopIconWorker.dll
+  DesktopIconWorker -> C:\Dev\scp_desktop\.artifacts\PLAN-015\windows-x64\IconWorker\
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 프로젝트 초기화 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 파일 구조 스캔 중...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 전역 클래스 이름을 불러오는 중...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | GDExtensions 검증 중...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 오토로드 스크립트를 만드는 중...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 플러그인을 초기화 중...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 파일 스캔 시작 중...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mdotnet_publish_project[22m | Started Publishing .NET project... (1 steps)[39m[0m
+[   0% ] [90m[1mdotnet_publish_project[22m | Running dotnet publish[39m[0m
+[92m[ DONE ][39m [1mdotnet_publish_project[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started 패킹 중 (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | 파일 저장 중: res://global.json[39m[0m
+[   2% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Simulation/ZombieAnimation.cs[39m[0m
+[   3% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Simulation/SystemOptions.cs[39m[0m
+[   4% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Simulation/StressState.cs[39m[0m
+[   5% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Simulation/StatueState.cs[39m[0m
+[   6% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Simulation/PlagueState.cs[39m[0m
+[   7% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Simulation/PlagueSettings.cs[39m[0m
+[   8% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Simulation/DoctorAnimation.cs[39m[0m
+[  10% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platforms/WindowObservation.cs[39m[0m
+[  11% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platforms/PlatformWorld.cs[39m[0m
+[  12% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platforms/PlatformBody.cs[39m[0m
+[  13% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platform/Windows/WorkerJob.cs[39m[0m
+[  14% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platform/Windows/WindowsWindowShake.cs[39m[0m
+[  15% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platform/Windows/WindowsWindowObserver.cs[39m[0m
+[  16% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platform/Windows/WindowsSystemMetrics.cs[39m[0m
+[  18% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platform/Windows/WindowsMonitors.cs[39m[0m
+[  19% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platform/Windows/WindowsDesktop.cs[39m[0m
+[  20% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platform/Windows/LockdownHotkey.cs[39m[0m
+[  21% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platform/Windows/KeyboardActivityMonitor.cs[39m[0m
+[  22% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Platform/Windows/DesktopIconProvider.cs[39m[0m
+[  23% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/ZombieSprite.cs[39m[0m
+[  24% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/SystemCueWindow.cs[39m[0m
+[  26% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/StatueController.cs[39m[0m
+[  27% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/ScpEffectWindow.cs[39m[0m
+[  28% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/Scp999Window.cs[39m[0m
+[  29% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/Scp999Controller.cs[39m[0m
+[  30% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/PlatformController.cs[39m[0m
+[  31% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/PlatformBodyWindow.cs[39m[0m
+[  32% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/PlaguePresentation.cs[39m[0m
+[  33% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp049/Scp049.contract.json[39m[0m
+[  34% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp049.png-4bef746e6ea3ce3a89d46aae1109fa6d.ctex[39m[0m
+[  34% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp049/Scp049.png.import[39m[0m
+[  35% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp0492/Scp0492.contract.json[39m[0m
+[  36% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp0492_left-foot.png-53eada083ec6bfb6d3e32d9746ca7971.ctex[39m[0m
+[  36% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp0492/Scp0492_left-foot.png.import[39m[0m
+[  37% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp0492_right-foot.png-7e3125ba78dd718d3422042a3b3d7726.ctex[39m[0m
+[  37% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp0492/Scp0492_right-foot.png.import[39m[0m
+[  38% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp999/Scp999.contract.json[39m[0m
+[  39% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp999_color.png-59443ddcf59728d8ff6e580694643915.ctex[39m[0m
+[  39% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp999/Scp999_color.png.import[39m[0m
+[  40% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp999_combined.png-c69cdde3927093f2e7f17b8e291c02f9.ctex[39m[0m
+[  40% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp999/Scp999_combined.png.import[39m[0m
+[  42% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp999_normal.png-886d8a52645582663945b41122ffab74.ctex[39m[0m
+[  42% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp999/Scp999_normal.png.import[39m[0m
+[  43% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp999_outline.png-0afc6c318f64b7a87bfdb99fa8789b54.ctex[39m[0m
+[  43% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp999/Scp999_outline.png.import[39m[0m
+[  44% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp999_specular.png-5d44c5fdce7af414833f5a6c2ca08911.ctex[39m[0m
+[  44% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/characters/Scp999/Scp999_specular.png.import[39m[0m
+[  45% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/vfx/Scp049Mutation/Scp049Mutation.contract.json[39m[0m
+[  46% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp049Mutation.png-aff1d769aab171d90408f693384d8751.ctex[39m[0m
+[  46% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/vfx/Scp049Mutation/Scp049Mutation.png.import[39m[0m
+[  47% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/vfx/Scp999Reaction/Scp999Reaction.contract.json[39m[0m
+[  48% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp999Reaction.png-884635b5b65fe4e0d890c6984be390a8.ctex[39m[0m
+[  48% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/vfx/Scp999Reaction/Scp999Reaction.png.import[39m[0m
+[  50% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/vfx/Scp999Trail/Scp999Trail.contract.json[39m[0m
+[  51% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/imported/Scp999Trail.png-9f494425cd4c8dcf870f5c77fcd3f144.ctex[39m[0m
+[  51% ] [90m[1msavepack[22m | 파일 저장 중: res://Assets/Sprites/vfx/Scp999Trail/Scp999Trail.png.import[39m[0m
+[  52% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-a56454b00ebb5a807960b26d0893059f-Main.scn[39m[0m
+[  53% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/exported/133200997/export-23de91567e26f94a35db08ad83d1f59b-PlatformDesktop.scn[39m[0m
+[  54% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/PlagueEffectWindow.cs[39m[0m
+[  55% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/PlagueController.cs[39m[0m
+[  56% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/PlagueActorWindow.cs[39m[0m
+[  57% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/OverlayStackCoordinator.cs[39m[0m
+[  59% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/OverlayIsland.cs[39m[0m
+[  60% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/OverlayController.cs[39m[0m
+[  61% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/DoctorSprite.cs[39m[0m
+[  62% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Overlay/DesktopIconAppearance.cs[39m[0m
+[  63% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/ZombieArtSmoke.WindowMessages.cs[39m[0m
+[  64% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/ZombieArtSmoke.cs[39m[0m
+[  65% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/SystemSmoke.cs[39m[0m
+[  66% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/StatueSmoke.cs[39m[0m
+[  67% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/Scp999Smoke.Trail.cs[39m[0m
+[  68% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/Scp999Smoke.Platforms.cs[39m[0m
+[  69% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/App/Main.cs[39m[0m
+[  70% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/App/PlatformDesktop.cs[39m[0m
+[  71% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/App/SiteTray.cs[39m[0m
+[  72% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/App/SystemController.cs[39m[0m
+[  74% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/App/WindowStartup.cs[39m[0m
+[  75% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Companions/Scp999Settings.cs[39m[0m
+[  76% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Companions/Scp999State.cs[39m[0m
+[  77% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Companions/SpriteAnimationSet.cs[39m[0m
+[  78% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Desktop/DesktopGeometry.cs[39m[0m
+[  79% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Desktop/DesktopPlacement.cs[39m[0m
+[  80% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Desktop/OverlayState.cs[39m[0m
+[  81% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/DesktopIconSmoke.cs[39m[0m
+[  83% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/DoctorArtSmoke.cs[39m[0m
+[  84% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/EnvironmentSmoke.cs[39m[0m
+[  85% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/InputProbe.cs[39m[0m
+[  86% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/NativeInputFixture.cs[39m[0m
+[  87% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/OverlaySmoke.cs[39m[0m
+[  88% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/OverlayStackSmoke.cs[39m[0m
+[  89% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/OverlayStackSmoke.Input.cs[39m[0m
+[  91% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/PlatformSmoke.cs[39m[0m
+[  92% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/Scp049Smoke.cs[39m[0m
+[  93% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/Scp049Smoke.Native.cs[39m[0m
+[  94% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/Scp999ColorProbe.cs[39m[0m
+[  95% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/Scp999LightingProbe.cs[39m[0m
+[  96% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/Scp999LightingProbe.Outline.cs[39m[0m
+[  97% ] [90m[1msavepack[22m | 파일 저장 중: res://Scripts/Diagnostics/Scp999Smoke.cs[39m[0m
+[  97% ] [90m[1msavepack[22m | 파일 저장 중: res://Scenes/App/Main.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 파일 저장 중: res://Scenes/App/PlatformDesktop.tscn.remap[39m[0m
+[  97% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/global_script_class_cache.cfg[39m[0m
+[  97% ] [90m[1msavepack[22m | 파일 저장 중: res://.godot/uid_cache.bin[39m[0m
+[  97% ] [90m[1msavepack[22m | 파일 저장 중: res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+
+WINDOWS_EXPORT_PASS C:\Dev\scp_desktop\.artifacts\PLAN-015\windows-x64

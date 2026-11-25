@@ -5,4 +5,12 @@
     <Nullable>enable</Nullable>
     <RootNamespace>SiteDesktop</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../tools/DesktopIconWorker/DesktopIconWorker.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+  <Target Name="CopyDesktopIconWorker" AfterTargets="Build">
+    <ItemGroup><IconWorkerFiles Include="../tools/DesktopIconWorker/bin/$(Configuration)/net8.0/DesktopIconWorker.*" /></ItemGroup>
+    <Copy SourceFiles="@(IconWorkerFiles)" DestinationFolder="$(TargetDir)IconWorker" />
+    <Copy SourceFiles="@(IconWorkerFiles)" DestinationFolder=".godot/IconWorker" />
+  </Target>
 </Project>
